@@ -7,6 +7,8 @@ export interface Waypoint {
   y: number;
 }
 
+// (Waypoints are shared by the canvas; the sim's session windows live in
+// sim/lib/theatre.ts.)
 // Coordinates map onto the LimeZu Office_Design_2 background, widened to
 // 960x544 with exterior ground (the building sits 224px in from the left).
 export const WORLD = { width: 1344, height: 544 } as const;

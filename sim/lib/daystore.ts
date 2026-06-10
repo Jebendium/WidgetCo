@@ -32,6 +32,20 @@ export interface StoredDay {
     totalCredits: number;
     balances: boolean;
   };
+  /** Present in full payloads (used by intraday session resume). */
+  events?: unknown[];
+  rejections?: unknown[];
+  correspondence?: { re: string; body: string }[];
+}
+
+/** Load one stored day in full, or null. */
+export async function loadDay(
+  db: SupabaseClient | null,
+  outDir: string,
+  day: number,
+): Promise<StoredDay | null> {
+  const all = await loadAllDays(db, outDir);
+  return all.find((d) => d.day === day) ?? null;
 }
 
 function fromFiles(outDir: string): StoredDay[] {

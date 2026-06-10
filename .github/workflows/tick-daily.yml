@@ -4,7 +4,8 @@
 name: Daily tick
 on:
   schedule:
-    - cron: '17 5 * * 1-5'
+    - cron: '17 5 * * 1-5' # morning session, 06:17 UK
+    - cron: '47 11 * * 1-5' # afternoon session, 12:47 UK
   workflow_dispatch:
 
 permissions:
@@ -30,13 +31,16 @@ jobs:
         id: workday
         run: echo "open=$(npx tsx sim/check-workday.ts)" >> "$GITHUB_OUTPUT"
 
-      - name: Run the daily tick
+      - name: Run the daily tick (session by clock)
         if: steps.workday.outputs.open == 'yes'
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        run: npx tsx sim/tick-daily.ts
+        run: |
+          SESSION=$([ "$(date -u +%H)" -lt 9 ] && echo morning || echo afternoon)
+          echo "Session: $SESSION"
+          npx tsx sim/tick-daily.ts --session "$SESSION"
 
       - name: Sync the day to Supabase
         if: steps.workday.outputs.open == 'yes'

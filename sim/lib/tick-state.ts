@@ -106,6 +106,30 @@ export function deliverOvernight(world: WorldState, state: SimState): string[] {
 }
 
 /**
+ * Resume a morning session's world for the afternoon: events, emails and the
+ * ledger restored verbatim, sequence counters re-derived. The opening
+ * balances live inside the restored entries, so seeding is skipped.
+ */
+export function restoreSessionWorld(
+  world: WorldState,
+  prior: {
+    events?: unknown[];
+    emails: unknown[];
+    ledgerEntries: unknown[];
+    rejections?: unknown[];
+  },
+): void {
+  world.events = (prior.events ?? []) as typeof world.events;
+  world.emails = prior.emails as typeof world.emails;
+  world.ledger.restore(
+    prior.ledgerEntries as Parameters<typeof world.ledger.restore>[0],
+    (prior.rejections ?? []) as Parameters<typeof world.ledger.restore>[1],
+  );
+  world._eventSeq = world.events.length;
+  world._emailSeq = world.emails.length;
+}
+
+/**
  * The Disturbance Report: yesterday's poltergeist activity, published to the
  * audience as the company formally processing them (they love this).
  */
@@ -129,7 +153,11 @@ export function publishDisturbanceReport(
   });
 }
 
-/** End-of-tick persistence. Dry runs never advance state — they are tests. */
+/**
+ * End-of-tick persistence. Dry runs never advance state — they are tests.
+ * A 'partial' save (morning session) clears consumed pendings but does NOT
+ * advance the day counter or the fraud snapshot — the afternoon finishes it.
+ */
 export async function persistTickState(args: {
   db: SupabaseClient | null;
   statePath: string;
@@ -139,9 +167,17 @@ export async function persistTickState(args: {
   day: number;
   date: string;
   dryRun: boolean;
+  partial?: boolean;
 }): Promise<void> {
   const { state, world, fraud, day, date } = args;
   if (args.dryRun) return;
+
+  if (args.partial) {
+    state.pendingAudit = null;
+    state.pendingRegulator = null;
+    await saveSimState(args.db, args.statePath, state);
+    return;
+  }
 
   state.day = day;
   state.fraud = fraud.snapshot();

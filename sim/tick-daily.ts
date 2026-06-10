@@ -7,7 +7,7 @@
 import 'dotenv/config';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, existsSync, writeFileSync } from 'node:fs';
 
 import { DAILY_AGENT_ORDER, getAgent } from './lib/agents.js';
 import {
@@ -34,6 +34,7 @@ import {
   deliverOvernight,
   persistTickState,
   publishDisturbanceReport,
+  restoreSessionWorld,
   simDateFor,
 } from './lib/tick-state.js';
 import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
@@ -50,10 +51,14 @@ import {
 const OBJECT_IDS = ['kettle', 'printer', 'shredder', 'the-crates', 'the-door'];
 import { executeTool, toolsForAgent } from './tools/index.js';
 import { FraudEngine } from './lib/fraud.js';
-import { assignTimestamps, allTimestampsInWindow } from './lib/theatre.js';
-import { generateTheatre } from './lib/theatre-gen.js';
-import { generateDialogues } from './lib/dialogue-gen.js';
-import { generateCorrespondence } from './lib/correspondence-gen.js';
+import {
+  assignTimestamps,
+  allTimestampsInWindow,
+  SESSION_WINDOWS,
+  type Session,
+} from './lib/theatre.js';
+import { loadDay } from './lib/daystore.js';
+import { generateDayContent, writeDayFile } from './lib/day-output.js';
 import { formatGBP, type Account } from './lib/types.js';
 import type { TrialBalance } from './lib/ledger.js';
 
@@ -63,18 +68,23 @@ const REPO_ROOT = join(__dirname, '..');
 
 // --- CLI args --------------------------------------------------------------
 
-function parseArgs(argv: string[]): { day: number | null; dryRun: boolean } {
+function parseArgs(argv: string[]): { day: number | null; dryRun: boolean; session: Session } {
   let day: number | null = null;
   let dryRun = false;
+  let session: Session = 'full';
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--day') {
       day = Number(argv[i + 1]) || 1;
       i++;
     } else if (argv[i] === '--dry-run') {
       dryRun = true;
+    } else if (argv[i] === '--session') {
+      const s = argv[i + 1];
+      if (s === 'morning' || s === 'afternoon') session = s;
+      i++;
     }
   }
-  return { day, dryRun };
+  return { day, dryRun, session };
 }
 
 
@@ -347,11 +357,31 @@ async function guardAgainstRerun(
   }
 }
 
+/**
+ * Session world setup: an afternoon session resumes the morning's world and
+ * receives no overnight post (it arrived with the morning); a first session
+ * seeds the opening balances and takes delivery.
+ */
+async function prepareSession(
+  session: Session,
+  world: WorldState,
+  db: ReturnType<typeof makeDb>,
+  state: SimState,
+  canonChartPath: string,
+  day: number,
+): Promise<{ prior: Awaited<ReturnType<typeof loadDay>>; overnight: string[] }> {
+  const prior = session === 'afternoon' ? await loadDay(db, join(REPO_ROOT, 'out'), day) : null;
+  if (prior) restoreSessionWorld(world, prior);
+  else seedOpeningBalances(world, loadOpeningBalancesFromCanon(canonChartPath));
+  const overnight = session === 'afternoon' ? [] : deliverOvernight(world, state);
+  return { prior, overnight };
+}
+
 // --- Main ------------------------------------------------------------------
 
 async function main(): Promise<void> {
   const startedAt = Date.now();
-  const { day: dayArg, dryRun } = parseArgs(process.argv.slice(2));
+  const { day: dayArg, dryRun, session } = parseArgs(process.argv.slice(2));
 
   // Persistent state: the fraud arc, audit suspicion, history digest and any
   // overnight deliveries survive between cron runs (Supabase + local file).
@@ -361,26 +391,24 @@ async function main(): Promise<void> {
 
   const day = dayArg ?? state.day + 1;
   const date = simDateFor(day);
-  await guardAgainstRerun(db, dayArg, day, state.day);
+  if (session !== 'afternoon') await guardAgainstRerun(db, dayArg, day, state.day);
 
-  console.log(`\n=== Daily tick — day ${day} (${date}) ${dryRun ? '[DRY RUN]' : '[LIVE]'} ===\n`);
+  console.log(
+    `\n=== Daily tick — day ${day} (${date}) [${session.toUpperCase()}] ${dryRun ? '[DRY RUN]' : '[LIVE]'} ===\n`,
+  );
 
   const world = createWorld(day, date);
   const cost = new CostTracker();
   const fraud = new FraudEngine();
   fraud.restore(state.fraud);
 
-  // 1. Load canon and seed the world (preferring the canon opening TB).
+  // 1. Load canon and seed the world (preferring the canon opening TB) —
+  // unless this is an afternoon session, which resumes the morning's world.
   const canonChartPath = join(REPO_ROOT, 'sim/canon/chart-of-accounts.md');
   const chart = loadChartFromCanon(canonChartPath);
   world.ledger.loadChart(chart);
-  seedOpeningBalances(world, loadOpeningBalancesFromCanon(canonChartPath));
+  const { prior, overnight } = await prepareSession(session, world, db, state, canonChartPath, day);
   const { constitution, chartOfAccountsMd } = loadCanonTexts(chart);
-
-  // 2. Overnight deliveries (audit correspondence, regulatory letters), the
-  // rolling history digest, real visitor disturbances and queued submissions.
-  // Dry runs never touch the network.
-  const overnight = deliverOvernight(world, state);
   const disturbances = await consumeAllDisturbances(
     db,
     join(REPO_ROOT, 'out', 'disturbances.json'),
@@ -404,93 +432,67 @@ async function main(): Promise<void> {
     ),
   };
 
-  // 3. Run each daily agent in order; the fraud engine steps after the CFO (4).
+  // 3. Run each daily agent in order; the fraud engine steps after the CFO
+  // (4) — once per DAY, in the day's final session, so pacing holds.
   for (const agentId of DAILY_AGENT_ORDER) {
     await runOneAgent(ctx, agentId);
-    if (agentId === 'cfo') applyFraudStep(world, fraud, state, day);
+    if (agentId === 'cfo' && session !== 'morning') applyFraudStep(world, fraud, state, day);
   }
 
-  // 5. Market maker → share anchors.
-  addShareAnchors(world, date);
+  // 5. Market maker → share anchors (first session only; one set per day).
+  if (session !== 'afternoon') addShareAnchors(world, date);
 
-  // 6. Theatre batch: assign timestamps in-window, then ONE batched call for
-  // the in-voice poke pool and the "Previously on…" recap (spec §4 step 5).
-  assignTimestamps(world.events, date);
-  const theatre = await generateTheatre({
+  // 6. Theatre + dialogues + correspondence: assign timestamps within the
+  // session's window, then the batched generation suite.
+  const window = SESSION_WINDOWS[session];
+  assignTimestamps(world.events, date, window.start, window.end);
+  const content = await generateDayContent({
     client: ctx.client,
     dryRun,
     day,
-    agentIds: [...DAILY_AGENT_ORDER, ...OBJECT_IDS],
-    daySummary: buildDaySummary(world),
-    constitution,
-    costTracker: cost,
-  });
-  if (theatre.fallback && !dryRun) {
-    console.warn('[warn] theatre call failed — using placeholder recap/pokes.');
-  }
-  world.pokePool = theatre.pokePool;
-  const recap = theatre.recap;
-
-  // 6b. The day's dialogue trees — talk-to-staff, pre-scripted (invariant #1).
-  const dialogues = await generateDialogues({
-    client: ctx.client,
-    dryRun,
-    agentIds: DAILY_AGENT_ORDER,
+    world,
     constitution,
     daySummary: buildDaySummary(world),
-    costTracker: cost,
-  });
-
-  // 6c. The Correspondence Office replies to today's submissions.
-  const correspondence = await generateCorrespondence({
-    client: ctx.client,
-    dryRun,
     submissions,
-    constitution,
+    prior,
+    agentIds: [...DAILY_AGENT_ORDER],
+    objectIds: OBJECT_IDS,
     costTracker: cost,
   });
 
-  // 7. Consolidate memory.
+  // 7. Consolidate memory; 8. write the day file.
   const memories = consolidateMemories(world, dryRun);
-
-  // 8. Write ./out/day-00N.json.
   const trialBalance = world.ledger.trialBalance();
   const elapsedMs = Date.now() - startedAt;
   const projection = buildProjection(cost);
-
-  const out = {
+  const outPath = writeDayFile({
+    repoRoot: REPO_ROOT,
     day,
     date,
-    fraudState: fraud.state,
-    events: world.events,
-    emails: world.emails,
-    // Ledger entries WITHOUT the internal suspicious flag would be the public
-    // payload; here (the data room JSON, internal exhibit) we keep full detail.
-    ledgerEntries: world.ledger.entries,
-    rejections: world.ledger.rejections,
-    trialBalance,
-    shareAnchors: world.shareAnchors,
-    pokePool: world.pokePool,
-    recap,
-    dialogues,
-    correspondence,
+    world,
+    fraud,
+    content,
     memories,
-    cost: {
-      callCount: cost.callCount,
-      ...cost.total(),
-      perCall: cost.perCallSummary(),
-    },
-    timingMs: elapsedMs,
+    isAfternoon: session === 'afternoon',
+    prior,
+    cost,
     projection,
-  };
+    elapsedMs,
+  });
 
-  const outDir = join(REPO_ROOT, 'out');
-  if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true });
-  const outPath = join(outDir, `day-${String(day).padStart(3, '0')}.json`);
-  writeFileSync(outPath, JSON.stringify(out, null, 2), 'utf8');
-
-  // 9. Persist state for the next run (never on dry runs — they are tests).
-  await persistTickState({ db, statePath, state, world, fraud, day, date, dryRun });
+  // 9. Persist state (never on dry runs). Morning sessions are partial: the
+  // day completes — and the fraud arc advances — in the afternoon.
+  await persistTickState({
+    db,
+    statePath,
+    state,
+    world,
+    fraud,
+    day,
+    date,
+    dryRun,
+    partial: session === 'morning',
+  });
 
   // 10. Console summary + hard acceptance checks.
   const tsInWindow = allTimestampsInWindow(world.events, date);

@@ -37,22 +37,37 @@ function tsForMinute(dateISO: string, minuteOfDay: number): string {
 }
 
 /**
- * Assign deterministic timestamps to every event, spread evenly across the
- * 09:00–17:30 window in event order. Mutates the events in place.
+ * Assign deterministic timestamps to every event WITHOUT one, spread evenly
+ * across the given window (defaults to the whole 09:00–17:30 day) in event
+ * order. Events that already carry a ts — e.g. the morning session's, when
+ * the afternoon session runs — are left untouched. Mutates in place.
  */
-export function assignTimestamps(events: SimEvent[], dateISO: string): void {
-  const n = events.length;
+export function assignTimestamps(
+  events: SimEvent[],
+  dateISO: string,
+  startMin = DAY_START_MIN,
+  endMin = DAY_END_MIN,
+): void {
+  const fresh = events.filter((ev) => !ev.ts);
+  const n = fresh.length;
   if (n === 0) return;
-  const span = DAY_END_MIN - DAY_START_MIN; // 510 minutes
+  const span = endMin - startMin;
 
-  events.forEach((ev, i) => {
-    // Spread points across the inclusive window. With n events, place the i-th
-    // at start + span * i / max(n-1, 1). For a single event, place it at start.
+  fresh.forEach((ev, i) => {
     const frac = n === 1 ? 0 : i / (n - 1);
-    const minute = Math.round(DAY_START_MIN + span * frac);
+    const minute = Math.round(startMin + span * frac);
     ev.ts = tsForMinute(dateISO, minute);
   });
 }
+
+/** Session timestamp windows, minutes past midnight UK. */
+export const SESSION_WINDOWS = {
+  full: { start: DAY_START_MIN, end: DAY_END_MIN },
+  morning: { start: DAY_START_MIN, end: 12 * 60 + 45 },
+  afternoon: { start: 13 * 60, end: DAY_END_MIN },
+} as const;
+
+export type Session = keyof typeof SESSION_WINDOWS;
 
 /** True if every event has a ts within [09:00, 17:30] UK on dateISO. */
 export function allTimestampsInWindow(events: SimEvent[], dateISO: string): boolean {

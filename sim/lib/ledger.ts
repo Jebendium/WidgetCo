@@ -146,6 +146,17 @@ export class Ledger {
     return null;
   }
 
+  /**
+   * Restore previously-posted entries verbatim (intraday session resume).
+   * They were validated when first posted; they are not re-validated here.
+   */
+  restore(entries: PostedEntry[], rejections: Rejection[]): void {
+    this._entries = entries.map((e) => ({ ...e }));
+    this._rejections = rejections.map((r) => ({ ...r }));
+    this.entrySeq = entries.length;
+    this.rejectionSeq = rejections.length;
+  }
+
   /** Flag an already-posted entry as suspicious (fraud engine only). */
   markSuspicious(entryId: string): boolean {
     const entry = this._entries.find((e) => e.id === entryId);
