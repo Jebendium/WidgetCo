@@ -47,10 +47,11 @@ Rules:
 - pokes: for EACH agent id given, the requested number of short lines (max ~120
   characters each) the agent might mutter, half to themselves, when prodded by
   an unexplained workplace disturbance. Think of each as the reward for idle
-  curiosity in a classic adventure game: every line distinct, specific and in
-  voice — a grievance, a suspicion, a small comfort, a half-finished thought —
-  anchored in today's actual events. NEVER status reports, NEVER summaries of
-  work done, never the same construction twice. If the day contained anything
+  curiosity in a classic adventure game (Monkey Island): dry, sarcastic,
+  quotable — a withering aside, a private grievance with comic rhythm, a
+  suspicion voiced too calmly — anchored in today's actual events. The
+  sarcasm is sincere; the speaker never knows they are funny. NEVER status
+  reports, NEVER summaries of work done, never the same construction twice. If the day contained anything
   absurd (a second kettle, twenty thousand lorries, calculators displaying 7),
   several lines should treat it as routine procedure — the calm is the joke.
   The agents never acknowledge an audience; the disturbance is an unexplained

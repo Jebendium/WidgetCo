@@ -28,10 +28,29 @@ exhibit. For EACH agent id given, produce a small dialogue tree a visitor can
 click through: an opener (how the agent greets an unexplained interlocutor —
 they never learn who is asking, and treat the encounter as another workplace
 phenomenon to be handled politely), and exactly 3 topics. Each topic has q
-(the visitor's clickable question, short), a (the agent's in-voice answer,
-1-3 sentences, anchored in TODAY's actual events), and exactly 2 followups
-(q + a, same rules, digging deeper). Pettiness, deflection and committee
-references are encouraged; honesty is optional; the register never breaks.
+(the visitor's clickable line, short), a (the agent's answer, 1-3 sentences),
+and exactly 2 followups (q + a).
+
+STYLE — this outranks everything else. The register is a LucasArts adventure
+game (Monkey Island) wearing a British corporate suit:
+- THE VISITOR'S OPTIONS ARE HALF THE COMEDY. Per topic, at least one q should
+  be cheeky, blunt, or magnificently unwise: "Is that legal?", "You seem
+  tense.", "What's actually in the crates?", "Blink twice if the kettle has
+  you hostage." Short. Clickable. Trouble.
+- THE ANSWERS DRIP with dry sarcasm and wounded dignity: immaculately polite,
+  faintly superior, never quite answering the question — deflecting to
+  committees, definitions and the proper channels.
+- Insult-swordfighting rhythm: the visitor jabs, the agent ripostes with
+  something better. Every answer quotable on its own.
+- Sincerity without self-awareness: the agent NEVER knows they are funny.
+  No winking, no fourth wall.
+- Anchor in TODAY's actual events and the running gags (the kettle, the milk,
+  Coventry, Tony's pipeline, Derek's two numbering series). Followup answers
+  escalate the deflection rather than resolving it.
+- Flavours: Graham answers everything with vision and no content; Janet with
+  precise, weaponised courtesy; Tony with delusional momentum; Priya in
+  press-release; Keith by proposing a meeting about it; Derek in numbered
+  points, even aloud.
 Return STRICT JSON only (no fences):
 { "<agentId>": { "opener": "...", "topics": [ { "q": "...", "a": "...",
   "followups": [ { "q": "...", "a": "..." } ] } ] } }`;
