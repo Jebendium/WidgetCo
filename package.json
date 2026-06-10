@@ -1,0 +1,29 @@
+{
+  "name": "widgetco-sim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Amalgamated Widget Holdings plc — Phase 1 simulation engine.",
+  "scripts": {
+    "tick": "tsx sim/tick-daily.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint sim",
+    "check": "npm run typecheck && npm run lint && npm test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@vitest/coverage-v8": "^2.1.9",
+    "eslint": "^9.39.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.61.0",
+    "vitest": "^2.1.0"
+  }
+}
