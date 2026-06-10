@@ -1,0 +1,32 @@
+# Quarterly results: checked on the first three days of Jan/Apr/Jul/Oct at
+# 07:23 UK; the tick itself decides whether a filing falls due.
+name: Quarterly filing
+on:
+  schedule:
+    - cron: '23 6 1-3 1,4,7,10 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sim-tick
+  cancel-in-progress: false
+
+jobs:
+  quarter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: File the quarter, if it falls due
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx sim/tick-quarter.ts
