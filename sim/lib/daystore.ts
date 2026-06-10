@@ -47,6 +47,26 @@ function fromFiles(outDir: string): StoredDay[] {
     .map((n) => JSON.parse(readFileSync(join(outDir, n), 'utf8')) as StoredDay);
 }
 
+/** The highest stored day number, or 0 when none exist. */
+export async function maxStoredDay(db: SupabaseClient | null, outDir: string): Promise<number> {
+  if (db) {
+    try {
+      const { data, error } = await db
+        .from('days')
+        .select('day')
+        .order('day', { ascending: false })
+        .limit(1)
+        .maybeSingle();
+      if (!error && data) return (data as { day: number }).day;
+      if (!error) return 0;
+    } catch {
+      // fall through to files
+    }
+  }
+  const days = fromFiles(outDir);
+  return days[days.length - 1]?.day ?? 0;
+}
+
 /** All stored days, ascending. */
 export async function loadAllDays(
   db: SupabaseClient | null,

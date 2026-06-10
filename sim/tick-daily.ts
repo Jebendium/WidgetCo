@@ -25,6 +25,7 @@ import {
   buildTodaysInputs,
 } from './lib/inputs.js';
 import { consumeAllDisturbances, disturbanceReport } from './lib/disturbances.js';
+import { maxStoredDay } from './lib/daystore.js';
 import { fetchQueuedSubmissions } from './lib/submissions.js';
 import { makeDb } from './lib/supabase.js';
 import { loadSimState, type SimState } from './lib/state.js';
@@ -331,6 +332,20 @@ async function main(): Promise<void> {
 
   const day = dayArg ?? state.day + 1;
   const date = simDateFor(day);
+
+  // Guard: never silently re-run a day that is already on the record. State
+  // drift (e.g. a fresh runner with stale sim_state) must fail loudly, not
+  // overwrite history. An explicit --day N is the deliberate override.
+  if (dayArg === null) {
+    const stored = await maxStoredDay(db, join(REPO_ROOT, 'out'));
+    if (day <= stored) {
+      throw new Error(
+        `Refusing to run day ${day}: days up to ${stored} already exist. ` +
+          `The sim_state day counter (${state.day}) is behind the record — repair it, ` +
+          `or pass --day explicitly to overwrite on purpose.`,
+      );
+    }
+  }
 
   console.log(`\n=== Daily tick — day ${day} (${date}) ${dryRun ? '[DRY RUN]' : '[LIVE]'} ===\n`);
 
