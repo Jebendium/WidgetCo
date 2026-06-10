@@ -1,9 +1,7 @@
-MONDAY 9 JUNE — STRONG START 💪
+TUESDAY 9 JUNE — GOOD ENERGY, PIPELINE HUMMING 💪
 
-- Kicked the week off with an email to Graham re: Project Lighthouse heating up and the North-East strategic account. Good energy, good momentum.
-- Nudged Keith on the President's Club — asked him to firm up the venue. This is going to be THE event of the year.
-- Noticed some odd stuff around the office — people poking around the printer, one of those weird disturbances the building gets. Nothing to worry about.
-- Some bloke on the website asking about receivables and the Coventry warehouse. Funny questions. Told Janet to ignore — sales don't answer to randoms.
-- Overall feeling: STRONG. DIVERSIFIED. Q4 IS OUR QUARTER.
-
-Let's GO 💪
+- Flagged some weird website queries to Graham and Janet — some random asking about receivables and the Coventry warehouse. Probably nothing, but good governance to flag it.
+- Chased Keith on the President's Club venue. Needs to be locked down so I can build the buzz. He's solid, he'll sort it.
+- Sent Graham a pipeline flash on Project Lighthouse — feeling is STRONG. North-East strategic account is warming up. Could be 50k units if we play it right.
+- The disturbances around the office continue — people poking near the printer again. Place is getting quirky. Not bothered by it. Process is process.
+- Overall feeling: SOLID. Diversified. Building towards a huge Q4. President's Club is going to be LEGENDARY.
