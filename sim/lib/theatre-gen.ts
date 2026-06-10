@@ -46,9 +46,11 @@ Rules:
   meeting about the printer. 3-6 sentences. UK English.
 - pokes: for EACH agent id given, the requested number of short lines (max ~120
   characters each) the agent might mutter, half to themselves, when prodded by
-  an unexplained workplace disturbance. Overheard grievances, suspicions and
-  small comforts in that agent's voice, anchored in today's actual events —
-  NEVER status reports or summaries of work done. The agents never acknowledge
+  an unexplained workplace disturbance. Think of each as the reward for idle
+  curiosity in a classic adventure game: every line distinct, specific and in
+  voice — a grievance, a suspicion, a small comfort, a half-finished thought —
+  anchored in today's actual events. NEVER status reports, NEVER summaries of
+  work done, never the same construction twice. The agents never acknowledge
   an audience; the disturbance is an unexplained phenomenon handled through
   proper channels. No memes, no fourth wall.`;
 
