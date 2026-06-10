@@ -40,6 +40,24 @@ const ABSURD_NOTICES: string[] = [
   'All four hundred copies of the Annual Report (2019) in the basement have been found stacked in a perfect spiral. The spiral is clockwise. The Company notes that it would have preferred anticlockwise.',
 ];
 
+// LEGENDARY events: very rare, fully surreal, processed identically. The
+// larger the impossibility, the smaller the memo (comedy bible rule 14).
+const LEGENDARY_NOTICES: string[] = [
+  'A monkey has taken the kettle — the kettle of record — to the roof of the tile wholesaler opposite, and has, through an intermediary, demanded equity for its release. Legal are reviewing whether the Company can issue shares to a monkey. The working assumption is that it would not be the first time.',
+  'A door has appeared in the third-floor corridor where no door was specified. It is locked. Keys cut for it this morning do not work, which Facilities note is consistent with it not existing. A sign-out sheet has been hung beside it as a precaution.',
+  'The voicemail system has begun answering in rhyming couplets. Engineering confirm the couplets scan. Pending a fix, callers are asked to keep messages brief, as the system insists on completing the rhyme.',
+  'A ship in a bottle was found on the boardroom table this morning. The ship is the Company’s lorry, in exact detail. The lorry remains in the car park. Neither object has acknowledged the other.',
+  'The Coventry warehouse reports fog indoors. The fog has formed a queue. Site staff describe the queue as orderly. The fog is being processed in the order it arrived.',
+  'An invoice has arrived from the Company, addressed to the Company, for "services rendered". The amount is reasonable. The CFO has declined to pay it on principle. The principle is under review.',
+];
+
+/** Legendary events surface roughly one day in eleven, alone. */
+function legendaryNoticeFor(day: number): string | null {
+  if (day % 11 !== 7) return null;
+  const idx = Math.floor(day / 11) % LEGENDARY_NOTICES.length;
+  return LEGENDARY_NOTICES[idx] ?? null;
+}
+
 /** True on days that carry an absurd notice (deterministic, ~1 day in 3). */
 function absurdNoticeFor(day: number): string | null {
   if (day % 3 !== 2) return null;
@@ -50,9 +68,10 @@ function absurdNoticeFor(day: number): string | null {
 export function officeNoticesFor(day: number): string[] {
   const first = OFFICE_NOTICES[(day - 1) % OFFICE_NOTICES.length] ?? '';
   const second = OFFICE_NOTICES[(day + 2) % OFFICE_NOTICES.length] ?? '';
-  const absurd = absurdNoticeFor(day);
   const notices = [first, second].filter((n) => n.length > 0);
-  if (absurd) notices.push(absurd);
+  // A legendary event takes the whole stage; otherwise the regular rotation.
+  const special = legendaryNoticeFor(day) ?? absurdNoticeFor(day);
+  if (special) notices.push(special);
   return notices;
 }
 
