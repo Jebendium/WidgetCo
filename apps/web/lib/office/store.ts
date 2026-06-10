@@ -69,6 +69,8 @@ interface OfficeState {
   spawnedForDay: number | null;
   /** The agent the visitor is currently talking to, if any. */
   openDialogue: string | null;
+  /** The day's dialogue trees (set by the feed loader). */
+  dialogues: Record<string, unknown>;
 
   /** Feed events arrive (already gated server-side); enqueue their theatre. */
   ingestEvents: (events: PublicEvent[]) => void;
@@ -90,6 +92,7 @@ interface OfficeState {
   /** Day-scoped spawns (legendary days put something on the roofline). */
   spawnForDay: (day: number, now: number) => void;
   setOpenDialogue: (agentId: string | null) => void;
+  setDialogues: (dialogues: Record<string, unknown>) => void;
 }
 
 /** Step every agent; idle ones pick up queued intents or wander off. */
@@ -161,6 +164,7 @@ export const useOfficeStore = create<OfficeState>((set, get) => ({
   kettlePokes: [],
   spawnedForDay: null,
   openDialogue: null,
+  dialogues: {},
 
   ingestEvents: (events) => {
     const { seenEventIds, queue, agents } = get();
@@ -229,6 +233,10 @@ export const useOfficeStore = create<OfficeState>((set, get) => ({
 
   setOpenDialogue: (agentId) => {
     set({ openDialogue: agentId });
+  },
+
+  setDialogues: (dialogues) => {
+    set({ dialogues });
   },
 
   pokeAgent: (agentId, line, now) => {

@@ -13,6 +13,7 @@ import { drawAgentFromSheet } from '@/lib/office/sheet';
 import { drawAgent } from '@/lib/office/sprites';
 import { OFFICE_AGENTS, useOfficeStore } from '@/lib/office/store';
 import { WAYPOINTS, WORLD } from '@/lib/office/waypoints';
+import { DialoguePanel } from './DialoguePanel';
 import { OfficeLabels } from './OfficeLabels';
 import { SpeechBubbles } from './SpeechBubbles';
 
@@ -199,7 +200,9 @@ export function Office() {
             ['the-door', WAYPOINTS.door],
           ];
           for (const [id, wp] of objects) {
-            if (Math.hypot(wp.x - x, wp.y - y) <= 24) {
+            // The kettle's zone covers the counter fixture above its waypoint.
+            const dy = id === 'kettle' ? wp.y - 24 : wp.y;
+            if (Math.hypot(wp.x - x, dy - y) <= 32) {
               if (id === 'kettle') useOfficeStore.getState().pokeKettle(Date.now());
               void fetch(`/api/poke?agent=${id}`)
                 .then(async (res) => (res.ok ? ((await res.json()) as { line?: string }) : {}))
@@ -214,6 +217,7 @@ export function Office() {
       />
       <OfficeLabels />
       <SpeechBubbles />
+      <DialoguePanel />
     </div>
   );
 }

@@ -7,14 +7,15 @@ const LABELS: { x: number; y: number; text: string }[] = [
   { x: WAYPOINTS.printer.x, y: WAYPOINTS.printer.y + 24, text: 'PRINTER' },
   { x: WAYPOINTS.shredder.x - 14, y: WAYPOINTS.shredder.y + 22, text: 'SHREDDER' },
   { x: WAYPOINTS.kettle.x, y: WAYPOINTS.kettle.y + 26, text: 'KITCHENETTE' },
+  { x: WAYPOINTS.kettle.x, y: WAYPOINTS.kettle.y - 56, text: 'KETTLE' },
   { x: WAYPOINTS.meeting_room_1.x, y: WAYPOINTS.meeting_room_1.y + 24, text: 'MEETING RM 1' },
   { x: WAYPOINTS.meeting_room_2.x, y: WAYPOINTS.meeting_room_2.y + 14, text: 'MTG RM 2 (COLD)' },
-  { x: WAYPOINTS.ceo_desk.x, y: WAYPOINTS.ceo_desk.y + 10, text: 'GRAHAM' },
-  { x: WAYPOINTS.cfo_desk.x, y: WAYPOINTS.cfo_desk.y + 10, text: 'JANET' },
-  { x: WAYPOINTS.sales_desk.x, y: WAYPOINTS.sales_desk.y + 10, text: 'TONY' },
-  { x: WAYPOINTS.comms_desk.x, y: WAYPOINTS.comms_desk.y + 10, text: 'PRIYA' },
-  { x: WAYPOINTS['middle-manager_desk'].x, y: WAYPOINTS['middle-manager_desk'].y + 10, text: 'KEITH' },
-  { x: WAYPOINTS.audit_desk.x, y: WAYPOINTS.audit_desk.y + 10, text: 'DEREK' },
+  { x: WAYPOINTS.ceo_desk.x, y: WAYPOINTS.ceo_desk.y + 22, text: 'GRAHAM' },
+  { x: WAYPOINTS.cfo_desk.x, y: WAYPOINTS.cfo_desk.y + 22, text: 'JANET' },
+  { x: WAYPOINTS.sales_desk.x, y: WAYPOINTS.sales_desk.y + 22, text: 'TONY' },
+  { x: WAYPOINTS.comms_desk.x, y: WAYPOINTS.comms_desk.y + 22, text: 'PRIYA' },
+  { x: WAYPOINTS['middle-manager_desk'].x, y: WAYPOINTS['middle-manager_desk'].y + 22, text: 'KEITH' },
+  { x: WAYPOINTS.audit_desk.x, y: WAYPOINTS.audit_desk.y + 22, text: 'DEREK' },
 ];
 
 export function OfficeLabels() {

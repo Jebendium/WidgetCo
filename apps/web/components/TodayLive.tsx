@@ -8,7 +8,6 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useOfficeStore } from '@/lib/office/store';
 import type { FeedResponse } from '@/lib/types';
-import { DialoguePanel } from './DialoguePanel';
 import { Drawer } from './Drawer';
 import { EventCard } from './EventCard';
 import { Office } from './Office';
@@ -75,6 +74,7 @@ export function TodayLive({
       // The office acts out what the feed reveals.
       useOfficeStore.getState().ingestEvents(data.events);
       useOfficeStore.getState().spawnForDay(data.day, Date.now());
+      useOfficeStore.getState().setDialogues(data.dialogues);
 
       const next = data.upcoming[0];
       if (next) {
@@ -125,7 +125,6 @@ function StageOverlays({ feed }: { feed: FeedResponse | null }) {
       <Drawer side="right" label={`Today — day ${feed?.day ?? '…'}`}>
         <FeedPanel feed={feed} />
       </Drawer>
-      <DialoguePanel dialogues={feed?.dialogues ?? {}} />
     </>
   );
 }
