@@ -23,10 +23,12 @@ let sheetsRequested = false;
 function requestSheets(): void {
   if (sheetsRequested) return;
   sheetsRequested = true;
+  // Bump when bucket assets change shape — busts the day-long browser cache.
+  const SPRITE_VERSION = 2;
   for (const name of [...OFFICE_AGENTS, 'office-bg']) {
     const img = new Image();
     img.onload = () => sheets.set(name, img);
-    img.src = `/api/sprites/${name}`;
+    img.src = `/api/sprites/${name}?v=${SPRITE_VERSION}`;
   }
 }
 
@@ -72,6 +74,8 @@ function renderFrame(ctx: CanvasRenderingContext2D, timestamp: number, dtMs: num
 
   if (open) useOfficeStore.getState().tick(Math.min(dtMs, 100), now);
 
+  ctx.fillStyle = '#d6c5a5'; // exterior ground; also clears stale frames
+  ctx.fillRect(0, 0, WORLD.width, WORLD.height);
   const bg = sheets.get('office-bg');
   if (bg) ctx.drawImage(bg, 0, 0);
   else drawScenery(ctx, timestamp); // code-drawn fallback while loading

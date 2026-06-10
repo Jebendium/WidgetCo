@@ -49,11 +49,18 @@ async function main(): Promise<void> {
     }
   }
 
+  // Widen to 960x544 (~16:9) with exterior ground either side, so the office
+  // fills a landscape screen with the building centred.
   const out = join(assetsRoot, 'office-bg.png');
   await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
+    .extend({
+      left: 224,
+      right: 224,
+      background: { r: 214, g: 197, b: 165, alpha: 255 },
+    })
     .png()
     .toFile(out);
-  console.log(`Wrote ${out} (${info.width}x${info.height})`);
+  console.log(`Wrote ${out} (960x${info.height})`);
 
   if (process.argv.includes('--upload')) {
     const url = process.env.SUPABASE_URL;

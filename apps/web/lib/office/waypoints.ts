@@ -7,22 +7,24 @@ export interface Waypoint {
   y: number;
 }
 
-// Coordinates map onto the LimeZu Office_Design_2 background (512x544).
-export const WORLD = { width: 512, height: 544 } as const;
+// Coordinates map onto the LimeZu Office_Design_2 background, widened to
+// 960x544 with exterior ground (the building sits 224px in from the left).
+export const WORLD = { width: 960, height: 544 } as const;
+const BX = 224; // building x-offset within the widened world
 
 export const WAYPOINTS = {
-  ceo_desk: { x: 128, y: 162 }, // row 1 cubicles
-  cfo_desk: { x: 224, y: 162 },
-  sales_desk: { x: 320, y: 162 },
-  comms_desk: { x: 128, y: 210 }, // row 2 cubicles
-  'middle-manager_desk': { x: 224, y: 210 },
-  audit_desk: { x: 408, y: 452 }, // the back workshop room, for independence
-  printer: { x: 446, y: 130 },
-  shredder: { x: 466, y: 478 }, // by the workshop bench, outside Finance
-  meeting_room_1: { x: 252, y: 420 }, // the lounge with the unexplained crates
-  meeting_room_2: { x: 160, y: 470 }, // the cold end of it
-  kettle: { x: 322, y: 372 }, // the water cooler corner
-  door: { x: 24, y: 300 },
+  ceo_desk: { x: BX + 128, y: 162 }, // row 1 cubicles
+  cfo_desk: { x: BX + 224, y: 162 },
+  sales_desk: { x: BX + 320, y: 162 },
+  comms_desk: { x: BX + 128, y: 210 }, // row 2 cubicles
+  'middle-manager_desk': { x: BX + 224, y: 210 },
+  audit_desk: { x: BX + 408, y: 452 }, // the back workshop room, for independence
+  printer: { x: BX + 446, y: 130 },
+  shredder: { x: BX + 466, y: 478 }, // by the workshop bench, outside Finance
+  meeting_room_1: { x: BX + 252, y: 420 }, // the lounge with the unexplained crates
+  meeting_room_2: { x: BX + 160, y: 470 }, // the cold end of it
+  kettle: { x: BX + 322, y: 372 }, // the water cooler corner
+  door: { x: BX + 24, y: 300 },
 } as const;
 
 export type WaypointName = keyof typeof WAYPOINTS;
