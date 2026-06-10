@@ -5,6 +5,7 @@
 // next tick, which honours it canonically.
 
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import type { SupabaseClient } from '@supabase/supabase-js';
 import { getAgent } from './agents.js';
 
 export interface DisturbanceCounts {
@@ -44,6 +45,49 @@ export function consumeDisturbances(path: string): DisturbanceCounts {
     // the Company would file under "the phenomenon is escalating".
   }
   return counts;
+}
+
+interface DisturbanceRow {
+  id: number;
+  agent_id: string;
+  count: number;
+}
+
+/** Consume unconsumed disturbance rows from the database. */
+async function consumeSupabaseDisturbances(db: SupabaseClient): Promise<DisturbanceCounts> {
+  const counts: DisturbanceCounts = {};
+  try {
+    const { data, error } = await db
+      .from('disturbances')
+      .select('id, agent_id, count')
+      .eq('consumed', false)
+      .limit(5000);
+    if (error) return counts;
+
+    const rows = data as DisturbanceRow[];
+    if (rows.length === 0) return counts;
+    for (const row of rows) {
+      counts[row.agent_id] = (counts[row.agent_id] ?? 0) + row.count;
+    }
+    await db.from('disturbances').update({ consumed: true }).in('id', rows.map((r) => r.id));
+  } catch {
+    // The phenomenon resists measurement today; tomorrow's tick will catch up.
+  }
+  return counts;
+}
+
+/** Consume from every source — database and local file — and merge. */
+export async function consumeAllDisturbances(
+  db: SupabaseClient | null,
+  filePath: string,
+): Promise<DisturbanceCounts> {
+  const fromFile = consumeDisturbances(filePath);
+  const fromDb = db ? await consumeSupabaseDisturbances(db) : {};
+  const merged: DisturbanceCounts = { ...fromFile };
+  for (const [agentId, n] of Object.entries(fromDb)) {
+    merged[agentId] = (merged[agentId] ?? 0) + n;
+  }
+  return merged;
 }
 
 /** Render counts as the in-world disturbance report for today's inputs. */

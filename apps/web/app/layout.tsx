@@ -18,7 +18,8 @@ const NAV = [
   ['/agm', 'AGM'],
 ] as const;
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
+  const costLine = await runningCostLine();
   return (
     <html lang="en-GB">
       <body>
@@ -41,7 +42,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             companies, persons or widgets, living or discontinued, is coincidental.
           </p>
           <p>
-            {runningCostLine()} The Group is solvent, the accounts are true and fair, and the
+            {costLine} The Group is solvent, the accounts are true and fair, and the
             carrying value of the Coventry warehouse is supportable.
           </p>
         </footer>

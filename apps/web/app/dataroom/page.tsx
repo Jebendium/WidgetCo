@@ -1,7 +1,8 @@
 // The Data Room: the Company's internal correspondence, in full, in public,
 // for reasons the Company has not examined. Emails reveal with their events.
 
-import { listDays, readDay } from '@/lib/data';
+import { SubmitBox } from '@/components/SubmitBox';
+import { getDay, getDays } from '@/lib/data';
 import { gateEvents } from '@/lib/feed';
 import { agentName, ukDate, ukTime } from '@/lib/format';
 import type { SimDayFile, SimEmail } from '@/lib/types';
@@ -47,9 +48,10 @@ function EmailView({ item }: { item: RevealedEmail }) {
   );
 }
 
-export default function DataRoomPage() {
+export default async function DataRoomPage() {
   const now = new Date();
-  const days = listDays().reverse();
+  const days = (await getDays()).reverse();
+  const files = await Promise.all(days.map((day) => getDay(day)));
 
   return (
     <>
@@ -60,11 +62,16 @@ export default function DataRoomPage() {
           it has nothing to hide and has not checked.
         </p>
       </div>
+      <SubmitBox
+        kind="tip"
+        prompt="Seen something? Submit a confidential tip"
+        button="Blow the whistle, gently"
+      />
       {days.length === 0 && (
         <div className="placeholder-notice">No correspondence yet. The post is late.</div>
       )}
-      {days.map((day) => {
-        const file = readDay(day);
+      {days.map((day, i) => {
+        const file = files[i];
         if (!file) return null;
         const emails = revealedEmails(file, now);
         if (emails.length === 0) return null;

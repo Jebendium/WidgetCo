@@ -6,23 +6,23 @@
 // invariant — nothing unrevealed or non-public ever crosses the wire.
 
 import { NextResponse, type NextRequest } from 'next/server';
-import { latestDay, readDay } from '@/lib/data';
+import { getDay, getLatestDay } from '@/lib/data';
 import { gateAnchors, gateEvents, remapForReplay } from '@/lib/feed';
 import type { FeedResponse } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 
-export function GET(req: NextRequest): NextResponse {
+export async function GET(req: NextRequest): Promise<NextResponse> {
   const params = req.nextUrl.searchParams;
   const dayParam = params.get('day');
   const replay = params.get('mode') === 'replay';
 
-  const day = dayParam !== null ? Number(dayParam) : latestDay();
+  const day = dayParam !== null ? Number(dayParam) : await getLatestDay();
   if (day === null || !Number.isInteger(day) || day < 1) {
     return NextResponse.json({ error: 'No simulated days available.' }, { status: 404 });
   }
 
-  const file = readDay(day);
+  const file = await getDay(day);
   if (!file) {
     return NextResponse.json({ error: `Day ${day} not found.` }, { status: 404 });
   }
@@ -35,7 +35,7 @@ export function GET(req: NextRequest): NextResponse {
 
   // "Previously on…" recaps the PREVIOUS day. Serving today's recap would
   // narrate events that have not yet revealed (it leaks ahead of ts).
-  const previous = readDay(day - 1);
+  const previous = await getDay(day - 1);
   const recap = previous?.recap ?? 'Series premiere. The kettle is filled for the first time.';
 
   const body: FeedResponse = {

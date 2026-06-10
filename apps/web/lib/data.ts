@@ -1,20 +1,21 @@
-// Data provider. Phase 2 (local): reads the sim's out/day-NNN.json files.
-// The same interface will be backed by Supabase before deployment — pages and
-// API routes depend only on these functions.
+// Data provider. Production: Supabase (days.payload holds the verbatim day
+// file the gating logic is tested against). Local dev without env: the sim's
+// out/day-NNN.json files. Same shapes either way.
 
 import { readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import { supabase } from './db';
 import type { SimDayFile } from './types';
 
-/** Resolve the sim output directory: env override, else ../../out. */
+// --- File fallback -----------------------------------------------------------
+
 function outDir(): string {
   return process.env.WIDGETCO_OUT_DIR ?? resolve(process.cwd(), '..', '..', 'out');
 }
 
 const DAY_FILE = /^day-(\d{3})\.json$/;
 
-/** Days for which sim output exists, ascending. Empty if the dir is missing. */
-export function listDays(): number[] {
+function listDaysFromFiles(): number[] {
   let names: string[];
   try {
     names = readdirSync(outDir());
@@ -28,26 +29,44 @@ export function listDays(): number[] {
     .sort((a, b) => a - b);
 }
 
-export function latestDay(): number | null {
-  const days = listDays();
-  return days.length > 0 ? (days[days.length - 1] ?? null) : null;
-}
-
-/** Load one simulated day, or null if absent/unreadable. */
-export function readDay(day: number): SimDayFile | null {
+function readDayFromFile(day: number): SimDayFile | null {
   const path = join(outDir(), `day-${String(day).padStart(3, '0')}.json`);
   try {
-    const text = readFileSync(path, 'utf8');
-    return JSON.parse(text) as SimDayFile;
+    return JSON.parse(readFileSync(path, 'utf8')) as SimDayFile;
   } catch {
     return null;
   }
 }
 
+// --- Provider ------------------------------------------------------------------
+
+/** Days for which sim output exists, ascending. */
+export async function getDays(): Promise<number[]> {
+  const db = supabase();
+  if (!db) return listDaysFromFiles();
+  const { data, error } = await db.from('days').select('day').order('day');
+  if (error) return [];
+  return (data as { day: number }[]).map((r) => r.day);
+}
+
+export async function getLatestDay(): Promise<number | null> {
+  const days = await getDays();
+  return days.length > 0 ? (days[days.length - 1] ?? null) : null;
+}
+
+/** Load one simulated day, or null if absent. */
+export async function getDay(day: number): Promise<SimDayFile | null> {
+  const db = supabase();
+  if (!db) return readDayFromFile(day);
+  const { data, error } = await db.from('days').select('payload').eq('day', day).maybeSingle();
+  if (error || !data?.payload) return null;
+  return data.payload as SimDayFile;
+}
+
 /** The running-cost line for the site footer (part of the exhibition). */
-export function runningCostLine(): string {
-  const latest = latestDay();
-  const file = latest === null ? null : readDay(latest);
+export async function runningCostLine(): Promise<string> {
+  const latest = await getLatestDay();
+  const file = latest === null ? null : await getDay(latest);
   const gbpPerDay = file?.projection?.gbpPerDay;
   if (gbpPerDay === undefined) {
     return 'This company is run for approximately nothing per day.';

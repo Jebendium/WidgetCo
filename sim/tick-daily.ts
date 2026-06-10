@@ -24,7 +24,9 @@ import {
   buildSoFarToday,
   buildTodaysInputs,
 } from './lib/inputs.js';
-import { consumeDisturbances, disturbanceReport } from './lib/disturbances.js';
+import { consumeAllDisturbances, disturbanceReport } from './lib/disturbances.js';
+import { fetchQueuedSubmissions } from './lib/submissions.js';
+import { makeDb } from './lib/supabase.js';
 import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
 import {
   createWorld,
@@ -356,9 +358,15 @@ async function main(): Promise<void> {
   seedOpeningBalances(world, loadOpeningBalancesFromCanon(canonChartPath));
   const { constitution, chartOfAccountsMd } = loadCanonTexts(chart);
 
-  // 2. History digest + today's inputs (real visitor disturbances, consumed
-  // from the web tier's aggregation file), and the chosen client.
-  const disturbances = consumeDisturbances(join(REPO_ROOT, 'out', 'disturbances.json'));
+  // 2. History digest + today's inputs: real visitor disturbances and queued
+  // submissions, consumed from Supabase (and the local file), plus the
+  // chosen client. Dry runs never touch the network.
+  const db = dryRun ? null : makeDb();
+  const disturbances = await consumeAllDisturbances(
+    db,
+    join(REPO_ROOT, 'out', 'disturbances.json'),
+  );
+  const submissions = await fetchQueuedSubmissions(db);
   const ctx: TickContext = {
     world,
     client: dryRun ? new CannedClient() : new DeepSeekClient(),
@@ -367,7 +375,7 @@ async function main(): Promise<void> {
     constitution,
     chartOfAccountsMd,
     historyDigest: buildHistoryDigest(),
-    todaysInputs: buildTodaysInputs(world, disturbanceReport(disturbances)),
+    todaysInputs: buildTodaysInputs(world, disturbanceReport(disturbances), submissions),
   };
 
   // 3. Run each daily agent in order; the fraud engine steps after the CFO (4).

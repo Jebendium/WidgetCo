@@ -6,6 +6,7 @@
   "description": "Amalgamated Widget Holdings plc — Phase 1 simulation engine.",
   "scripts": {
     "tick": "tsx sim/tick-daily.ts",
+    "sync": "tsx sim/sync-day.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
@@ -14,6 +15,7 @@
     "check": "npm run typecheck && npm run lint && npm test"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.1",
     "dotenv": "^16.4.5",
     "openai": "^4.67.3"
   },

@@ -1,7 +1,7 @@
 // The General Ledger, browsable by the public, because the Company believes
 // in transparency and because nobody asked whether it should.
 
-import { listDays, readDay } from '@/lib/data';
+import { getDay, getDays } from '@/lib/data';
 import { ukDate } from '@/lib/format';
 import { gbp, visibleLedger, type PublicLedgerEntry } from '@/lib/publicLedger';
 import type { Rejection, TrialBalance } from '@/lib/types';
@@ -79,10 +79,11 @@ function RejectionView({ rejection }: { rejection: Rejection }) {
   );
 }
 
-export default function LedgerPage() {
+export default async function LedgerPage() {
   const now = new Date();
-  const days = listDays().reverse();
-  const latest = days.length > 0 ? readDay(days[0] ?? 0) : null;
+  const days = (await getDays()).reverse();
+  const files = await Promise.all(days.map((day) => getDay(day)));
+  const latest = files[0] ?? null;
 
   return (
     <>
@@ -94,8 +95,8 @@ export default function LedgerPage() {
         </p>
         {latest && <TrialBalanceTable tb={latest.trialBalance} />}
       </div>
-      {days.map((day) => {
-        const file = readDay(day);
+      {days.map((day, i) => {
+        const file = files[i];
         if (!file) return null;
         const visible = visibleLedger(file, now);
         if (visible.entries.length === 0 && visible.rejections.length === 0) return null;

@@ -3,13 +3,27 @@
 // that the next sim tick consumes. The poltergeist's paper trail.
 
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { dirname, join, resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
 import { NextResponse, type NextRequest } from 'next/server';
-import { latestDay, readDay } from '@/lib/data';
+import { getDay, getLatestDay } from '@/lib/data';
+import { supabase } from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
 const FALLBACK_LINE = 'This employee is in a meeting.';
+
+export async function GET(req: NextRequest): Promise<NextResponse> {
+  const agentId = req.nextUrl.searchParams.get('agent') ?? '';
+  const day = await getLatestDay();
+  const file = day === null ? null : await getDay(day);
+  const lines = (file?.pokePool ?? []).filter((p) => p.agentId === agentId);
+  if (lines.length === 0) return NextResponse.json({ line: FALLBACK_LINE });
+
+  const pick = lines[Math.floor(Math.random() * lines.length)];
+  return NextResponse.json({ line: pick?.line ?? FALLBACK_LINE });
+}
+
+// --- Disturbance logging -------------------------------------------------------
 
 function disturbancesPath(): string {
   return (
@@ -18,31 +32,27 @@ function disturbancesPath(): string {
   );
 }
 
-export function GET(req: NextRequest): NextResponse {
-  const agentId = req.nextUrl.searchParams.get('agent') ?? '';
-  const day = latestDay();
-  const file = day === null ? null : readDay(day);
-  const lines = (file?.pokePool ?? []).filter((p) => p.agentId === agentId);
-  if (lines.length === 0) return NextResponse.json({ line: FALLBACK_LINE });
-
-  const pick = lines[Math.floor(Math.random() * lines.length)];
-  return NextResponse.json({ line: pick?.line ?? FALLBACK_LINE });
-}
-
 interface DisturbanceFile {
   pending: Record<string, number>;
   updatedAt: string;
 }
 
-function readDisturbances(path: string): DisturbanceFile {
+/** File fallback for env-less local dev. Losses are canon. */
+function logToFile(agentId: string): void {
+  const path = disturbancesPath();
+  let file: DisturbanceFile = { pending: {}, updatedAt: new Date().toISOString() };
   try {
     const parsed = JSON.parse(readFileSync(path, 'utf8')) as Partial<DisturbanceFile>;
-    return {
-      pending: parsed.pending ?? {},
-      updatedAt: parsed.updatedAt ?? new Date().toISOString(),
-    };
+    file = { pending: parsed.pending ?? {}, updatedAt: file.updatedAt };
   } catch {
-    return { pending: {}, updatedAt: new Date().toISOString() };
+    // fresh file
+  }
+  file.pending[agentId] = (file.pending[agentId] ?? 0) + 1;
+  try {
+    mkdirSync(dirname(path), { recursive: true });
+    writeFileSync(path, JSON.stringify(file, null, 2), 'utf8');
+  } catch {
+    // Logging a poke must never break the experience.
   }
 }
 
@@ -52,21 +62,18 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     const body = (await req.json()) as { agentId?: unknown };
     if (typeof body.agentId === 'string') agentId = body.agentId.slice(0, 32);
   } catch {
-    // fall through to the validation below
+    // fall through to validation
   }
   if (!agentId) {
     return NextResponse.json({ ok: false, error: 'agentId required' }, { status: 400 });
   }
 
-  const path = disturbancesPath();
-  const file = readDisturbances(path);
-  file.pending[agentId] = (file.pending[agentId] ?? 0) + 1;
-  file.updatedAt = new Date().toISOString();
-  try {
-    mkdirSync(dirname(join(path)), { recursive: true });
-    writeFileSync(path, JSON.stringify(file, null, 2), 'utf8');
-  } catch {
-    // Logging a poke must never break the experience; the loss is canon.
+  const db = supabase();
+  if (db) {
+    const { error } = await db.from('disturbances').insert({ agent_id: agentId, count: 1 });
+    if (error) logToFile(agentId); // degrade gracefully; the phenomenon persists
+  } else {
+    logToFile(agentId);
   }
   return NextResponse.json({ ok: true });
 }
