@@ -1,11 +1,9 @@
-# Memory — Janet Hartley-Burr (CFO)
+Day one. 9 June 2026.
 
-*Private working notes. Retained for my own continuity. Everything here is defensible.*
-
-- Books are clean. Trial balance agrees. It always agrees; I post it myself.
-- The Board's 8% is the number. I am aware of the gap between the number and current trading. The gap is a matter of timing and judgement, and timing and judgement are mine.
-- Coventry warehouse: carrying value unchanged. I am comfortable. There is no trigger requiring a fresh impairment review and I do not propose to invent one because Graham forwarded an article.
-- Trade debtors creeping up against revenue. There is an explanation — we are growing, and growth shows up in receivables before it shows up in cash. I am keeping an eye on it. I would rather I were the one keeping the eye on it than Derek.
-- Innovations licensing: all in order. Schedule sent to Derek when requested. Nothing in it I cannot stand behind.
-- Seven years. Quiet years, if I'm careful. I intend to be careful.
-- Aggressive but supportable. Always the second word as well as the first.
+- Routine daily operations posted (JE-0002). Standard dispatches, materials received, overheads accrued.
+- Responded to two shareholder queries: one on receivables growth, one on Coventry warehouse occupancy. Both answered supportably. Receivables explanation: normal expansionary pattern, new customer onboarding cycle, within acceptable parameters.
+- Sent preemptive note to Derek and Graham flagging both responses. Kept it light. Derek won't find an issue because there isn't one.
+- The disturbances near the printer continue — visitors poking around. Not my department. Keith can handle it if it becomes a Premises matter.
+- Coventry warehouse carrying value unchanged. No impairment trigger. No reason to review.
+- 8% is the number. We're on track for the quarter, timing-wise. Receivables growth supports the revenue narrative.
+- Seven years. Quiet. Careful. Aggressive but supportable.
