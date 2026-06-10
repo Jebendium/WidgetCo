@@ -64,7 +64,7 @@ export function spawnMirror(now: number, untilEndOfDayMs: number): Entity {
 export function spawnRoofCreature(now: number): Entity {
   const cat = spawnCat(now);
   // The tile wholesaler's flat roof (drawn in exterior.ts at y 84-102).
-  return { ...cat, id: `roof-${String(now)}`, x: 1180, y: 96, patrolMin: 1090, patrolMax: 1290, expiresAt: now + 8 * 60 * 60 * 1000 };
+  return { ...cat, id: `roof-${String(now)}`, x: 1220, y: 96, patrolMin: 1130, patrolMax: 1320, expiresAt: now + 8 * 60 * 60 * 1000 };
 }
 
 /** Mirrors the sim's legendary cadence so the canvas agrees with the canon. */

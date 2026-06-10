@@ -387,6 +387,11 @@ table.ledger thead th {
   border-color: var(--navy) transparent transparent;
 }
 
+/* While a conversation is open, the signage steps back. */
+.office-wrap:has(.dialogue-panel) .office-label {
+  opacity: 0.18;
+}
+
 /* Top-row speakers get the balloon below, tail pointing up. */
 .dialogue-panel.below {
   transform: translate(-50%, 28px);
