@@ -10,20 +10,21 @@ export interface Waypoint {
 // Coordinates map onto the LimeZu Office_Design_2 background, widened to
 // 960x544 with exterior ground (the building sits 224px in from the left).
 export const WORLD = { width: 1344, height: 544 } as const;
-const BX = 416; // building x-offset within the widened world
+const BX = 320; // building x-offset (building is 704 wide after the band dup)
+const D = 192; // shift applied to original features right of the duplicated band
 
 export const WAYPOINTS = {
-  ceo_desk: { x: BX + 128, y: 162 }, // row 1 cubicles
+  ceo_desk: { x: BX + 128, y: 162 }, // row 1 cubicles, now five across
   cfo_desk: { x: BX + 224, y: 162 },
-  sales_desk: { x: BX + 320, y: 162 },
-  comms_desk: { x: BX + 128, y: 210 }, // row 2 cubicles
-  'middle-manager_desk': { x: BX + 224, y: 210 },
-  audit_desk: { x: BX + 408, y: 452 }, // the back workshop room, for independence
-  printer: { x: BX + 446, y: 130 },
-  shredder: { x: BX + 466, y: 478 }, // by the workshop bench, outside Finance
+  sales_desk: { x: BX + 320 + D, y: 162 },
+  comms_desk: { x: BX + 224, y: 210 }, // row 2 cubicles
+  'middle-manager_desk': { x: BX + 416, y: 210 },
+  audit_desk: { x: BX + 408 + D, y: 452 }, // the back workshop room
+  printer: { x: BX + 446 + D, y: 130 },
+  shredder: { x: BX + 466 + D, y: 478 },
   meeting_room_1: { x: BX + 252, y: 420 }, // the lounge with the unexplained crates
   meeting_room_2: { x: BX + 160, y: 470 }, // the cold end of it
-  kettle: { x: BX + 322, y: 372 }, // the water cooler corner
+  kettle: { x: BX + 322 + D, y: 372 }, // the water cooler corner
   door: { x: BX + 24, y: 300 },
 } as const;
 

@@ -49,18 +49,39 @@ async function main(): Promise<void> {
     }
   }
 
-  // Widen to 960x544 (~16:9) with exterior ground either side, so the office
-  // fills a landscape screen with the building centred.
+  // Widen the BUILDING by duplicating the repeating 96px band (x 200-296,
+  // full height: cubicle column up top, lounge clutter below) twice:
+  // 512 -> 704. Then extend exterior ground to 1344 total.
+  const BAND_X = 200;
+  const BAND_W = 96;
+  const newW = info.width + BAND_W * 2;
+  const wide = Buffer.alloc(newW * info.height * 4);
+  const copyCols = (srcX: number, dstX: number, w: number) => {
+    for (let y = 0; y < info.height; y++) {
+      data.copy(
+        wide,
+        (y * newW + dstX) * 4,
+        (y * info.width + srcX) * 4,
+        (y * info.width + srcX + w) * 4,
+      );
+    }
+  };
+  copyCols(0, 0, BAND_X + BAND_W); // up to and including the band
+  copyCols(BAND_X, BAND_X + BAND_W, BAND_W); // copy 1
+  copyCols(BAND_X, BAND_X + BAND_W * 2, BAND_W); // copy 2
+  copyCols(BAND_X + BAND_W, BAND_X + BAND_W * 3, info.width - BAND_X - BAND_W); // the rest
+
   const out = join(assetsRoot, 'office-bg.png');
-  await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
+  const pad = (1344 - newW) / 2;
+  await sharp(wide, { raw: { width: newW, height: info.height, channels: 4 } })
     .extend({
-      left: 416,
-      right: 416,
+      left: pad,
+      right: pad,
       background: { r: 214, g: 197, b: 165, alpha: 255 },
     })
     .png()
     .toFile(out);
-  console.log(`Wrote ${out} (1344x${info.height})`);
+  console.log(`Wrote ${out} (1344x${info.height}, building ${newW} wide)`);
 
   if (process.argv.includes('--upload')) {
     const url = process.env.SUPABASE_URL;

@@ -24,7 +24,7 @@ function requestSheets(): void {
   if (sheetsRequested) return;
   sheetsRequested = true;
   // Bump when bucket assets change shape — busts the day-long browser cache.
-  const SPRITE_VERSION = 3;
+  const SPRITE_VERSION = 4;
   for (const name of [...OFFICE_AGENTS, 'office-bg']) {
     const img = new Image();
     img.onload = () => sheets.set(name, img);
