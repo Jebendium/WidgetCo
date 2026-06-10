@@ -7,6 +7,7 @@
 
 import { useEffect, useRef } from 'react';
 import { closedCaption, isOfficeOpen } from '@/lib/office/hours';
+import { drawExterior } from '@/lib/office/exterior';
 import { drawScenery, drawClosed } from '@/lib/office/scenery';
 import { drawAgentFromSheet } from '@/lib/office/sheet';
 import { drawAgent } from '@/lib/office/sprites';
@@ -25,7 +26,7 @@ function requestSheets(): void {
   sheetsRequested = true;
   // Bump when bucket assets change shape — busts the day-long browser cache.
   const SPRITE_VERSION = 4;
-  for (const name of [...OFFICE_AGENTS, 'office-bg', 'cat', 'mirror']) {
+  for (const name of [...OFFICE_AGENTS, 'office-bg', 'cat', 'mirror', 'kettle']) {
     const img = new Image();
     img.onload = () => sheets.set(name, img);
     img.src = `/api/sprites/${name}?v=${SPRITE_VERSION}`;
@@ -74,9 +75,28 @@ async function pokeFlow(agentId: string): Promise<void> {
   useOfficeStore.getState().pokeAgent(agentId, line, Date.now());
 }
 
+/** Permanent animated fixtures composited over the background. */
+function drawFixtures(ctx: CanvasRenderingContext2D, timestamp: number): void {
+  // The kettle of record (an animated coffee machine; the Company will not
+  // be drawn on the distinction), on the kitchenette counter.
+  const sheet = sheets.get('kettle');
+  if (!sheet) return;
+  const frame = Math.floor(timestamp / 300) % 3; // 96x32: three 32x32 frames
+  ctx.drawImage(sheet, frame * 32, 0, 32, 32, WAYPOINTS.kettle.x - 16, WAYPOINTS.kettle.y - 40, 32, 32);
+  // The brass SOAMES plate, above, as is tradition.
+  ctx.fillStyle = '#caa84e';
+  ctx.fillRect(WAYPOINTS.kettle.x - 10, WAYPOINTS.kettle.y - 48, 20, 5);
+}
+
+// Dev-only: ?open forces daylight outside office hours (for previews).
+let forcedOpen = false;
+export function setForcedOpen(value: boolean): void {
+  forcedOpen = value;
+}
+
 function renderFrame(ctx: CanvasRenderingContext2D, timestamp: number, dtMs: number): void {
   const now = Date.now();
-  const open = isOfficeOpen(new Date(now));
+  const open = forcedOpen || isOfficeOpen(new Date(now));
   const frame = Math.floor(timestamp / 100) % 8;
 
   if (open) useOfficeStore.getState().tick(Math.min(dtMs, 100), now);
@@ -84,8 +104,13 @@ function renderFrame(ctx: CanvasRenderingContext2D, timestamp: number, dtMs: num
   ctx.fillStyle = '#d6c5a5'; // exterior ground; also clears stale frames
   ctx.fillRect(0, 0, WORLD.width, WORLD.height);
   const bg = sheets.get('office-bg');
-  if (bg) ctx.drawImage(bg, 0, 0);
-  else drawScenery(ctx, timestamp); // code-drawn fallback while loading
+  if (bg) {
+    ctx.drawImage(bg, 0, 0);
+    drawExterior(ctx, timestamp);
+    drawFixtures(ctx, timestamp);
+  } else {
+    drawScenery(ctx, timestamp); // code-drawn fallback while loading
+  }
   const { agents, entities } = useOfficeStore.getState();
   for (const agent of Object.values(agents)) {
     const sheet = sheets.get(agent.id);
@@ -129,6 +154,7 @@ export function Office() {
     const ctx = canvas?.getContext('2d');
     if (!canvas || !ctx) return;
     requestSheets();
+    setForcedOpen(new URLSearchParams(window.location.search).has('open'));
 
     let raf = 0;
     let last = performance.now();

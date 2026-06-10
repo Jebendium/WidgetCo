@@ -63,7 +63,8 @@ export function spawnMirror(now: number, untilEndOfDayMs: number): Entity {
 /** On legendary days, something sits on the roofline across the road. */
 export function spawnRoofCreature(now: number): Entity {
   const cat = spawnCat(now);
-  return { ...cat, id: `roof-${String(now)}`, x: 1180, y: 60, patrolMin: 1120, patrolMax: 1240, expiresAt: now + 8 * 60 * 60 * 1000 };
+  // The tile wholesaler's flat roof (drawn in exterior.ts at y 84-102).
+  return { ...cat, id: `roof-${String(now)}`, x: 1180, y: 96, patrolMin: 1090, patrolMax: 1290, expiresAt: now + 8 * 60 * 60 * 1000 };
 }
 
 /** Mirrors the sim's legendary cadence so the canvas agrees with the canon. */

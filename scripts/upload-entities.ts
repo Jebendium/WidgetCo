@@ -17,6 +17,9 @@ async function main(): Promise<void> {
   const files: [string, string][] = [
     ['cat', 'animated_cat.png'],
     ['mirror', 'aniamted_haunted_mirror.png'], // sic — the typo is LimeZu's
+    // The coffee machine plays the kettle of record. The Company will not be
+    // drawn on the distinction.
+    ['kettle', 'animated_coffee.png'],
   ];
   for (const [name, file] of files) {
     const buf = readFileSync(join(dir, file));
