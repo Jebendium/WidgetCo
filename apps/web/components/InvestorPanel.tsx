@@ -85,11 +85,18 @@ export function InvestorPanel() {
       <div className="panel">
         <h2>Your Holding</h2>
         {portfolio ? (
-          <p>
-            Cash: <strong>{gbp(portfolio.cash)}</strong> · Shares (AWH.L):{' '}
-            <strong>{portfolio.shares}</strong> · Price: <strong>{gbp(portfolio.price)}</strong> ·
-            Total: <strong>{gbp(portfolio.value)}</strong>
-          </p>
+          <>
+            <p>
+              Cash: <strong>{gbp(portfolio.cash)}</strong> · Shares (AWH.L):{' '}
+              <strong>{portfolio.shares}</strong> · Price: <strong>{gbp(portfolio.price)}</strong> ·
+              Total: <strong>{gbp(portfolio.value)}</strong>
+            </p>
+            <p className="smallprint">
+              At this price your cash buys{' '}
+              <strong>{Math.floor(portfolio.cash / portfolio.price)}</strong> shares (
+              {gbp(Math.floor(portfolio.cash / portfolio.price) * portfolio.price)}).
+            </p>
+          </>
         ) : (
           <p className="smallprint">Opening your account… your notional £10,000 is being counted.</p>
         )}
@@ -104,6 +111,13 @@ export function InvestorPanel() {
             }}
             aria-label="Number of shares"
           />{' '}
+          <button
+            onClick={() => {
+              if (portfolio) setQty(Math.max(1, Math.floor(portfolio.cash / portfolio.price)));
+            }}
+          >
+            Max
+          </button>{' '}
           <button
             onClick={() => {
               void trade('buy');

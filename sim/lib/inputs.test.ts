@@ -9,10 +9,10 @@ describe('officeNoticesFor — petty incidents plus rare absurdity', () => {
     }
   });
 
-  it('adds an absurd notice roughly one day in four, never two', () => {
+  it('adds an absurd notice roughly one day in three, never two', () => {
     const days = Array.from({ length: 40 }, (_, i) => i + 1);
     const withAbsurd = days.filter((d) => officeNoticesFor(d).length === 3);
-    expect(withAbsurd.length).toBe(10); // exactly 1 in 4
+    expect(withAbsurd.length).toBe(13); // exactly 1 in 3
     for (const day of days) {
       expect(officeNoticesFor(day).length).toBeLessThanOrEqual(3);
     }

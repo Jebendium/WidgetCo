@@ -32,12 +32,18 @@ const ABSURD_NOTICES: string[] = [
   'The brass SOAMES plate above the kettle was found this morning on the roof of the tile wholesaler opposite. It has been retrieved, polished, and re-mounted. The kitchenette log has been annotated.',
   'All two hundred and fourteen chairs in Pemberton House were found this morning in Meeting Room 2, stacked to the ceiling, facing the corner. They have been redistributed. The room remains bookable.',
   'The lift this morning travelled, with a full complement of passengers, to a floor marked "4". The building has three floors. Passengers describe carpet. An engineer has been requested, without urgency.',
+  'The contents of the stationery cupboard have alphabetised themselves overnight, in Welsh. Procurement have been asked to confirm the original ordering, once it is established what it was.',
+  'Hold music played throughout the building for eleven minutes this morning. The Company does not have hold music. The piece has been identified as Vivaldi. A preference has been logged.',
+  'Every calculator in the building is displaying the number 7. They are otherwise functioning normally. Finance has confirmed that 7 is not, at this time, material.',
+  'The revolving door revolved unattended from 06:40 to 07:15. Counted rotations: 211. Facilities have applied lubricant as a precaution against whatever it was.',
+  'A second kettle has appeared in the kitchenette. It matches the first kettle exactly, including the descaling residue. The Premises and Facilities Committee will determine which is the kettle of record.',
+  'All four hundred copies of the Annual Report (2019) in the basement have been found stacked in a perfect spiral. The spiral is clockwise. The Company notes that it would have preferred anticlockwise.',
 ];
 
-/** True on days that carry an absurd notice (deterministic, ~1 day in 4). */
+/** True on days that carry an absurd notice (deterministic, ~1 day in 3). */
 function absurdNoticeFor(day: number): string | null {
-  if (day % 4 !== 2) return null;
-  const idx = Math.floor(day / 4) % ABSURD_NOTICES.length;
+  if (day % 3 !== 2) return null;
+  const idx = Math.floor(day / 3) % ABSURD_NOTICES.length;
   return ABSURD_NOTICES[idx] ?? null;
 }
 

@@ -50,9 +50,11 @@ Rules:
   curiosity in a classic adventure game: every line distinct, specific and in
   voice — a grievance, a suspicion, a small comfort, a half-finished thought —
   anchored in today's actual events. NEVER status reports, NEVER summaries of
-  work done, never the same construction twice. The agents never acknowledge
-  an audience; the disturbance is an unexplained phenomenon handled through
-  proper channels. No memes, no fourth wall.`;
+  work done, never the same construction twice. If the day contained anything
+  absurd (a second kettle, twenty thousand lorries, calculators displaying 7),
+  several lines should treat it as routine procedure — the calm is the joke.
+  The agents never acknowledge an audience; the disturbance is an unexplained
+  phenomenon handled through proper channels. No memes, no fourth wall.`;
 
 /** Strip optional markdown code fences from a model reply. */
 function stripFences(text: string): string {
