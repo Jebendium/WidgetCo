@@ -57,8 +57,10 @@ export async function maxStoredDay(db: SupabaseClient | null, outDir: string): P
         .order('day', { ascending: false })
         .limit(1)
         .maybeSingle();
-      if (!error && data) return (data as { day: number }).day;
-      if (!error) return 0;
+      if (!error) {
+        const row: { day: number } | null = data;
+        return row ? row.day : 0;
+      }
     } catch {
       // fall through to files
     }

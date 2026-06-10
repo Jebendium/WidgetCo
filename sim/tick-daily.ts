@@ -318,6 +318,28 @@ function enforceAcceptance(balances: boolean, tsInWindow: boolean): void {
   }
 }
 
+/**
+ * Guard: never silently re-run a day that is already on the record. State
+ * drift (e.g. a fresh runner with stale sim_state) must fail loudly, not
+ * overwrite history. An explicit --day N is the deliberate override.
+ */
+async function guardAgainstRerun(
+  db: ReturnType<typeof makeDb>,
+  dayArg: number | null,
+  day: number,
+  stateDay: number,
+): Promise<void> {
+  if (dayArg !== null) return;
+  const stored = await maxStoredDay(db, join(REPO_ROOT, 'out'));
+  if (day <= stored) {
+    throw new Error(
+      `Refusing to run day ${day}: days up to ${stored} already exist. ` +
+        `The sim_state day counter (${stateDay}) is behind the record — repair it, ` +
+        `or pass --day explicitly to overwrite on purpose.`,
+    );
+  }
+}
+
 // --- Main ------------------------------------------------------------------
 
 async function main(): Promise<void> {
@@ -332,20 +354,7 @@ async function main(): Promise<void> {
 
   const day = dayArg ?? state.day + 1;
   const date = simDateFor(day);
-
-  // Guard: never silently re-run a day that is already on the record. State
-  // drift (e.g. a fresh runner with stale sim_state) must fail loudly, not
-  // overwrite history. An explicit --day N is the deliberate override.
-  if (dayArg === null) {
-    const stored = await maxStoredDay(db, join(REPO_ROOT, 'out'));
-    if (day <= stored) {
-      throw new Error(
-        `Refusing to run day ${day}: days up to ${stored} already exist. ` +
-          `The sim_state day counter (${state.day}) is behind the record — repair it, ` +
-          `or pass --day explicitly to overwrite on purpose.`,
-      );
-    }
-  }
+  await guardAgainstRerun(db, dayArg, day, state.day);
 
   console.log(`\n=== Daily tick — day ${day} (${date}) ${dryRun ? '[DRY RUN]' : '[LIVE]'} ===\n`);
 
