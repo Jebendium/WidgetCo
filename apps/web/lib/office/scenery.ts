@@ -260,15 +260,76 @@ function rooms(ctx: CanvasRenderingContext2D): void {
   ctx.fillRect(m2.x + 8, m2.y - 18, 8, 6);
 }
 
-function labels(ctx: CanvasRenderingContext2D): void {
-  ctx.fillStyle = '#5b5343';
-  ctx.font = '7px monospace';
+/** A legible label on a little dark plate, like proper facilities signage. */
+function plate(ctx: CanvasRenderingContext2D, x: number, y: number, text: string): void {
+  const w = text.length * 5 + 8;
+  ctx.fillStyle = 'rgba(38, 36, 31, 0.85)';
+  ctx.fillRect(x - w / 2, y - 7, w, 11);
+  ctx.fillStyle = '#f4f1e6';
+  ctx.font = 'bold 8px monospace';
   ctx.textAlign = 'center';
-  ctx.fillText('printer', WAYPOINTS.printer.x, WAYPOINTS.printer.y + 10);
-  ctx.fillText('shredder', WAYPOINTS.shredder.x, WAYPOINTS.shredder.y + 10);
-  ctx.fillText('kitchenette', WAYPOINTS.kettle.x, WAYPOINTS.kettle.y + 16);
-  ctx.fillText('meeting rm 1', WAYPOINTS.meeting_room_1.x, WAYPOINTS.meeting_room_1.y + 28);
-  ctx.fillText('mtg rm 2 (cold)', WAYPOINTS.meeting_room_2.x, WAYPOINTS.meeting_room_2.y + 18);
+  ctx.fillText(text.toUpperCase(), x, y + 1);
+}
+
+const NAMES: Record<string, string> = {
+  ceo: 'GRAHAM',
+  cfo: 'JANET',
+  sales: 'TONY',
+  comms: 'PRIYA',
+  'middle-manager': 'KEITH',
+  audit: 'DEREK',
+};
+
+function labels(ctx: CanvasRenderingContext2D): void {
+  plate(ctx, WAYPOINTS.printer.x, WAYPOINTS.printer.y + 12, 'printer');
+  plate(ctx, WAYPOINTS.shredder.x - 8, WAYPOINTS.shredder.y + 12, 'shredder');
+  plate(ctx, WAYPOINTS.kettle.x, WAYPOINTS.kettle.y + 18, 'kitchenette');
+  plate(ctx, WAYPOINTS.meeting_room_1.x, WAYPOINTS.meeting_room_1.y + 30, 'meeting rm 1');
+  plate(ctx, WAYPOINTS.meeting_room_2.x, WAYPOINTS.meeting_room_2.y + 20, 'mtg rm 2 (cold)');
+  // Desk nameplates: who is who, at a glance.
+  for (const [id, name] of Object.entries(NAMES)) {
+    const wp = WAYPOINTS[`${id}_desk` as keyof typeof WAYPOINTS];
+    plate(ctx, wp.x, wp.y + 18, name);
+  }
+}
+
+function wallArt(ctx: CanvasRenderingContext2D): void {
+  // Portrait of Albert Pemberton, gazing at the printer that took his office.
+  ctx.fillStyle = '#6e5639';
+  ctx.fillRect(414, 6, 22, 26);
+  ctx.fillStyle = '#d8cdb8';
+  ctx.fillRect(417, 9, 16, 20);
+  ctx.fillStyle = '#5a514a';
+  ctx.fillRect(421, 13, 8, 8); // the great man
+  ctx.fillRect(423, 21, 4, 7);
+  // The framed Pemberton Standard No. 1: a load-bearing solution.
+  ctx.fillStyle = '#6e5639';
+  ctx.fillRect(6, 8, 24, 20);
+  ctx.fillStyle = '#f4f1e6';
+  ctx.fillRect(9, 11, 18, 14);
+  ctx.fillStyle = '#caa84e';
+  ctx.fillRect(13, 14, 4, 8);
+  ctx.fillRect(13, 14, 10, 4);
+
+  // Bins, one per desk cluster corner. Emptied nightly, in theory.
+  ctx.fillStyle = '#5e6266';
+  for (const [bx, by] of [
+    [120, 95],
+    [350, 95],
+    [120, 215],
+  ] as const) {
+    ctx.fillRect(bx, by - 8, 8, 8);
+    ctx.fillStyle = '#787c80';
+    ctx.fillRect(bx, by - 9, 8, 2);
+    ctx.fillStyle = '#5e6266';
+  }
+
+  // The coat rack by the door. One coat never claimed.
+  ctx.fillStyle = '#6e5639';
+  ctx.fillRect(28, 130, 3, 26);
+  ctx.fillRect(20, 132, 19, 2);
+  ctx.fillStyle = '#4a4438';
+  ctx.fillRect(22, 134, 6, 14);
 }
 
 export function drawScenery(ctx: CanvasRenderingContext2D, t = 0): void {
@@ -281,6 +342,7 @@ export function drawScenery(ctx: CanvasRenderingContext2D, t = 0): void {
   kitchenette(ctx, t);
   fixtures(ctx, t);
   rooms(ctx);
+  wallArt(ctx);
   labels(ctx);
 }
 

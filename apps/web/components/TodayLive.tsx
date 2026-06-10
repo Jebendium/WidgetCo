@@ -5,7 +5,7 @@
 // never leaves the company. One fetch per reveal moment — no polling, no
 // websockets, no inference from visitor actions.
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useOfficeStore } from '@/lib/office/store';
 import type { FeedResponse } from '@/lib/types';
 import { Drawer } from './Drawer';
@@ -15,7 +15,48 @@ import { Ticker } from './Ticker';
 
 const REVEAL_BUFFER_MS = 750;
 
-export function TodayLive({ replay }: { replay: boolean }) {
+/** The top tab bar and its slide-down panels: one section open at a time. */
+function TopPanels({ sections }: { sections: Record<string, ReactNode> }) {
+  const [open, setOpen] = useState<string | null>(null);
+  return (
+    <>
+      <div className="top-tabs">
+        {Object.keys(sections).map((name) => (
+          <button
+            key={name}
+            className={open === name ? 'active' : ''}
+            onClick={() => {
+              setOpen(open === name ? null : name);
+            }}
+          >
+            {name}
+          </button>
+        ))}
+      </div>
+      <div className={`top-panel ${open ? 'open' : ''}`}>
+        <div className="drawer-controls">
+          <button
+            onClick={() => {
+              setOpen(null);
+            }}
+            title="Back to the office"
+          >
+            ✕ back to the office
+          </button>
+        </div>
+        {open && sections[open]}
+      </div>
+    </>
+  );
+}
+
+export function TodayLive({
+  replay,
+  sections = {},
+}: {
+  replay: boolean;
+  sections?: Record<string, ReactNode>;
+}) {
   const [feed, setFeed] = useState<FeedResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -69,6 +110,7 @@ export function TodayLive({ replay }: { replay: boolean }) {
       <Drawer side="right" label={`Today — day ${feed?.day ?? '…'}`}>
         <FeedPanel feed={feed} />
       </Drawer>
+      <TopPanels sections={sections} />
     </div>
   );
 }
