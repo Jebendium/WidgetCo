@@ -22,7 +22,7 @@ export async function GET(
     return NextResponse.json({ error: 'Sprites unavailable.' }, { status: 404 });
   }
   const { data, error } = await db.storage.from('sprites').download(`${agent}.png`);
-  if (error || !data) {
+  if (error) {
     return NextResponse.json({ error: 'Sprites unavailable.' }, { status: 404 });
   }
   return new NextResponse(data, {
