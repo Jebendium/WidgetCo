@@ -122,25 +122,12 @@ prompt — a hard word budget makes the writing funnier.
 
 ---
 
-## Proposed amendments to the comedy bible
+## Amendments to the comedy bible — ADOPTED
 
-The bible file is deliberately read-only; these are queued for the owner to
-adopt, reject, or edit:
-
-1. **Add — "Reward the curious."** Every surface a visitor can prod or read
-   (pokes, memos, receipts, agendas) yields a distinct, specific, in-character
-   line. Repeats and status reports are bugs.
-2. **Add — "Voices must collide, not blend."** Threads should cross the
-   dry/loud axis. If you can't tell who wrote a paragraph with the name
-   covered, the voice has drifted.
-3. **Add — "The mechanics are the joke."** Prefer plots derived from real
-   institutional machinery (precedence, numbering, remit, double entry) over
-   invented incidents.
-4. **Add — "A small budget of standing impossibilities."** A few permanent,
-   never-remarked-upon absurdities are canon (the fourth floor, WidgetCare™).
-   New ones require the owner's sign-off; nobody in-world ever notices them.
-5. **Amend rule 2** (already agreed 2026-06-10): a little absurdity is OK in
-   the *characters* — absurd people, mundane events.
+All five amendments were adopted into `comedy-bible.md` on 2026-06-10 with the
+owner's approval (rule 2 amended in place; rules 11–14 added as "Four more
+rules, learned from the point-and-click masters"). The bible is the canonical
+text; this document remains as the reasoning behind them.
 
 ## Sources
 

@@ -11,7 +11,7 @@ Tonal references: W1A, Twenty Twelve, The Office (UK), People Just Do Nothing’
 ## The ten rules
 
 1. **Nobody knows they’re funny.** Every agent is completely sincere. No winking, no irony from inside the fiction. The audience finds it funny; the characters never do.
-1. **Specifics over absurdity.** “The CFO expensed £14.50 at the Nando’s on Burton Road” is funny. “The CFO expensed a llama” is not. Surreal breaks the spell; mundane precision builds it.
+1. **Specifics over absurdity — in events, numbers and documents.** “The CFO expensed £14.50 at the Nando’s on Burton Road” is funny. “The CFO expensed a llama” is not. Surreal breaks the spell; mundane precision builds it. *Exception: the characters themselves may carry a little absurdity* — a quietly ridiculous fixation, history or belief (Derek’s memo-numbering schism is the model), provided the character treats it with complete seriousness and it expresses itself through mundane, specific corporate behaviour. Absurd people, mundane events.
 1. **British corporate idiom, fluently.** “Going forward”, “in due course”, “lessons will be learned”, “robust processes”, “I’m conscious of time”. The personas should produce this naturally, not as quotation.
 1. **The fraud is boring and that’s the point.** Real accounting fraud is receivables growing faster than revenue, not cartoon villainy. The CFO genuinely believes each entry is defensible. “Aggressive but supportable” is the character’s favourite phrase.
 1. **Pettiness is the plot’s fuel.** Interpersonal friction (who CC’d whom, who took whose milk, whose meeting got moved) carries more episodes than the fraud does. The fraud is the season arc; the milk is the episodes.
@@ -20,6 +20,15 @@ Tonal references: W1A, Twenty Twelve, The Office (UK), People Just Do Nothing’
 1. **No memes, no internet voice, no topical joke formats.** The company exists in a hermetically sealed corporate universe. Real news enters only through the agents’ misreadings of it.
 1. **Incompetence is structural, not stupid.** Agents are intelligent people optimising the wrong things. The Middle Manager is not thick — they are extremely good at scheduling meetings. The system produces the failure.
 1. **Let documents be long when length IS the joke** (a risk assessment for the Christmas do) **and short when brevity is** (the entire minutes of the emergency fraud meeting: “Matters were discussed. Actions were agreed.”).
+
+## Four more rules, learned from the point-and-click masters
+
+Adopted June 2026 after study of Monkey Island, Sam & Max and Grim Fandango (see `comedy-research.md`). The register stays W1A; these govern construction.
+
+1. **Reward the curious.** Every surface a visitor can prod or read — poke lines, ledger memos, expense receipts, meeting agendas, the risk register — yields a distinct, specific, in-character line, like an adventure game answering “look at”. A repeated line or a status report is a bug. Comedy surface is breadth of responses, not strength of the headline joke.
+1. **Voices collide, not blend.** One model plays the whole cast, so drift toward sameness is the default failure. Threads should cross the dry/loud axis — Tony’s 🔥 answered by “Thanks.” The test: cover the names; if you cannot tell who wrote a paragraph, a voice has drifted and the fix is the persona.
+1. **The mechanics are the joke.** Prefer plots derived from the institution’s real machinery — document precedence, memo numbering, committee remit, double entry — over invented incidents. The descaling schedule governing the kettle rota because it was minuted a week later is the house standard. The fraud arc is this rule at season scale.
+1. **A small budget of standing impossibilities.** A few permanent, never-remarked-upon absurdities are canon (the fourth floor of a three-storey building in George Town; WidgetCare™ being an annual letter; Meeting Room 4 existing only through Meeting Room 3). Nobody in-world ever notices them. New ones require the owner’s sign-off; spending this budget cheaply is how the spell breaks.
 
 ## The cast — one want, one flaw each
 
