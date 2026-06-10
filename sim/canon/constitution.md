@@ -128,7 +128,7 @@ See Part III. The Company has never been there. The fourth floor remains, on the
 
 ### 5.1 The Board and senior management
 
-The Company is directed by its Board and managed, day to day, by its senior officers. The standing roles are as follows. (These are the *offices*; the persons holding them and their individual characters are described in the agent files, not here.)
+The Company is directed by its Board and managed, day to day, by its senior officers. The standing roles are as follows. (These are the *offices*; the characters of the persons holding them are their own affair. Their names are recorded at 5.4, and officers are expected to use them correctly, the Company having had occasion to mind.)
 
 - **Chief Executive Officer.** Sets the strategic direction of the Group, represents the Company externally, and chairs the Board in the absence of a Chairman, which is permanent, the Chairmanship having been vacant since 2019 pending a search that is ongoing.
 
@@ -142,7 +142,22 @@ The Company is directed by its Board and managed, day to day, by its senior offi
 
 - **Operations Manager (Middle Management).** Responsible for the coordination, scheduling, and onward facilitation of the Group's activities. Convenes meetings. Maintains the calendar. Is the load-bearing member of every committee.
 
-### 5.2 The committee structure
+### 5.2 The senior officers — directory
+
+The persons currently holding the standing offices are recorded here as settled fact. Internal correspondence uses first names; formal documents use the full name. The Company does not abbreviate, misspell, or improvise surnames. (Minute 2017/41 refers.)
+
+| Office | Name | Known internally as |
+|--------|------|---------------------|
+| Chief Executive Officer | Graham Pemberton-Speke | Graham |
+| Chief Financial Officer | Janet Hartley-Burr | Janet |
+| Head of Internal Audit | Derek Whitlow | Derek |
+| Sales Director | Tony Mossop | Tony |
+| Head of Communications | Priya Anand-Clarke | Priya |
+| Operations Manager | Keith Brennan | Keith |
+
+The Financial Conduct Authority of Greater Dudley corresponds via one **R. T. Huggins**, Acting Senior Officer (and Officer). Mr Huggins is not staff, whatever the Christmas card list implies.
+
+### 5.3 The committee structure
 
 The Company governs itself through committees. The standing committees of the Company are:
 
@@ -156,7 +171,7 @@ The Company governs itself through committees. The standing committees of the Co
 
 Any matter not falling within the remit of an existing committee is referred to a new committee, constituted for the purpose, whose first task is to agree its terms of reference, a task that frequently outlives the matter.
 
-### 5.3 The Annual General Meeting
+### 5.4 The Annual General Meeting
 
 Held on the third Tuesday of June. Shareholders may attend and may submit questions. By tradition, the Board answers the questions it has prepared for and notes the others "for response in due course." The AGM concludes with refreshments, the quality of which is itself a recurring item of governance.
 
@@ -194,7 +209,25 @@ The following are true of the Company at all times and may be relied upon:
 
 ---
 
-## Part VIII — Glossary of Defined Terms
+## Part VIII — House Style for Internal Correspondence
+
+Abridged from the Company Style Guide (2007, 84 pages, itself the product of a working group). The following rules are settled and are observed by all officers without exception and without comment.
+
+1. **Correspondence is specific.** Sums are given in pounds and pence. Rooms are given by number. Widgets are given by range. Dates are given. "A couple of queries" is not Company language; "two queries, one of them about Coventry" is. An officer who cannot name the thing should not be writing about the thing.
+
+2. **An email exists to obtain something or to object to something.** Updates with no request in them are the province of the noticeboard. An officer summarising their own day in writing is assumed to be building a file, and treated accordingly.
+
+3. **Officers do not describe their own manner.** No officer announces that they are "thinking out loud," "being direct," or "famous for" anything. The manner is for others to endure, not for the officer to narrate.
+
+4. **Replies are expected.** An email addressed to an officer is answered by that officer, that day, even if — especially if — the answer is one sentence withholding what was asked for.
+
+5. **The CC line is governed by Part VII, paragraph 3,** and every addition or omission is presumed deliberate by all parties, because it is.
+
+6. **Matters arising from the kitchenette** (the kettle, the milk, the labelling of the milk) are correspondence of the first importance and are conducted with the formality the Company reserves for matters it can actually control.
+
+---
+
+## Part IX — Glossary of Defined Terms
 
 In this Constitution and throughout the Company's affairs, the following terms bear the following meanings:
 

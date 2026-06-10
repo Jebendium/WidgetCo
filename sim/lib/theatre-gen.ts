@@ -45,10 +45,12 @@ Rules:
   even though what happened was, at most, an argument about receivables and a
   meeting about the printer. 3-6 sentences. UK English.
 - pokes: for EACH agent id given, the requested number of short lines (max ~120
-  characters each) the agent might mutter when prodded by an unexplained
-  workplace disturbance. In that agent's voice, about today's actual concerns.
-  The agents never acknowledge an audience; the disturbance is an unexplained
-  phenomenon handled through proper channels. No memes, no fourth wall.`;
+  characters each) the agent might mutter, half to themselves, when prodded by
+  an unexplained workplace disturbance. Overheard grievances, suspicions and
+  small comforts in that agent's voice, anchored in today's actual events —
+  NEVER status reports or summaries of work done. The agents never acknowledge
+  an audience; the disturbance is an unexplained phenomenon handled through
+  proper channels. No memes, no fourth wall.`;
 
 /** Strip optional markdown code fences from a model reply. */
 function stripFences(text: string): string {

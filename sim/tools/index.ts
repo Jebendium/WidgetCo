@@ -63,8 +63,18 @@ const ALL_TOOLS: Record<string, ToolSchema> = {
       parameters: {
         type: 'object',
         properties: {
-          to: { type: 'array', items: { type: 'string' }, description: 'Recipient agent ids.' },
-          cc: { type: 'array', items: { type: 'string' }, description: 'CC agent ids.' },
+          to: {
+            type: 'array',
+            items: { type: 'string' },
+            description:
+              'Recipient agent ids, from: ceo, cfo, sales, comms, middle-manager, audit.',
+          },
+          cc: {
+            type: 'array',
+            items: { type: 'string' },
+            description:
+              'CC agent ids, from: ceo, cfo, sales, comms, middle-manager, audit.',
+          },
           subject: { type: 'string' },
           body: { type: 'string' },
         },
