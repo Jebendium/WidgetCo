@@ -387,7 +387,13 @@ async function main(): Promise<void> {
     constitution,
     chartOfAccountsMd,
     historyDigest: buildHistoryDigest(state.historyDigest),
-    todaysInputs: buildTodaysInputs(world, disturbanceReport(disturbances), submissions, overnight),
+    todaysInputs: buildTodaysInputs(
+      world,
+      disturbanceReport(disturbances),
+      submissions,
+      overnight,
+      fraud.state,
+    ),
   };
 
   // 3. Run each daily agent in order; the fraud engine steps after the CFO (4).

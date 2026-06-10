@@ -14,6 +14,14 @@ describe('officeNoticesFor — petty incidents plus rare absurdity', () => {
     const withSpecial = days.filter((d) => officeNoticesFor(d).length === 3);
     expect(withSpecial.length).toBe(16); // 13 absurd-days ∪ 4 legendary-days, 1 overlap
     expect(officeNoticesFor(7).join(' ')).toContain('monkey'); // day 7: the kettle ransom
+  });
+
+  it('the absurdity curve steepens with the fraud state', () => {
+    const days = Array.from({ length: 30 }, (_, i) => i + 1);
+    const specials = (state: string) =>
+      days.filter((d) => officeNoticesFor(d, state).length === 3).length;
+    expect(specials('UNRAVELLING')).toBeGreaterThan(specials('CLEAN'));
+    expect(specials('RESTATEMENT')).toBeLessThan(specials('CLEAN'));
     for (const day of days) {
       expect(officeNoticesFor(day).length).toBeLessThanOrEqual(3);
     }

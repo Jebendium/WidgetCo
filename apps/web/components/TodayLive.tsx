@@ -73,6 +73,7 @@ export function TodayLive({
       setError(null);
       // The office acts out what the feed reveals.
       useOfficeStore.getState().ingestEvents(data.events);
+      useOfficeStore.getState().spawnForDay(data.day, Date.now());
 
       const next = data.upcoming[0];
       if (next) {
@@ -102,7 +103,10 @@ export function TodayLive({
   return (
     <div className="stage">
       <Office />
-      <div className="ticker-bar">{feed && <Ticker anchors={feed.anchors} />}</div>
+      <div className="ticker-bar">
+        {feed && <Ticker anchors={feed.anchors} />}
+        {feed && <NextEvent feed={feed} />}
+      </div>
       <Drawer side="left" label="Previously on…">
         <h2>Previously, on Amalgamated Widget Holdings…</h2>
         <div className="recap-text">{feed?.recap ?? 'The tape is rewinding…'}</div>
@@ -112,6 +116,30 @@ export function TodayLive({
       </Drawer>
       <TopPanels sections={sections} />
     </div>
+  );
+}
+
+/** Countdown to the next scheduled reveal — appointment viewing. */
+function NextEvent({ feed }: { feed: FeedResponse }) {
+  const [, force] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => {
+      force((n) => n + 1);
+    }, 1000);
+    return () => {
+      clearInterval(id);
+    };
+  }, []);
+
+  const next = feed.upcoming[0];
+  if (!next) return <span className="next-event">close of business</span>;
+  const secs = Math.max(0, Math.floor((Date.parse(next.ts) - Date.now()) / 1000));
+  const mm = Math.floor(secs / 60);
+  const ss = String(secs % 60).padStart(2, '0');
+  return (
+    <span className="next-event">
+      next item in {mm}:{ss}
+    </span>
   );
 }
 

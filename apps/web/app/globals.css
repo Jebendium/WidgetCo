@@ -366,6 +366,17 @@ table.ledger thead th {
   border-bottom: none;
 }
 
+.next-event {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d7a93f;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
 /* Drawers: closed = an edge tab; open = a reading panel over the office. */
 .drawer {
   position: absolute;

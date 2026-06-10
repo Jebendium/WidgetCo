@@ -69,11 +69,19 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   }
 
   const db = supabase();
+  let pending = 0;
   if (db) {
     const { error } = await db.from('disturbances').insert({ agent_id: agentId, count: 1 });
     if (error) logToFile(agentId); // degrade gracefully; the phenomenon persists
+    const { count } = await db
+      .from('disturbances')
+      .select('id', { count: 'exact', head: true })
+      .eq('consumed', false);
+    pending = count ?? 0;
   } else {
     logToFile(agentId);
   }
-  return NextResponse.json({ ok: true });
+  // `pending` is the day's accumulated disturbance pressure; at a certain
+  // level, things are said to manifest. The Company does not speculate.
+  return NextResponse.json({ ok: true, pending });
 }

@@ -51,26 +51,48 @@ const LEGENDARY_NOTICES: string[] = [
   'An invoice has arrived from the Company, addressed to the Company, for "services rendered". The amount is reasonable. The CFO has declined to pay it on principle. The principle is under review.',
 ];
 
-/** Legendary events surface roughly one day in eleven, alone. */
-function legendaryNoticeFor(day: number): string | null {
-  if (day % 11 !== 7) return null;
-  const idx = Math.floor(day / 11) % LEGENDARY_NOTICES.length;
+/**
+ * THE ABSURDITY CURVE: the world gets stranger as the books get worse, and
+ * nobody in-world ever connects the two. Cadence divisors per fraud state —
+ * lower is stranger. The agents' responses stay procedural throughout; by
+ * UNRAVELLING the office is frankly haunted and the memos are at their
+ * calmest. After RESTATEMENT, normality: the exorcism is the audit.
+ */
+const ABSURDITY_BY_STATE: Record<string, { absurdMod: number; legendaryMod: number }> = {
+  CLEAN: { absurdMod: 3, legendaryMod: 11 },
+  CREATIVE: { absurdMod: 3, legendaryMod: 11 },
+  AGGRESSIVE: { absurdMod: 2, legendaryMod: 9 },
+  CONCEALING: { absurdMod: 2, legendaryMod: 7 },
+  UNRAVELLING: { absurdMod: 1, legendaryMod: 5 },
+  RESTATEMENT: { absurdMod: 6, legendaryMod: 23 },
+};
+
+const DEFAULT_CURVE = { absurdMod: 3, legendaryMod: 11 };
+
+function curveFor(fraudState: string): { absurdMod: number; legendaryMod: number } {
+  return ABSURDITY_BY_STATE[fraudState] ?? DEFAULT_CURVE;
+}
+
+function legendaryNoticeFor(day: number, fraudState: string): string | null {
+  const mod = curveFor(fraudState).legendaryMod;
+  if (day % mod !== mod - 4) return null;
+  const idx = Math.floor(day / mod) % LEGENDARY_NOTICES.length;
   return LEGENDARY_NOTICES[idx] ?? null;
 }
 
-/** True on days that carry an absurd notice (deterministic, ~1 day in 3). */
-function absurdNoticeFor(day: number): string | null {
-  if (day % 3 !== 2) return null;
-  const idx = Math.floor(day / 3) % ABSURD_NOTICES.length;
+function absurdNoticeFor(day: number, fraudState: string): string | null {
+  const mod = curveFor(fraudState).absurdMod;
+  if (day % mod !== mod - 1) return null;
+  const idx = Math.floor(day / mod) % ABSURD_NOTICES.length;
   return ABSURD_NOTICES[idx] ?? null;
 }
 
-export function officeNoticesFor(day: number): string[] {
+export function officeNoticesFor(day: number, fraudState = 'CLEAN'): string[] {
   const first = OFFICE_NOTICES[(day - 1) % OFFICE_NOTICES.length] ?? '';
   const second = OFFICE_NOTICES[(day + 2) % OFFICE_NOTICES.length] ?? '';
   const notices = [first, second].filter((n) => n.length > 0);
   // A legendary event takes the whole stage; otherwise the regular rotation.
-  const special = legendaryNoticeFor(day) ?? absurdNoticeFor(day);
+  const special = legendaryNoticeFor(day, fraudState) ?? absurdNoticeFor(day, fraudState);
   if (special) notices.push(special);
   return notices;
 }
@@ -80,13 +102,14 @@ export function buildTodaysInputs(
   disturbanceLine?: string,
   submissions: string[] = DEFAULT_SUBMISSIONS,
   overnight: string[] = [],
+  fraudState = 'CLEAN',
 ): string {
   // Disturbances (poltergeist pokes) and queued UNTRUSTED visitor submissions
   // (tips / AGM questions). Every visitor string is wrapped via the
   // sanitise/wrap helper (invariant #5) — never inlined raw.
   const untrusted = wrapUntrustedSubmissions(submissions);
 
-  const notices = officeNoticesFor(world.day)
+  const notices = officeNoticesFor(world.day, fraudState)
     .map((n) => `- ${n}`)
     .join('\n');
 

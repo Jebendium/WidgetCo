@@ -157,6 +157,28 @@ describe('corridor chats', async () => {
   });
 });
 
+describe('entities — creatures and manifestations', async () => {
+  const { kettlePokesSummonCat, spawnCat, stepEntity, isLegendaryDay } = await import('./entities');
+
+  it('three kettle pokes inside thirty seconds summon the cat', () => {
+    const now = 1_000_000;
+    expect(kettlePokesSummonCat([now - 40_000, now - 5_000, now], now)).toBe(false);
+    expect(kettlePokesSummonCat([now - 20_000, now - 5_000, now], now)).toBe(true);
+  });
+
+  it('the cat patrols the kitchenette and turns at the ends', () => {
+    let cat = spawnCat(0);
+    for (let i = 0; i < 2000; i++) cat = stepEntity(cat, 16);
+    expect(cat.x).toBeGreaterThanOrEqual(cat.patrolMin);
+    expect(cat.x).toBeLessThanOrEqual(cat.patrolMax);
+  });
+
+  it('legendary days match the sim cadence (day 7: the kettle ransom)', () => {
+    expect(isLegendaryDay(7)).toBe(true);
+    expect(isLegendaryDay(8)).toBe(false);
+  });
+});
+
 describe('office hours (UK)', () => {
   it('is open mid-morning on a weekday and closed at night', () => {
     expect(isOfficeOpen(new Date('2026-06-10T10:00:00+01:00'))).toBe(true);

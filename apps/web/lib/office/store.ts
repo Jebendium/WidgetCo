@@ -20,6 +20,15 @@ import {
   type AgentSim,
 } from './motion';
 import { WAYPOINTS, deskOf } from './waypoints';
+import {
+  isLegendaryDay,
+  kettlePokesSummonCat,
+  spawnCat,
+  spawnMirror,
+  spawnRoofCreature,
+  stepEntity,
+  type Entity,
+} from './entities';
 
 // Ambient wandering: roughly one stroll per agent per 40s of idle time.
 const WANDER_CHANCE_PER_SEC = 0.025;
@@ -54,6 +63,10 @@ interface OfficeState {
   /** Agents who just fell into a chat and want a line fetched for them. */
   chatRequests: string[];
   chatCooldowns: Map<string, number>;
+  /** Creatures and manifestations. Not staff. Not authorised. Present. */
+  entities: Entity[];
+  kettlePokes: number[];
+  spawnedForDay: number | null;
 
   /** Feed events arrive (already gated server-side); enqueue their theatre. */
   ingestEvents: (events: PublicEvent[]) => void;
@@ -66,6 +79,12 @@ interface OfficeState {
   /** Drain the pending chat-line requests (the UI fetches the lines). */
   takeChatRequests: () => string[];
   expireBubbles: (now: number) => void;
+  /** A poke landed on the kettle. Three in thirty seconds summons the cat. */
+  pokeKettle: (now: number) => void;
+  /** Disturbance pressure report from the server; ≥100 manifests the mirror. */
+  reportDisturbancePressure: (pending: number, now: number) => void;
+  /** Day-scoped spawns (legendary days put something on the roofline). */
+  spawnForDay: (day: number, now: number) => void;
 }
 
 /** Step every agent; idle ones pick up queued intents or wander off. */
@@ -133,6 +152,9 @@ export const useOfficeStore = create<OfficeState>((set, get) => ({
   bubbleSeq: 0,
   chatRequests: [],
   chatCooldowns: new Map<string, number>(),
+  entities: [],
+  kettlePokes: [],
+  spawnedForDay: null,
 
   ingestEvents: (events) => {
     const { seenEventIds, queue, agents } = get();
@@ -158,17 +180,45 @@ export const useOfficeStore = create<OfficeState>((set, get) => ({
   },
 
   tick: (dtMs, now) => {
-    const { agents, queue, chatCooldowns } = get();
+    const { agents, queue, chatCooldowns, entities } = get();
     const advanced = advanceAgents(agents, queue, dtMs, now);
     const chatRequests = applyChats(advanced.agents, chatCooldowns, now);
+    const nextEntities = entities
+      .filter((e) => e.expiresAt > now)
+      .map((e) => stepEntity(e, dtMs));
 
     set({
       agents: advanced.agents,
       queue: advanced.queue,
+      entities: nextEntities,
       ...(chatRequests.length > 0
         ? { chatRequests: [...get().chatRequests, ...chatRequests] }
         : {}),
     });
+  },
+
+  pokeKettle: (now) => {
+    const { kettlePokes, entities } = get();
+    const pokes = [...kettlePokes.filter((t) => now - t <= 60_000), now];
+    if (kettlePokesSummonCat(pokes, now) && !entities.some((e) => e.sprite === 'cat')) {
+      set({ kettlePokes: [], entities: [...entities, spawnCat(now)] });
+    } else {
+      set({ kettlePokes: pokes });
+    }
+  },
+
+  reportDisturbancePressure: (pending, now) => {
+    const { entities } = get();
+    if (pending >= 100 && !entities.some((e) => e.sprite === 'mirror')) {
+      set({ entities: [...entities, spawnMirror(now, 4 * 60 * 60 * 1000)] });
+    }
+  },
+
+  spawnForDay: (day, now) => {
+    const { spawnedForDay, entities } = get();
+    if (spawnedForDay === day) return;
+    const spawns = isLegendaryDay(day) ? [spawnRoofCreature(now)] : [];
+    set({ spawnedForDay: day, entities: [...entities, ...spawns] });
   },
 
   pokeAgent: (agentId, line, now) => {
