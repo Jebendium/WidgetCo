@@ -53,6 +53,7 @@ import { FraudEngine } from './lib/fraud.js';
 import { assignTimestamps, allTimestampsInWindow } from './lib/theatre.js';
 import { generateTheatre } from './lib/theatre-gen.js';
 import { generateDialogues } from './lib/dialogue-gen.js';
+import { generateCorrespondence } from './lib/correspondence-gen.js';
 import { formatGBP, type Account } from './lib/types.js';
 import type { TrialBalance } from './lib/ledger.js';
 
@@ -440,6 +441,15 @@ async function main(): Promise<void> {
     costTracker: cost,
   });
 
+  // 6c. The Correspondence Office replies to today's submissions.
+  const correspondence = await generateCorrespondence({
+    client: ctx.client,
+    dryRun,
+    submissions,
+    constitution,
+    costTracker: cost,
+  });
+
   // 7. Consolidate memory.
   const memories = consolidateMemories(world, dryRun);
 
@@ -463,6 +473,7 @@ async function main(): Promise<void> {
     pokePool: world.pokePool,
     recap,
     dialogues,
+    correspondence,
     memories,
     cost: {
       callCount: cost.callCount,

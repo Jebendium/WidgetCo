@@ -127,6 +127,8 @@ export interface SimDayFile {
   pokePool: PokeLine[];
   recap: string;
   dialogues?: Dialogues;
+  /** Replies to our correspondents, from the Correspondence Office. */
+  correspondence?: { re: string; body: string }[];
   memories: Record<string, string>;
   projection?: { gbpPerDay?: number; gbpPerYear?: number };
 }

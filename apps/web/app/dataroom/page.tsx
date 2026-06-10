@@ -75,6 +75,7 @@ export default async function DataRoomPage() {
         if (!file) return null;
         const emails = revealedEmails(file, now);
         if (emails.length === 0) return null;
+        const replies = file.correspondence ?? [];
         return (
           <section key={day} className="panel">
             <h2>
@@ -83,6 +84,24 @@ export default async function DataRoomPage() {
             {emails.map((item) => (
               <EmailView key={item.email.id} item={item} />
             ))}
+            {replies.length > 0 && (
+              <>
+                <h2>Replies to our correspondents</h2>
+                {replies.map((r) => (
+                  <div key={r.re} className="email">
+                    <div className="headers">
+                      <div>
+                        <strong>From:</strong> The Correspondence Office
+                      </div>
+                      <div>
+                        <strong>Re:</strong> {r.re}
+                      </div>
+                    </div>
+                    <div className="body">{r.body}</div>
+                  </div>
+                ))}
+              </>
+            )}
           </section>
         );
       })}
