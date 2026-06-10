@@ -1,3 +1,4 @@
+import { AgmQueue } from '@/components/AgmQueue';
 import { SubmitBox } from '@/components/SubmitBox';
 
 export const dynamic = 'force-dynamic';
@@ -18,6 +19,7 @@ export default function AgmPage() {
         prompt="Submit a question to the Board"
         button="Submit question"
       />
+      <AgmQueue />
     </>
   );
 }

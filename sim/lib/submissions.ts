@@ -19,13 +19,14 @@ interface QueuedRow {
   body: string;
 }
 
-async function consumeTable(db: SupabaseClient, table: string): Promise<string[]> {
-  const { data, error } = await db
-    .from(table)
-    .select('id, body')
-    .eq('status', 'queued')
-    .order('ts')
-    .limit(PER_TABLE_LIMIT);
+async function consumeTable(
+  db: SupabaseClient,
+  table: string,
+  byVotes = false,
+): Promise<string[]> {
+  let query = db.from(table).select('id, body').eq('status', 'queued');
+  if (byVotes) query = query.order('votes', { ascending: false });
+  const { data, error } = await query.order('ts').limit(PER_TABLE_LIMIT);
   if (error) return [];
 
   const rows = data as QueuedRow[];
@@ -45,7 +46,7 @@ export async function fetchQueuedSubmissions(db: SupabaseClient | null): Promise
   try {
     const [tips, questions] = await Promise.all([
       consumeTable(db, 'tips'),
-      consumeTable(db, 'agm_questions'),
+      consumeTable(db, 'agm_questions', true), // the popular ones first
     ]);
     const all = [...tips, ...questions];
     return all.length > 0 ? all : DEFAULT_SUBMISSIONS;
