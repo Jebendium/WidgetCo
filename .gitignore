@@ -7,3 +7,6 @@ coverage/
 .next/
 *.tsbuildinfo
 next-env.d.ts
+.playwright-mcp/
+office-phase3.png
+disturbances.json

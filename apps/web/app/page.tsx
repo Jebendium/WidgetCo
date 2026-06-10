@@ -15,8 +15,9 @@ export default async function OfficePage({
       <TodayLive replay={replay} />
       <div className="panel smallprint">
         <p>
-          The office itself — desks, kettle, personnel, disturbances — will be visible here in
-          due course. The Premises and Facilities Committee is aware of the timeline.
+          Visitors are reminded that prodding members of staff, while not prohibited, is
+          recorded, aggregated, and raised through the proper channels. The Company is aware of
+          the disturbances.
         </p>
       </div>
     </>

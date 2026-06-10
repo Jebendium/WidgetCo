@@ -7,8 +7,10 @@
 // cron already wrote.
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { useOfficeStore } from '@/lib/office/store';
 import type { FeedResponse } from '@/lib/types';
 import { EventCard } from './EventCard';
+import { Office } from './Office';
 import { Ticker } from './Ticker';
 
 const REVEAL_BUFFER_MS = 750;
@@ -28,6 +30,8 @@ export function TodayLive({ replay }: { replay: boolean }) {
       const data = (await res.json()) as FeedResponse;
       setFeed(data);
       setError(null);
+      // The office acts out what the feed reveals.
+      useOfficeStore.getState().ingestEvents(data.events);
 
       // Schedule one fetch for the next reveal moment, if any.
       const next = data.upcoming[0];
@@ -60,6 +64,7 @@ export function TodayLive({ replay }: { replay: boolean }) {
 
   return (
     <>
+      <Office />
       <Ticker anchors={feed.anchors} />
       <div className="recap">
         <h2>Previously, on Amalgamated Widget Holdings…</h2>

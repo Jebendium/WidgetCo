@@ -248,6 +248,58 @@ table.ledger thead th {
   font-style: italic;
 }
 
+.office-wrap {
+  position: relative;
+  border: 1px solid var(--rule);
+  margin-bottom: 20px;
+  line-height: 0;
+}
+
+.office-canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  image-rendering: pixelated;
+  cursor: pointer;
+  background: #cfc6ae;
+}
+
+.speech-bubble {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 34px));
+  background: #fffdf7;
+  border: 1px solid var(--ink);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  max-width: 220px;
+  pointer-events: none;
+  animation: bubble-fade 4.5s forwards;
+  z-index: 4;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  margin-left: -4px;
+  border-width: 6px 4px 0;
+  border-style: solid;
+  border-color: var(--ink) transparent transparent;
+}
+
+@keyframes bubble-fade {
+  0%,
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .placeholder-notice {
   border: 1px dashed var(--rule);
   padding: 30px;

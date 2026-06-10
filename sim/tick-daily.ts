@@ -24,6 +24,7 @@ import {
   buildSoFarToday,
   buildTodaysInputs,
 } from './lib/inputs.js';
+import { consumeDisturbances, disturbanceReport } from './lib/disturbances.js';
 import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
 import {
   createWorld,
@@ -355,7 +356,9 @@ async function main(): Promise<void> {
   seedOpeningBalances(world, loadOpeningBalancesFromCanon(canonChartPath));
   const { constitution, chartOfAccountsMd } = loadCanonTexts(chart);
 
-  // 2. History digest + today's inputs, and the chosen client.
+  // 2. History digest + today's inputs (real visitor disturbances, consumed
+  // from the web tier's aggregation file), and the chosen client.
+  const disturbances = consumeDisturbances(join(REPO_ROOT, 'out', 'disturbances.json'));
   const ctx: TickContext = {
     world,
     client: dryRun ? new CannedClient() : new DeepSeekClient(),
@@ -364,7 +367,7 @@ async function main(): Promise<void> {
     constitution,
     chartOfAccountsMd,
     historyDigest: buildHistoryDigest(),
-    todaysInputs: buildTodaysInputs(world),
+    todaysInputs: buildTodaysInputs(world, disturbanceReport(disturbances)),
   };
 
   // 3. Run each daily agent in order; the fraud engine steps after the CFO (4).
