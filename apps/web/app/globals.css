@@ -266,6 +266,7 @@ table.ledger thead th {
 
 .office-label {
   position: absolute;
+  line-height: 1.4; /* .office-wrap is line-height: 0; restore for text */
   transform: translateX(-50%);
   background: rgba(31, 58, 95, 0.92);
   color: #fff;
@@ -367,6 +368,7 @@ table.ledger thead th {
 
 .dialogue-panel {
   position: absolute;
+  line-height: 1.45; /* .office-wrap is line-height: 0; restore for text */
   transform: translate(-50%, calc(-100% - 58px));
   width: min(380px, 60%);
   background: rgba(247, 244, 236, 0.98);
