@@ -9,8 +9,8 @@ export interface Waypoint {
 
 // Coordinates map onto the LimeZu Office_Design_2 background, widened to
 // 960x544 with exterior ground (the building sits 224px in from the left).
-export const WORLD = { width: 960, height: 544 } as const;
-const BX = 224; // building x-offset within the widened world
+export const WORLD = { width: 1344, height: 544 } as const;
+const BX = 416; // building x-offset within the widened world
 
 export const WAYPOINTS = {
   ceo_desk: { x: BX + 128, y: 162 }, // row 1 cubicles

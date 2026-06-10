@@ -54,13 +54,13 @@ async function main(): Promise<void> {
   const out = join(assetsRoot, 'office-bg.png');
   await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
     .extend({
-      left: 224,
-      right: 224,
+      left: 416,
+      right: 416,
       background: { r: 214, g: 197, b: 165, alpha: 255 },
     })
     .png()
     .toFile(out);
-  console.log(`Wrote ${out} (960x${info.height})`);
+  console.log(`Wrote ${out} (1344x${info.height})`);
 
   if (process.argv.includes('--upload')) {
     const url = process.env.SUPABASE_URL;

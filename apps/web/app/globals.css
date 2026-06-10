@@ -267,13 +267,15 @@ table.ledger thead th {
 .office-label {
   position: absolute;
   transform: translateX(-50%);
-  background: rgba(38, 36, 31, 0.85);
-  color: #f4f1e6;
-  font-size: 11px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  padding: 1px 7px;
-  border-radius: 2px;
+  padding: 2px 8px;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.35);
   white-space: nowrap;
   pointer-events: none;
   z-index: 3;
@@ -330,7 +332,7 @@ table.ledger thead th {
   right: 0;
   bottom: 0;
   top: 118px;
-  background: #14180f;
+  background: #d6c5a5; /* exterior ground — any residual band reads as more ground */
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -338,8 +340,8 @@ table.ledger thead th {
 }
 
 .stage .office-wrap {
-  width: min(100%, calc((100vh - 168px) * 1.7647));
-  aspect-ratio: 960 / 544;
+  width: 100%;
+  aspect-ratio: 1344 / 544;
   margin-bottom: 42px;
   border: none;
 }
