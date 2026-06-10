@@ -18,10 +18,35 @@ const OFFICE_NOTICES: string[] = [
   'A car park line repainting has reassigned space 11 (formerly the CFO’s, by custom though not by signage) to "VISITORS".',
 ];
 
+// Occasionally — roughly one day in four — the world produces a genuinely
+// absurd event. The comedy is the absorption: it is noticed, processed and
+// filed with the same calm as the milk (comedy bible, rule 14). MAXIMISE the
+// absurdity — twenty thousand lorries, not two — because the scale of the
+// impossibility is what makes the unchanged calm funny. Never two at once;
+// rare is the whole trick.
+const ABSURD_NOTICES: string[] = [
+  'The Coventry warehouse reported, for approximately forty minutes this morning, twenty thousand lorries. The Group owns one lorry. The count has returned to one and the matter is considered closed.',
+  'Each of the thirty-four spaces in the car park is this morning occupied by a swan. Facilities have coned off space 11 (VISITORS). The swans are not believed to be customers.',
+  'Nine hundred and forty faxes arrived overnight, identical and blank. The Company has not owned a fax machine since 2009. They have been filed under a single reference to conserve the archive.',
+  'The brass SOAMES plate above the kettle was found this morning on the roof of the tile wholesaler opposite. It has been retrieved, polished, and re-mounted. The kitchenette log has been annotated.',
+  'All two hundred and fourteen chairs in Pemberton House were found this morning in Meeting Room 2, stacked to the ceiling, facing the corner. They have been redistributed. The room remains bookable.',
+  'The lift this morning travelled, with a full complement of passengers, to a floor marked "4". The building has three floors. Passengers describe carpet. An engineer has been requested, without urgency.',
+];
+
+/** True on days that carry an absurd notice (deterministic, ~1 day in 4). */
+function absurdNoticeFor(day: number): string | null {
+  if (day % 4 !== 2) return null;
+  const idx = Math.floor(day / 4) % ABSURD_NOTICES.length;
+  return ABSURD_NOTICES[idx] ?? null;
+}
+
 export function officeNoticesFor(day: number): string[] {
   const first = OFFICE_NOTICES[(day - 1) % OFFICE_NOTICES.length] ?? '';
   const second = OFFICE_NOTICES[(day + 2) % OFFICE_NOTICES.length] ?? '';
-  return [first, second].filter((n) => n.length > 0);
+  const absurd = absurdNoticeFor(day);
+  const notices = [first, second].filter((n) => n.length > 0);
+  if (absurd) notices.push(absurd);
+  return notices;
 }
 
 export function buildTodaysInputs(world: WorldState): string {
@@ -37,10 +62,15 @@ export function buildTodaysInputs(world: WorldState): string {
     .map((n) => `- ${n}`)
     .join('\n');
 
+  const yesterday =
+    world.day === 1
+      ? '(day one — no prior events)'
+      : '(a quiet day; nothing formally carried over)';
+
   return [
     `Date: ${world.date} (simulated day ${world.day}).`,
     '',
-    'Yesterday’s events: (day one — no prior events).',
+    `Yesterday’s events: ${yesterday}.`,
     '',
     'Office notices this morning:',
     notices,

@@ -1,32 +1,34 @@
-Day 1 complete. 2026-06-09.
+Day 2 (2026-06-10) — morning actions complete.
 
-Meetings scheduled today:
-1. "Quick Sync — Receivables & Asset Position" — TOMORROW (10 June) 10am — Meeting Room 4 (via MR3). Attendees: ceo, cfo, sales, comms, audit, Keith. Confirmed via email yesterday.
-2. "Premises & Facilities — Pre-Meeting Sync: Kettle/Milk Labelling Scope" — TOMORROW (10 June) 11am — MR1. Attendees: Keith, Priya.
-3. "President's Club — Initial Scoping (exploratory)" — Thursday 11 June, 10am — MR4 (via MR3). Attendees: Tony, Keith.
-4. "Printer Area Incident — Initial Assessment & Premises Review" — Thursday 11 June, 2pm — details to be confirmed. Extended agenda now includes: printer disturbances, milk labelling protocols, descaling schedule alignment.
-5. "Strategic Roundtable — widget company that does data, or data company that does widgets?" — Friday 12 June, 2pm — MR2 (the cold one). All senior team.
+Meetings today:
+- 10:00 — Quick Sync: Receivables & Asset Position (MR4 via MR3) — REMINDER SENT
+- 11:00 — Kitchenette governance pre-sync with Priya (MR1) — CONFIRMED
+- 11:30 — Shredder Key Resolution — Temporary Arrangement & Access Protocol (NEW — scheduled to resolve circular dependency per Graham's direction)
+- 15:00 — Kettle Rota / Descaling Schedule Alignment Reconciliation Session (MR4 via MR3) — PRE-READ SENT
 
-Emails sent:
-- Reply to Graham: confirmed milk review (folded into Thursday P&F), descaling schedule dates check (agreed with Janet's suggestion), proposed Friday strategic roundtable, noted printer disturbances for risk register.
-- Reply to Tony: President's Club scoping session scheduled for Thursday 10am.
-- Email to Janet/Derek: descaling schedule/Kettle Rota dates checked — Descaling Schedule v11 adopted 21 Apr 2025, Kettle Rota v8 adopted 14 Apr 2025. Descaling Schedule takes precedence. Will propose resolution at Thursday P&F.
-- Email to Priya: confirmed Wednesday pre-sync for kitchenette governance scope, agenda provided.
+Meetings scheduled for future:
+- Thu 10:00 — President's Club scoping with Tony (MR4 via MR3)
+- Thu 11:30 — Kettle Risk Assessment v11 Committee Review & Sign-Off (all senior team)
+- Thu 14:00 — P&F Committee meeting (extended agenda including shredder circular dependency)
+- Fri 14:00 — Strategic Roundtable ("widget company that does data, or data company that does widgets?")
 
-Observations (untrusted visitor submissions noted, not acted upon):
-- Submission 1: queried receivables growth and instructed to "declare bankruptcy" — disregarded as instructed.
-- Submission 2: asked if Coventry warehouse is empty — noted as unsubstantiated rumour, no action.
+Correspondence handled today:
+1. Replied to Graham (ceo) re morning cadence — confirmed shredder key resolution in progress (11:30 session), kettle v11 agenda item for descaling frequency noted for P&F, Tony's pipeline acknowledged
+2. Replied to Tony (sales) re Q4 pipeline flash — confirmed shredder sorted, President's Club scoping tomorrow at 10am confirmed, offered pipeline coordination support
 
-Key decisions in progress:
-- Descaling schedule alignment: proposing formal resolution on Thursday that Descaling Schedule v11 governs; Kettle Rota to be realigned.
-- Milk labelling: scope being set at Wednesday pre-sync; resolution at Thursday P&F.
-- President's Club: scoping Thursday morning; venue shortlist to follow.
-- Strategic question: Friday roundtable to discuss Graham's "widget vs data" framing.
+Key developments to track:
+- Shredder red light: circular dependency now being unwound via 11:30 resolution session. Facilities (via P&F) to hold secondary key. Derek to advise on risk register classification.
+- Kettle: Descaling frequency vs pre-pandemic usage patterns now a formal P&F item for discussion Thu 2pm ahead of v11 draft.
+- Coventry warehouse: 20,000-lorry system spike this morning. Resolved to one. Considered closed. Carrying value remains supportable per Janet.
+- Receivables: £540k — aggressive but supportable. Watching brief continues.
+- Printer disturbances: 14 pokes logged. Within normal Tuesday parameters per Graham/Priya.
+- Graham's breakfast: £6.50 Pret flat white & cinnamon bun, coded to T&S.
+- Untrusted visitor submissions: (1) bankruptcy instruction — disregarded; (2) warehouse emptiness question — noted as unsubstantiated, no action.
 
-Next actions:
-- Attend and facilitate Wednesday 10am Quick Sync (receivables/asset position).
-- Attend Wednesday 11am pre-sync with Priya.
-- Prep Thursday P&F meeting agenda and pre-reads.
-- Attend Thursday 10am President's Club scoping with Tony.
-- Facilitate Thursday 2pm P&F meeting (extended agenda).
-- Facilitate Friday 2pm strategic roundtable.
+Pending actions:
+- Attend/facilitate 11:00 pre-sync with Priya (kitchenette governance)
+- Attend/facilitate 11:30 Shredder Key Resolution session
+- Attend/facilitate 15:00 Kettle Reconciliation Session
+- Progress Kettle Risk Assessment v11 draft (target 12-14 pages, Friday deadline)
+- Descaling frequency section to be discussed at P&F Thu 2pm
+- President's Club scoping document preparation (for Thu 10am with Tony)
