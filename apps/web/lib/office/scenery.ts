@@ -260,39 +260,6 @@ function rooms(ctx: CanvasRenderingContext2D): void {
   ctx.fillRect(m2.x + 8, m2.y - 18, 8, 6);
 }
 
-/** A legible label on a little dark plate, like proper facilities signage. */
-function plate(ctx: CanvasRenderingContext2D, x: number, y: number, text: string): void {
-  const w = text.length * 5 + 8;
-  ctx.fillStyle = 'rgba(38, 36, 31, 0.85)';
-  ctx.fillRect(x - w / 2, y - 7, w, 11);
-  ctx.fillStyle = '#f4f1e6';
-  ctx.font = 'bold 8px monospace';
-  ctx.textAlign = 'center';
-  ctx.fillText(text.toUpperCase(), x, y + 1);
-}
-
-const NAMES: Record<string, string> = {
-  ceo: 'GRAHAM',
-  cfo: 'JANET',
-  sales: 'TONY',
-  comms: 'PRIYA',
-  'middle-manager': 'KEITH',
-  audit: 'DEREK',
-};
-
-function labels(ctx: CanvasRenderingContext2D): void {
-  plate(ctx, WAYPOINTS.printer.x, WAYPOINTS.printer.y + 12, 'printer');
-  plate(ctx, WAYPOINTS.shredder.x - 8, WAYPOINTS.shredder.y + 12, 'shredder');
-  plate(ctx, WAYPOINTS.kettle.x, WAYPOINTS.kettle.y + 18, 'kitchenette');
-  plate(ctx, WAYPOINTS.meeting_room_1.x, WAYPOINTS.meeting_room_1.y + 30, 'meeting rm 1');
-  plate(ctx, WAYPOINTS.meeting_room_2.x, WAYPOINTS.meeting_room_2.y + 20, 'mtg rm 2 (cold)');
-  // Desk nameplates: who is who, at a glance.
-  for (const [id, name] of Object.entries(NAMES)) {
-    const wp = WAYPOINTS[`${id}_desk` as keyof typeof WAYPOINTS];
-    plate(ctx, wp.x, wp.y + 18, name);
-  }
-}
-
 function wallArt(ctx: CanvasRenderingContext2D): void {
   // Portrait of Albert Pemberton, gazing at the printer that took his office.
   ctx.fillStyle = '#6e5639';
@@ -343,7 +310,8 @@ export function drawScenery(ctx: CanvasRenderingContext2D, t = 0): void {
   fixtures(ctx, t);
   rooms(ctx);
   wallArt(ctx);
-  labels(ctx);
+  // Signage and nameplates are DOM overlays (OfficeLabels) — canvas text
+  // blurs under the pixel upscale.
 }
 
 /** Dim the office and caption it when closed; one lamp on Sundays (a clue). */

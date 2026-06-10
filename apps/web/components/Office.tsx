@@ -12,6 +12,7 @@ import { drawAgentFromSheet } from '@/lib/office/sheet';
 import { drawAgent } from '@/lib/office/sprites';
 import { OFFICE_AGENTS, useOfficeStore } from '@/lib/office/store';
 import { WORLD } from '@/lib/office/waypoints';
+import { OfficeLabels } from './OfficeLabels';
 import { SpeechBubbles } from './SpeechBubbles';
 
 // Character sheets (LimeZu, private bucket via /api/sprites). Loaded once per
@@ -121,6 +122,7 @@ export function Office() {
           if (agentId) void pokeFlow(agentId);
         }}
       />
+      <OfficeLabels />
       <SpeechBubbles />
     </div>
   );
