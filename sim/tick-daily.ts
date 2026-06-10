@@ -19,12 +19,7 @@ import {
   RATES,
   type ChatClient,
 } from './lib/llm.js';
-import {
-  CannedClient,
-  cannedMarketAnchors,
-  cannedMemory,
-  cannedRecap,
-} from './lib/canned.js';
+import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
 import {
   createWorld,
   loadChartFromCanon,
@@ -34,11 +29,8 @@ import {
 } from './lib/world.js';
 import { executeTool, toolsForAgent } from './tools/index.js';
 import { FraudEngine, type FraudMetrics } from './lib/fraud.js';
-import {
-  assignTimestamps,
-  allTimestampsInWindow,
-  generatePokeLines,
-} from './lib/theatre.js';
+import { assignTimestamps, allTimestampsInWindow } from './lib/theatre.js';
+import { generateTheatre } from './lib/theatre-gen.js';
 import { formatGBP, type Account } from './lib/types.js';
 import type { TrialBalance } from './lib/ledger.js';
 
@@ -236,6 +228,23 @@ function applyFraudStep(world: WorldState, fraud: FraudEngine): void {
   }
 }
 
+/** Compact plain-text digest of the day for the theatre batch call. */
+function buildDaySummary(world: WorldState): string {
+  const lines: string[] = [];
+  for (const email of world.emails) {
+    lines.push(`EMAIL ${email.from} -> ${email.to.join(', ')}: ${email.subject}`);
+  }
+  for (const ev of world.events) {
+    if (ev.kind === 'email') continue;
+    lines.push(`${ev.kind.toUpperCase()} (${ev.agentId}): ${JSON.stringify(ev.payload).slice(0, 200)}`);
+  }
+  const tb = world.ledger.trialBalance();
+  lines.push(
+    `LEDGER: ${world.ledger.entries.length} entries posted, ${world.ledger.rejections.length} rejected; trial balance ${tb.balances ? 'balances' : 'DOES NOT BALANCE'}.`,
+  );
+  return lines.join('\n');
+}
+
 // --- Market maker -------------------------------------------------------------
 
 /** Spread the canned market-maker anchors across the trading day. */
@@ -405,10 +414,23 @@ async function main(): Promise<void> {
   // 5. Market maker → share anchors.
   addShareAnchors(world, date);
 
-  // 6. Theatre batch: assign timestamps in-window + poke lines + recap.
+  // 6. Theatre batch: assign timestamps in-window, then ONE batched call for
+  // the in-voice poke pool and the "Previously on…" recap (spec §4 step 5).
   assignTimestamps(world.events, date);
-  world.pokePool = generatePokeLines(DAILY_AGENT_ORDER, 20);
-  const recap = cannedRecap(day);
+  const theatre = await generateTheatre({
+    client: ctx.client,
+    dryRun,
+    day,
+    agentIds: DAILY_AGENT_ORDER,
+    daySummary: buildDaySummary(world),
+    constitution,
+    costTracker: cost,
+  });
+  if (theatre.fallback && !dryRun) {
+    console.warn('[warn] theatre call failed — using placeholder recap/pokes.');
+  }
+  world.pokePool = theatre.pokePool;
+  const recap = theatre.recap;
 
   // 7. Consolidate memory.
   const memories = consolidateMemories(world, dryRun);
