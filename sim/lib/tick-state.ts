@@ -7,6 +7,22 @@ import { revenueShortfallPct, type FraudEngine, type FraudMetrics } from './frau
 import { appendDigest, saveSimState, type SimState } from './state.js';
 import { nextEmailId, nextEventId, type WorldState } from './world.js';
 
+/**
+ * Deterministic sim date: day 1 anchors to Tuesday 2026-06-09 and each
+ * subsequent day is the next WEEKDAY — the company does not trade weekends
+ * (invariant #7), so sim dates must never land on one.
+ */
+export function simDateFor(day: number): string {
+  const d = new Date(Date.UTC(2026, 5, 9));
+  let remaining = Math.max(0, Math.trunc(day) - 1);
+  while (remaining > 0) {
+    d.setUTCDate(d.getUTCDate() + 1);
+    const dow = d.getUTCDay();
+    if (dow !== 0 && dow !== 6) remaining--;
+  }
+  return d.toISOString().slice(0, 10);
+}
+
 /** Recognised income posted today, integer pence (trial balance income side). */
 export function todaysRevenue(world: WorldState): number {
   return world.ledger

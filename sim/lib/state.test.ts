@@ -38,6 +38,24 @@ describe('sim state — file round trip', () => {
   });
 });
 
+describe('simDateFor — weekdays only (invariant #7)', async () => {
+  const { simDateFor } = await import('./tick-state.js');
+  it('anchors day 1 to Tuesday 9 June and skips weekends thereafter', () => {
+    expect(simDateFor(1)).toBe('2026-06-09'); // Tue
+    expect(simDateFor(4)).toBe('2026-06-12'); // Fri
+    expect(simDateFor(5)).toBe('2026-06-15'); // Mon, not Sat
+    expect(simDateFor(10)).toBe('2026-06-22'); // Mon, two weekends skipped
+  });
+
+  it('never lands on a Saturday or Sunday', () => {
+    for (let day = 1; day <= 60; day++) {
+      const dow = new Date(`${simDateFor(day)}T12:00:00Z`).getUTCDay();
+      expect(dow).toBeGreaterThan(0);
+      expect(dow).toBeLessThan(6);
+    }
+  });
+});
+
 describe('fraud engine snapshot/restore', () => {
   it('round-trips and rejects junk states', () => {
     const engine = new FraudEngine();

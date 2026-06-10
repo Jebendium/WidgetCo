@@ -32,6 +32,7 @@ import {
   computeFraudMetrics,
   deliverOvernight,
   persistTickState,
+  simDateFor,
 } from './lib/tick-state.js';
 import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
 import {
@@ -68,15 +69,6 @@ function parseArgs(argv: string[]): { day: number | null; dryRun: boolean } {
   return { day, dryRun };
 }
 
-/**
- * Deterministic sim date: anchor day 1 to a known weekday, advance by day-1.
- * 2026-06-09 is a Tuesday; this keeps the run reproducible.
- */
-function simDateFor(day: number): string {
-  const baseDate = new Date(Date.UTC(2026, 5, 9));
-  baseDate.setUTCDate(baseDate.getUTCDate() + (day - 1));
-  return baseDate.toISOString().slice(0, 10);
-}
 
 // --- Disk loading (robust if files missing) --------------------------------
 
