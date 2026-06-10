@@ -116,6 +116,47 @@ describe('motion', () => {
   });
 });
 
+describe('corridor chats', async () => {
+  const { beginChat, beginWander, chatEligible, shouldChat, pairKey, CHAT_MS } = await import(
+    './motion'
+  );
+
+  it('only ambient agents chat — never one performing the feed theatre', () => {
+    const wanderer = beginWander(atDesk('ceo'), WAYPOINTS.kettle);
+    expect(chatEligible(wanderer)).toBe(true);
+
+    const intent = intentFor(ev({ kind: 'email', agentId: 'cfo' }));
+    if (!intent) return;
+    const onErrand = beginIntent(atDesk('cfo'), intent);
+    expect(chatEligible(onErrand)).toBe(false);
+  });
+
+  it('requires proximity and at least one walker', () => {
+    const a = { ...beginWander(atDesk('ceo'), WAYPOINTS.kettle), x: 100, y: 100 };
+    const idleNear = { ...atDesk('cfo'), x: 108, y: 100 };
+    const idleFar = { ...atDesk('cfo'), x: 200, y: 100 };
+    expect(shouldChat(a, idleNear)).toBe(true);
+    expect(shouldChat(a, idleFar)).toBe(false);
+    expect(shouldChat(idleNear, { ...idleNear, id: 'sales' })).toBe(false); // nobody walking
+  });
+
+  it('chat is a hold that faces the other party and then walks home', () => {
+    const now = 1_000_000;
+    const a = { ...atDesk('ceo'), x: 100, y: 100 };
+    const b = { ...atDesk('cfo'), x: 120, y: 100 };
+    const chatting = beginChat(a, b, now);
+    expect(chatting.state).toBe('chat');
+    expect(chatting.facing).toBe(1);
+    const after = stepAgent(chatting, 16, now + CHAT_MS + 1);
+    expect(after.state).toBe('walk');
+    expect(after.target).toEqual(deskOf('ceo'));
+  });
+
+  it('pair keys are order-independent', () => {
+    expect(pairKey('ceo', 'cfo')).toBe(pairKey('cfo', 'ceo'));
+  });
+});
+
 describe('office hours (UK)', () => {
   it('is open mid-morning on a weekday and closed at night', () => {
     expect(isOfficeOpen(new Date('2026-06-10T10:00:00+01:00'))).toBe(true);

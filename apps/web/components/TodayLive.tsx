@@ -1,14 +1,14 @@
 'use client';
 
-// The drip feed. ONE fetch returns everything revealed so far plus the reveal
-// schedule (ids and times only); we set a single timer for the next reveal
-// moment and fetch again then. No interval polling, no websockets, and no
-// visitor action ever triggers inference — this only reads what the morning
-// cron already wrote.
+// The stage. The office IS the page: full-bleed canvas, a thin ticker bar,
+// and slide-out drawers for everything readable, so the visitor's attention
+// never leaves the company. One fetch per reveal moment — no polling, no
+// websockets, no inference from visitor actions.
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useOfficeStore } from '@/lib/office/store';
 import type { FeedResponse } from '@/lib/types';
+import { Drawer } from './Drawer';
 import { EventCard } from './EventCard';
 import { Office } from './Office';
 import { Ticker } from './Ticker';
@@ -33,7 +33,6 @@ export function TodayLive({ replay }: { replay: boolean }) {
       // The office acts out what the feed reveals.
       useOfficeStore.getState().ingestEvents(data.events);
 
-      // Schedule one fetch for the next reveal moment, if any.
       const next = data.upcoming[0];
       if (next) {
         const waitMs = Math.max(
@@ -58,33 +57,40 @@ export function TodayLive({ replay }: { replay: boolean }) {
   }, [load]);
 
   if (error) return <div className="panel">{error}</div>;
-  if (!feed) return <div className="panel">Opening the post…</div>;
-
-  const newestFirst = [...feed.events].reverse();
 
   return (
-    <>
+    <div className="stage">
       <Office />
-      <Ticker anchors={feed.anchors} />
-      <div className="recap">
+      <div className="ticker-bar">{feed && <Ticker anchors={feed.anchors} />}</div>
+      <Drawer side="left" label="Previously on…">
         <h2>Previously, on Amalgamated Widget Holdings…</h2>
-        {feed.recap}
-      </div>
-      <div className="panel">
-        <h2>
-          Today at the Company — day {feed.day}
-          {feed.upcoming.length > 0
-            ? ` (${feed.upcoming.length} item${feed.upcoming.length === 1 ? '' : 's'} yet to occur)`
-            : ' (close of business)'}
-        </h2>
-        {newestFirst.length === 0 ? (
-          <p className="smallprint">
-            Nothing has happened yet today. The kettle has been filled. Trading continues.
-          </p>
-        ) : (
-          newestFirst.map((ev) => <EventCard key={ev.id} ev={ev} />)
-        )}
-      </div>
+        <div className="recap-text">{feed?.recap ?? 'The tape is rewinding…'}</div>
+      </Drawer>
+      <Drawer side="right" label={`Today — day ${feed?.day ?? '…'}`}>
+        <FeedPanel feed={feed} />
+      </Drawer>
+    </div>
+  );
+}
+
+function upcomingLabel(feed: FeedResponse): string {
+  if (feed.upcoming.length === 0) return ' — close of business';
+  return ` — ${feed.upcoming.length} item${feed.upcoming.length === 1 ? '' : 's'} yet to occur`;
+}
+
+function FeedPanel({ feed }: { feed: FeedResponse | null }) {
+  if (!feed) return <p className="smallprint">Opening the post…</p>;
+  const newestFirst = [...feed.events].reverse();
+  return (
+    <>
+      <h2>Today at the Company{upcomingLabel(feed)}</h2>
+      {newestFirst.length === 0 ? (
+        <p className="smallprint">
+          Nothing has happened yet today. The kettle has been filled. Trading continues.
+        </p>
+      ) : (
+        newestFirst.map((ev) => <EventCard key={ev.id} ev={ev} />)
+      )}
     </>
   );
 }

@@ -71,7 +71,7 @@ function renderFrame(ctx: CanvasRenderingContext2D, timestamp: number, dtMs: num
 
   if (open) useOfficeStore.getState().tick(Math.min(dtMs, 100), now);
 
-  drawScenery(ctx);
+  drawScenery(ctx, timestamp);
   const { agents } = useOfficeStore.getState();
   for (const agent of Object.values(agents)) {
     const sheet = sheets.get(agent.id);

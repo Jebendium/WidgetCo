@@ -24,23 +24,26 @@ const PALETTES: Record<string, AgentPalette> = {
 const DEFAULT_PALETTE: AgentPalette = { suit: '#444', hair: '#222', tie: '#888' };
 const SKIN = '#e8c39e';
 
+interface Offsets {
+  bob: number;
+  arm: number;
+  shake: number;
+}
+
+const OFFSET_FNS: Partial<Record<AgentSim['state'], (frame: number) => Offsets>> = {
+  walk: (f) => ({ bob: f % 2, arm: 0, shake: 0 }),
+  type: (f) => ({ bob: 0, arm: f % 2, shake: 0 }),
+  print: (f) => ({ bob: 0, arm: f % 2, shake: 0 }),
+  shred: (f) => ({ bob: 0, arm: f % 2 === 0 ? 2 : 0, shake: 0 }),
+  panic: (f) => ({ bob: f % 2, arm: 2, shake: f % 2 === 0 ? -1 : 1 }),
+  meeting: () => ({ bob: 0, arm: 0, shake: 0 }),
+  chat: () => ({ bob: 0, arm: 0, shake: 0 }),
+};
+
 /** Per-frame vertical bob and arm wiggle, by state. */
-function frameOffsets(state: AgentSim['state'], frame: number): { bob: number; arm: number; shake: number } {
-  switch (state) {
-    case 'walk':
-      return { bob: frame % 2, arm: 0, shake: 0 };
-    case 'type':
-    case 'print':
-      return { bob: 0, arm: frame % 2, shake: 0 };
-    case 'shred':
-      return { bob: 0, arm: frame % 2 === 0 ? 2 : 0, shake: 0 };
-    case 'panic':
-      return { bob: frame % 2, arm: 2, shake: frame % 2 === 0 ? -1 : 1 };
-    case 'meeting':
-      return { bob: 0, arm: 0, shake: 0 };
-    default:
-      return { bob: frame % 8 === 0 ? 1 : 0, arm: 0, shake: 0 };
-  }
+function frameOffsets(state: AgentSim['state'], frame: number): Offsets {
+  const fn = OFFSET_FNS[state];
+  return fn ? fn(frame) : { bob: frame % 8 === 0 ? 1 : 0, arm: 0, shake: 0 };
 }
 
 /** Draw one agent at its world position. Replaceable by real sprite sheets. */

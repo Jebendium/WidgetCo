@@ -13,7 +13,17 @@ export function SpeechBubbles() {
 
   useEffect(() => {
     const id = setInterval(() => {
-      useOfficeStore.getState().expireBubbles(Date.now());
+      const store = useOfficeStore.getState();
+      store.expireBubbles(Date.now());
+      // Corridor chats: fetch an in-voice line for anyone who just stopped to talk.
+      for (const agentId of store.takeChatRequests()) {
+        void fetch(`/api/poke?agent=${encodeURIComponent(agentId)}`)
+          .then(async (res) => (res.ok ? ((await res.json()) as { line?: string }) : {}))
+          .then((data) => {
+            if (data.line) useOfficeStore.getState().speak(agentId, data.line, Date.now());
+          })
+          .catch(() => undefined);
+      }
     }, 500);
     return () => {
       clearInterval(id);

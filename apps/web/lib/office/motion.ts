@@ -4,7 +4,7 @@
 import type { AgentAction, AnimationIntent } from './intents';
 import { deskOf, type Waypoint } from './waypoints';
 
-export type SpriteState = 'idle' | 'walk' | AgentAction | 'panic';
+export type SpriteState = 'idle' | 'walk' | AgentAction | 'panic' | 'chat';
 
 export interface AgentSim {
   id: string;
@@ -118,4 +118,56 @@ export function stepAgent(agent: AgentSim, dtMs: number, now: number): AgentSim 
 /** Idle agents with a queued intent pick up the next one. */
 export function isAvailable(agent: AgentSim): boolean {
   return agent.state === 'idle' && agent.intent === null;
+}
+
+// --- Ambient life: wandering and corridor chats -------------------------------
+
+export const CHAT_MS = 4200;
+export const CHAT_RADIUS = 16;
+
+/** Begin an aimless wander (no intent — arrival simply idles there). */
+export function beginWander(agent: AgentSim, target: Waypoint): AgentSim {
+  return {
+    ...agent,
+    state: 'walk',
+    target,
+    intent: null,
+    facing: target.x >= agent.x ? 1 : -1,
+  };
+}
+
+/**
+ * May this agent be drawn into a corridor chat? Only ambient agents — never
+ * one performing the feed's theatre (the plot outranks small talk).
+ */
+export function chatEligible(agent: AgentSim): boolean {
+  if (agent.intent !== null) return false;
+  return agent.state === 'walk' || agent.state === 'idle';
+}
+
+/** Two eligible agents close enough to fall into conversation? */
+export function shouldChat(a: AgentSim, b: AgentSim): boolean {
+  return (
+    chatEligible(a) &&
+    chatEligible(b) &&
+    Math.hypot(a.x - b.x, a.y - b.y) <= CHAT_RADIUS &&
+    (a.state === 'walk' || b.state === 'walk') // someone must have just arrived
+  );
+}
+
+/** Stop and talk, facing the other party. Walks home when the chat expires. */
+export function beginChat(agent: AgentSim, other: AgentSim, now: number): AgentSim {
+  return {
+    ...agent,
+    state: 'chat',
+    target: null,
+    intent: null,
+    holdUntil: now + CHAT_MS,
+    facing: other.x >= agent.x ? 1 : -1,
+  };
+}
+
+/** Stable key for a pair's chat cooldown. */
+export function pairKey(a: string, b: string): string {
+  return [a, b].sort().join('|');
 }

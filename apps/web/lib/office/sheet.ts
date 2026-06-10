@@ -26,6 +26,7 @@ const ANIMS: Record<AgentSim['state'], Anim> = {
   shred: { row: 12, frames: 6, cols: [0, 0], frameMs: 130 },
   // The kettle deserves the phone-idle's contemplative quality (row 6).
   kettle: { row: 6, frames: 6, cols: [0, 0], frameMs: 220 },
+  chat: { row: 1, frames: 6, cols: [0, 12], frameMs: 260 },
   panic: { row: 19, frames: 6, cols: [0, 0], frameMs: 90 },
 };
 
