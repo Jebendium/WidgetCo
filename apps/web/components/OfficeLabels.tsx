@@ -4,9 +4,9 @@
 import { WAYPOINTS, WORLD } from '@/lib/office/waypoints';
 
 const LABELS: { x: number; y: number; text: string }[] = [
-  { x: WAYPOINTS.printer.x, y: WAYPOINTS.printer.y + 6, text: 'PRINTER' },
-  { x: WAYPOINTS.shredder.x - 8, y: WAYPOINTS.shredder.y + 6, text: 'SHREDDER' },
-  { x: WAYPOINTS.kettle.x, y: WAYPOINTS.kettle.y + 12, text: 'KITCHENETTE' },
+  { x: WAYPOINTS.printer.x, y: WAYPOINTS.printer.y + 24, text: 'PRINTER' },
+  { x: WAYPOINTS.shredder.x - 14, y: WAYPOINTS.shredder.y + 22, text: 'SHREDDER' },
+  { x: WAYPOINTS.kettle.x, y: WAYPOINTS.kettle.y + 26, text: 'KITCHENETTE' },
   { x: WAYPOINTS.meeting_room_1.x, y: WAYPOINTS.meeting_room_1.y + 24, text: 'MEETING RM 1' },
   { x: WAYPOINTS.meeting_room_2.x, y: WAYPOINTS.meeting_room_2.y + 14, text: 'MTG RM 2 (COLD)' },
   { x: WAYPOINTS.ceo_desk.x, y: WAYPOINTS.ceo_desk.y + 10, text: 'GRAHAM' },

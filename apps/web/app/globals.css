@@ -338,8 +338,8 @@ table.ledger thead th {
 }
 
 .stage .office-wrap {
-  width: min(100%, calc((100vh - 168px) * 1.5));
-  aspect-ratio: 3 / 2;
+  width: min(100%, calc((100vh - 168px) * 0.941));
+  aspect-ratio: 512 / 544;
   margin-bottom: 42px;
   border: none;
 }

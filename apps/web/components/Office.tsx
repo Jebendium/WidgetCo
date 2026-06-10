@@ -23,10 +23,10 @@ let sheetsRequested = false;
 function requestSheets(): void {
   if (sheetsRequested) return;
   sheetsRequested = true;
-  for (const agentId of OFFICE_AGENTS) {
+  for (const name of [...OFFICE_AGENTS, 'office-bg']) {
     const img = new Image();
-    img.onload = () => sheets.set(agentId, img);
-    img.src = `/api/sprites/${agentId}`;
+    img.onload = () => sheets.set(name, img);
+    img.src = `/api/sprites/${name}`;
   }
 }
 
@@ -72,7 +72,9 @@ function renderFrame(ctx: CanvasRenderingContext2D, timestamp: number, dtMs: num
 
   if (open) useOfficeStore.getState().tick(Math.min(dtMs, 100), now);
 
-  drawScenery(ctx, timestamp);
+  const bg = sheets.get('office-bg');
+  if (bg) ctx.drawImage(bg, 0, 0);
+  else drawScenery(ctx, timestamp); // code-drawn fallback while loading
   const { agents } = useOfficeStore.getState();
   for (const agent of Object.values(agents)) {
     const sheet = sheets.get(agent.id);
