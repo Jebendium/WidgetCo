@@ -1,0 +1,41 @@
+# The weekly audit tick: Sundays at 08:07 UK. Derek works Sundays — the
+# building is quieter, the work goes in. This is deliberate, and a clue.
+name: Weekly audit tick
+on:
+  schedule:
+    - cron: '7 7 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sim-tick
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Run the audit tick
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx sim/tick-audit.ts
+
+      - name: Commit the audit memory (a public exhibit; watch it accumulate)
+        run: |
+          git config user.name "the-company"
+          git config user.email "actions@users.noreply.github.com"
+          git add sim/memory
+          git diff --cached --quiet || git commit -m "chore: Internal Audit memory after the Sunday review"
+          git push

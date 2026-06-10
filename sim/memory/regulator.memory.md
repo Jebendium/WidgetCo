@@ -1,10 +1,1 @@
-# Memory — The Financial Conduct Authority of Greater Dudley
-
-*Record of correspondence, maintained for the avoidance of doubt.*
-
-- We continue to take a close and proper interest in the undertaking known as Amalgamated Widget Holdings plc.
-- Prior correspondence has concerned, variously, wickets, fenestration, and the trade in wadgets. Each matter was raised on its own merits and we make no connection between them.
-- We have noted the existence of a Cayman Islands undertaking within the group. We reserve our position on this. We are not yet sure what our position is, but we reserve it.
-- Several of our letters remain unanswered. We do not regard this as a conclusion. We regard it as the early stage of a correspondence.
-- The only sanction we have specified, or require, is further correspondence. It has never failed to follow.
-- Watchfulness in the marketplace. *Vigilantia in Mercatu.*
+The Authority has now written to Amalgamated Widget Holdings plc concerning the round ones (ref. FCAGD/AWH/0128). We have required a schedule, an explanation regarding the Cayman Islands undertaking, confirmation of no unconsented passage through Greater Dudley, and a physical sample. This is a new and separate matter from our prior interests in wickets, fenestration, and wadgets, to which we make no reference. The round ones are, in our settled view, sui generis. We await the Company's response within 28 days. We are watchful.

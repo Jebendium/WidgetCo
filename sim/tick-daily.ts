@@ -27,6 +27,12 @@ import {
 import { consumeAllDisturbances, disturbanceReport } from './lib/disturbances.js';
 import { fetchQueuedSubmissions } from './lib/submissions.js';
 import { makeDb } from './lib/supabase.js';
+import { loadSimState, type SimState } from './lib/state.js';
+import {
+  computeFraudMetrics,
+  deliverOvernight,
+  persistTickState,
+} from './lib/tick-state.js';
 import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
 import {
   createWorld,
@@ -36,7 +42,7 @@ import {
   type WorldState,
 } from './lib/world.js';
 import { executeTool, toolsForAgent } from './tools/index.js';
-import { FraudEngine, type FraudMetrics } from './lib/fraud.js';
+import { FraudEngine } from './lib/fraud.js';
 import { assignTimestamps, allTimestampsInWindow } from './lib/theatre.js';
 import { generateTheatre } from './lib/theatre-gen.js';
 import { formatGBP, type Account } from './lib/types.js';
@@ -48,8 +54,8 @@ const REPO_ROOT = join(__dirname, '..');
 
 // --- CLI args --------------------------------------------------------------
 
-function parseArgs(argv: string[]): { day: number; dryRun: boolean } {
-  let day = 1;
+function parseArgs(argv: string[]): { day: number | null; dryRun: boolean } {
+  let day: number | null = null;
   let dryRun = false;
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--day') {
@@ -107,25 +113,6 @@ function loadCanonTexts(chart: Account[]): CanonTexts {
 
 // --- Fraud metrics from the ledger -----------------------------------------
 
-function computeFraudMetrics(world: WorldState): FraudMetrics {
-  const tb = world.ledger.trialBalance();
-  let receivables = 0;
-  let revenue = 0;
-  for (const row of tb.rows) {
-    if (row.type === 'income') revenue += Math.abs(row.balance);
-    if (row.type === 'asset' && /debtor|receivable/i.test(row.name)) {
-      receivables += Math.abs(row.balance);
-    }
-  }
-  const receivablesToRevenueRatio = revenue > 0 ? receivables / revenue : 0;
-  // Day-one approximations. Audit suspicion is not yet modelled in the daily
-  // tick (the weekly audit run owns it); start it at zero.
-  return {
-    receivablesToRevenueRatio,
-    revenueShortfallPct: 0,
-    auditSuspicion: 0,
-  };
-}
 
 // --- Agent turns -------------------------------------------------------------
 
@@ -197,8 +184,8 @@ async function runOneAgent(ctx: TickContext, agentId: string): Promise<void> {
  * day's CFO ledger activity as suspicious per a simple rule. (Day one stays
  * CLEAN, so nothing is flagged.)
  */
-function applyFraudStep(world: WorldState, fraud: FraudEngine): void {
-  const metrics = computeFraudMetrics(world);
+function applyFraudStep(world: WorldState, fraud: FraudEngine, state: SimState, day: number): void {
+  const metrics = computeFraudMetrics(world, state, day);
   const stepRes = fraud.step(metrics);
   if (stepRes.state === 'CLEAN') return;
 
@@ -342,7 +329,15 @@ function enforceAcceptance(balances: boolean, tsInWindow: boolean): void {
 
 async function main(): Promise<void> {
   const startedAt = Date.now();
-  const { day, dryRun } = parseArgs(process.argv.slice(2));
+  const { day: dayArg, dryRun } = parseArgs(process.argv.slice(2));
+
+  // Persistent state: the fraud arc, audit suspicion, history digest and any
+  // overnight deliveries survive between cron runs (Supabase + local file).
+  const db = dryRun ? null : makeDb();
+  const statePath = join(REPO_ROOT, 'out', 'sim-state.json');
+  const state = await loadSimState(db, statePath);
+
+  const day = dayArg ?? state.day + 1;
   const date = simDateFor(day);
 
   console.log(`\n=== Daily tick — day ${day} (${date}) ${dryRun ? '[DRY RUN]' : '[LIVE]'} ===\n`);
@@ -350,6 +345,7 @@ async function main(): Promise<void> {
   const world = createWorld(day, date);
   const cost = new CostTracker();
   const fraud = new FraudEngine();
+  fraud.restore(state.fraud);
 
   // 1. Load canon and seed the world (preferring the canon opening TB).
   const canonChartPath = join(REPO_ROOT, 'sim/canon/chart-of-accounts.md');
@@ -358,10 +354,10 @@ async function main(): Promise<void> {
   seedOpeningBalances(world, loadOpeningBalancesFromCanon(canonChartPath));
   const { constitution, chartOfAccountsMd } = loadCanonTexts(chart);
 
-  // 2. History digest + today's inputs: real visitor disturbances and queued
-  // submissions, consumed from Supabase (and the local file), plus the
-  // chosen client. Dry runs never touch the network.
-  const db = dryRun ? null : makeDb();
+  // 2. Overnight deliveries (audit correspondence, regulatory letters), the
+  // rolling history digest, real visitor disturbances and queued submissions.
+  // Dry runs never touch the network.
+  const overnight = deliverOvernight(world, state);
   const disturbances = await consumeAllDisturbances(
     db,
     join(REPO_ROOT, 'out', 'disturbances.json'),
@@ -374,14 +370,14 @@ async function main(): Promise<void> {
     fraud,
     constitution,
     chartOfAccountsMd,
-    historyDigest: buildHistoryDigest(),
-    todaysInputs: buildTodaysInputs(world, disturbanceReport(disturbances), submissions),
+    historyDigest: buildHistoryDigest(state.historyDigest),
+    todaysInputs: buildTodaysInputs(world, disturbanceReport(disturbances), submissions, overnight),
   };
 
   // 3. Run each daily agent in order; the fraud engine steps after the CFO (4).
   for (const agentId of DAILY_AGENT_ORDER) {
     await runOneAgent(ctx, agentId);
-    if (agentId === 'cfo') applyFraudStep(world, fraud);
+    if (agentId === 'cfo') applyFraudStep(world, fraud, state, day);
   }
 
   // 5. Market maker → share anchors.
@@ -442,7 +438,10 @@ async function main(): Promise<void> {
   const outPath = join(outDir, `day-${String(day).padStart(3, '0')}.json`);
   writeFileSync(outPath, JSON.stringify(out, null, 2), 'utf8');
 
-  // 9. Console summary + hard acceptance checks.
+  // 9. Persist state for the next run (never on dry runs — they are tests).
+  await persistTickState({ db, statePath, state, world, fraud, day, date, dryRun });
+
+  // 10. Console summary + hard acceptance checks.
   const tsInWindow = allTimestampsInWindow(world.events, date);
   printSummary({ world, fraud, cost, trialBalance, tsInWindow, projection, elapsedMs });
   console.log(`\nWrote ${outPath}\n`);

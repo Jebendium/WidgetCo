@@ -33,20 +33,27 @@ interface DayFile {
   projection?: unknown;
 }
 
+function allDayNumbers(): number[] {
+  return readdirSync(OUT_DIR)
+    .map((n) => /^day-(\d{3})\.json$/.exec(n))
+    .filter((m): m is RegExpExecArray => m !== null)
+    .map((m) => Number(m[1]))
+    .sort((a, b) => a - b);
+}
+
 function parseArgs(argv: string[]): number[] {
-  if (argv.includes('--all')) {
-    return readdirSync(OUT_DIR)
-      .map((n) => /^day-(\d{3})\.json$/.exec(n))
-      .filter((m): m is RegExpExecArray => m !== null)
-      .map((m) => Number(m[1]))
-      .sort((a, b) => a - b);
+  if (argv.includes('--all')) return allDayNumbers();
+  if (argv.includes('--latest')) {
+    const days = allDayNumbers();
+    const last = days[days.length - 1];
+    return last === undefined ? [] : [last];
   }
   const idx = argv.indexOf('--day');
   if (idx >= 0) {
     const day = Number(argv[idx + 1]);
     if (Number.isInteger(day) && day > 0) return [day];
   }
-  throw new Error('Usage: npm run sync -- --day N | --all');
+  throw new Error('Usage: npm run sync -- --day N | --latest | --all');
 }
 
 function makeClient(): SupabaseClient {

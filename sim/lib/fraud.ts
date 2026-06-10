@@ -161,4 +161,44 @@ export class FraudEngine {
     this.arcDay = 0;
     this.daysInState = 0;
   }
+
+  /** Snapshot for persistence between cron runs. */
+  snapshot(): { state: FraudState; arcDay: number; daysInState: number } {
+    return { state: this.state, arcDay: this.arcDay, daysInState: this.daysInState };
+  }
+
+  /** Restore from a persisted snapshot. Unknown states reset to CLEAN. */
+  restore(snap: { state: FraudState; arcDay: number; daysInState: number }): void {
+    this.state = FRAUD_STATES.includes(snap.state) ? snap.state : 'CLEAN';
+    this.arcDay = Math.max(0, Math.trunc(snap.arcDay));
+    this.daysInState = Math.max(0, Math.trunc(snap.daysInState));
+  }
+}
+
+// --- Metrics from persistent state ------------------------------------------
+
+/**
+ * The Board's plan: a constant daily revenue expectation. The 8% growth
+ * target bites when recognised revenue runs behind this line — which is what
+ * nudges the CFO from CLEAN toward CREATIVE. Tune pacing here, never in the
+ * personas (invariant #3).
+ */
+export const PLANNED_DAILY_REVENUE_PENCE = 48_000_00;
+
+/** Revenue shortfall vs plan, as a non-negative percentage. */
+export function revenueShortfallPct(cumulativeRevenuePence: number, day: number): number {
+  if (day <= 0) return 0;
+  const planned = PLANNED_DAILY_REVENUE_PENCE * day;
+  if (planned <= 0) return 0;
+  return Math.max(0, ((planned - cumulativeRevenuePence) / planned) * 100);
+}
+
+/**
+ * Audit's weekly suspicion movement is BOUNDED in code so no single run —
+ * however damning, however jailbroken — can rush the arc (invariant #3).
+ */
+export const MAX_WEEKLY_SUSPICION_DELTA = 0.12;
+
+export function clampSuspicionDelta(delta: number): number {
+  return Math.min(Math.max(delta, 0), MAX_WEEKLY_SUSPICION_DELTA);
 }

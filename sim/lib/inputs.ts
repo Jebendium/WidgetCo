@@ -54,6 +54,7 @@ export function buildTodaysInputs(
   world: WorldState,
   disturbanceLine?: string,
   submissions: string[] = DEFAULT_SUBMISSIONS,
+  overnight: string[] = [],
 ): string {
   // Disturbances (poltergeist pokes) and queued UNTRUSTED visitor submissions
   // (tips / AGM questions). Every visitor string is wrapped via the
@@ -67,13 +68,19 @@ export function buildTodaysInputs(
   const yesterday =
     world.day === 1
       ? '(day one — no prior events)'
-      : '(a quiet day; nothing formally carried over)';
+      : '(see the rolling digest for the recent record)';
+
+  const overnightBlock =
+    overnight.length > 0
+      ? ['Overnight arrivals (now in today’s correspondence):', ...overnight, ''].join('\n')
+      : '';
 
   return [
     `Date: ${world.date} (simulated day ${world.day}).`,
     '',
     `Yesterday’s events: ${yesterday}.`,
     '',
+    overnightBlock,
     'Office notices this morning:',
     notices,
     '',
@@ -84,12 +91,14 @@ export function buildTodaysInputs(
   ].join('\n');
 }
 
-export function buildHistoryDigest(): string {
-  // 14-day rolling digest. Day one: canned.
-  return [
-    'Rolling 14-day digest (day one — no prior history).',
-    'Opening balance sheet has been posted; the company is trading normally.',
-  ].join('\n');
+export function buildHistoryDigest(lines: string[] = []): string {
+  if (lines.length === 0) {
+    return [
+      'Rolling 14-day digest (day one — no prior history).',
+      'Opening balance sheet has been posted; the company is trading normally.',
+    ].join('\n');
+  }
+  return ['Rolling 14-day digest (most recent last):', ...lines].join('\n');
 }
 
 /**
@@ -113,7 +122,12 @@ export function buildSoFarToday(world: WorldState): string {
     );
   }
   for (const ev of world.events) {
-    if (ev.kind === 'announcement' || ev.kind === 'meeting' || ev.kind === 'expense') {
+    if (
+      ev.kind === 'announcement' ||
+      ev.kind === 'meeting' ||
+      ev.kind === 'expense' ||
+      ev.kind === 'memo'
+    ) {
       parts.push(`--- ${ev.kind.toUpperCase()} by ${ev.agentId}: ${JSON.stringify(ev.payload)}`);
     }
   }

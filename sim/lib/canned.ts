@@ -135,6 +135,44 @@ function scriptFor(agentId: string): ScriptedRound[] {
         },
         { content: 'Meeting scheduled.' },
       ];
+    case 'audit':
+      return [
+        {
+          tools: [
+            toolCall('request_document', { document: 'trial_balance' }),
+            toolCall('request_document', { document: 'recent_emails' }),
+          ],
+        },
+        {
+          tools: [
+            toolCall('flag_concern', {
+              description: 'Trade debtors growth outpacing recognised revenue (placeholder).',
+              severity: 'medium',
+            }),
+            toolCall('send_email', {
+              to: ['cfo'],
+              subject: 'IA-034 — routine weekly review: two requests',
+              body: 'Placeholder Sunday correspondence; live runs are in voice.',
+            }),
+          ],
+        },
+        { tools: [toolCall('update_memory', { memory: '1. Reviewed. 2. Noted. (Placeholder.)' })] },
+        { content: 'Review concluded. Memo to follow.' },
+      ];
+    case 'regulator':
+      return [
+        {
+          tools: [
+            toolCall('send_regulatory_letter', {
+              ref: 'FCAGD/AWH/0999',
+              subject: 'Placeholder matter',
+              body: 'Placeholder letter; live runs are in voice and wrong about widgets.',
+            }),
+          ],
+        },
+        { tools: [toolCall('update_memory', { memory: 'Wrote to the company. (Placeholder.)' })] },
+        { content: 'The Authority has written.' },
+      ];
     default:
       return [{ content: 'Nothing to do.' }];
   }

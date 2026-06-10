@@ -1,0 +1,41 @@
+# The Regulator: checked daily on weekdays at 10:33 UK, writes roughly one
+# letter a week, deterministically by date, always wrong about widgets.
+name: Regulator tick
+on:
+  schedule:
+    - cron: '33 9 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sim-tick
+  cancel-in-progress: false
+
+jobs:
+  regulator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Consider writing to the Company
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx sim/tick-regulator.ts
+
+      - name: Commit the Authority's memory, if it wrote
+        run: |
+          git config user.name "the-company"
+          git config user.email "actions@users.noreply.github.com"
+          git add sim/memory
+          git diff --cached --quiet || git commit -m "chore: the Authority's institutional memory"
+          git push

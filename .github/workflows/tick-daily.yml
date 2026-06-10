@@ -1,0 +1,55 @@
+# The daily tick: 06:17 UK weekdays (offset minutes — never the hour
+# boundary; cron drift is real). Skips England & Wales bank holidays.
+# Commits agent memories back to the repo: they are public exhibits.
+name: Daily tick
+on:
+  schedule:
+    - cron: '17 5 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sim-tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Is the office open today?
+        id: workday
+        run: echo "open=$(npx tsx sim/check-workday.ts)" >> "$GITHUB_OUTPUT"
+
+      - name: Run the daily tick
+        if: steps.workday.outputs.open == 'yes'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx sim/tick-daily.ts
+
+      - name: Sync the day to Supabase
+        if: steps.workday.outputs.open == 'yes'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: npx tsx sim/sync-day.ts --latest
+
+      - name: Commit the memories (public exhibits)
+        if: steps.workday.outputs.open == 'yes'
+        run: |
+          git config user.name "the-company"
+          git config user.email "actions@users.noreply.github.com"
+          git add sim/memory
+          git diff --cached --quiet || git commit -m "chore: agent memories after the daily tick"
+          git push
