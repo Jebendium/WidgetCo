@@ -160,13 +160,29 @@ export function Office() {
             useOfficeStore.getState().setOpenDialogue(agentId);
             return;
           }
-          // The kettle is also pokeable. Persistence is rewarded.
+          // Objects are inspectable (rule 11: reward the curious). The
+          // kettle additionally counts pokes; persistence is rewarded.
           const rect = canvas.getBoundingClientRect();
           const x = ((e.clientX - rect.left) / rect.width) * WORLD.width;
           const y = ((e.clientY - rect.top) / rect.height) * WORLD.height;
-          const kettle = WAYPOINTS.kettle;
-          if (Math.hypot(kettle.x - x, kettle.y - y) <= 22) {
-            useOfficeStore.getState().pokeKettle(Date.now());
+          const objects: [string, { x: number; y: number }][] = [
+            ['kettle', WAYPOINTS.kettle],
+            ['printer', WAYPOINTS.printer],
+            ['shredder', WAYPOINTS.shredder],
+            ['the-crates', WAYPOINTS.meeting_room_1],
+            ['the-door', WAYPOINTS.door],
+          ];
+          for (const [id, wp] of objects) {
+            if (Math.hypot(wp.x - x, wp.y - y) <= 24) {
+              if (id === 'kettle') useOfficeStore.getState().pokeKettle(Date.now());
+              void fetch(`/api/poke?agent=${id}`)
+                .then(async (res) => (res.ok ? ((await res.json()) as { line?: string }) : {}))
+                .then((data) => {
+                  if (data.line) useOfficeStore.getState().speakAt(wp.x, wp.y - 8, data.line, Date.now());
+                })
+                .catch(() => undefined);
+              return;
+            }
           }
         }}
       />

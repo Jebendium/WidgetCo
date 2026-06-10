@@ -33,6 +33,7 @@ import {
   computeFraudMetrics,
   deliverOvernight,
   persistTickState,
+  publishDisturbanceReport,
   simDateFor,
 } from './lib/tick-state.js';
 import { CannedClient, cannedMarketAnchors, cannedMemory } from './lib/canned.js';
@@ -43,6 +44,10 @@ import {
   seedOpeningBalances,
   type WorldState,
 } from './lib/world.js';
+
+// Inspectable objects: the theatre call writes examine-lines for these too
+// (comedy bible rule 11 — reward the curious).
+const OBJECT_IDS = ['kettle', 'printer', 'shredder', 'the-crates', 'the-door'];
 import { executeTool, toolsForAgent } from './tools/index.js';
 import { FraudEngine } from './lib/fraud.js';
 import { assignTimestamps, allTimestampsInWindow } from './lib/theatre.js';
@@ -380,6 +385,7 @@ async function main(): Promise<void> {
     join(REPO_ROOT, 'out', 'disturbances.json'),
   );
   const submissions = await fetchQueuedSubmissions(db);
+  publishDisturbanceReport(world, day, disturbances);
   const ctx: TickContext = {
     world,
     client: dryRun ? new CannedClient() : new DeepSeekClient(),
@@ -413,7 +419,7 @@ async function main(): Promise<void> {
     client: ctx.client,
     dryRun,
     day,
-    agentIds: DAILY_AGENT_ORDER,
+    agentIds: [...DAILY_AGENT_ORDER, ...OBJECT_IDS],
     daySummary: buildDaySummary(world),
     constitution,
     costTracker: cost,

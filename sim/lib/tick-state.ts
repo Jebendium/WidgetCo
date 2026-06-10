@@ -4,6 +4,7 @@
 
 import type { SupabaseClient } from '@supabase/supabase-js';
 import { revenueShortfallPct, type FraudEngine, type FraudMetrics } from './fraud.js';
+import { disturbanceReport } from './disturbances.js';
 import { appendDigest, saveSimState, type SimState } from './state.js';
 import { nextEmailId, nextEventId, type WorldState } from './world.js';
 
@@ -102,6 +103,30 @@ export function deliverOvernight(world: WorldState, state: SimState): string[] {
   }
 
   return notes;
+}
+
+/**
+ * The Disturbance Report: yesterday's poltergeist activity, published to the
+ * audience as the company formally processing them (they love this).
+ */
+export function publishDisturbanceReport(
+  world: WorldState,
+  day: number,
+  disturbances: Record<string, number>,
+): void {
+  if (Object.keys(disturbances).length === 0) return;
+  world.events.push({
+    id: nextEventId(world),
+    day,
+    ts: '',
+    agentId: 'middle-manager',
+    kind: 'memo',
+    payload: {
+      subject: 'Disturbance Report — circulated for awareness',
+      body: `${disturbanceReport(disturbances)} The phenomenon remains under observation through the established channels.`,
+    },
+    public: true,
+  });
 }
 
 /** End-of-tick persistence. Dry runs never advance state — they are tests. */

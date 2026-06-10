@@ -78,6 +78,8 @@ interface OfficeState {
   pokeAgent: (agentId: string, line: string, now: number) => void;
   /** Attach a fetched line to an agent without poking them (corridor chat). */
   speak: (agentId: string, line: string, now: number) => void;
+  /** A line spoken by no one, at a place: object examine-lines. */
+  speakAt: (x: number, y: number, line: string, now: number) => void;
   /** Drain the pending chat-line requests (the UI fetches the lines). */
   takeChatRequests: () => string[];
   expireBubbles: (now: number) => void;
@@ -259,6 +261,19 @@ export const useOfficeStore = create<OfficeState>((set, get) => ({
       text: line,
       x: agent.x,
       y: agent.y,
+      expiresAt: now + BUBBLE_MS,
+    };
+    set({ bubbles: [...bubbles.slice(-4), bubble], bubbleSeq: bubbleSeq + 1 });
+  },
+
+  speakAt: (x: number, y: number, line: string, now: number) => {
+    const { bubbles, bubbleSeq } = get();
+    const bubble: SpeechBubble = {
+      id: `b${bubbleSeq}`,
+      agentId: 'object',
+      text: line,
+      x,
+      y,
       expiresAt: now + BUBBLE_MS,
     };
     set({ bubbles: [...bubbles.slice(-4), bubble], bubbleSeq: bubbleSeq + 1 });

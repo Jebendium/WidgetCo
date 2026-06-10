@@ -54,7 +54,11 @@ Rules:
   absurd (a second kettle, twenty thousand lorries, calculators displaying 7),
   several lines should treat it as routine procedure — the calm is the joke.
   The agents never acknowledge an audience; the disturbance is an unexplained
-  phenomenon handled through proper channels. No memes, no fourth wall.`;
+  phenomenon handled through proper channels. No memes, no fourth wall.
+- ids that are OBJECTS rather than people (kettle, printer, shredder,
+  the-crates, the-door) get EXAMINE lines instead: what an inspection of the
+  object reveals today, written as deadpan institutional fact in the house
+  voice ("The kettle is warm. Nobody admits to having boiled it.").`;
 
 /** Strip optional markdown code fences from a model reply. */
 function stripFences(text: string): string {
