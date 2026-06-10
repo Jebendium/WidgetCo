@@ -8,6 +8,7 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { useOfficeStore } from '@/lib/office/store';
 import type { FeedResponse } from '@/lib/types';
+import { DialoguePanel } from './DialoguePanel';
 import { Drawer } from './Drawer';
 import { EventCard } from './EventCard';
 import { Office } from './Office';
@@ -103,6 +104,16 @@ export function TodayLive({
   return (
     <div className="stage">
       <Office />
+      <StageOverlays feed={feed} />
+      <TopPanels sections={sections} />
+    </div>
+  );
+}
+
+/** Everything layered over the office: ticker, drawers, dialogue. */
+function StageOverlays({ feed }: { feed: FeedResponse | null }) {
+  return (
+    <>
       <div className="ticker-bar">
         {feed && <Ticker anchors={feed.anchors} />}
         {feed && <NextEvent feed={feed} />}
@@ -114,8 +125,8 @@ export function TodayLive({
       <Drawer side="right" label={`Today — day ${feed?.day ?? '…'}`}>
         <FeedPanel feed={feed} />
       </Drawer>
-      <TopPanels sections={sections} />
-    </div>
+      <DialoguePanel dialogues={feed?.dialogues ?? {}} />
+    </>
   );
 }
 

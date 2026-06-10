@@ -366,6 +366,64 @@ table.ledger thead th {
   border-bottom: none;
 }
 
+.dialogue-panel {
+  position: absolute;
+  left: 16px;
+  bottom: 58px;
+  width: min(420px, 80%);
+  background: rgba(247, 244, 236, 0.98);
+  border: 2px solid var(--navy);
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px 14px;
+  z-index: 9;
+}
+
+.dialogue-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.dialogue-head button {
+  background: var(--navy);
+  color: var(--cream);
+  border: none;
+  padding: 1px 7px;
+  cursor: pointer;
+}
+
+.dialogue-line {
+  font-size: 14px;
+  margin: 4px 0 10px;
+}
+
+.dialogue-options {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dialogue-options button {
+  text-align: left;
+  background: #efeadd;
+  border: 1px solid var(--rule);
+  padding: 5px 9px;
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--navy);
+}
+
+.dialogue-options button:hover {
+  background: #e2dbc8;
+}
+
+.dialogue-options .dialogue-back {
+  font-style: italic;
+}
+
 .next-event {
   position: absolute;
   right: 16px;

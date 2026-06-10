@@ -157,6 +157,7 @@ export function Office() {
           const agentId = agentAt(canvas, e.clientX, e.clientY);
           if (agentId) {
             void pokeFlow(agentId);
+            useOfficeStore.getState().setOpenDialogue(agentId);
             return;
           }
           // The kettle is also pokeable. Persistence is rewarded.

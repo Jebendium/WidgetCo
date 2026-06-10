@@ -12,13 +12,21 @@ import type { FeedResponse } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 
+/** Resolve the requested day: explicit param (validated) or the latest. */
+async function resolveDay(param: string | null): Promise<number | null> {
+  if (param !== null) {
+    const n = Number(param);
+    return Number.isInteger(n) && n >= 1 ? n : null;
+  }
+  return getLatestDay();
+}
+
 export async function GET(req: NextRequest): Promise<NextResponse> {
   const params = req.nextUrl.searchParams;
-  const dayParam = params.get('day');
   const replay = params.get('mode') === 'replay';
 
-  const day = dayParam !== null ? Number(dayParam) : await getLatestDay();
-  if (day === null || !Number.isInteger(day) || day < 1) {
+  const day = await resolveDay(params.get('day'));
+  if (day === null) {
     return NextResponse.json({ error: 'No simulated days available.' }, { status: 404 });
   }
 
@@ -46,6 +54,7 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
     events: gated.events,
     upcoming: gated.upcoming,
     anchors,
+    dialogues: file.dialogues ?? {},
   };
   return NextResponse.json(body);
 }

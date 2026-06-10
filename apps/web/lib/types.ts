@@ -95,6 +95,24 @@ export interface PokeLine {
   line: string;
 }
 
+export interface DialogueFollowup {
+  q: string;
+  a: string;
+}
+
+export interface DialogueTopic {
+  q: string;
+  a: string;
+  followups: DialogueFollowup[];
+}
+
+export interface AgentDialogue {
+  opener: string;
+  topics: DialogueTopic[];
+}
+
+export type Dialogues = Record<string, AgentDialogue>;
+
 /** The shape of out/day-NNN.json as written by the sim's daily tick. */
 export interface SimDayFile {
   day: number;
@@ -108,6 +126,7 @@ export interface SimDayFile {
   shareAnchors: ShareAnchor[];
   pokePool: PokeLine[];
   recap: string;
+  dialogues?: Dialogues;
   memories: Record<string, string>;
   projection?: { gbpPerDay?: number; gbpPerYear?: number };
 }
@@ -146,4 +165,6 @@ export interface FeedResponse {
   events: PublicEvent[];
   upcoming: UpcomingStub[];
   anchors: PublicAnchor[];
+  /** The day's pre-scripted talk-to-staff dialogue trees. */
+  dialogues: Dialogues;
 }

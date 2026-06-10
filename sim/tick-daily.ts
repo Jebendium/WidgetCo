@@ -47,6 +47,7 @@ import { executeTool, toolsForAgent } from './tools/index.js';
 import { FraudEngine } from './lib/fraud.js';
 import { assignTimestamps, allTimestampsInWindow } from './lib/theatre.js';
 import { generateTheatre } from './lib/theatre-gen.js';
+import { generateDialogues } from './lib/dialogue-gen.js';
 import { formatGBP, type Account } from './lib/types.js';
 import type { TrialBalance } from './lib/ledger.js';
 
@@ -423,6 +424,16 @@ async function main(): Promise<void> {
   world.pokePool = theatre.pokePool;
   const recap = theatre.recap;
 
+  // 6b. The day's dialogue trees — talk-to-staff, pre-scripted (invariant #1).
+  const dialogues = await generateDialogues({
+    client: ctx.client,
+    dryRun,
+    agentIds: DAILY_AGENT_ORDER,
+    constitution,
+    daySummary: buildDaySummary(world),
+    costTracker: cost,
+  });
+
   // 7. Consolidate memory.
   const memories = consolidateMemories(world, dryRun);
 
@@ -445,6 +456,7 @@ async function main(): Promise<void> {
     shareAnchors: world.shareAnchors,
     pokePool: world.pokePool,
     recap,
+    dialogues,
     memories,
     cost: {
       callCount: cost.callCount,
