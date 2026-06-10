@@ -43,7 +43,8 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           </p>
           <p>
             {costLine} The Group is solvent, the accounts are true and fair, and the
-            carrying value of the Coventry warehouse is supportable.
+            carrying value of the Coventry warehouse is supportable. Pixel art:{' '}
+            <a href="https://limezu.itch.io/">LimeZu</a>.
           </p>
         </footer>
       </body>

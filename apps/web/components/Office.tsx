@@ -8,10 +8,26 @@
 import { useEffect, useRef } from 'react';
 import { closedCaption, isOfficeOpen } from '@/lib/office/hours';
 import { drawScenery, drawClosed } from '@/lib/office/scenery';
+import { drawAgentFromSheet } from '@/lib/office/sheet';
 import { drawAgent } from '@/lib/office/sprites';
-import { useOfficeStore } from '@/lib/office/store';
+import { OFFICE_AGENTS, useOfficeStore } from '@/lib/office/store';
 import { WORLD } from '@/lib/office/waypoints';
 import { SpeechBubbles } from './SpeechBubbles';
+
+// Character sheets (LimeZu, private bucket via /api/sprites). Loaded once per
+// page; until each lands, the code-drawn placeholder renders instead.
+const sheets = new Map<string, HTMLImageElement>();
+let sheetsRequested = false;
+
+function requestSheets(): void {
+  if (sheetsRequested) return;
+  sheetsRequested = true;
+  for (const agentId of OFFICE_AGENTS) {
+    const img = new Image();
+    img.onload = () => sheets.set(agentId, img);
+    img.src = `/api/sprites/${agentId}`;
+  }
+}
 
 const HIT_RADIUS = 14;
 
@@ -58,7 +74,9 @@ function renderFrame(ctx: CanvasRenderingContext2D, timestamp: number, dtMs: num
   drawScenery(ctx);
   const { agents } = useOfficeStore.getState();
   for (const agent of Object.values(agents)) {
-    drawAgent(ctx, agent, frame);
+    const sheet = sheets.get(agent.id);
+    if (sheet) drawAgentFromSheet(ctx, agent, sheet, timestamp);
+    else drawAgent(ctx, agent, frame);
   }
   if (!open) {
     const sunday = new Date(now).getDay() === 0;
@@ -73,6 +91,7 @@ export function Office() {
     const canvas = canvasRef.current;
     const ctx = canvas?.getContext('2d');
     if (!canvas || !ctx) return;
+    requestSheets();
 
     let raf = 0;
     let last = performance.now();
