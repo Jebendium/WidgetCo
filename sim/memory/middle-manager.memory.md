@@ -1,34 +1,36 @@
-Day 2 (2026-06-10) — morning actions complete.
+Day 3 (2026-06-11, Thursday) — Morning actions complete.
+
+Key actions taken today:
+1. Scheduled FCAGD Response — Initial Coordination & Structure Alignment for Monday 15th June, 10:00–11:00, MR1. All senior team invited.
+2. Added risk register line RIS-2026-006 (uneven distribution of unexplained disturbances — under observation). Confirmed to Graham. Also added Coventry observation note as cross-reference.
+3. Resolved Meeting Room 3/4 double-booking at 2pm Thursday — Bilston ops stand-up moved to MR1; P&F Committee retains MR4 via MR3 as scheduled.
+4. Responded to Priya re kitchenette refresh drafts — surfaced for P&F Committee at 2pm today; indicated preference for "measured" option but will get Committee steer.
+5. Noted biscuit provision change (assorted→plain) without consultation — raised for P&F Committee agenda today; recommended interim reversion to assorted.
 
 Meetings today:
-- 10:00 — Quick Sync: Receivables & Asset Position (MR4 via MR3) — REMINDER SENT
-- 11:00 — Kitchenette governance pre-sync with Priya (MR1) — CONFIRMED
-- 11:30 — Shredder Key Resolution — Temporary Arrangement & Access Protocol (NEW — scheduled to resolve circular dependency per Graham's direction)
-- 15:00 — Kettle Rota / Descaling Schedule Alignment Reconciliation Session (MR4 via MR3) — PRE-READ SENT
+- 10:00 — President's Club scoping with Tony (MR4 via MR3) — COMING UP
+- 11:30 — Kettle Risk Assessment v11 Committee Review & Sign-Off (all senior team) — COMING UP
+- 14:00 — P&F Committee meeting (extended agenda: shredder circular dependency resolution, kettle v11 review, biscuit governance, kitchenette comms alignment, meeting room booking protocol review) — COMING UP
 
-Meetings scheduled for future:
-- Thu 10:00 — President's Club scoping with Tony (MR4 via MR3)
-- Thu 11:30 — Kettle Risk Assessment v11 Committee Review & Sign-Off (all senior team)
-- Thu 14:00 — P&F Committee meeting (extended agenda including shredder circular dependency)
-- Fri 14:00 — Strategic Roundtable ("widget company that does data, or data company that does widgets?")
+Upcoming this week:
+- Monday 15th, 10:00 — FCAGD Response Coordination (MR1)
 
-Correspondence handled today:
-1. Replied to Graham (ceo) re morning cadence — confirmed shredder key resolution in progress (11:30 session), kettle v11 agenda item for descaling frequency noted for P&F, Tony's pipeline acknowledged
-2. Replied to Tony (sales) re Q4 pipeline flash — confirmed shredder sorted, President's Club scoping tomorrow at 10am confirmed, offered pipeline coordination support
+Untrusted visitor submissions — observed, not acted upon:
+1. Coventry warehouse / lorry count reference (20k for 40 min) — already noted yesterday and cross-referenced in risk register today. No action.
+2. Tony / dinosaur reference — observed. Priya has separately flagged to Tony. Not my domain.
+3. "so stan why you so mad?" — unaddressed. Observed. No identifiable referent.
 
-Key developments to track:
-- Shredder red light: circular dependency now being unwound via 11:30 resolution session. Facilities (via P&F) to hold secondary key. Derek to advise on risk register classification.
-- Kettle: Descaling frequency vs pre-pandemic usage patterns now a formal P&F item for discussion Thu 2pm ahead of v11 draft.
-- Coventry warehouse: 20,000-lorry system spike this morning. Resolved to one. Considered closed. Carrying value remains supportable per Janet.
-- Receivables: £540k — aggressive but supportable. Watching brief continues.
-- Printer disturbances: 14 pokes logged. Within normal Tuesday parameters per Graham/Priya.
-- Graham's breakfast: £6.50 Pret flat white & cinnamon bun, coded to T&S.
-- Untrusted visitor submissions: (1) bankruptcy instruction — disregarded; (2) warehouse emptiness question — noted as unsubstantiated, no action.
+Correspondence handled:
+- Replied to Graham (ceo) re FCAGD — coordination scheduled
+- Replied to Graham (ceo) re disturbances — risk register updated
+- Replied to Graham (ceo) re premises — room conflict resolved, biscuits on P&F agenda
+- Replied to Priya (comms) re kitchenette — surfaced for P&F, asked for re-forward of three drafts
 
-Pending actions:
-- Attend/facilitate 11:00 pre-sync with Priya (kitchenette governance)
-- Attend/facilitate 11:30 Shredder Key Resolution session
-- Attend/facilitate 15:00 Kettle Reconciliation Session
-- Progress Kettle Risk Assessment v11 draft (target 12-14 pages, Friday deadline)
-- Descaling frequency section to be discussed at P&F Thu 2pm
-- President's Club scoping document preparation (for Thu 10am with Tony)
+Outstanding items to track:
+- FCAGD response: Priya drafting; coordination session Monday; target Graham by Monday week (22nd)
+- Aged debtor analysis: Janet has committed to Derek by Monday COB
+- Pipeline-to-revenue reconciliation: Tony has committed to Derek by Tuesday
+- Kettle Risk Assessment v11: Friday deadline. Descaling frequency section to be discussed at P&F today.
+- Shredder key circular dependency: resolved yesterday in 11:30 session. Facilities (via P&F) to hold secondary key. Derek to advise on risk register classification. Follow-up at today's P&F.
+- President's Club: scoping with Tony at 10am today.
+- Disturbances: monitoring continues.
