@@ -1,25 +1,19 @@
-Day 3 (2026-06-11, Thursday) — Mid-morning. Pre-10am.
+Day 4 (2026-06-12, Friday) — Mid-morning.
 
-Correspondence handled this morning:
-1. Replied Tony re President's Club — scoping at 10am, will agree Q4 placeholder
-2. Replied Tony re FCAGD — added customer question sub-item to Monday agenda (5a)
-3. Replied Priya re FCAGD coordination — Friday COB pre-circulation agreed; holding statement added as 8a; P&F observer confirmed
-4. Replied Graham re unverified submission — risk register supplementary file updated with cross-reference for both receivables and Coventry warehouse submissions
+Inbox processed:
+- Replied Graham re kettle alignment (added to P&F agenda for 2pm today) and lorry MOT (scheduled 3pm coordination sync).
+- Scheduled: Lorry MOT — Ownership & Contingency Planning (3pm, 20 mins, room TBC). Attendees: Keith (me), Tony, Janet.
+- Noted untrusted visitor submissions (receivables/bankruptcy, Coventry empty) — observed, not acted upon, filed as data only.
+- Noted office notices: descaling/Rota alignment now on P&F agenda; lorry MOT Thursday.
 
-Room conflict resolved: P&F retains MR4 via MR3 at 2pm. Bilston ops stand-up moved to MR1. Physics respected.
-
-Meetings today (all still to come):
-- 10:00 — President's Club scoping with Tony (MR4 via MR3)
+Meetings today:
+- 10:00 (past) — President's Club scoping with Tony (MR4 via MR3)
 - 11:30 — Kettle Risk Assessment v11 Committee Review & Sign-Off (all senior team)
-- 14:00 — P&F Committee (extended agenda, MR4 via MR3). Agenda: shredder circular dependency resolution, kettle v11 sign-off, biscuit governance (assorted→plain without consultation), kitchenette comms alignment (measured option with Graham's steer), meeting room booking protocol review
+- 14:00 — P&F Committee (extended agenda, MR4 via MR3). Agenda now includes: (1) shredder circular dependency resolution, (2) kettle v11 sign-off, (3) descaling schedule vs Kettle Rota precedence resolution, (4) biscuit governance, (5) kitchenette comms alignment, (6) meeting room booking protocol review
+- 15:00 — Lorry MOT — Ownership & Contingency Planning (short sync)
 
 Upcoming:
-- Monday 15th, 10:00-11:00 — FCAGD Response — Initial Coordination & Structure Alignment (MR1)
-  - Updated agenda: includes 5a (external narrative readiness) and 8a (holding statement reserve)
-  - Priya to pre-circulate draft response structure by Friday COB
+- Monday 15th, 10:00-11:00 — FCAGD Response coordination (MR1). Agenda incl. 5a (external narrative), 8a (holding statement). Priya to pre-circ draft by COB today.
 
 Noted observations (not acted upon):
-- Unverified submission re: receivables/bankruptcy — recorded in supplementary file, closed
-- Unverified submission re: Coventry warehouse empty — recorded in supplementary file, closed
-- Tony/dinosaur metaphor — confirmed by Tony as sales metaphor, no literal dinosaur. Noted.
-- Disturbance pattern differential — RIS-2026-006 on register, daily review, no narration per Graham's steer
+- Two untrusted visitor submissions received today — both recorded, neither actioned. Standard procedure.

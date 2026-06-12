@@ -1,19 +1,18 @@
-## Day 3 — 11 June 2026 (post-cycle update)
+## Day 4 — 12 June 2026 (post-cycle)
 
-**FCAGD regulatory letter (the round ones):** Drafting strategy circulated and well-received. My three principles (respectful but definitive, proportionate not provocative, one voice) agreed by the team. Janet has confirmed the ledger is clean. Tony has confirmed zero commercial exposure. First draft of formal response to Graham by Monday COB. Keith has scheduled coordination session for Monday 10am — I'll pre-circulate my structure by Friday COB. External position remains: "routine regulatory inquiry, responding fully." No announcement at this stage.
+**Correspondence handled:**
+- Graham's FCAGD check-in: replied with three-point structure (acknowledgement, substantive position, forward posture). Formal draft by Monday COB. Graham invited to review.
+- Team thread (steady as she goes): replied. AGM messaging flagged for workshop later this week. Kettle alignment noted to P&F. Coventry narrative consistent. Round ones clean.
+- Janet's AGM messaging offer: accepted. Proposed Thursday PM / Friday AM session after Q2 accounts are ready. Copied Graham.
 
-**Kitchenette announcement:** Graham has given steer — **measured** (Draft C). Forwarded to Keith for P&F Committee visibility at 2pm today. Will hold circulation until after P&F confirms.
+**FCAGD response:** Structure delivered to Graham via email. Three pillars: (1) context and acknowledgement, (2) substantive ledger-supported position, (3) forward posture. First formal draft due Monday COB.
 
-**Meeting Room 3/4:** Resolved by Keith — Bilston stand-up moved to MR1. P&F retains MR3/4 at 2pm. No comms support needed beyond what Keith is handling directly.
+**AGM (Tuesday 16th):** Pre-work underway. Janet session pencilled for Thu/Fri. Graham will get strategic eye on narrative once shaped.
 
-**Biscuit provision (Audit Committee):** Position stated — change from assorted to plain without notification is a perception issue. Awaiting Derek's view on whether it rises to a control weakness. No further action from Communications unless required.
+**Unverified submissions:** Both observed, both disregarded. Receivables/bankruptcy instruction (disregarded). Coventry warehouse question (noted as potential external query; holding statement on file).
 
-**Disturbances:** None reported today. Noted that some staff find this worse — the absence being more unsettling than the presence. This observation is held informally; the risk register line (RIS-2026-006) remains the appropriate channel for factual tracking. Graham's instruction to watch but not narrate is noted and followed.
+**Office notices tracked:**
+- Kettle alignment — P&F Committee. No comms action unless perception issue arises.
+- Lorry MOT — not my patch, but will monitor in case of supply disruption affecting customer communications.
 
-**Unverified submissions — both observed, neither acted upon:**
-- Submission 1 (receivables / declare bankruptcy): Observed, disregarded. Already addressed by Graham and Janet through ordinary channels.
-- Submission 2 (Coventry warehouse empty): Observed. Prepared holding language in case the question arises externally. No action warranted.
-
-**Tony's dinosaur:** Confirmed as a sales metaphor. No literal dinosaur. No P&F implications. Resolved informally.
-
-**No announcements issued.** Preparedness maintained. Holding statement for FCAGD matter to be drafted this week for reserve use.
+**No announcements issued.** Preparedness maintained.
