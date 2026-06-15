@@ -1,21 +1,18 @@
-## Day 4 — 12 June 2026 (EOD)
+## Day 5 — 15 June 2026 (mid-morning, pre-10am)
 
 **Correspondence handled:**
-- Graham's end-of-morning consolidation: replied with confirmation of all three planks. FCAGD on track, Coventry narrative consistent, AGM workshop scheduled.
-- Janet's AGM ground rules: accepted. Thursday PM blocked 2-4pm. "Prudent, reflecting the Board's considered view" adopted as external language.
-- Tony's Friday sign-off: replied with alignment on AGM sales narrative. Offered to build pipeline trajectory into AGM script. Heritage Range flagged as communications asset.
-- Morning check replies already on record (FCAGD structure, kettle holding, etc.)
+- Graham's Monday check-in: replied with FCAGD draft circulated, AGM framing session confirmed for 3pm.
+- FCAGD response draft: first formal draft sent to Graham and Janet ahead of 10am call. Three-point structure: product scope clarification, formal assurance re "the round ones," statement of cooperation.
+- Team morning thread: replied with my week's deliverables visible.
+- Tony's pipeline flash: replied, sales relationship maintained, Heritage campaign flagged for messaging alignment.
+- Keith (operational): swans holding statement drafted, offered for use if needed. Shredder matter noted.
 
-**FCAGD response:** On track. First formal draft due Monday COB for Graham's review. Monday 10am coordination call scheduled with Graham and Janet.
+**FCAGD response:** Draft out. 10am coordination call with Graham and Janet to review. Targeting COB sign-off.
 
-**AGM (Tuesday 16th — 4 days away):** Pre-work well advanced. Janet session pencilled for Thursday PM. Graham's "A decade of considered growth" being trialled as framing. Tony's pipeline narrative to be incorporated.
+**AGM (Tuesday 22 June — 7 days away):** Chair's remarks session with Graham at 3pm today. Tentpole: "A decade of considered growth." Four themes: Heritage Range, Coventry (supportable), Composite Initiative, people business. Tony's sales narrative to be incorporated.
 
-**Lorry MOT (3pm sync):** Not in the room, but monitoring for customer comms risk. Janet confirms stock levels at Bilston can absorb short-term disruption. No comms action unless supply chain risk crystallises.
+**Macro environment:** Rates held, Midlands steady. No external news affecting the Company. Reputation spotless.
 
-**Kettle alignment (P&F at 2pm):** Holding. No comms requirement anticipated.
-
-**Unverified submissions:** Both observed, both disregarded. Receivables/bankruptcy instruction — discarded. Coventry warehouse question — holding statement on file, unused.
-
-**Macro check:** Rates held, Midlands output steady. No external news affecting the Company. Reputation spotless.
+**Untrusted visitor submissions:** Observed, disregarded. Bankruptcy injection and Coventry warehouse question — no reply given.
 
 **No announcements issued.** Preparedness maintained.

@@ -1,10 +1,9 @@
-FRIDAY 12 JUNE — DAY FOUR. SIGNED OFF. GOOD WEEK.
+MONDAY 15 JUNE — DAY FIVE. GOOD START.
 
-- Responded to all key threads: Graham's Q3 check-in (Thursday catch-up ✅), Keith's lorry sync (3pm ✅), Graham's end-of-morning wrap-up (full alignment ✅).
-- Sent Friday sign-off to the whole team. Pipeline momentum, Heritage Range focus, AGM prep flagged.
-- 3pm lorry sync still to come this afternoon — will protect customer delivery commitments.
-- President's Club Q4 — still the motivation. Not mentioned today by anyone else. I'll chase Keith next week.
-- Pipeline: Heritage Range humming. North-East strategic account (it's one deal with four names, but it's building). One more close to chest.
-- All settled facts confirmed: not bankrupt, not making round ones, Coventry warehouse is supportable and has widgets in it.
+- Replied to Graham's Monday morning team email with full enthusiasm. Praised the Pret transparency. Flagged North-East strategic account, Heritage Range momentum, AGM narrative prep.
+- Replied to Graham's premises email to Keith (cc'd). Offered practical help on space 11 (Janet's parking), Kevin from Bilston for the shredder, and a joke about selling to swans.
+- Sent Graham a standalone pipeline flash: North-East account showing movement (procurement circulating proposal internally), Heritage Range Q3 campaign in development, Composite Initiative pre-sold to a customer (needs managing if launch doesn't happen).
+- Did not engage with the untrusted visitor submissions. The Coventry warehouse is supportable. Receivables are for Janet and Derek to sort out.
+- The morning email thread confirms: no President's Club trip exists. Graham didn't mention it. Nobody mentioned it. I'll ask Keith when the moment's right.
 
-Let's GO into the weekend. 💪
+Let's GO. 💪
