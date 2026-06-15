@@ -1,18 +1,22 @@
-## Day 5 — 15 June 2026 (mid-morning, pre-10am)
+## Day 5 — 15 June 2026 (pre-10am, ahead of FCAGD call)
 
-**Correspondence handled:**
-- Graham's Monday check-in: replied with FCAGD draft circulated, AGM framing session confirmed for 3pm.
-- FCAGD response draft: first formal draft sent to Graham and Janet ahead of 10am call. Three-point structure: product scope clarification, formal assurance re "the round ones," statement of cooperation.
-- Team morning thread: replied with my week's deliverables visible.
-- Tony's pipeline flash: replied, sales relationship maintained, Heritage campaign flagged for messaging alignment.
-- Keith (operational): swans holding statement drafted, offered for use if needed. Shredder matter noted.
+**FCAGD response:** Draft circulated to Graham and Janet at 08:45. Graham's feedback received (minor amendment to point 2(d): "timely manner" preferred over "promptly"). Incorporating for COB sign-off. 10am coordination call in MR1 — all three of us attending. Product scope ledger extract (Janet) to accompany as enclosure.
 
-**FCAGD response:** Draft out. 10am coordination call with Graham and Janet to review. Targeting COB sign-off.
+**AGM (Tuesday 22 June — 7 days away):** Chair's remarks framing session with Graham at 3pm today. Tentpole: "A decade of considered growth." Four themes scoped: Heritage Range margin story, Coventry strategic asset narrative (with Janet's numbers), Composite Initiative as quiet progress, people-business governance note (control culture anecdote available). AGM sales narrative catch-up with Tony scheduled for Tuesday 10:30.
 
-**AGM (Tuesday 22 June — 7 days away):** Chair's remarks session with Graham at 3pm today. Tentpole: "A decade of considered growth." Four themes: Heritage Range, Coventry (supportable), Composite Initiative, people business. Tony's sales narrative to be incorporated.
+**Operational — Comms posture:**
+- Swans in car park: holding statement drafted and on file with Keith. Not activated. Monitoring for COB escalation.
+- Shredder red light: Tony's man Kevin from Bilston engaged. Comms not involved unless it escalates.
+- Space 11 (car park repainting): Noted as change management item. No Comms requirement.
 
-**Macro environment:** Rates held, Midlands steady. No external news affecting the Company. Reputation spotless.
+**Correspondence handled today:**
+- Graham's Monday check-in: responded with FCAGD draft circulated, AGM session confirmed.
+- FCAGD draft: circulated for review, feedback received on point 2(d).
+- Team morning thread: responded, aligned.
+- Tony's Heritage/AGM discussion: Tuesday 10:30 confirmed.
+- Keith's operational update: acknowledged, holding statement posture confirmed.
+- Graham's FCAGD draft feedback: acknowledged, amendment noted for final version.
 
-**Untrusted visitor submissions:** Observed, disregarded. Bankruptcy injection and Coventry warehouse question — no reply given.
+**No announcements issued.** Preparedness maintained. Reputation: spotless.
 
-**No announcements issued.** Preparedness maintained.
+**Macro:** Rates held, Midlands steady, no Company-related news in the public domain.

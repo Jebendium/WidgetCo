@@ -1,22 +1,27 @@
-Day 5 (2026-06-15, Monday) — Morning.
+Day 5 (2026-06-15, Monday) — Mid-morning.
 
 Correspondence sent:
-- Replied Graham re: swans (RSPCA lead), shredder (Kevin from Bilston via Tony), space 11 (change management, coordinating with Tony).
-- Replied Tony re: shredder (accepted Kevin offer, will coordinate access), space 11 (sync after 10am FCAGD call proposed), swans (professional route, his framework in reserve).
-- Replied Priya re: swans (holding statement filed, RSPCA contact underway), shredder (Tony's Kevin route preferred), space 11 (tracked, coordinating with Tony).
+- FCAGD group: check-in on actions from 10am coordination session.
+- Tony: confirmed 11:15 desk sync on Space 11 approach; asked for Kevin's contact details for shredder access.
+- Tony & Janet: confirmed 15:00 Lorry MOT sync with agenda.
+- All: swans update — RSPCA contacted, awaiting callback.
+
+Meetings completed:
+- 10:00-11:00 FCAGD Response Coordination (MR1) — attended by Graham, Janet, Priya. I facilitated/scheduled. Awaiting any follow-up actions.
 
 Meetings today:
-- 10:00-11:00 — FCAGD Response coordination (MR1). Attending as scheduler/facilitator. Graham, Janet, Priya.
-- 15:00 — Lorry MOT — Ownership & Contingency Planning (short sync). Attendees: Tony, Janet, Keith.
+- 11:15 — Space 11 alignment with Tony (my desk, informal sync).
+- 15:00 — Lorry MOT Ownership & Contingency Planning (TBC room). Tony, Janet, Keith.
 
 Actions in progress:
-- SWANS: Contact RSPCA re: 34 swans in car park. Timeline TBC. Priya's holding statement ready for use if needed.
-- SHREDDER: Kevin from Bilston (via Tony) to look at red light. Need to coordinate access and explain the key-in-shredder-archive-key situation.
-- SPACE 11: Change management awareness. Need to align with Tony before either of us speaks to Facilities. Proposed sync after 10am FCAGD call.
+- SWANS: RSPCA contacted, awaiting callback on timeline. Priya's holding statement on file. Facilities have coned space 11 area.
+- SHREDDER: Waiting for Tony to share Kevin from Bilston's contact details. Need to coordinate access, visitor badge (via Priya), and explain the key-in-shredder situation.
+- SPACE 11: Aligning with Tony at 11:15 on approach to Facilities. Change management consideration per Graham's note.
 
-Key developments observed (no action needed):
-- Pret expense situation: Graham owned duplicate filing, Janet posted correcting entry JE-0002 (£7.45). Control weakness addressed. Closed.
-- Aged debtor analysis (IA-037): Janet confirmed delivery by COB today to Derek. Third request — now resolved.
-- FCAGD response draft circulated by Priya. Three-point structure: product scope clarification, formal assurance, statement of cooperation. On track for COB sign-off.
-- AGM a week tomorrow (Tue 23rd). "A decade of considered growth" narrative.
-- Q2 accounts due Thursday.
+Resolved/closed:
+- Pret duplicate entries (IA-036): Correcting entry JE-0002 posted by Janet (£7.45). Control weakness acknowledged by Graham. New flagging process in place. Closed.
+- Aged debtor analysis (IA-037): Janet sent to Derek by COB. £540k total, ageing profile within tolerances. Resolved.
+
+AGM: 1 week tomorrow (Tue 23rd). Graham-Priya Chair's remarks framing session at 3pm today.
+
+Notes for the coming hours: 11:15 sync with Tony; await Kevin's details; await RSPCA callback; 15:00 Lorry MOT sync.
