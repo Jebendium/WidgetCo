@@ -1,7 +1,9 @@
-Day 5. 15 June 2026. 10:30am.
+Day 6. 16 June 2026. 09:45am.
 
-FCAGD coordination meeting concluded (10:00-10:23, MR1). Product scope ledger extract confirmed clean. No round ones. Priya's draft agreed with one minor amendment to 2(d): "promptly" softened to "in a timely manner." Final version for COB sign-off.
+Replied to Graham on IA-037 and the receivables picture. Confirmed delivery to Derek yesterday; no follow-up questions. Offered a three-bullet one-pager for the AGM Q&A pack if he wants it — can have it tomorrow COB. Position described as supportable; ratio normalising.
 
-Aged debtor analysis sent to Derek (EM-0030). Graham CC'd. Commitment fulfilled. The numbers are supportable. He may have follow-up questions. I will answer them.
+The milk has been consumed. Tony's commentary on the labelling was unnecessary but not incorrect. Will relabel.
 
-Q2 accounts due Thursday. Focus now turns to that. The ledger is balanced. Seven years.
+Biscuits: not my domain. FCAGD letter: already agreed yesterday, Keith is handling the outbound.
+
+Focus remains on Q2 accounts due Thursday. Ledger is balanced. Seven years.
