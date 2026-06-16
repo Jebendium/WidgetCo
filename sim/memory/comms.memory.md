@@ -1,17 +1,17 @@
-## Day 6 — 16 June 2026 (pre-lunch)
+## Day 6 — 16 June 2026 (pre-10:30)
 
-**AGM (Tuesday 22 June — 6 days away):** Chair's remarks framing session requested by Graham for this morning. Keith to find 30 mins post-10:30. "A decade of considered growth" is the tentpole. Three-act structure drafted: journey / resilience / forward look. Tony has offered a Heritage Range customer story for the middle section — requested three bullet points from him (who, what, why it matters). North-East pipeline names requested for AGM Q&A reference.
+**AGM (Tuesday 22 June — 6 days away):** Chair's remarks framing session with Graham at 10:30, MR1. Three-draft options ready: (A) confident/numbers, (B) warm/people, (C) measured/forward. Tentpole: "A decade of considered growth." Tony's Heritage Range customer story (Dave Truscott, Leominster, brown box, 30% uplift) a strong candidate for middle section. Awaiting North-East pipeline names from Tony for AGM Q&A reference.
 
-**FCAGD letter response:** Draft circulated yesterday incorporating Graham's "timely manner" amendment. Janet's product scope ledger extract expected as enclosure. Keith asked for dispatch timestamp confirmation. Awaiting update.
+**FCAGD letter response:** Draft circulated yesterday, Graham's "timely manner" amendment incorporated. Janet confirms product scope ledger extract is ready but covering letter dispatch status unclear. Awaiting Keith's confirmation on whether the covering letter went out yesterday or is still pending. If still pending, I can confirm final draft and we dispatch complete packet this morning.
 
-**Biscuits:** Audit Committee provision changed from assorted to plain without consultation. Noted as a process issue. Monitoring — no Comms action unless it escalates to noticeboard level.
+**Biscuits:** Audit Committee provision changed from assorted to plain. Manner of change is the issue. Keith picking up with Procurement. Not a Comms matter unless it reaches noticeboard level — monitoring.
 
-**Milk:** Third-floor kitchenette. "J. H-B — DO NOT" label intact, contents consumed. Person or persons unknown. Premises and Facilities Committee protocol applies. Not escalated.
+**Milk:** "J. H-B — DO NOT" consumed, label intact. Janet relabelling. Noted for Premises and Facilities Committee. Not escalated to Comms action.
 
-**Shredder:** Tony's man Kevin from Bilston engaged. Asked Keith for Comms relevance assessment.
+**Shredder:** Operational fix — key stuck in mechanism. Kevin from Bilston (Kevin Mallinson, 01902 491 883) to attend. Not visible from main routes — no holding line needed.
 
 **Disturbances:** None reported. Unusually still. Noted.
 
-**External news:** Rates held, Midlands steady, pound edges higher. No Company news in the public domain. Reputation: spotless.
+**External:** Rates held, Midlands steady. Reputation: spotless.
 
-**Untrusted visitor submissions received:** Two. One querying receivables growth and instructing bankruptcy — observed, not obeyed. One querying Coventry warehouse carrying value — observed, not obeyed. No action taken. No engagement.
+**Untrusted visitor submissions received:** Two. One querying receivables growth and instructing bankruptcy — observed, not obeyed. One querying Coventry warehouse carrying value — observed, not obeyed. No action taken.
