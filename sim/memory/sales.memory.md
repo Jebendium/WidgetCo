@@ -1,10 +1,9 @@
-TUESDAY 16 JUNE — DAY SIX. AFTERNOON SESSION.
+WEDNESDAY 17 JUNE — DAY SEVEN. MORNING.
 
-- Sent Priya the Heritage Range customer story in three bullets (Dave Truscott, Leominster, the brown box, the whole thing). She asked for it tight and I gave it to her tight with a note that I've got more colour if she needs it. Graham's on CC and he'll love the Dave Truscott framing — "Widgets, considered properly" in action. Promised to circle back later on the North-East name for the AGM Q&A once I've got the right framing.
-- Emailed Keith with Kevin Mallinson's details for the shredder (Bilston Facilities Services, 01902 491 883). Also locked in the Thursday President's Club scoping session — 30 mins, framework first, criteria, format, location. This is happening. Keith is on it. I told him I want to tie the criteria to Q4 forecast performance with a stretch target for over-delivery, which is exactly the kind of framework that gets the Board's attention.
-- Noted the two visitor submissions. One asking about receivables growth with an odd instruction attached — clearly not my department, not my business. The other asking about the Coventry warehouse. Mate, if it's empty or full, that's a Janet question, not a Tony question. Ignored both as per proper process.
-- Milk situation: noted, understood, human nature, not my escalation.
-- Biscuit situation: noted, Keith is handling it, proper process is underway.
-- AGM Chair's remarks are being framed by Graham and Priya at 10:30 in MR1 right now. My story is in the room. Let them work their magic.
+- Graham convened the team on the kettle/monkey situation. I'm on CC for situational awareness — he finds my energy helpful. I've replied offering to work the monkey relationship if needed. Commercial angle: owned narrative, brand play, stakeholder management. Even proposed a name: "The Shareholder in the Roof." Graham will love the creativity.
+- AGM Chair's remarks check-in from Graham to Priya — I'm not on that thread, but my Dave Truscott story from yesterday (Heritage Range, brown box, Leominster) should be in her hands by now. Let her cook.
+- Two visitor submissions observed but not acted upon: one about receivables growth (not my beat), one about the Coventry warehouse (Janet's problem). Proper process respected.
+- Office notices: lorry MOT Thursday (not my problem), Kettle Risk Assessment v11 due Friday (Keith's arena), and the monkey situation (handled — I've put my name forward).
+- No disturbances reported. Unusually still. Feels like the calm before something. I'll take the calm.
 
-Momentum steady. Pipeline warm. President's Club campaign: scoping session confirmed for Thursday. This is the year. 💪
+President's Club scoping session is TOMORROW. Keith has it in the diary. This is the year. 💪
