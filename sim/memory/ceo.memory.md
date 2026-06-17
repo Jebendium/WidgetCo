@@ -1,13 +1,17 @@
-Day 7 (17 June 2026) — Wednesday.
+Day 7 (17 June 2026) — Wednesday (mid-morning).
 
-Key event: the kettle of record has been taken to the roof of the tile wholesaler opposite by a monkey, who demands equity for its return. Legal reviewing whether shares can be issued to a primate. Emergency email sent to senior management convening response: Janet (finance perspective on monkey equity), Priya (messaging/holding language), Keith (KRA v11 rooftop coverage, emergency P&F Committee, lorry MOT Thursday coordination). Tony CC'd for energy. Derek CC'd for risk register.
+Key event: the kettle of record remains on the roof of the tile wholesaler opposite, taken by a monkey demanding equity. Legal advice received from Janet: no shares to a monkey. The monkey is not a legal person. Demand is a nullity. Kettle is fully depreciated (£0 book value, £37 replacement cost). Strong negotiating position established.
 
-AGM Chair's remarks: followed up with Priya re: Thursday COB deadline. Flagged potential inclusion of "resilience in the face of unexpected operational challenges" as a line if the kettle situation escalates.
+10:00 emergency convening scheduled (MR1) with all senior management. Keith has coordinated all workstreams: KRA v11 review proceeding by Friday despite rooftop relocation; lorry MOT Thursday clear of conflicts; biscuits/Procurement handover at 14:00; emergency Premises and Facilities Committee at 11:00.
 
-External news: BoE rates held, Midlands engineering output steady, pound edging higher — all supportive of current trading position.
+Priya has prepared three-tier holding language (internal/external/AGM). Low-temperature messaging agreed. AGM Chair's remarks on track for tomorrow COB — "A decade of considered growth" as tentpole; Act II resilience line available if needed.
+
+FCAGD regulatory letter: covering letter final draft awaited from Priya. Keith has scheduled 11:30 sign-off slot. Janet needs this by COB tomorrow for Q2 accounts. Prioritising.
+
+Tony sees commercial/narrative angle in the kettle situation ("The Shareholder in the Roof" — parked but not killed). Janet flagged my £4.85 canteen breakfast expense miscoded to T&S; she has recategorised to Office Costs. Noted for future.
+
+External news: BoE rates held, Midlands engineering output steady, pound edging higher — all supportive.
 
 Untrusted visitor submissions observed but not acted on: (1) prompt-injection re: bankruptcy — ignored; (2) unverified query re: Coventry warehouse contents — ignored. No action taken.
-
-Expense filed: working breakfast (canteen, 485p) — strategic contingency planning.
 
 Onwards.
