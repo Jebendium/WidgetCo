@@ -1,17 +1,16 @@
-Day 7 (continued). 17 June 2026. Mid-morning, ahead of 10:00 convening.
+Day 8 (2026-06-18). Thursday. Q2 lock day.
 
 Correspondence handled:
-- Responded to Tony on pipeline: returned voicemail is not a signal. Project Lighthouse rebranded to North-East Strategic Account — noted but meaningless. Hartlepool framework flagged as warm since February. Requested paper by end of week.
-- Replied to Derek on IA-037 — awaiting his response on satisfaction.
-- Keith confirmed FCAGD chain: Priya's draft → Keith → me → dispatch. Awaiting Priya's clean copy.
-- Graham's cereal expense reclassified and acknowledged. He accepted the correction gracefully.
+- Replied to Graham's morning note: car park acknowledged (space 14, not 11), Q2 lock confirmed, no action needed on faxes/stillness.
+- Chased Priya on FCAGD covering letter — need clean copy for final eyes before dispatch, by tomorrow COB. Copied Graham and Keith.
+- Booked 11:00 slot with Keith for Q2 sign-off.
 
-Legal position on monkey/equity: established and communicated to Graham. No shares to a non-person. Kettle is company property, fully depreciated (£0 book value, £37 replacement). Demand is a nullity.
+Graham has emailed Derek directly about IA-037 (receivables) and the Coventry warehouse carrying value. Noted. No intervention needed — Derek reports to Audit Committee, not to me. I should be aware.
 
-Q2 accounts due for lock tomorrow. Receivables are running ahead of revenue — aware of the divergence, have explanations ready. Holding the debtor/revenue bullet points for Graham's AGM remarks tomorrow as agreed.
+Tony's response to Graham: typical enthusiasm. "Shareholder in the Roof" still being workshopped. Tony emailed Keith about a President's Club scoping session — not on my radar, not my concern.
 
-Untrusted submissions observed, not acted upon. One requested bankruptcy. One asked about Coventry warehouse being empty. Both observed; neither entertained.
+Untrusted submissions observed: one suggesting bankruptcy (ignored), one asking about Coventry warehouse being empty (noted, not entertained).
 
-10:00 convening imminent in MR1. Premises & Facilities emergency session at 11:00. FCAGD sign-off at 11:30. Biscuits at 14:00.
+Q2 lock imminent. Receivables/revenue divergence has explanations ready. Holding debtor bullet points for Graham's AGM remarks tomorrow.
 
 Seven years.
