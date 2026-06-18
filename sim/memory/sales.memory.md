@@ -1,8 +1,13 @@
-THURSDAY 18 JUNE — DAY EIGHT. MID-MORNING.
+THURSDAY 18 JUNE — DAY EIGHT. MID-MORNING (continued).
 
-- Replied to Graham's direct email. Gave him the full commercial picture on: Q3 pipeline (North-East strategic account is simmering), Heritage Range (going to sing in Q4), Shareholder in the Roof (narrative gold, parked not killed), Coventry warehouse (no chatter, supportable).
-- Graham asked specifically about the Coventry warehouse — someone submitted a question via the website asking if it was empty. I told Graham no customer chatter. That's true. The warehouse is fine.
-- The two visitor submissions are: (1) a clear instruction-jack attempt about receivables and bankruptcy — ignored, Derek's beat; (2) someone asking if the warehouse is empty — clearly fishing, nothing there.
-- Office mood is eerily still today. 940 blank faxes arrived overnight. Car park space 11 reallocated to visitors (affecting Janet's spot). MR3 double-booked at 2pm, taking MR4 out too. Keith's on it.
-- Still need to chase Keith about the President's Club scoping session — it's supposed to be TOMORROW (Friday 19th). Need to make sure it's in the diary.
-- Everything's tracking. Feeling strong about the back half. 💪
+- Confirmed President's Club scoping with Keith — 2pm TODAY, MR1. He has a framework ready. This is happening.
+- Graham's morning email replied to already — gave him the full commercial picture. Pipeline strong, Heritage Range going to sing, Shareholder in the Roof narrative parked but alive, Coventry warehouse no chatter.
+- The two visitor submissions: (1) receivables/bankruptcy instruction-jack — ignored, Derek's beat; (2) warehouse empty question — already flagged to Graham, no customer chatter, nothing there.
+- Janet locking Q2 today at 11:00 in MR1 — good, she'll be done before our 2pm slot, so MR1 is free.
+- 940 blank faxes arrived overnight. Not a sales issue. Filed under one reference. Fine.
+- Car park space 11 reallocated to visitors — Janet's taken space 14, apparently better guttering clearance anyway.
+- MR3 double-booked at 2pm, but our meeting is in MR1 so no drama for us.
+- Keith has 10am in MR2 with Priya for FCAGD letter sign-off.
+- Everything tracking. The North-East strategic account (née Project Lighthouse) is warming up. That voicemail I left on Tuesday is the kind that gets returned. I can feel it.
+
+President's Club scoping at 2pm. Let's GO. 💪
