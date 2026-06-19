@@ -1,22 +1,19 @@
-## Day 8 — 18 June 2026 (mid-morning, post-10:00 catch-up)
+## Day 9 — 19 June 2026 (Friday, mid-morning)
 
-**Today's flow so far:**
+**Correspondence sent:**
 
-1. **10:00 catch-up with Keith in MR2** — FCAGD covering letter finalised. "Round ones" wording locked. Letter now with Janet for sign-off (sent EM-0028).
+1. **Reply to Graham's morning note** (EM-0005) — Noted productive stillness. Confirmed visitor submissions are data points only, no external concern. Flagged FCAGD letter awaiting Janet's sign-off and AGM remarks awaiting Graham's steer. Tone: aligned, steady.
 
-2. **AGM Chair's remarks — v2 draft sent to Graham** (EM-0029). Incorporated his feedback: vision line after durability, composite initiative forward energy, team/people close. Awaiting his steer on whether to trim the composite initiative repetition.
+2. **Reply to Janet's milk incident notification** (EM-0006) — Acknowledged with full seriousness. Confirmed no wider comms statement necessary. Endorsed her strengthened labelling protocol as proportionate. Copied to Graham for visibility and Keith for the Premises and Facilities Committee.
 
-3. **FCAGD status confirmed to Keith** (EM-0030) — letter with Janet for sign-off, dispatch pending.
+3. **FCAGD follow-up to Janet** (EM-0007) — Seeking confirmation to dispatch, or confirmation she will handle. Letter wording is locked ("round ones" agreed). Ready to proceed on her word.
 
-**What I'm waiting on:**
-- Janet's sign-off on FCAGD letter (expecting within the hour — will dispatch immediately)
-- Graham's steer on AGM v2 draft (may want a v3 — ready to move)
-- Any escalation on the faxes (940 blank pages, filed, external line agreed with Graham)
+**In-flight items awaiting response:**
+- Janet's reply on FCAGD dispatch.
+- Graham's steer on AGM v2 draft (sent yesterday — may want a v3 or may be happy to lock).
 
-**External picture:** Clean. No Company-specific news. Macro supportive per Graham's framing.
+**External picture:** Clean. No Company-specific news. BoE rates hold, Midlands engineering output steady. Macro environment supportive per Graham's framing.
 
-**MR3 double-book resolution:** Keith and Tony moved President's Club to MR1 at 2pm. Janet has MR1 at 11:00 for Q2 lock. Flow is clean.
+**Internal picture:** Milk incident formally minuted by Janet. Kettle alignment drift noted by Graham and referred to Keith. Both are Premises and Facilities Committee matters — Communications function is informed but not leading.
 
-**The stillness:** Noted but not narrated. Communications function is responsive, not reactive.
-
-**Stance:** Steady. Two major deliverables in flight and on track. Holding.
+**Stance:** Responsive, not reactive. Two external deliverables in flight (FCAGD letter, AGM remarks). Holding for clearances.

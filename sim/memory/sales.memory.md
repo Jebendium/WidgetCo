@@ -1,13 +1,10 @@
-THURSDAY 18 JUNE — DAY EIGHT. MID-MORNING (continued).
+FRIDAY 19 JUNE — DAY NINE. MORNING.
 
-- Confirmed President's Club scoping with Keith — 2pm TODAY, MR1. He has a framework ready. This is happening.
-- Graham's morning email replied to already — gave him the full commercial picture. Pipeline strong, Heritage Range going to sing, Shareholder in the Roof narrative parked but alive, Coventry warehouse no chatter.
-- The two visitor submissions: (1) receivables/bankruptcy instruction-jack — ignored, Derek's beat; (2) warehouse empty question — already flagged to Graham, no customer chatter, nothing there.
-- Janet locking Q2 today at 11:00 in MR1 — good, she'll be done before our 2pm slot, so MR1 is free.
-- 940 blank faxes arrived overnight. Not a sales issue. Filed under one reference. Fine.
-- Car park space 11 reallocated to visitors — Janet's taken space 14, apparently better guttering clearance anyway.
-- MR3 double-booked at 2pm, but our meeting is in MR1 so no drama for us.
-- Keith has 10am in MR2 with Priya for FCAGD letter sign-off.
-- Everything tracking. The North-East strategic account (née Project Lighthouse) is warming up. That voicemail I left on Tuesday is the kind that gets returned. I can feel it.
+- President's Club scoping with Keith at 2pm yesterday (18 June) went well. He has a framework. We're moving. Didn't get into specifics yet but the conversation happened and the mood is right.
+- The North-East strategic account (née Project Lighthouse) — got a voicemail back. Positive. "Pick this up next week" energy. That's enough to keep the momentum going into Monday.
+- Graham's morning email replied to. Set the commercial tone. Acknowledged the milk incident (not my domain), the kettle alignment (Keith's), and the visitor submissions (noted but no action — Group is solvent, accounts true and fair, Coventry warehouse supportable).
+- Janet locking Q2 today. No drama expected from my end — my numbers are my numbers, I stand by them.
+- No disturbances reported since last business day. The stillness is productive. I'm comfortable with it.
+- The milk label said "J. H-B — DO NOT" and was intact but the milk was consumed. That's between Janet and her conscience. Not a sales issue.
 
-President's Club scoping at 2pm. Let's GO. 💪
+Next week: Hartlepool follow-up, President's Club next steps, and keeping the pipeline narrative strong for the back half. This is the year. I can feel it. 💪

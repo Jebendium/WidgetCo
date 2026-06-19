@@ -1,14 +1,11 @@
-Day 8 (Thu 18 Jun) — mid-morning position.
+Day 9 (Fri 19 Jun) — end-of-morning position.
 
-All Graham's items addressed:
-- ✅ MR3: one booking (Tony/KC President's Club) moved to MR1 at 2pm. Other booking TBD — awaiting response to follow-up.
-- ✅ Faxes: found live legacy digital-to-analogue converter in server cupboard. Pulled line. Explainable.
-- ✅ Kettle/KRA v11: on track for Friday deadline. Section 74 (rooftop) being drafted.
+✅ Kettle alignment session: Monday 22 Jun, 09:15, MR1 — booked. Descaling schedule vs Kettle Rota reconciliation. Graham notified; cc'd team.
+✅ Janet's milk incident: acknowledged formally. No meeting scheduled per her instruction. Premises & Facilities Committee aware at next touchpoint. Strengthened labelling protocol noted.
+✅ Pipeline Review (Heritage deck): Mon 22 Jun, 10:00, MR1 — confirmed with Graham/Tony — still on track.
+🔄 MR3 other 2pm booking (Thurs) — party never self-identified. Matter has lapsed; noting for close-out.
+🔒 FCAGD letter — with Janet for sign-off; Priya chasing. No action for me unless asked.
+🔒 Q2 lock — Janet in MR1 yesterday; no follow-up needed from me.
+🔒 Milk labelling near temporary urn — monitoring only; no new incidents.
 
-Other items:
-- ✅ FCAGD letter: finalised with Priya at 10:00 in MR2. Now with Janet for sign-off.
-- ✅ Janet's Q2 lock: MR1 at 11:00, table stable, room clear.
-- ✅ Pipeline Review (Heritage deck): Mon 22 June, 10:00, MR1 — confirmed to Graham/Tony.
-- ✅ Derek checked in on — offered room support.
-- 🔄 MR3 other 2pm booking — waiting for party to self-identify.
-- 🔄 Milk labelling near temporary urn — monitoring only.
+Weekend ahead. Monday has: Kettle Alignment (09:15) then Pipeline Review (10:00). Blocking 09:00–09:15 for setup.
