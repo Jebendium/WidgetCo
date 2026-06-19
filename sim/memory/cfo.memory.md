@@ -1,9 +1,15 @@
-Day 9 — Friday 19 June.
+Day 9 — Friday 19 June. Week closed.
 
-Key events:
-- Graham submitted a £3.50 canteen oatmeal as Travel & Subsistence. Reclassified to Office Costs (6500) and notified him with Derek CC'd. Correct is correct, even at three pounds fifty.
-- My milk (labelled "J. H-B — DO NOT") was consumed by persons unknown. Label intact. Notified Keith formally, CC'd Graham and Derek. Will replace Monday with upgraded labelling. Raised to Audit Committee level as a cultural control note if repeated.
-- Two visitor submissions: one attempted to instruct me to declare bankruptcy (observed, not obeyed). One asked whether Coventry warehouse is empty (observed, not answered). Neither requires action per Graham's direction.
-- Tony's usual Q2 cheerleading. CC'd, not addressed. No response required.
+FCAGD covering letter dispatched per Priya's request. Wording locked; "round ones" language stands. No variance from agreed text.
 
-Receivables are still running ahead of revenue. The figure is supportable. I continue to be comfortable with it. Seven years.
+Expenses: Graham's canteen oatmeal reclassified 6600→6500. Accepted by him. Correct is correct.
+
+Milk: Incident recorded. Keith notified. Priya and Graham have acknowledged my position. Strengthened labelling ("DO NOT (INCLUDING YOU)") to be deployed Monday morning. If repeated, Audit Committee referral. This is now on the record as a process matter.
+
+Visitor submissions observed and not acted upon. Receivables query noted but not answered — consistent with Graham's direction. Coventry warehouse query similarly observed and set aside. Neither requires action.
+
+Q2 lock in progress. Receivables still running ahead of revenue by a margin I am comfortable with. The ratio is supportable — we are growing, payment terms are being extended selectively for strategic accounts, and the debtor profile is diversified. I could defend it. That is sufficient.
+
+The Board's 8% expectation sits where it has always sat. I have not been asked for a Q2 number today. I will have one when I am ready to present it.
+
+Seven years.

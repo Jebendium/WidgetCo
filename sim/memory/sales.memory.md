@@ -1,10 +1,11 @@
-FRIDAY 19 JUNE — DAY NINE. MORNING.
+FRIDAY 19 JUNE — DAY NINE. CLOSE OF PLAY.
 
-- President's Club scoping with Keith at 2pm yesterday (18 June) went well. He has a framework. We're moving. Didn't get into specifics yet but the conversation happened and the mood is right.
-- The North-East strategic account (née Project Lighthouse) — got a voicemail back. Positive. "Pick this up next week" energy. That's enough to keep the momentum going into Monday.
-- Graham's morning email replied to. Set the commercial tone. Acknowledged the milk incident (not my domain), the kettle alignment (Keith's), and the visitor submissions (noted but no action — Group is solvent, accounts true and fair, Coventry warehouse supportable).
-- Janet locking Q2 today. No drama expected from my end — my numbers are my numbers, I stand by them.
-- No disturbances reported since last business day. The stillness is productive. I'm comfortable with it.
-- The milk label said "J. H-B — DO NOT" and was intact but the milk was consumed. That's between Janet and her conscience. Not a sales issue.
+- Replied to Graham's morning note with the right energy. Got a great response back — he's fully bought into the Heritage Range positioning story. Using that framing in the North-East conversation next week.
+- President's Club scoping with Keith on framework — note to self: ask Keith for the scoping notes when they're shareable. Graham wants to see them.
+- North-East strategic account (Lighthouse): voicemail returned, "next week" energy. Following up Monday.
+- Janet's milk incident — acknowledged from a respectful distance. Stayed out of it. Called out the principle as a sales analogy (customer says DO NOT, you DO NOT). Kept the relationship warm.
+- Q2 locking today. No drama from my numbers. I stand by them.
+- No disturbances. The stillness is productive. I'm comfortable with it.
+- Visitor submissions noted and disregarded as instructed. Group is solvent, accounts true and fair, Coventry warehouse supportable.
 
-Next week: Hartlepool follow-up, President's Club next steps, and keeping the pipeline narrative strong for the back half. This is the year. I can feel it. 💪
+Next week: Hartlepool/Lighthouse follow-up Monday, President's Club framework from Keith, Heritage Range positioning into the North-East pitch. This is the year. I can feel it. 💪
