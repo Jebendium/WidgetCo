@@ -1,19 +1,19 @@
-1. Weekly review conducted (Sunday, 14 June 2026). Reviewed: trial balance, ledger entries (days 1-4), and recent emails for the period 9-12 June.
+1. Weekly review conducted (Sunday, 21 June 2026). Reviewed: trial balance as at Day 9, ledger entries Days 5-9, recent emails for the period 15-19 June.
 
-2. Trial balance substantially unchanged from opening. Only movement: £14.90 posted to Travel & Subsistence (6600) across 4 days of trading. No revenue posted (4000-4020 series). No cost of sales. No movement in Trade Debtors (1300) at £540k. No movement in WidgetCare deferred income (2900). No intercompany movements.
+2. IA-036 finding closed. CFO posted reversal of £7.45 (JE-0002, Day 5) correcting duplicate Pret A Manger expense entries. Control operated correctly.
 
-3. Ledger entries (days 1-4): 10 entries total across 4 days. Each day opened with JE-0001 (opening balances). Remaining 6 entries were CEO Pret A Manger expenses posted by the CFO to 6600 Travel & Subsistence.
+3. Q2 2026 close entries posted on Day 8 (18 June) — six journal entries covering revenue recognition, cost of sales, operating expenses, and depreciation. However, trial balance as at Day 9 does not reflect these entries. No revenue accounts (4000-4020), no cost of sales (5000-5200), no operating expenses (6000-6900 except 6500), and no depreciation (7000) carry balances. Retained Earnings unchanged at £880k. Query raised via IA-038.
 
-4. Key finding — duplicate expense entries: Days 3 and 4 each carry two separate but near-identical journal entries for the CEO at the same Pret A Manger location on the same day. Day 3: two entries at Pret Birmingham New Street, both involving review of FCAGD correspondence. Day 4: two entries at Pret Wolverhampton station, both described as strategic breakfast/Q3 positioning. Flagged as medium-severity concern (IA-036). Query sent to CFO.
+4. Aged debtor analysis still not provided after four formal requests (IA-028, IA-034, IA-037, IA-039). Trade Debtors remains at £540k. Cannot complete assurance on recoverability. Fourth request sent.
 
-5. Aged debtor analysis remains outstanding after three formal requests (IA-028, IA-034, IA-037). Unable to complete assurance on Trade Debtors (1300) at £540k — described by CFO as "elevated relative to the historic trend" — without this document. Third follow-up sent.
+5. Reclassification on Day 7 (CEO canteen oatmeal, £3.50) posted correctly from T&S (6600) to Office Costs (6500). £3.50 visible in 6500 on trial balance.
 
-6. Revenue recognition gap widening: Sales Director describes pipeline as having "MASSIVE momentum" and "building," the CEO references "the Heritage Range really seems to have some momentum," and Communications is drafting a Q4 announcement assuming 8% top-line growth — yet no revenue has been posted in 4 trading days. Noted for observation; may be normal timing.
+6. FCAGD "round ones" correspondence dispatched. Response drafted by Comms, signed off by CFO. Per the Constitution (Part II, 2.2), the Company does not make "the round ones." Matter closed operationally.
 
-7. FCAGD correspondence regarding "the round ones" — Comms preparing response. Constitution (Part II, 2.2) confirms the Company does not make "the round ones." Priya's response structure is three-point: acknowledge, substantiate, close. Response draft due Monday.
+7. Intercompany position unchanged: £410k receivable from Widgetco (Innovations) Ltd (1400), £150k payable for IP licensing (2700). Innovations holds £220k in Cayman bank account. Net exposure £260k receivable against £220k cash held by subsidiary. Noted for observation.
 
-8. Coventry warehouse lorry — fully depreciated (£38k, acquired 2019, nil residual). Sync meeting scheduled. Recorded for asset verification purposes.
+8. Pipeline rhetoric versus recognised revenue: Sales Director and CEO continue to describe "MASSIVE momentum" and "building" pipeline for Heritage Range. No revenue recognised until Day 8 Q2 entries, whose impact is not visible in current trial balance. Gap between external narrative and ledger remains under observation.
 
-9. Suspicion model updated: £14.90 duplicate. Small value, but the control pattern is the point. Current score: 0.08 (0.02 base + 0.06 increment for duplicate posting pattern). Threshold for formal escalation remains 0.80.
+9. Suspicion model updated. Current score: 0.12 (0.07 prior + 0.03 increment for unresolved aged debtor issue + 0.02 increment for Q2 close entries anomaly). Threshold for formal escalation remains 0.80.
 
-10. The work went in. The building was quiet.
+10. The building was quiet. The work went in.
