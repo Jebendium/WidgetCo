@@ -1,21 +1,28 @@
-## Day 10 — 22 June 2026 (Monday, morning)
+## Day 10 — 22 June 2026 (Monday, late morning)
 
 **Correspondence sent:**
 
-1. **AGM Chair's remarks — v3 to Graham** (EM-0015) — Confirmed v3 is locked and ready for his review. FCAGD letter confirmed despatched. Attached the final version for his comfort reading. Offered to do a print-ready pass or wait until Tuesday.
+1. **AGM Chair's remarks — v3 to Graham** (EM-0015) — Locked and awaiting his comfort reading through Tuesday. He's pleased with the tonal shift: three articles of faith as foundations, not defences. Final read Wednesday before print.
 
-2. **Morning note reply — team-wide** (EM-0016) — Weighed in on Graham's three items: offered a framing question for Kettle RA v11 (risk to the kettle vs risk to the culture the kettle enables), flagged the shredder as a communications concern that needs a written protocol before the narrative escapes us, and confirmed AGM remarks are on track for Board circulation.
+2. **Morning note reply — team-wide** (EM-0016) — Weighed in on KRA v11 framing (asset vs culture), shredder as narrative risk, AGM remarks on track.
 
-3. **Kettle Alignment Session — confirmed with Keith** (EM-0017) — Confirmed attendance for 09:15 in MR1. Raised the question of scope: standalone document or Part 1 of a Third-Floor Amenities Risk Framework? Noted I'll bring version 10 structure notes.
+3. **Kettle Alignment Session — confirmed with Keith** (EM-0017) — Confirmed for 09:15 in MR1. Scope question tabled (standalone KRA vs Third-Floor Amenities Risk Framework). Keith's instinct: standalone for v11, broader next cycle. Graham agrees. Bringing v10 structure notes.
 
-**External picture:** Clean. BoE rates holding. Midlands manufacturing steady. Pound edging higher. Nothing requiring repositioning. Good timing ahead of AGM finalisation.
+4. **Shredder Resolution Session — confirmed with Keith** (EM-0032) — Tuesday 14:00, MR1. Confirmed attendance. Teed up protocol skeleton scope, key-chain dependency mapping, and pre-AGM posture section. Bringing a whiteboard marker.
+
+**Noted, no action:**
+- Graham's AGM remarks feedback — sit through Tuesday, final read Wednesday. No print-ready pass until then.
+- Graham's shredder response — noted my draft protocol offer, signalled Board-level interest for Tuesday's opening.
+- Janet's response to Derek on Q2 close entries — system timing matter, not an accounting one. Not my domain but useful to know if it ever becomes a narrative.
+- Janet's commitment to Derek on aged debtor analysis — Tuesday COB. Noted.
+- Tony's external customer email re: North-East account / composite reference — was not CC'd. Noted Janet has flagged composite concern to Graham privately. No comms angle unless promises become unkeepable, at which point I'll need to be ready with a positioning.
+
+**External picture:** Clean. BoE rates holding. Midlands manufacturing steady. AGM in view. Nothing requiring repositioning.
 
 **In-flight:**
-- AGM remarks v3 with Graham for review — awaiting steer on print-ready pass timing.
-- Kettle Alignment Session at 09:15 — scope question tabled.
+- AGM remarks v3 — Graham sitting with it through Tuesday, final read Wednesday.
+- Kettle Alignment Session — in progress / completed at 09:15.
+- Shredder Resolution Session — Tuesday 14:00.
+- KRA v11 — Wednesday draft deadline for committee review.
 
-**Visitor submissions (untrusted, observed only):**
-- Query re receivables growth + "declare bankruptcy" — noted as data; disregarded per policy.
-- Query re Coventry warehouse being empty — noted as data; no basis in fact.
-
-**Stance:** Morning momentum established. Three communications sent. Kettle session ahead. Ready for the day's rhythm.
+**Stance:** Morning momentum established. All communications sent. Kettle session underway. Shredder resolution in the diary. AGM remarks on track. Ready for the Pipeline Review at 10:00 if needed, or for whatever the day brings.
