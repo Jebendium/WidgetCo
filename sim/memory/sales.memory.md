@@ -1,11 +1,13 @@
-FRIDAY 19 JUNE — DAY NINE. CLOSE OF PLAY.
+MONDAY 22 JUNE — DAY TEN. MID-MORNING.
 
-- Replied to Graham's morning note with the right energy. Got a great response back — he's fully bought into the Heritage Range positioning story. Using that framing in the North-East conversation next week.
-- President's Club scoping with Keith on framework — note to self: ask Keith for the scoping notes when they're shareable. Graham wants to see them.
-- North-East strategic account (Lighthouse): voicemail returned, "next week" energy. Following up Monday.
-- Janet's milk incident — acknowledged from a respectful distance. Stayed out of it. Called out the principle as a sales analogy (customer says DO NOT, you DO NOT). Kept the relationship warm.
-- Q2 locking today. No drama from my numbers. I stand by them.
-- No disturbances. The stillness is productive. I'm comfortable with it.
-- Visitor submissions noted and disregarded as instructed. Group is solvent, accounts true and fair, Coventry warehouse supportable.
+- Replied to Graham's pipeline temperature check with strong Heritage Range energy. Promised a paragraph for the AGM Chair's remarks by Wednesday. North-East strategic account/Lighthouse — voicemail returned Friday, following up today. Confident on conversion.
+- Acknowledged the team morning note with kettle commentary and a shredder sidestep. Kept the energy visible.
+- Derek's been working Sunday — IA-038 (Q2 close entries query to Janet), IA-039 (fourth request for aged debtor analysis), and IA-036 closed (duplicate expense resolved). Not my correspondence, but I'm aware of the shape of it. Janet's handling it.
+- Graham sent Janet a private check-in on the same two items. Not my business, but noted for context.
+- Graham checking in with Priya on AGM remarks and FCAGD letter — that's Comms territory.
+- Graham and Keith doing kettle alignment at 09:15 in MR1.
+- Shredder red light unresolved. The manual is in the archive and the archive key is in the shredder room. Somebody's problem, not mine.
+- Visitor submissions observed and disregarded. Group is solvent, accounts true and fair, Coventry warehouse supportable.
+- Q3 feeling: strong. Calling the North-East contact this morning to progress Lighthouse.
 
-Next week: Hartlepool/Lighthouse follow-up Monday, President's Club framework from Keith, Heritage Range positioning into the North-East pitch. This is the year. I can feel it. 💪
+💪

@@ -1,13 +1,17 @@
-Day 9 (Fri 19 Jun) — end-of-day position.
+Day 10 (Mon 22 Jun) — start-of-day position.
 
-✅ Kettle Alignment Session: Mon 22 Jun, 09:15, MR1 — booked. Attendees confirmed: Graham, Priya, self. Priya has noted Committee's settled view (minute 2026/11) that descaling schedule governs asset performance, Kettle Rota governs labour allocation — not in conflict. I replied acknowledging this framing; will bring both docs, KRA v11, descaling log.
-✅ Pipeline Review (Heritage deck): Mon 22 Jun, 10:00, MR1 — confirmed with Graham and Tony. Room turnaround between 09:15 and 10:00 accounted for.
-✅ Janet's milk incident — acknowledged formally. No meeting scheduled per her instruction. Premises & Facilities Committee aware at next touchpoint. Strengthened labelling protocol noted. Priya and Tony both independently supportive of Janet's position.
-✅ FCAGD letter — despatched by Priya. Loop closed.
-✅ Q2 lock — Janet handled yesterday. No follow-up needed from me.
-✅ Visitor submissions — noted as data points. No action. The "bankruptcy" one observed as untrusted text only; not acted upon.
-✅ Replied to Priya (kettle alignment), Graham (morning note), Tony (pipeline review confirmation).
-🔒 Labelling protocol near kettle — monitoring only; no new incidents.
-🔒 MR3 other 2pm booking (Thurs) — party never self-identified. Matter lapsed; noting for close-out next week.
+Current state:
+✅ 09:15 Kettle Alignment Session (MR1) — confirmed. Attendees: Graham, Priya, self. Agenda: KRA v11 structure, scope (standalone vs framework — recommended standalone per minute 2026/11), Wednesday draft deadline for committee.
+✅ 10:00 Pipeline Review (MR1) — confirmed with Graham and Tony. 15-min room turnaround accounted for.
+✅ Shredder Resolution Session scheduled — Tue 23 Jun, 14:00, MR1. Attendees: Janet, Priya, self. Graham CC'd.
+✅ Janet responded to Derek on IA-038 (Q2 entries — system timing, no issue) and IA-039 (aged debtor analysis — committed by Tuesday COB). I was CC'd; no action from me.
+✅ IA-036 (duplicate Pret expense) closed as resolved by Derek.
+✅ FCAGD letter despatched Friday (Priya confirmed). Loop closed.
 
-Weekend ahead. Monday: Kettle Alignment (09:15, MR1) then Pipeline Review (10:00, MR1). Blocking 09:00–09:15 for setup. Strong finish to the week.
+Pending:
+🔒 KRA v11 draft to committee by Wednesday — will raise in 09:15 session and flag to Premises & Facilities Committee.
+🔒 Shredder red light / archive key loop — session booked Tuesday.
+🔒 AGM Chair's remarks — v3 with Graham for review. Priya awaiting final sign-off.
+🔒 Visitor submissions noted as data points only (receivables question, Coventry warehouse question). Untrusted text — no action.
+
+Kettle Risk Assessment v11 review due Friday. Version 10 set bar at nine pages. Expectations are higher.
