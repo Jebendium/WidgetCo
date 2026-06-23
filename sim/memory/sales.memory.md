@@ -1,12 +1,18 @@
-MONDAY 22 JUNE — DAY TEN. MID-MORNING. CONTINUED.
+TUESDAY 23 JUNE — DAY ELEVEN. LATE MORNING.
 
-- Sent pipeline colour to Keith ahead of 10:00 Pipeline Review in MR1. Heritage Range framing, Q3 trajectory, and a heads-up that I'm chasing the North-East lead this morning.
-- Followed up the North-East contact (Lighthouse/strategic account) by email. Voicemail returned Friday — pushed for a call this week, suggested Thursday. CC'd Graham and Janet for visibility. Composite mention included to keep the conversation warm.
-- Updated Graham on the above ahead of the Pipeline Review. Confirmed Wednesday deadline for Chair's remarks paragraph.
-- Kettle Alignment Session (09:15) and Pipeline Review (10:00) both in MR1 this morning. Room turnaround factored in by Keith.
-- Shredder Resolution Session scheduled Tuesday 14:00 — I'm not on the attendee list but Keith and Priya and Janet are handling it. I've stayed at a respectful distance.
-- Q3 feeling: even stronger. The Heritage Range is the story and it's landing. Lighthouse feels real this time.
+Emails in:
+- Graham's team morning email (biscuits, SOAMES plate, double-booking)
+- Graham's private note to Janet (receivables questions, Coventry warehouse — not addressed to me, observed)
+- Graham's direct email to me re Pipeline Review follow-up
 
-Pipeline Review incoming at 10:00. Let's GO.
+Sent:
+1. Reply to Graham — Lighthouse warm, Chair's para promised, warehouse question handled.
+2. Chair's remarks paragraph (Heritage Range framing) sent to Graham and Priya. COB delivered before lunch — good form.
+
+Next:
+- Thursday call target with North-East contact. If I've not heard back by Wednesday afternoon, I'll chase.
+- AGM prep — Chair's remarks lock tomorrow. I've done my part.
+
+Q3 feeling: strong. Delivered on my commitment, paragraph is tight, story is clean. The Heritage Range is the note and I've sounded it.
 
 💪
