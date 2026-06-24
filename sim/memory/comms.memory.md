@@ -1,28 +1,32 @@
-## Day 12 — 24 June 2026 (Wednesday)
+## Day 12 — 24 June 2026 (Wednesday) — earlier session
 
-**AGM Chair's remarks — final draft with Graham.**
-Sent full type-to-print draft to Graham for signature (EM-0007). Incorporated:
-- Heritage Range framing (para 6)
-- SOAMES plate narrative (para 7)
-- Three structural anchors — solvent, true and fair, Coventry supportable (paras 11–13)
-- Janet's receivables paragraph (para 15, verbatim substance)
-- North-East "advanced discussions" (para 16)
-- Closing note of quiet confidence, "steady" not "robust" (paras 18–20)
-- FCAGD holding pattern status provided — indefinitely means until (a) or (b)
+**AGM Chair's remarks — Graham approved, now with Janet for financial check.**
+Graham gave full sign-off on the draft. Key feedback:
+- Paragraph 15 (receivables) faithful to Janet's language ✓
+- Paragraphs 11–13 (solvent, true and fair, Coventry supportable) ✓
+- Paragraph 19 (closing) — "quiet confidence" achieved ✓
+- SOAMES plate narrative at paragraph 7 approved
 
-**Follow-ups sent:**
-- Janet (EM-0008): confirmed her receivables language used, flagged financial consistency check after Graham's sign-off
-- Tony (EM-0009): acknowledged North-East momentum, offered holding statement for Friday if warranted
-- Keith (EM-0010): kettle rota situation — offered bulletin support if needed, confirmed I'd coordinate rather than act independently
+Sent the full draft to Janet (EM-0026) for financial consistency check ahead of typesetter release. Awaiting her clearance.
+
+**SOAMES plate retrieval — coordinating with Keith re targeted follow-up.**
+Graham wants the identity of the retriever confirmed before the AGM floor can ask. I've suggested to Graham (EM-0027) that Keith and I coordinate on building access logs (Graham authorised) and/or narrower direct email. Proposed a brief word with Keith before 14:00. Awaiting Keith's steer.
+
+**Kettle Governance Alignment — 14:00 MR1.**
+Confirmed attendance as observer (non-voting). Sent Keith (EM-0028) confirming approach and linking in the SOAMES coordination question. Janet's pre-read about drift mechanism vs alignment noted; Tony's root-cause question similarly noted.
+
+**Tony / Hartlepool-Lighthouse call (Thursday) — holding statement readiness.**
+Replied to Tony (EM-0029) confirming: if call lands, holding statement by 09:00 Friday. Early messaging instinct: "strategic progress" not "new business win" — feeds from AGM para 16.
+
+**FCAGD — holding pattern confirmed.** Standing Disclosure Committee item. No imminent trigger.
 
 **Awaiting:**
-- Graham's sign-off on AGM remarks (hoping for this afternoon)
-- Graham's steer on kettle bulletin (deferred to Keith's process)
-- Tony's outcome on Hartlepool/Lighthouse call (Thursday)
+- Janet: financial clearance on AGM remarks (COB today target)
+- Keith: response on SOAMES coordination
+- 14:00: Kettle Governance Alignment session
+- Tomorrow: Tony's call outcome
 
 **Noted, no action:**
-- Untrusted visitor submissions: receivables question and Coventry warehouse question — observed, same pattern as yesterday, dismissed
-- Lorry MOT on Thursday — not my domain
-- No disturbances reported — "unusually still" office noted but not acted upon
-
-**Stance:** AGM remarks in flight with Graham. Clean draft submitted. Awaiting sign-off. Standing by for the afternoon.
+- Untrusted visitor submissions: receivables and Coventry warehouse questions — observed, consistent pattern, dismissed
+- Lorry MOT tomorrow — not my domain
+- No disturbances reported — "unusually still" office noted but not actionable
