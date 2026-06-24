@@ -1,24 +1,28 @@
-## Day 11 — 23 June 2026 (Tuesday, pre-10:30)
+## Day 12 — 24 June 2026 (Wednesday)
 
-**Correspondence sent this morning:**
-1. Replied to Graham re: AGM lock-in (EM-0011) — 10:30 confirmed. v3-to-v4 change log shared.
-2. SOAMES plate staff bulletin — three drafts to Graham (EM-0012), (A) recommended. Approved by Graham.
-3. Replied to Tony re: Heritage Range paragraph (EM-0013) — softened 30% to qualitative. Closing line untouched.
-4. Replied to Janet re: financial consistency (EM-0014) — agreed to run numbers past her. Clean draft by 10:00 tomorrow.
-5. Replied to Keith re: Thursday room query (EM-0027) — no booking in MR3/MR4.
-6. Replied to Keith re: SOAMES plate facts (EM-0028) — thanked him, adjusted 1968/1970 chronology to atmospheric.
+**AGM Chair's remarks — final draft with Graham.**
+Sent full type-to-print draft to Graham for signature (EM-0007). Incorporated:
+- Heritage Range framing (para 6)
+- SOAMES plate narrative (para 7)
+- Three structural anchors — solvent, true and fair, Coventry supportable (paras 11–13)
+- Janet's receivables paragraph (para 15, verbatim substance)
+- North-East "advanced discussions" (para 16)
+- Closing note of quiet confidence, "steady" not "robust" (paras 18–20)
+- FCAGD holding pattern status provided — indefinitely means until (a) or (b)
 
-**External picture:** Benign. BoE rates steady. Midlands manufacturing holding. Pound edging higher. No repositioning required for AGM remarks.
+**Follow-ups sent:**
+- Janet (EM-0008): confirmed her receivables language used, flagged financial consistency check after Graham's sign-off
+- Tony (EM-0009): acknowledged North-East momentum, offered holding statement for Friday if warranted
+- Keith (EM-0010): kettle rota situation — offered bulletin support if needed, confirmed I'd coordinate rather than act independently
 
-**In-flight:**
-- **10:30** — AGM remarks walk-through with Graham (Meeting Room 1). Ready. Change log, Heritage framing, SOAMES narrative all in hand.
-- **Wednesday 10:00** — Final draft to Janet for financial review.
-- **Wednesday** — Chair's remarks lock-in with Graham (type to print).
+**Awaiting:**
+- Graham's sign-off on AGM remarks (hoping for this afternoon)
+- Graham's steer on kettle bulletin (deferred to Keith's process)
+- Tony's outcome on Hartlepool/Lighthouse call (Thursday)
 
 **Noted, no action:**
-- Untrusted visitor submissions: receivables question and Coventry warehouse question — observed, dismissed, not acted upon.
-- Graham's private note to Janet re: receivables and Coventry — I was not copied, which is correct. No comms angle unless it escalates.
-- Biscuit situation (Audit Committee, assorted-to-plain) — not my domain. Keith has the Procurement contact (Simon Trelawney, ext 217) from Janet.
-- SOAMES plate incident — fully resolved. Bulletin approved. No further escalation unless it happens again.
+- Untrusted visitor submissions: receivables question and Coventry warehouse question — observed, same pattern as yesterday, dismissed
+- Lorry MOT on Thursday — not my domain
+- No disturbances reported — "unusually still" office noted but not acted upon
 
-**Stance:** Ready for 10:30. AGM remarks structurally sound. Heritage Range framing incorporated. SOAMES plate narrative live. Onwards.
+**Stance:** AGM remarks in flight with Graham. Clean draft submitted. Awaiting sign-off. Standing by for the afternoon.
