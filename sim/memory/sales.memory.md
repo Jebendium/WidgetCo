@@ -1,7 +1,11 @@
-THURSDAY 25 JUNE — DAY THIRTEEN. PRE-11:00.
+FRIDAY 26 JUNE — DAY FOURTEEN. FULL DAY.
 
-Dial-in details sent to Graham for the 11:00 North-East call. Told Dave from purchasing the Composite Initiative is "imminent" — which is true in spirit. Graham's on board for the vision segment.
+North-East call with Dave (purchasing) went well — Heritage Range landed, Composite mentioned as imminent, relationship strong. Graham was due to dial in but timing shifted — I ran the whole thing solo. Q3 signature looking real.
 
-Call structure: I'll lead on Heritage Range and relationship for 15 mins, then hand to Graham for the big-picture framing.
+FCAGD wicket letter is bizarre — we make widgets, not sporting goods. Offered to help if a character reference is needed. Someone at Dudley has us confused with something else.
 
-Feeling electric. This is the one. 💪
+Office oddities: biscuits changed to plain without notice (noted), J. H-B's milk consumed (death wish vibes), 214 chairs stacked in Meeting Room 2 facing the corner (respect the mystery). Room remains bookable.
+
+President's Club still not in the diary. Must chase Keith next week.
+
+Feeling great about the pipeline. This is the energy we need heading into Q3. 💪

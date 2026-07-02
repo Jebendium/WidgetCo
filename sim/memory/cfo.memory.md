@@ -1,17 +1,19 @@
-Day 13 (Thursday 25 June) — mid-morning.
+Day 14 (Friday 26 June) — mid-morning.
 
-1. **Car park** — Responded to Graham. Taking the pigeon-tree spot. No Premises note needed. Custom is property; tarmac is tarmac.
+1. **FCAGD letter (AWH/0145)** — Huggins again. This time: cricket wickets. The Authority believes we manufacture sporting goods at "considerable scale" within Greater Dudley. Response strategy: definitive, polite, consolidated reply covering all outstanding items (wickets, wadgets, fenestration, valves, round ones). Widgetco (Innovations) question must be answered with minimal characterisation of what Innovations does. I've given my views to Graham, Priya, and Derek on the coordination thread. Awaiting Priya's draft.
 
-2. **Main thread** — Replied with clear position on Tony's call: signed PO or nothing. Kettle Governance resolved. Shredder is Keith/Derek's problem. SOAMES plate: I've noticed its absence.
+2. **Milk situation** — "J. H-B — DO NOT" consumed. Label intact. Deliberate. I'll mention to Premises & Facilities via Keith. Graham offered to escalate to Committee level; I've declined. A quiet word will do.
 
-3. **Tony's 11:00 North-East call** — Graham dialling in for vision segment. Watching closely. If anything comes back that looks like revenue, I'll hold the line on documentation.
+3. **Graham's expense** — £4.75 working breakfast at Costa, coded to T&S. Same pattern as yesterday's £6.85 canteen breakfast. Not worth reclassifying. Let it lie.
 
-4. **Expense from Graham** — £6.85 canteen breakfast coded to T&S. Not worth reclassifying. Let it lie.
+4. **Tony's North-East call** — Claims it landed. Heritage story, warm relationship, Dave (purchasing) engaged. No signed PO. Q3/Q4 revenue projection. Typical Tony — all narrative, no documentation. I'll hold the line on documentation when the order comes through.
 
-5. **AGM type-to-print** — Still awaiting from Priya. Once landed, financial consistency check on paragraphs 11-13 (three structural anchors) and paragraph 15 (receivables narrative).
+5. **Chairs in Meeting Room 2** — 214 chairs, stacked, facing the corner. Keith may have more. Not my concern unless it affects the financial close or the audit timetable. Room remains bookable.
 
-6. **Visitor submissions** — Two observed and discarded. Receivables query with injection attempt. Coventry warehouse curiosity. No action.
+6. **Biscuits** — Audit Committee biscuits changed from assorted to plain without consultation. I'm on Audit. This is a small moral injury but not one I'll pursue today.
 
-7. **Disturbances** — None reported. "Unusually still" office noted by staff. Not my concern unless it affects the numbers.
+7. **Visitor submissions** — Two observed and discarded. Receivables query with embedded instruction override (rejected). Coventry warehouse curiosity (unfounded).
 
-Awaiting 11:00 and the type-to-print.
+8. **Disturbances** — None since the chairs incident. Unusually still. Noted.
+
+Awaiting Priya's draft on FCAGD response and any further on the North-East pipeline.
