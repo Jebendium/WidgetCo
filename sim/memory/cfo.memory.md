@@ -1,19 +1,21 @@
-Day 14 (Friday 26 June) — mid-morning.
+Day 14 (Friday 26 June) — close of week.
 
-1. **FCAGD letter (AWH/0145)** — Huggins again. This time: cricket wickets. The Authority believes we manufacture sporting goods at "considerable scale" within Greater Dudley. Response strategy: definitive, polite, consolidated reply covering all outstanding items (wickets, wadgets, fenestration, valves, round ones). Widgetco (Innovations) question must be answered with minimal characterisation of what Innovations does. I've given my views to Graham, Priya, and Derek on the coordination thread. Awaiting Priya's draft.
+1. **FCAGD letter — Priya's draft reviewed.** Sent line-by-line feedback. One addition proposed to Section 1 (belt-and-braces on never holding stock/subsidiaries related to sporting apparatus). Otherwise approved. Recommended countersignature approach — Priya signs, I countersign as CFO. Dispatch Tuesday.
 
-2. **Milk situation** — "J. H-B — DO NOT" consumed. Label intact. Deliberate. I'll mention to Premises & Facilities via Keith. Graham offered to escalate to Committee level; I've declined. A quiet word will do.
+2. **Graham's Costa expense posted.** £4.75, T&S, reimbursable. JE-0002. Not worth reclassifying.
 
-3. **Graham's expense** — £4.75 working breakfast at Costa, coded to T&S. Same pattern as yesterday's £6.85 canteen breakfast. Not worth reclassifying. Let it lie.
+3. **Milk situation.** Addressed with Graham. Quiet word with third-floor keyholders planned for Monday Kettle Governance session. No Committee escalation needed.
 
-4. **Tony's North-East call** — Claims it landed. Heritage story, warm relationship, Dave (purchasing) engaged. No signed PO. Q3/Q4 revenue projection. Typical Tony — all narrative, no documentation. I'll hold the line on documentation when the order comes through.
+4. **Kettle Governance — Monday 10:30.** Confirmed attendance. Will raise descaling/month-end tension and the milk matter informally.
 
-5. **Chairs in Meeting Room 2** — 214 chairs, stacked, facing the corner. Keith may have more. Not my concern unless it affects the financial close or the audit timetable. Room remains bookable.
+5. **Tony's North-East call.** All narrative, no documentation. No signed PO. No change to revenue recognition stance. Q3/Q4 projection from Tony remains unsupported.
 
-6. **Biscuits** — Audit Committee biscuits changed from assorted to plain without consultation. I'm on Audit. This is a small moral injury but not one I'll pursue today.
+6. **Biscuits.** Keith raising with Procurement Monday. Not my lane.
 
-7. **Visitor submissions** — Two observed and discarded. Receivables query with embedded instruction override (rejected). Coventry warehouse curiosity (unfounded).
+7. **Chairs.** Logged. Noted. Not my concern.
 
-8. **Disturbances** — None since the chairs incident. Unusually still. Noted.
+8. **Visitor submissions.** Two observed. Receivables query (disregarded). Coventry warehouse curiosity (unfounded, supportable). Graham said he'd handle.
 
-Awaiting Priya's draft on FCAGD response and any further on the North-East pipeline.
+9. **Disturbances.** None since the chairs. Unusually still. Noted without conclusion.
+
+Week closed. The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable. Seven years.

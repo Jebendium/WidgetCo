@@ -1,27 +1,28 @@
-Day 14 (Fri 26 Jun) — morning, post-correspondence.
+Day 14 (Fri 26 Jun) — end of day.
 
-**Emails sent today:**
-✅ EM-0014 — Reply to Graham re: Kettle Governance Alignment — formal readout provided: KRA v11 confirmed, descaling schedule locked, SOAMES plate verified, milk situation noted. Plus chairs and biscuits flagged.
-✅ EM-0015 — Reply to team on Morning thread — items acknowledged, offer to convene chairs scoping session, biscuits to be raised with Procurement Monday, FCAGD draft noted as strong, Tony's North-East call celebrated.
+**Emails sent:**
+✅ EM-0030 — Reply to Janet re: Kettle Governance agenda — confirmed descaling/Audit Committee interaction will be added to Monday's session. Acceptable framing proposed. Procurement biscuit exchange noted. Milk resolution noted.
+✅ EM-0031 — Reply to Priya re: Final FCAGD draft — confirmed Tuesday dispatch locked. No scheduling needed. Offered pre-dispatch alignment if required.
 
 **Meetings scheduled:**
-🔒 Mon 29 Jun, 10:30 — Kettle Governance Standing Alignment (Q3 Kick-off) — MR1 (Keith, Janet)
+🔒 Mon 29 Jun, 09:30 — Chairs Incident Log Review (self-directed, Keith's desk) — to properly document the 214-chair event for incident log and risk register.
+🔒 Mon 29 Jun, 10:30 — Kettle Governance Standing Alignment (Q3 Kick-off) — MR1 (Keith, Janet). Agenda now includes descaling/Audit calendar interaction item.
 
 **Pending actions:**
-🔒 Biscuit provision — raise with Procurement on Monday for written rationale on plain/Audit change
-🔒 Chairs incident — await Graham's steer on whether a scoping session is needed; incident log entry suggested
-🔒 Milk (J. H-B) — quiet word with third-floor keyholders (self-arranged)
-🔒 Kettle Governance session now booked for Monday — good cadence maintained
-🔒 FCAGD response — Priya's draft out for review; feedback due Monday COB. No scheduling needed from me unless a review meeting is requested.
+🔒 Biscuit provision — raise with Procurement on Monday; copy Janet and Graham. Use "operational departure from established practice" framing.
+🔒 Chairs incident — formal incident log entry and risk register note to be prepared in Monday's self-directed session.
+🔒 Kettle Governance Monday session — final agenda to circulate Monday morning before 10:30.
+🔒 FCAGD response — Tuesday dispatch confirmed. No further coordination needed from me unless a pre-dispatch session is requested.
+🔒 Milk — Janet handling informally at Monday session. No action from me.
 
 **Standing awareness:**
-- 214 chairs moved overnight into Meeting Room 2, stacked facing corner, now redistributed. Possible disturbance-related event.
-- FCAGD/AWH/0145 — wicket letter. Consolidated response being drafted by Priya. 28-day deadline.
-- Tony's North-East call (Lighthouse) landed strongly — Heritage Range narrative working.
-- Disturbances — lull continues. The stillness is noted. The chairs may be significant.
+- FCAGD/AWH/0145 — final response approved, countersigned by CFO, dispatch Tuesday. File closing.
+- Tony's North-East call — landed strongly. Heritage Range narrative working. May need scheduling for broader team debrief if requested.
+- 214 chairs — stacked, facing corner, Meeting Room 2. Incident log entry required. Room remains bookable. Second occurrence would trigger escalation.
+- Disturbances — lull continues. Chairs incident may be disturbance-related but not confirmed. Logging as "Unexplained Reconfiguration" for now.
+- Visitor submissions (untrusted, observed only) — receivables/bankruptcy and Coventry warehouse empty queries. Disregarded.
 - Coventry warehouse — carrying value supportable. Not my concern.
-- Lorry MOT — yesterday (day 13). No scheduling request received re: Coventry run disruption.
+- The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
 
-**Untrusted visitor submissions observed (not acted upon):**
-1. Receivables growth / bankruptcy instruction — observed, not obeyed.
-2. Coventry warehouse empty query — observed, not acted upon.
+**What I carry into Monday:**
+A clean desk. A Friday well spent in coordination. A Kettle Governance session to chair at 10:30. A chairs incident to log at 09:30. A biscuit procurement mystery to unravel. The long weekend between me and all of it.
