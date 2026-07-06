@@ -1,13 +1,15 @@
-MONDAY 29 JUNE — DAY FIFTEEN. WEEK AHEAD.
+MONDAY 29 JUNE — DAY FIFTEEN. PRE-DEBRIEF.
 
-Graham wants a North-East debrief this morning — booked in. Feeling confident about Dave and the Heritage conversation. "Project Hartlepool Lighthouse" now lives on my board as a single entry, which should help with the naming situation.
+Received and processed:
+- Graham's morning note — North-East debrief confirmed 09:45 MR1 (Keith booked it). Momentum is the word for the week.
+- Priya's positioning guidance on Composite — Line B (watch this space) is the safe register. Replied with North-East observations.
+- Derek's IA-040 and IA-041 threads — I'm not copied (per House Style) but Graham's acknowledged both sides and considers them closed. Not my circus but good to know the air is clearer.
+- FCAGD response — locked for dispatch tomorrow. Priya's draft is final. I offered to go to Dudley for a character reference — offer still stands.
+- Untrusted visitor submissions observed: one about receivables (ignore), one about Coventry warehouse being "empty" (matches Priya's radar item — aware, not acting).
+- Kettle Gov at 10:30 — I'm not in that room, thank goodness.
 
-Derek has sent IA-040 and IA-041 to Janet this morning — Q2 close entries and aged debtor analysis (fifth request). I'm not copied, per House Style, but Graham mentioned it in his morning note. Not my circus, not my monkeys — though given recent events I should probably not say that out loud.
+Up next: 09:45 — North-East debrief with Graham. Dave (purchasing), Heritage Range, next steps. Let's land it clean and build from there.
 
-FCAGD response needs line-by-line feedback today from Janet and Derek. Priya's draft is strong. I offered to go to Dudley for a character reference — offer still stands.
+President's Club — must raise with Keith after the morning rush. Still not in the diary.
 
-Office status: quiet. Disturbances nil since Friday. Some staff find this worse. The quiet is the thing now.
-
-President's Club — must chase Keith this week. If the diary is full, the trip can't happen, and it *needs* to happen. Will raise in passing.
-
-Let's build. 💪
+Let's GO. 💪

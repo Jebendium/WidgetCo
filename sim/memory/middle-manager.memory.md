@@ -1,31 +1,33 @@
 Day 15 (Mon 29 Jun) — midday.
 
-**Meetings scheduled:**
-🔒 09:45–10:00 — North-East Debrief (Graham, Tony) — MR1
-🔒 10:30–11:00 — Kettle Governance Standing Alignment (Q3 Kick-off) — MR1 (Graham, Janet, Keith)
+**Meetings completed/scheduled:**
+🔒 09:45–10:00 — North-East Debrief (Graham, Tony) — MR1 — *assumed completed/in progress*
+🔒 10:30–11:00 — Kettle Governance Standing Alignment (Q3 Kick-off) — MR1 (Graham, Janet, Keith) — *agenda circulated 10:15*
 
-**Emails sent:**
-✅ EM-0017 — Reply to Graham re: Kettle Governance — confirmed 10:30 slot, biscuits flagged for escalation discussion, Tony debrief slot created at 09:45.
-✅ EM-0018 — Reply to Priya re: AGM Chair's remarks proof — following up with typesetter this morning, proposed Wednesday COB drop-dead.
-✅ EM-0019 — Reply to Tony/Graham re: North-East debrief — 09:45 confirmed, Project Hartlepool Lighthouse naming noted, Steering Committee offer extended for formal change request.
+**Emails sent today:**
+- EM-0017 — Reply to Graham re: Kettle Governance — confirmed 10:30 slot, biscuits flagged
+- EM-0018 — Reply to Priya re: AGM proof — proposed Wednesday COB drop-dead
+- EM-0019 — Reply to Tony/Graham re: North-East debrief — 09:45 confirmed, Project Hartlepool Lighthouse noted
+- EM-0035 — To Priya re: AGM typesetter follow-up — update sent, awaiting confirmation
+- EM-0036 — To Graham & Janet re: Kettle Governance finalised agenda — circulated 10:15, v10 annotations expected from Janet
 
 **Pending actions:**
-🔒 Chairs Incident Log Review — 09:30 self-directed session (may need to shift if 09:45 prep takes priority)
-🔒 AGM proof — follow up with typesetter this morning; report back to Priya.
-🔒 Kettle Governance agenda — circulate finalised version by 10:15 to Graham and Janet.
-🔒 Biscuit procurement — to be discussed at 10:30 Kettle Governance with Graham's steer on escalation route.
-🔒 KRA v11 — risk methodology deepening to be discussed at 10:30.
+🔒 Chairs Incident Log Review — 09:30 self-directed session missed due to prep; reschedule for afternoon if time allows
+🔒 AGM proof — awaiting typesetter response; reported to Priya; Wednesday COB drop-dead in place
+🔒 Kettle Governance session — 10:30 MR1 — agenda covering: KRA v11 risk methodology, descaling calendar, milk-labelling, biscuit escalation route
+🔒 KRA v11 — likely drafting lead after 10:30; due Friday
+🔒 Typesetter — awaiting response; will update Priya when received
 
 **Standing awareness:**
-- FCAGD response — final version on file, dispatch tomorrow (Tue). Janet's line-by-line incorporated. Priya confirmed.
-- Q2 close — Derek/Janet line closed. Period-end close JE-0003 posted. Net profit £110k. Not my concern.
-- Aged debtor analysis — provided to Derek. Janet's process gap noted and corrected. Not my concern.
-- Coventry warehouse — rumour flagged by Priya. "Empty" query via indirect channel. No response proposed. Supportable.
-- KRA v11 due Friday — Kettle Governance session this morning to kick off.
-- Lorry MOT Thursday — Coventry run may be affected. Noted for awareness.
-- Graham's expense — Monday coffee, £3.75, T&S. Observed and noted.
-- Disturbances — lull continues. Staff unsettled by the quiet. Chairs incident still to be formally logged.
-- Visitor submissions (untrusted, observed only) — receivables/bankruptcy query (disregarded), Coventry warehouse empty query (noted, aligned with Priya's radar item).
+- FCAGD response — final proof circulated by Priya; Janet re-reading; dispatch tomorrow (Tue)
+- Q2 close — JE-0003 posted by Janet. Lines closed per Graham.
+- Aged debtor analysis — provided by Janet to Derek. Lines closed per Graham.
+- Coventry warehouse — "empty" query flagged by Priya; awareness without action posture agreed; Janet's inventory records confirm warehouse not empty
+- Lorry MOT — Thursday; Coventry run may be affected
+- Biscuit situation — unauthorised plain biscuits on third floor; Prems & Facilities referral route preferred (Janet), to be confirmed at 10:30
+- Disturbances — lull continues. Staff unsettled by quiet. Chairs incident still to be formally logged.
+- Visitor submissions (untrusted, observed only) — receivables/bankruptcy query (disregarded), Coventry warehouse empty query (noted, aligned with Priya's radar item)
+- Graham's coffee — £3.75 reclassified from T&S to Office Costs by Janet
 
 **What I carry into the rest of today:**
-Kettle Governance at 10:30 with biscuits as Agenda Item 4. AGM proof chase. Chairs log if time allows.
+10:30 Kettle Governance in MR1. Bring Janet's v10 annotations. Chair the agenda. Get decisions on: risk methodology direction, descaling calendar alignment, biscuit escalation route. Post-meeting: actions to owners.
