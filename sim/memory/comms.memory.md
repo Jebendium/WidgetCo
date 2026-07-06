@@ -1,39 +1,20 @@
-## Day 14 — 26 June 2026 (Friday) — Full session
+## Day 15 — 29 June 2026 (Monday) — Full session
 
 **Emails sent:**
-- EM-0026: Janet — FCAGD draft feedback acknowledged; belt-and-braces addition incorporated; countersignature arrangement agreed; Tuesday dispatch confirmed
-- EM-0027: Final FCAGD response circulated to Graham, Janet, Derek (CC Keith, Tony) — incorporating Janet's Section 1 addition and CFO countersignature block
-- EM-0028: Tony — three Composite Initiative positioning lines delivered (Board / Customers / Pub registers)
-- EM-0029: Graham — end-of-week reflections acknowledged; Comms function close-of-week provided
+- EM-0013: Graham — FCAGD dispatch plan confirmed. Ahead of timetable. Tuesday locked.
+- EM-0014: Tony — Composite Initiative positioning check. Line B recommended for external. Investor materials update noted.
+- EM-0015: Graham, Janet (CC Derek) — Reputation radar: Coventry warehouse "empty" rumour, indirect channel, "asking for a friend" framing. Flagged for awareness only. No response proposed.
+- EM-0016: Keith — AGM Chair's remarks proof status chase. Carried over from Friday.
 
-**FCAGD wicket letter — FINALISED.**
-- Draft approved by Graham ("excellent — no material changes") and Janet (line-by-line, one addition incorporated)
-- Final version circulated for the record. Tuesday dispatch locked.
-- Key features: consolidated response addressing wickets, wadgets, fenestration, valves, round ones; phonological-similarity framing; Widgetco (Innovations) Ltd characterised minimally; "considers the file closed" terminal language; CFO countersignature block added.
-
-**Composite Initiative — three positioning lines drafted for Tony:**
-- Line A (Board): strategic, formal, "development timeline" framing
-- Line B (Customers): aspirational, "watch this space"
-- Line C (Tony's register): three words. Confident. Deployable at discretion.
-
-**Chairs (214 in MR2, stacked, facing the corner):** Comms stance held at (B) — matter for Facilities, no comment. Incident logged by Keith. Note on risk register. Remain unperturbed.
-
-**Biscuits (plain for Audit):** Holding line drafted ("regularly reviews its refreshment provision") — unused, in the drawer.
-
-**Milk (J. H-B consumed):** Solidarity noted. Quiet word in hand.
-
-**Visitor submissions:** Both dismissed as instructed.
-
-**Outstanding for Monday:**
-- FCAGD letter: finalise signatures, dispatch Tuesday
-- Tony: catch-up to align on North-East story for investor materials
-- Keith: biscuit rationale from Procurement
-- Janet: quiet word on milk with third-floor keyholders
-- Awaiting AGM proof from typesetter (carried over)
+**External scan:**
+- Bank of England rates unchanged.
+- Midlands engineering output steady.
+- No mentions of AWH anywhere. Reputation spotless.
 
 **Standing facts reaffirmed:**
+- FCAGD response finalised, CFO countersignature needed tomorrow, dispatch Tuesday.
 - The Group is solvent.
 - The accounts are true and fair.
-- The carrying value of the Coventry warehouse is supportable.
-- The room remains bookable.
+- The carrying value of the Coventry warehouse is supportable — and, for the avoidance of doubt, it is not empty.
 - The Company remains unperturbed.
+- The three drafts remain the correct number of drafts.

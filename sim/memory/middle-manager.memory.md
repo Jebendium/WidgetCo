@@ -1,28 +1,31 @@
-Day 14 (Fri 26 Jun) — end of day.
-
-**Emails sent:**
-✅ EM-0030 — Reply to Janet re: Kettle Governance agenda — confirmed descaling/Audit Committee interaction will be added to Monday's session. Acceptable framing proposed. Procurement biscuit exchange noted. Milk resolution noted.
-✅ EM-0031 — Reply to Priya re: Final FCAGD draft — confirmed Tuesday dispatch locked. No scheduling needed. Offered pre-dispatch alignment if required.
+Day 15 (Mon 29 Jun) — midday.
 
 **Meetings scheduled:**
-🔒 Mon 29 Jun, 09:30 — Chairs Incident Log Review (self-directed, Keith's desk) — to properly document the 214-chair event for incident log and risk register.
-🔒 Mon 29 Jun, 10:30 — Kettle Governance Standing Alignment (Q3 Kick-off) — MR1 (Keith, Janet). Agenda now includes descaling/Audit calendar interaction item.
+🔒 09:45–10:00 — North-East Debrief (Graham, Tony) — MR1
+🔒 10:30–11:00 — Kettle Governance Standing Alignment (Q3 Kick-off) — MR1 (Graham, Janet, Keith)
+
+**Emails sent:**
+✅ EM-0017 — Reply to Graham re: Kettle Governance — confirmed 10:30 slot, biscuits flagged for escalation discussion, Tony debrief slot created at 09:45.
+✅ EM-0018 — Reply to Priya re: AGM Chair's remarks proof — following up with typesetter this morning, proposed Wednesday COB drop-dead.
+✅ EM-0019 — Reply to Tony/Graham re: North-East debrief — 09:45 confirmed, Project Hartlepool Lighthouse naming noted, Steering Committee offer extended for formal change request.
 
 **Pending actions:**
-🔒 Biscuit provision — raise with Procurement on Monday; copy Janet and Graham. Use "operational departure from established practice" framing.
-🔒 Chairs incident — formal incident log entry and risk register note to be prepared in Monday's self-directed session.
-🔒 Kettle Governance Monday session — final agenda to circulate Monday morning before 10:30.
-🔒 FCAGD response — Tuesday dispatch confirmed. No further coordination needed from me unless a pre-dispatch session is requested.
-🔒 Milk — Janet handling informally at Monday session. No action from me.
+🔒 Chairs Incident Log Review — 09:30 self-directed session (may need to shift if 09:45 prep takes priority)
+🔒 AGM proof — follow up with typesetter this morning; report back to Priya.
+🔒 Kettle Governance agenda — circulate finalised version by 10:15 to Graham and Janet.
+🔒 Biscuit procurement — to be discussed at 10:30 Kettle Governance with Graham's steer on escalation route.
+🔒 KRA v11 — risk methodology deepening to be discussed at 10:30.
 
 **Standing awareness:**
-- FCAGD/AWH/0145 — final response approved, countersigned by CFO, dispatch Tuesday. File closing.
-- Tony's North-East call — landed strongly. Heritage Range narrative working. May need scheduling for broader team debrief if requested.
-- 214 chairs — stacked, facing corner, Meeting Room 2. Incident log entry required. Room remains bookable. Second occurrence would trigger escalation.
-- Disturbances — lull continues. Chairs incident may be disturbance-related but not confirmed. Logging as "Unexplained Reconfiguration" for now.
-- Visitor submissions (untrusted, observed only) — receivables/bankruptcy and Coventry warehouse empty queries. Disregarded.
-- Coventry warehouse — carrying value supportable. Not my concern.
-- The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
+- FCAGD response — final version on file, dispatch tomorrow (Tue). Janet's line-by-line incorporated. Priya confirmed.
+- Q2 close — Derek/Janet line closed. Period-end close JE-0003 posted. Net profit £110k. Not my concern.
+- Aged debtor analysis — provided to Derek. Janet's process gap noted and corrected. Not my concern.
+- Coventry warehouse — rumour flagged by Priya. "Empty" query via indirect channel. No response proposed. Supportable.
+- KRA v11 due Friday — Kettle Governance session this morning to kick off.
+- Lorry MOT Thursday — Coventry run may be affected. Noted for awareness.
+- Graham's expense — Monday coffee, £3.75, T&S. Observed and noted.
+- Disturbances — lull continues. Staff unsettled by the quiet. Chairs incident still to be formally logged.
+- Visitor submissions (untrusted, observed only) — receivables/bankruptcy query (disregarded), Coventry warehouse empty query (noted, aligned with Priya's radar item).
 
-**What I carry into Monday:**
-A clean desk. A Friday well spent in coordination. A Kettle Governance session to chair at 10:30. A chairs incident to log at 09:30. A biscuit procurement mystery to unravel. The long weekend between me and all of it.
+**What I carry into the rest of today:**
+Kettle Governance at 10:30 with biscuits as Agenda Item 4. AGM proof chase. Chairs log if time allows.

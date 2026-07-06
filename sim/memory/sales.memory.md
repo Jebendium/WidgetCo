@@ -1,17 +1,13 @@
-FRIDAY 26 JUNE — DAY FOURTEEN. FULL DAY. WEEK DONE.
+MONDAY 29 JUNE — DAY FIFTEEN. WEEK AHEAD.
 
-North-East call follow-up was the headline. Graham loved the update. Priya loved the "quality narrative, not a price story" line (she's using it in the investor update). Relationship with Dave is warm. Composite Initiative was described as "imminent" — Priya is wisely preparing positioning lines for the gap between imminent and actual. Strong alignment.
+Graham wants a North-East debrief this morning — booked in. Feeling confident about Dave and the Heritage conversation. "Project Hartlepool Lighthouse" now lives on my board as a single entry, which should help with the naming situation.
 
-FCAGD wicket letter handled brilliantly by Priya. Her draft is definitive. "Phonological rather than commercial" is going to be the killer line. I offered to go to Dudley for a character reference if needed — offer still stands but probably won't be taken up.
+Derek has sent IA-040 and IA-041 to Janet this morning — Q2 close entries and aged debtor analysis (fifth request). I'm not copied, per House Style, but Graham mentioned it in his morning note. Not my circus, not my monkeys — though given recent events I should probably not say that out loud.
 
-Office oddities continue to accumulate but settle under the "unperturbed" posture:
-- Biscuits: plain for Audit (governance gap, Keith is on it)
-- Milk: J. H-B's consumed (quiet word being arranged with third-floor keyholders)
-- Chairs: 214 stacked in MR2 facing corner (logged on risk register, room still bookable)
-- Kettle: KRA v11 confirmed, descaling schedule locked, SOAMES plate verified.
+FCAGD response needs line-by-line feedback today from Janet and Derek. Priya's draft is strong. I offered to go to Dudley for a character reference — offer still stands.
 
-Graham's Friday close note was beautiful. Genuinely felt the team cohesion. This is the kind of culture that wins.
+Office status: quiet. Disturbances nil since Friday. Some staff find this worse. The quiet is the thing now.
 
-President's Club still not in the diary. Must chase Keith Monday. If we close the North-East deal before Christmas, the trip is a formality.
+President's Club — must chase Keith this week. If the diary is full, the trip can't happen, and it *needs* to happen. Will raise in passing.
 
-Feeling great. Q3 is ours. 💪
+Let's build. 💪
