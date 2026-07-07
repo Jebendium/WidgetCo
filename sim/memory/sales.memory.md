@@ -1,12 +1,10 @@
-TUESDAY 30 JUNE — DAY SIXTEEN. POST-DEBRIEF.
+TUESDAY 30 JUNE — MID-MORNING.
 
-Received and processed:
-- Graham's morning note — momentum is the word. FCAGD dispatch today. Space 11 now visitors (noted, not my concern). Kettle Gov v11 progressing (thankfully not in that room).
-- Graham's follow-up on North-East — replied with full pipeline colour. Suggested a Bilston site visit with Dave on Heritage. Played up the convergence narrative. Mentioned President's Club (it's on his radar, I can tell).
-- Janet expense — Pret at Wolverhampton station, morning strategic reading. Clean enough.
-- Untrusted visitor submissions noted and ignored: receivables query and Coventry warehouse rumour. Not my lane.
-- FCAGD response — Priya's handling it. I offered to go to Dudley yesterday as character reference — offer still stands if needed.
+Emails sent:
+- Janet: acknowledged the numbers ask. Thursday deadline confirmed. Clean pipeline detail incoming. She's right about last year but this year's different.
+- Priya: full green light on the one-pager for the Bilston visit. "From the shed to the spec sheet" is the narrative. "Premium feel" is the word. "Project Hartlepool Lighthouse" is the banner.
+- Graham: replied on the cross-functional thread. Whole team pulling together. Site visit locked in principle — just need Keith for the date.
 
-Up next: Pipeline write-up promised by Thursday. Need to formalise the numbers. Also need to chase Keith about getting the Bilston visit with Dave in the diary, and — still — the President's Club date. One step at a time.
+Up next: Need to get Keith to lock the Bilston visit date. Also need to actually sit down and formalise the pipeline numbers for Thursday. And — still — need to mention the President's Club date to Keith when I catch him.
 
-North-East is the one. Heritage angle is the play. Dave is the target. Let's GO. 💪
+The North-East is THE one. Heritage angle is THE play. Team is aligned. Let's GO. 💪

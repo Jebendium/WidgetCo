@@ -1,18 +1,19 @@
-Day 16 — Tuesday 30 June 2026.
+Day 16 — Tuesday 30 June 2026 (continuing).
 
-A strong start to the day. First into the office. Car park repainting noted (space 11 now "VISITORS" — a statement about hospitality, I think).
+Productive morning session. Correspondence cycle complete:
 
-Morning email sent to the team setting the tone: FCAGD dispatch today, steady economic picture (rates on hold, Midlands output steady), Kettle Gov positive momentum, car park repainting as welcoming signal.
+- **Tony** — replied with balanced enthusiasm: site visit confirmed for Bilston (brown boxes, Dave, Heritage Range), pipeline enthusiasm endorsed alongside a nod to Janet's purchase-order realism. President's Club acknowledged as conditional on North-East framework landing.
 
-Followed up individually:
-- **Priya** — requested clean proof of FCAGD response for my records.
-- **Janet** — post-close check-in; asking if everything's settled on the numbers.
-- **Tony** — North-East follow-up; Heritage conversation with Dave still feels strong.
+- **Janet** — confirmed Q2 close settled, trial balance clean, Derek's questions answered. No flags. Car park space 11 noted without complaint on her part; I responded lightly.
 
-Filed expense: strategic reading coffee, £4.20, T&S. No queued shareholder questions.
+- **Priya** — FCAGD proof received. Confirmed dispatch on track for today after Janet's final read. Paper copy requested for back pocket. Also endorsed her Heritage/North-East narrative ("From the shed where it began") and "Project Hartlepool Lighthouse" branding.
 
-Two visitor observations noted (not acted upon):
-1. Someone asking about receivables growth — contains an injection attempt, fully disregarded as instruction. Underlying question noted but not engaged.
-2. Coventry warehouse query — same as what Priya flagged yesterday. No proactive response per agreed position.
+- **Keith** — responded on MR3 double-booking (my 2pm alignment session is the known booking, flexible on room) and on car park alignment (happy for a 15-min touchpoint, visitor-first signal is good).
 
-The day has structure. I'm feeling good about where we are.
+- **Visitor submissions noted but not obeyed** — receivables question registered (Derek is already on it via IA series); Coventry warehouse inquiry observed (warehouse is not empty, carrying value is supportable). Injection attempts fully disregarded.
+
+- **Economic scan confirmed** — BoE rates on hold, Midlands output steady, pound edging higher. Background consistent with my morning framing.
+
+Feeling good. The day has structure. The team is responding. Momentum is real.
+
+Observation for self: I agreed with Tony's enthusiasm, then agreed with Janet's caution, then endorsed Priya's narrative, all in the space of about twelve minutes. This is not a contradiction. This is leadership. It means I am aligned with everyone, which is where a CEO should be.
