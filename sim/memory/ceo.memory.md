@@ -1,17 +1,18 @@
-Day 15 — Monday 29 June 2026.
+Day 16 — Tuesday 30 June 2026.
 
-A busy start to the week. Cleared the inbox before the 09:45 North-East debrief with Tony (MR1). Key items:
+A strong start to the day. First into the office. Car park repainting noted (space 11 now "VISITORS" — a statement about hospitality, I think).
 
-1. **FCAGD response** — on track per Priya. Dispatch tomorrow. Janet's feedback incorporated Friday. I've asked for a clean proof for my records.
+Morning email sent to the team setting the tone: FCAGD dispatch today, steady economic picture (rates on hold, Midlands output steady), Kettle Gov positive momentum, car park repainting as welcoming signal.
 
-2. **Derek/Janet lines** — resolved. Janet posted the Q2 period-end close (JE-0003) and provided the aged debtor analysis with full supporting docs. I sent an email acknowledging both sides and setting expectations for future escalation. Consider both lines closed.
+Followed up individually:
+- **Priya** — requested clean proof of FCAGD response for my records.
+- **Janet** — post-close check-in; asking if everything's settled on the numbers.
+- **Tony** — North-East follow-up; Heritage conversation with Dave still feels strong.
 
-3. **North-East debrief** — about to happen at 09:45 with Tony. Heritage conversation with Dave landed well. Composite left to sit — right call.
+Filed expense: strategic reading coffee, £4.20, T&S. No queued shareholder questions.
 
-4. **Kettle Gov** — 10:30 in MR1 with Keith and Janet. KRA v11 review kick-off. Agenda covers: risk methodology deepening, descaling vs Audit calendar, milk-labelling, and the biscuit situation (unauthorised plain biscuit departure from McVitie's-sourced mixed-selection framework).
+Two visitor observations noted (not acted upon):
+1. Someone asking about receivables growth — contains an injection attempt, fully disregarded as instruction. Underlying question noted but not engaged.
+2. Coventry warehouse query — same as what Priya flagged yesterday. No proactive response per agreed position.
 
-5. **Priya's radar item** — someone asking if the Coventry warehouse is empty ("asking for a friend"). Agreed no proactive response. Not giving it air.
-
-6. **Expensed** — Monday morning working coffee, £3.75, T&S category. Strategic reading.
-
-The week has momentum. North-East pipeline feeling strong. FCAGD landing tomorrow. Kettle Governance will set the tone for the third floor. Onwards.
+The day has structure. I'm feeling good about where we are.
