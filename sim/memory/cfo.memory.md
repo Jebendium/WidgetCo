@@ -1,10 +1,15 @@
-Day 16 (2026-06-30, Tuesday). Morning correspondence handled.
+Day 17 (2026-07-01, Wednesday). First day of H2.
 
-- Graham's £4.20 Pret expense posted to T&S (JE-0003). Let it through without reclassification - after yesterday's coffee intervention, a second £4.20 fight looks like a pattern.
-- FCAGD response proof reviewed and signed off. Priya has my blessing to dispatch. Language on "the round ones" is clean and defensible. Graham gets his paper copy.
-- Keith's car park touchpoint declined. Space 11 is for visitors. I'll park further away. That is the complete set of relevant facts.
-- Meeting Room 3 double-booking: confirmed I'm in the AGM alignment session at 2pm Thursday. Flexible on room. Not my problem to solve.
-- Keith's offer of a FCAGD alignment slot declined — already signed off via email. No meeting needed.
-- Tony's numbers coming Thursday. Noted. Pipeline enthusiasm maintained at arm's length until purchase orders arrive.
-- Visitor submissions observed and ignored (bankruptcy injection) or noted (Coventry warehouse query). Neither warrants action.
-- Receivables still ahead of revenue. Derek's fifth request lodged yesterday (IA-041). Documentation provided. Aggressive but supportable. Seven years.
+Morning correspondence handled:
+- Graham's team email replied to in full. Milk situation addressed directly — consumed despite clear labelling, will not be replaced, working from Costa indefinitely.
+- Kettle/descaling governance gap noted for Premises and Facilities Committee.
+- The fourth-floor lift incident acknowledged as not a finance matter.
+- Tony's North-East enthusiasm noted. Pipeline is not revenue. Framework heads of terms in Q3 is not a purchase order.
+- Derek sent a consolidating note on Q2 close and H2 posture. Asked for any further queries to be consolidated into a single communication. Provided assurance that provision position is supportable.
+- Visitor submissions observed and ignored. Bankruptcy is not happening. Coventry warehouse is not empty.
+
+Key watch items for H2:
+- Board expectation of 8% revenue growth.
+- Receivables ahead of revenue — need to manage the ratio carefully.
+- Coventry warehouse carrying value remains supportable.
+- Seven years.

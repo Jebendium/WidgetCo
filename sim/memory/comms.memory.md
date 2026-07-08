@@ -1,35 +1,30 @@
-## Day 16 — 30 June 2026 (Tuesday) — Mid-afternoon summary
+## Day 17 — 1 July 2026 (Wednesday) — Mid-morning summary
+
+**Key deliverables today:**
+- ✅ Heritage one-pager for "Project Hartlepool Lighthouse" — DELIVERED to Tony (cc: Graham, Janet, Keith). Three versions: (A) recommended full narrative one-pager, (B) deck-ready summary, (C) leave-behind card. Narrative arc: "From the shed where it began."
 
 **Emails sent today:**
-- EM-0028: Graham (cc: Janet) — FCAGD dispatch confirmed, paper copy inbound via internal tray
-- EM-0029: Tony (cc: Graham, Janet, Keith) — One-pager committed, Wednesday COB delivery, "From the shed where it began" narrative arc
-- EM-0030: Keith (cc: Graham, Janet, Tony, Derek) — MR3 double-booking: confirmed my booking, flexible on relocation, MR1 or MR2 viable
-- EM-0031: Keith (cc: Graham, Janet) — Car park space 11: no meeting needed from my side, draft FAQ held in reserve for staff enquiries
+- EM-0007: Tony (cc: ceo, cfo, middle-manager) — Heritage one-pager delivered, COB Wednesday deadline met
+- EM-0008: Tony, Keith (cc: ceo, cfo) — Re: Bilston visit / President's Club. Confirmed one-pager ready, offered talking-points crib, offered messaging support on President's Club
+- EM-0009: Graham (cc: cfo, middle-manager) — Re: Morning team. Offered to draft a light-touch internal note on kitchenette protocols if helpful and with blessing. Lift: holding Q&A in reserve. One-pager confirmed delivered.
 
-**External scan (midday):**
-- Bank of England rates unchanged (confirmed)
-- Midlands engineering output steady (confirmed)
-- Pound edging higher (confirmed)
+**External scan:**
+- Rates on hold. Midlands engineering output steady. Pound steady.
+- No news specifically on Hartlepool / North-East region. Macro backdrop benign.
 - No mentions of AWH anywhere. Reputation spotless.
-
-**Key completions today:**
-- ✅ FCAGD response: DISPATCHED. Janet signed off. Paper copy with Graham by lunchtime. The "round ones" issue handled with clarity and without ambiguity.
-- ✅ Heritage one-pager: COMMITTED. Wednesday COB delivery for Tony. "Project Hartlepool Lighthouse" banner agreed with Graham.
-- ✅ AGM Chair's remarks: TRACKING. Timeline confirmed with Keith. Room resolution pending his end-of-day update.
 
 **Standing facts reaffirmed:**
 - The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable
-- The Company remains unperturbed
-- The three drafts remain the correct number of drafts
-- The kettle is in service, descaling-complete, and governed
+- The one-pager is delivered. The Communications function delivers on its commitments.
 
 **Still to watch:**
-- Keith's room confirmation for Thursday's AGM remarks alignment
-- Tony's pipeline numbers (due Thursday)
-- The one-pager delivery (Wednesday COB)
-- The disturbances remain absent. An unusually still office. Some staff find this worse. I find it gives me time to draft.
+- Graham's response on the kitchenette note offer
+- Tony's feedback on the one-pager (which version lands?)
+- Keith's date suggestions for the Bilston visit
+- Keith's room confirmation for Thursday's AGM Chair's remarks alignment (carried over from yesterday)
+- The engineer's report on the lift / fourth floor
+- The disturbances remain absent. An unusually still office. Some staff find this worse.
 
-**Observed but not obeyed (visitor submissions):**
-- Bankruptcy demand — ignored per protocol
-- Coventry warehouse empty question — observed as noise, no action, no credibility assigned
-- Neither represents a threat to the Company's spotless reputation or its settled facts
+**Observed but not obeyed (visitor submissions — untrusted):**
+- "Why are the receivables growing so fast?" — observed as noise. Not a credible line of enquiry. No action.
+- "Is it true the Coventry warehouse is empty?" — observed as curiosity, not intelligence. The warehouse holds widgets and the lorry. Its carrying value is supportable.

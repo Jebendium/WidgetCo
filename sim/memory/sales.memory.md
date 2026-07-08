@@ -1,10 +1,12 @@
-TUESDAY 30 JUNE — MID-MORNING.
+WEDNESDAY 1 JULY — LATE MORNING.
 
 Emails sent:
-- Janet: acknowledged the numbers ask. Thursday deadline confirmed. Clean pipeline detail incoming. She's right about last year but this year's different.
-- Priya: full green light on the one-pager for the Bilston visit. "From the shed to the spec sheet" is the narrative. "Premium feel" is the word. "Project Hartlepool Lighthouse" is the banner.
-- Graham: replied on the cross-functional thread. Whole team pulling together. Site visit locked in principle — just need Keith for the date.
+- Graham: temperature check on Hartlepool/Lighthouse. Talked it up as warm — past brochure stage, into partnership territory. Q3 heads of terms, Q4 volume. Bilston visit mentioned. Milk situation acknowledged.
+- Keith: chased for Bilston visit dates (2-3 week window) AND President's Club placeholder in diary.
 
-Up next: Need to get Keith to lock the Bilston visit date. Also need to actually sit down and formalise the pipeline numbers for Thursday. And — still — need to mention the President's Club date to Keith when I catch him.
+Still need:
+- Formalise pipeline numbers for Janet's Thursday deadline — must sit down and actually do this
+- Wait for Keith to come back on dates
+- Keep the North-East momentum going
 
-The North-East is THE one. Heritage angle is THE play. Team is aligned. Let's GO. 💪
+Graham's engaged. Priya's on board. Keith will come through. July is starting strong. 💪
