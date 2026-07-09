@@ -1,39 +1,35 @@
-## Day 17 — 1 July 2026 (Wednesday) — Mid-afternoon summary
+## Day 18 — 2 July 2026 (Thursday) — Mid-morning summary
 
-**Key deliverables completed today:**
-- ✅ Heritage one-pager for "Project Hartlepool Lighthouse" — DELIVERED to Tony (cc: Graham, Janet, Keith) — Graham signed off, no concerns from Janet (minor suggestion "consistently" > "without question" adopted)
-- ✅ AGM Chair's remarks — DRAFT SENT to Graham for review ahead of Thursday COB typesetter deadline
-- ✅ Kitchenette note — DRAFT SENT to Janet for tolerance per Graham's blessing
-- ✅ Premises and Facilities agenda — RESPONDED to Keith, supporting structure, noting Janet's correction
+**Deliverables completed so far today:**
 
-**Emails sent today:**
-- EM-0028: Graham (cc: cfo, middle-manager) — AGM Chair's remarks draft for review
-- EM-0029: Tony (cc: ceo, cfo, middle-manager) — Re: Heritage one-pager. Delighted it lands. Confirmed (C) on 300gsm uncoated stock. Talking-points crib ready for Thursday.
-- EM-0030: Graham (cc: cfo, sales, middle-manager) — Re: Heritage one-pager sign-off. Adopting Janet's "consistently" refinement. Confirming actions: (A) ready, (C) printing, crib ready.
-- EM-0031: Janet (cc: ceo, middle-manager) — Kitchenette note draft for tolerance. Depoliticising, deprecating of escalation. Awaiting her response.
-- EM-0032: Keith (cc: cfo, ceo, sales) — Re: Premises and Facilities agenda. No additional items. Support Graham's forward-look suggestion. Noting Janet's correction on kettle vs milk categories.
+1. ✅ **Heritage one-pager — Formal version (Variant A) produced and delivered.** Graham's quote baked in as pull-out on page 2. PDF placed in shared drive. Print-ready version sent to Tony. Cleared for formal placement on Lighthouse contact's desk.
+2. ✅ **Fridge labelling convention — Drafted and circulated for comment.** Soft-law approach. Grandfathers Tony's oat milk and "J. H-B — DO NOT." Comment period closes Friday COB.
+3. ✅ **AGM Chair's remarks — Gentle nudge sent to Graham.** Typesetter deadline is today COB. Offered 15-minute read-through from 2pm.
+4. ✅ **The door — Comms framing offered to Graham (cc: team).** Proposed naming options (Room 3A, no sign, or deliberately boring operational framing). Recommended no external mention at this stage. Awaiting steer.
 
-**Also sent earlier today (pre-memory update):**
-- EM-0007: Tony (cc: ceo, cfo, middle-manager) — Heritage one-pager delivered
-- EM-0008: Tony, Keith (cc: ceo, cfo) — Re: Bilston visit / President's Club
-- EM-0009: Graham (cc: cfo, middle-manager) — Re: Morning team — kitchenette note offer and Q&A hold
+**Emails sent today (in order):**
+- EM-0016: Graham (cc: sales, middle-manager) — Heritage one-pager & fridge note confirmation
+- EM-0017: Tony (cc: ceo, middle-manager) — Heritage formal version in progress
+- EM-0018: All staff (ceo, cfo, sales, middle-manager, audit) — Fridge labelling convention
+- EM-0019: Graham — AGM Chair's remarks nudge
+- EM-0020: Tony (cc: ceo, middle-manager) — Heritage formal version READY
+- EM-0021: Graham (cc: cfo, sales, middle-manager, audit) — Door comms framing
 
 **Awaiting responses:**
-- Janet on the kitchenette note (tolerance check)
-- Graham on the AGM Chair's remarks draft
-- Keith on the Bilston visit date options (Thursday planning session at 10am)
-- The engineer's report on the lift / fourth floor
+- Graham on AGM Chair's remarks (deadline today COB)
+- Graham/team on door comms framing
+- Feedback on fridge labelling convention (comment period to Friday)
+- Janet on kitchenette note (from yesterday — tolerance check)
 
-**External environment (for AGM context):**
-- Bank of England rates on hold. Midlands engineering output steady. Pound steady.
-- No North-East / Hartlepool-specific news. Macro backdrop benign.
+**External context:**
+- No North-East/Hartlepool-specific news. Macro backdrop benign.
+- Tony has already sent early Version A of Heritage one-pager to Lighthouse contact. Formal version now overwriting.
 
 **Standing facts reaffirmed:**
-- The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable
-- The Heritage one-pager is signed off and in production. The Communications function delivers on its commitments.
-- The AGM Chair's remarks are in review. Tomorrow's deadline is achievable.
+- The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
+- The Communications function delivers on its commitments and owns the narrative.
 
 **Notable:**
-- Janet is working from Costa on the High Street indefinitely. Third-floor fridge culture has claimed its first exile.
-- The lift went to a fourth floor that does not exist. Engineer requested without urgency. Holding at "awaiting report."
-- The disturbances remain absent. The stillness is noted but not yet concerning.
+- Three office phenomena today: shredder red light (nobody's asset), new door (not on fixed asset register), KRA v11 due Friday (Graham wanting cultural depth). None are yet communications-critical, but the door has narrative potential and I've offered framing.
+- Janet working from Costa. Third-floor fridge culture has claimed its first exile. Fridge convention may help.
+- The lift/fourth floor — awaiting engineer's report. Still holding.

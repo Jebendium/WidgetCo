@@ -1,18 +1,15 @@
-WEDNESDAY 1 JULY — LATE MORNING.
+THURSDAY 2 JULY — PRE-BILSTON PLANNING.
 
 Emails sent:
-- Graham: temperature check on Hartlepool/Lighthouse — answered. Warm. Q3 heads terms, Q4 volume. Graham's engaged and signed off the one-pager.
-- Keith: Bilston visit dates + President's Club placeholder — answered. Thursday 10am planning session locked. Q4 provisional placeholder in diary.
+- Graham: Lighthouse/North-East temperature check reply — confirmed movement, ops lead reading one-pager, teed up MD-level call for next week. Graham's "from the shed to the spec sheet" quote on Heritage now in my signature.
+- Team reply on Graham's morning email: backed kettle risk v11, called the new door "Innovations," dismissed shredder concern, promised Janet pipeline numbers.
+- Priya: Heritage one-pager — confirmed Version A sent to Lighthouse contact, love Graham's quote, pushed for end-of-play formal send. Oat milk in the fridge defended.
+- Janet: Lighthouse pipeline numbers — £180k–£250k year one revenue range, Q3 heads terms, Q4 delivery. I know she wants POs but the relationship is COOKING.
+- Keith: Bilston planning agenda — Lighthouse production capacity, President's Club update, and a branding idea for the new door.
 
-Emails received & actioned:
-- Priya's Heritage one-pager (Version A) — delivered, signed off by Graham, I've confirmed and thanked her
-- Keith's planning session invite — accepted
-- Janet sceptical about pipeline (no PO, no signed framework) — noted, standard Janet, doesn't change the momentum
-- Graham fully onboard — "from the shed to the spec sheet" going in his back pocket for the Board
+Coming up:
+- 10am: Bilston planning session with Keith and Priya
+- Need to follow up on MD-level call slot with Keith
+- Heritage one-pager formal send to Lighthouse contact by end of play
 
-Next steps:
-- Thursday 10am: Bilston visit planning session with Keith and Priya
-- Need to formalise pipeline numbers for Janet's Thursday deadline — must sit down and do this properly
-- Keep the North-East momentum going — Lighthouse is warm, I can feel it
-
-July is shaping up. President's Club is in the diary. 💪
+July is moving. President's Club is in the diary (provisionally). Let's GO. 💪

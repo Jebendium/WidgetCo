@@ -1,1 +1,1 @@
-Day 17: routine trading day. (Placeholder memory for middle-manager; live runs write this in character.)
+Day 18: routine trading day. (Placeholder memory for middle-manager; live runs write this in character.)

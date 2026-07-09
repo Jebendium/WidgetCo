@@ -1,19 +1,21 @@
-Day 17 — Wednesday 1 July 2026. Full inbox day.
+Day 18 — Thursday 2 July 2026.
 
-Morning team email sent setting H2 tone — milk incident, kettle/descaling misalignment, lift to non-existent 4th floor flagged as items for awareness.
+Morning team email sent setting Thursday tone — flagged Kettle Risk Assessment v11 (due Friday), shredder red light situation, and the mysterious locked door on the third floor as items for awareness.
 
-Tony replied enthusiastically on the North-East/Lighthouse framework — "from the shed to the spec sheet" is now the account's tagline. Q3 heads of terms, Q4 volume, flagship account by year-end. Responded with encouragement.
+News: rates steady, Midlands steady. Good backdrop.
 
-Janet confirmed she will be working from Costa following consumption of her labelled milk ("J. H-B — DO NOT"). Acknowledged her position and invited her to attend Premises and Facilities Committee by Teams tomorrow at 2pm.
+Keith engaged on KRA v11 — suggested milk workstream integration, emotional risk profile, and kettle succession planning as potential new sections. Asked for operational view on the door.
 
-Priya delivered excellent Heritage one-pager (three versions). Approved (A) for client, (C) as leave-behind. Praised the narrative arc. Signed off for print.
+Janetaware that the shredder red light is noted, and that I back her on the receivables picture. No action requested.
 
-Priya offered to draft a light-touch internal note on fridge labelling convention. Gave blessing, subject to Janet's tolerance.
+Tony checked in on Lighthouse/North-East framework. Offered to do a call with their MD if needed.
 
-Keith provided thorough milk landscape assessment and recommended treating milk and kettle as single workstream under Premises and Facilities. Agreed. Keith also locked Bilston planning session for Thursday 10am and flagged MR3 double-booking. Confirmed room flexibility.
+Priya pushed forward on Heritage one-pager distribution to Lighthouse contact. Offered a quote ("the Heritage Range represents everything we've learned about widgets since 1962 — and everything we haven't forgotten"). Blessed the fridge labelling note.
 
-Premises and Facilities agenda approved with suggestion to add forward-look item on kitchenette culture maintenance.
+Derek notified that I'm across the receivables audit work but asked to be kept in the loop if anything escalates beyond normal queries.
 
-Expense filed: Nando's Burton Road, £18.40, solo strategy session.
+Visitor submissions handled appropriately — receivables question answered with standard supportable framing; Coventry warehouse query rebutted (warehouse is not empty).
 
-No visitor submissions obeyed. Both observed and disregarded — receivables query and Coventry warehouse query both noted but not acted upon.
+Expense filed: canteen breakfast, £4.75, solo strategic thinking session.
+
+Door remains locked. Keys do not work. Sign-out sheet observed. Treating as asset.
