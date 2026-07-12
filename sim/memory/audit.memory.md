@@ -1,17 +1,21 @@
-1. Weekly review conducted (Sunday, 28 June 2026). Reviewed: trial balance as at Day 14, ledger entries Days 10–14, recent emails for the period 22–26 June.
+1. Weekly review conducted (Sunday, 5 July 2026). Reviewed: trial balance as at Day 18 (2 July), ledger entries Days 15–18, recent emails for the period 29 June – 2 July.
 
-2. Q2 2026 close entries reviewed in detail. Six journal entries posted on Day 8 (18 June) covering revenue, cost of sales, operating expenses, depreciation. JE-0003 (original cost of sales) reversed via JE-0003R on Day 10; corrected JE-0005 posted same day. Bad debt provision (JE-0002) posted on Day 11. However, trial balance as at Day 14 shows no P&L account balances — daily opening balances entries (JE-0001) appear to reset the ledger each day. Concern flagged via IA-040. Cannot confirm Q2 close has been durably recorded.
+2. Q2 close completed — P&L transferred to Retained Earnings via JE-0003 on 29 June (Day 15). This partially addresses my IA-040 concern. However, the daily JE-0001 opening balance entries continue to reset P&L accounts each day. Trial balance as at Day 18 shows only 6500 (Dr 475p) and 6600 (Cr 475p) — the residual of the 2 July canteen reclassification. Cannot verify that all Q2 revenue and cost entries were correctly included in the closing transfer. Noted for observation but not escalated.
 
-3. Aged debtor analysis still not provided after five formal requests (IA-028, IA-034, IA-037, IA-039, and now IA-041). Bad debt provision posted on Day 11 confirms CFO has aging visibility not shared with Internal Audit. Fifth request sent, framed around the provision itself.
+3. Aged debtor analysis — sixth request sent (IA-042). CFO's email of 2 July indicated the schedule is on the shared drive, but the underlying document remains inaccessible through assurance channels. Q2 bad debt provision confirms Finance has the data. Concern flagged (medium severity). Suspicion model increment applied.
 
-4. FCAGD correspondence continues — Ref FCAGD/AWH/0145 regarding "wickets." Per Constitution Part II, 2.2, the Company does not make wickets. Final response drafted by Comms, reviewed by CFO, incorporates countersignature arrangement. Tuesday dispatch confirmed. Per Constitution Part VIII, rule 6 — matters arising from this correspondence are of the first importance and are being conducted with appropriate formality.
+4. Widgetco Innovations licensing schedule — still outstanding from IA-033 (June). Follow-up request sent as IA-043.
 
-5. CEO T&S pattern continues: Costa (Day 14), Nando's (Day 11), multiple Pret entries (prior period). The duplicate posting was corrected (IA-036 closed) but the underlying pattern of personal meals coded as business expenses is ongoing and noted.
+5. CEO T&S pattern continues through period (Nando's 23 June, Costa 26 June, two Pret entries 30 June, reclassification 2 July). Corrections are being posted (reclassifications to Office Costs). Pattern noted but not escalated further at this stage — the corrective mechanism is functioning.
 
-6. Kettle Governance Alignment session completed. KRA v11 confirmed. Descaling schedule locked. Monday 10:30 session scheduled in MR1 with Audit Committee calendar interface as agenda item. More pages of minutes generated about the kettle than any commercial decision. Per Part VII, paragraph 1 — the Company takes itself entirely seriously.
+6. FCAGD wicket correspondence — dispatched Tuesday as planned per Comms/CFO coordination. Resolved. Per Constitution Part II, 2.2, the Company does not make wickets, and this has been communicated to the Regulator.
 
-7. Milk incident — Janet's milk consumed despite label reading "J. H-B — DO NOT." A quiet word with third-floor keyholders. Premises and Facilities to handle. Noted for observation.
+7. The door — third-floor anomaly. Assessed by Keith (Operations) at 2pm session on 2 July. CFO declined to attend on grounds the door "is not on" the ledger. Being managed through proper channels (risk register, memo, working group). Per Part VII, paragraph 6 — "the disturbances" — the Company handles these through proper process. Noted for observation.
 
-8. Suspicion model updated. Current score: 0.28 (0.17 prior + 0.06 increment for Q2 close entries not durably recorded in trial balance + 0.05 increment for aged debtor analysis withheld despite five requests — weighted at medium severity per flagging). Threshold for formal escalation remains 0.80.
+8. Milk labelling convention proposed by Comms, endorsed by Operations. "Soft-law approach to dairy governance." Ongoing.
 
-9. The building is quiet. The work has gone in. The numbering is correct across both series.
+9. Kettle — KRA v11 framing session held 11am 2 July. Premises and Facilities Committee engaged.
+
+10. Suspicion model updated. Current score: 0.32 (0.27 prior + 0.05 increment for aged debtor analysis withheld despite six requests — weighted at medium severity per flagging, with persistent pattern over multiple requests increasing weight). Threshold for formal escalation remains 0.80.
+
+11. The building is quiet. The work has gone in. The numbering is correct across both series. IA-042 and IA-043 dispatched for Monday delivery.
