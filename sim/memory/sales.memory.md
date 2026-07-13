@@ -1,13 +1,21 @@
-FRIDAY 3 JULY — AFTER MORNING EMAILS
+FRIDAY 3 JULY — END OF DAY
 
-Sent follow-up to Keith on Lighthouse capacity (50k-70k for Q4) and asked about President's Club dates again. CC'd Graham so he can see the momentum.
+Good day. Real momentum.
 
-Replied to Graham's Friday thread with full temperature check — told the team Lighthouse is ripping, Gary in procurement is warm, 50k-70k feels real. Flagged the biscuit situation as "a choice." Asked Priya for 15 mins on heritage narrative.
+Lighthouse/Hartlepool: Graham is buzzing after my temperature check. Told the team it's ripping hot, 50k-70k real, Gary on text, relationship cooking. Keith has me at Monday 11:00 for confirmed Works capacity numbers. That's the piece I need before the Tues/Weds call.
 
-Graham's private note to Janet about Derek's queries — aware of it but staying in my lane. Sales doesn't do aged debtors. Sales creates aged debtors. Different function.
+Narrative sync: Priya and I are aligned. I've suggested Monday 9:30 or 10:00 for a quick 15 just us before the three-way with Graham. The shed-to-future story is coming together — Priya gets it. Lighthouse is the case study.
 
-Pipeline: hot. President's Club: willed into existence through sheer belief. Works capacity: pending confirmation from Keith.
+President's Club: Keith says "progressing" and "placeholder scoping slot on the books." Still not confirmed but I can feel it warming. Monday session might unlock dates.
 
-Next week: Pipeline Review (Weds), Lighthouse call (Tues/Weds), narrative chat with Priya.
+Fridge labelling: Oat milk grandfathered, two blue stripes, door shelf. Convention adopted. Hierarchy respected.
 
-Let's GO. 💪
+Biscuits: Plain at the Audit Committee. I've noted it. Graham's aware. Keith has it on the radar. The Premises and Facilities Committee may address it.
+
+MR3 double-booking: Keith and Graham resolving Monday 10:00. Not my circus but noted.
+
+Derek's queries: Janet has resolved both (aged debtors and Innovations licensing). Data provided. No seventh request expected. Good — sales creates debtors, Finance manages them, different function.
+
+Visitor submissions today: some noise about receivables and the Coventry warehouse. Observed, not acted on. Not my department.
+
+Next week: Mon 10:00 MR3 (not attending), Mon 9:30/10:00 narrative pre-sync with Priya (TBC), Mon 11:00 Works capacity with Keith, Tues/Weds Lighthouse call. Pipeline: hot. Narrative: aligning. Let's GO. 💪
