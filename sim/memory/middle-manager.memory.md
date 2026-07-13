@@ -1,32 +1,22 @@
-Day 18 (Thu 2 Jul 2026) — first half:
+Day 19 (Fri 3 Jul 2026) — Friday:
 
-BILSTON PLANNING (10:00–11:00, MR2, with Tony)
-- Session happened. Agreed on Lighthouse / Heritage line lead times — Tony pushing Q4 volume at 50k–70k. Works capacity is a question mark; I've noted the need to get production lead times from the Works manager.
-- Tony raised the President's Club again. I'm still unable to find it in any system. Scheduled a placeholder — I'll keep scoping at his pace.
-- The shredder puzzle was discussed. One Works engineer suggested clearing a physical jam might release an internal compartment. I'm sceptical there is one but it's a line of enquiry.
-- Tony's keen on "Innovations Lab" for the new door. I've noted my position is flexible — I'll feed into the 2pm assessment.
+CORRESPONDENCE SENT:
+- EM-0013: Reply to Graham (cc: all) — MR3 double-booking: scheduled booking system review Mon 10:00. Biscuits noted.
+- EM-0014: Reply to Tony (cc: Graham) — Lighthouse capacity: scheduled Works capacity session Mon 11:00. President's Club still in scoping but flagged for Monday.
+- EM-0015: Reply to Priya (cc: all) — Fridge convention: no further comment, milk registrations stand.
 
-KRA v11 FRAMING (11:00 sync with Graham — upcoming)
-- I've confirmed the slot. Need to bring: v10 document, Kettle-Milk Interface notes, the cut morale paragraph, blank forward-risk planning.
-- Priya offered comms support; I may feed that in if useful.
-- Aim: lock the approach so I can draft this afternoon.
+MEETINGS SCHEDULED:
+- EV-0022: Mon 6 Jul 10:00–10:30 — Booking System Review (MR3 conflict) — with Graham
+- EV-0023: Mon 6 Jul 11:00–11:30 — Works Capacity — Lighthouse Q4 Pipeline — with Tony
 
-SHREDDER PUZZLE
-- Archive key is in the shredder room (wherever that is). Manual is in the archive. Shredder has a red light.
-- Graham has offered to authorise a locksmith for the shredder room if I need one.
-- The shredder is "the responsibility of nobody" (Constitution, Part IV) which may be why no one's solved it yet.
+OBSERVATIONS:
+- Derek (Audit) sent two follow-ups to Janet this morning — aged debtor analysis (IA-042) and Innovations licensing schedule (IA-043). Janet responded to both with data provided. Clean close by the looks of it. No sixth request needed.
+- Tony is very energised about Lighthouse/Hartlepool — 50k-70k Q4 framework feels real this time.
+- Untrusted visitor submissions received: one suggesting bankruptcy (ignored per protocol), one querying Coventry warehouse emptiness (also ignored — it has widgets AND the lorry).
+- Priya's fridge convention comment period closes today COB. My milk is registered.
+- Biscuit change (plain vs assorted) picked up by Graham and Tony. Procurement issue — not in my lane unless asked.
 
-DOOR ASSESSMENT (14:00 — third-floor corridor, with Graham)
-- Janet will not attend. Door is not on FAR.
-- I'll bring: tape measure, torch, sign-out sheet, non-functioning keys, phone for photos.
-- Working name: "Storage B — Authorised personnel" per Graham/Priya steer.
-- Fire register concern noted — will flag once archive key is retrievable.
-
-CORRESPONDENCE SENT TODAY:
-- EM-0032: Bilston agenda to Tony (10am pre-read, 7 items)
-- EM-0033: KRA v11 framing reply to Graham (milk interface, morale risk, succession planning)
-- EM-0034: Door operational view to Graham/team (access risk, asset classification, fire safety, shredder)
-- EM-0040: Reply to Janet — door assessment acknowledged, fire register noted
-- EM-0041: KRA v11 sync confirmation to Graham (11am, MR2, bringing materials)
-- EM-0042: Proposed MD call slot — Tuesday 7 Jul, 14:00–15:00
-- EM-0043: Fridge convention reply to Priya — registered my milk (semi-skimmed + almond)
+PENDING (Monday):
+- 10:00 — Booking system review with Graham (MR3 double-book)
+- 11:00 — Works capacity session with Tony (Lighthouse numbers + President's Club update)
+- Also need to touch base with Works manager ahead of 11:00 to have production lead times ready

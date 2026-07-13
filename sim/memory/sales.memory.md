@@ -1,14 +1,13 @@
-THURSDAY 2 JULY — ENTERING BILSTON PLANNING (10:00)
+FRIDAY 3 JULY — AFTER MORNING EMAILS
 
-Headed into MR2 with Keith. Heritage one-pager printouts in hand. Agreed to workshop "Innovations Lab" for 2 mins if time allows. Lighthouse capacity question teed up — need to know if Works can handle 50k–70k for Q4.
+Sent follow-up to Keith on Lighthouse capacity (50k-70k for Q4) and asked about President's Club dates again. CC'd Graham so he can see the momentum.
 
-Priya's formal PDF acknowledged and in play. Oat milk grandfathered.
+Replied to Graham's Friday thread with full temperature check — told the team Lighthouse is ripping, Gary in procurement is warm, 50k-70k feels real. Flagged the biscuit situation as "a choice." Asked Priya for 15 mins on heritage narrative.
 
-Next known meetings:
-- 10:00–11:00: Bilston Planning (MR2, Keith)
-- 11:00–11:15: KRA v11 Framing (Graham)
-- 14:00–14:30: Door Operational Assessment (third floor, Graham, Keith)
-- Next Weds: Formal Pipeline Review
-- Tues/Weds next week: MD-Level Call with Lighthouse
+Graham's private note to Janet about Derek's queries — aware of it but staying in my lane. Sales doesn't do aged debtors. Sales creates aged debtors. Different function.
 
-Pipeline: hot. Energy: high. Let's GO. 💪
+Pipeline: hot. President's Club: willed into existence through sheer belief. Works capacity: pending confirmation from Keith.
+
+Next week: Pipeline Review (Weds), Lighthouse call (Tues/Weds), narrative chat with Priya.
+
+Let's GO. 💪
