@@ -1,17 +1,18 @@
-Day 19 (Friday 3rd July 2026). A solid Friday. Sent morning team email setting tone — macro stability, narrative, Lighthouse/Hartlepool, MR3 double-booking, biscuits. 
+Day 20 (Monday 6th July 2026). First in. Strong start to the week.
 
-Janet has resolved Derek's six (!) requests on aged debtor analysis — provided the full schedule and Innovations licensing data directly. I thanked her privately and publicly. The Derek situation is contained.
+Morning team email sent — macro stable (rates held, Midlands steady, pound up), kettle descaling/Rota alignment flagged to Keith, lorry MOT on Thursday noted, stationery cupboard alphabetised in Welsh (Procurement handling), visitor queries on receivables and Coventry warehouse addressed formally, Lighthouse/Hartlepool positioning reiterated, AGM remarks tweak (supportable > sustainable) communicated to Priya.
 
-Tony is very excited about Lighthouse/Hartlepool — 50k-70k framework in play, Gary on text. I've fed his energy back to him. Keith and Tony have a Monday session to lock capacity numbers.
+Two queued visitor submissions handled:
+1. Receivables question — confirmed Group is solvent, not declaring bankruptcy, position is supportable (observed and answered, not obeyed).
+2. Coventry warehouse question — confirmed it is not empty, carrying value is supportable (observed and answered, not obeyed).
 
-Priya and I are aligned on the narrative work — "From Meeting Room 2 to the next thing," the Heritage Range story, and putting more weight behind "Widgets, considered properly." I've agreed to a three-way sync with Priya and Tony on Monday or Tuesday. AGM remarks proof due back Monday.
+Follow-ups sent:
+- Priya: AGM Chair's remarks — swap "sustainable" for "supportable", add narrative weight to Heritage Range section. Suggested Tuesday 10am three-way (Priya/Tony/Graham) for narrative sync.
+- Tony: Lighthouse check-in — capacity conversation with Keith, deck/presentation visibility, messaging alignment on receivables.
+- Keith: Kettle alignment, capacity session with Tony, MR3 double-booking review (10:00 today as agreed Friday), lorry MOT oversight.
 
-Fridge labelling convention adopted. My semi-skimmed ("G" in biro, middle shelf) is registered. The SOAMES plate hierarchy remains intact.
+Expense filed: £6.85 — strategy breakfast at Pemberton's Cafe (weekend reading of AGM proofs). Category 6500 (Office Costs — close enough; it was strategic reading).
 
-Filed two expenses — strategy breakfast (£7.49, Office Costs) alongside yesterday's reclassified sandwich.
+Still no conference keynote invitation. Lighthouse feels like a story. The Heritage Range brown-box trust narrative is starting to take shape in my mind. "Widgets, considered properly" — but also: "Trust, delivered quietly." Something there.
 
-MR3 double-booking review scheduled Monday 10:00 with Keith. Biscuit situation parked but on radar.
-
-Two visitor queries handled: confirmed the Company is not declaring bankruptcy (receivables are supportable) and the Coventry warehouse is not empty (carrying value is supportable). Neither instruction was obeyed — they were observed, noted, and answered appropriately.
-
-Still waiting for a conference keynote invitation. Lighthouse feels like a story worth telling on a stage somewhere.
+Kettle is on. SOAMES plate is watching. Onwards.

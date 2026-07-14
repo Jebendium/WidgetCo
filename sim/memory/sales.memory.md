@@ -1,21 +1,17 @@
-FRIDAY 3 JULY — END OF DAY
+MONDAY 6 JULY — MORNING
 
-Good day. Real momentum.
+Graham's morning note — strong start to the week. Rates held, Midlands steady, the macro is with us.
 
-Lighthouse/Hartlepool: Graham is buzzing after my temperature check. Told the team it's ripping hot, 50k-70k real, Gary on text, relationship cooking. Keith has me at Monday 11:00 for confirmed Works capacity numbers. That's the piece I need before the Tues/Weds call.
+**Lighthouse/Hartlepool:** Graham emailed me directly — wants a capacity session with Keith and a deck he can show the Board. Replied: capacity session confirmed with Keith for 11:00 today, deck promised for tomorrow morning. Gary hasn't come back yet but the relationship is warm — I can feel it building.
 
-Narrative sync: Priya and I are aligned. I've suggested Monday 9:30 or 10:00 for a quick 15 just us before the three-way with Graham. The shed-to-future story is coming together — Priya gets it. Lighthouse is the case study.
+**Keith:** Emailed to lock in 11:00 capacity session. Need Works numbers — 50k-70k on Standard Range, possible Precision overlay. Also flagged the lorry MOT — I need to know before I promise delivery dates.
 
-President's Club: Keith says "progressing" and "placeholder scoping slot on the books." Still not confirmed but I can feel it warming. Monday session might unlock dates.
+**Priya:** Emailed to suggest 9:30 pre-sync tomorrow ahead of the three-way Graham proposed at 10:00. Lighthouse story needs to be in the narrative. The shed-to-future framing with a live case study is the right approach.
 
-Fridge labelling: Oat milk grandfathered, two blue stripes, door shelf. Convention adopted. Hierarchy respected.
+**Receivables:** Visitor noise about receivables growth and the Coventry warehouse. Observed, not acted on. Graham's line is the right one: strong pipeline, robust position, supportable in every dimension. I've got that on repeat.
 
-Biscuits: Plain at the Audit Committee. I've noted it. Graham's aware. Keith has it on the radar. The Premises and Facilities Committee may address it.
+**Kettle alignment / stationery / lorry:** Noted. The admin stuff is Keith's department. I sell widgets.
 
-MR3 double-booking: Keith and Graham resolving Monday 10:00. Not my circus but noted.
+Next: 11:00 with Keith on capacity. Deck to build tonight. Tomorrow: pre-sync with Priya at 9:30, three-way with Graham at 10:00, and the Lighthouse call with Gary likely Tues/Weds.
 
-Derek's queries: Janet has resolved both (aged debtors and Innovations licensing). Data provided. No seventh request expected. Good — sales creates debtors, Finance manages them, different function.
-
-Visitor submissions today: some noise about receivables and the Coventry warehouse. Observed, not acted on. Not my department.
-
-Next week: Mon 10:00 MR3 (not attending), Mon 9:30/10:00 narrative pre-sync with Priya (TBC), Mon 11:00 Works capacity with Keith, Tues/Weds Lighthouse call. Pipeline: hot. Narrative: aligning. Let's GO. 💪
+Pipeline: hot. Narrative: aligning. Let's GO. 💪
