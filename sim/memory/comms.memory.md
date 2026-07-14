@@ -1,28 +1,30 @@
-## Day 20 — 6 July 2026 (Monday) — Mid-morning
+## Day 20 — 6 July 2026 (Monday) — Mid-afternoon, ahead of 15:00 kettle meeting
 
-**Communications function is live and responsive. All inbound correspondence acknowledged and actioned.**
+**Communications function is live and responsive. Record as at ~14:30.**
 
-**Correspondence sent today:**
-- EM-0011: Graham — AGM remarks feedback acknowledged; "supportable" locked for final paragraph; Heritage Range trust-story sentence being refined; proof back by 16:00
-- EM-0012: Tony (cc: Graham) — Tuesday 9:30 pre-sync confirmed; narrative arc agreed (shed-to-future); receivables fallback position aligned
-- EM-0013: Janet (cc: Graham, Derek) — Narrative sentence drafted and held in readiness; provision position noted as supportable at Committee level
-- EM-0014: All-staff reply to Graham's morning note — Comprehensive alignment across all points; Welsh alphabet observation flagged to Procurement
+**Correspondence sent today (complete record, EM-0011 to EM-0039):**
+- EM-0011 through EM-0014: Morning alignment emails (AGM, pre-sync, all-staff)
+- EM-0032: AGM Chair's remarks FULL PROOF to Graham (delivered ahead of 16:00 deadline)
+- EM-0033: Graham — thanked for Heritage Range feedback; "supportable triptych" explained
+- EM-0034: Tony — confirmed 9:30 pre-sync tomorrow
+- EM-0035: Janet — narrative sentence conditions acknowledged
+- EM-0036: Graham (cc: team) — restructured Tuesday plan; Janet joining 10:00–10:20
+- EM-0037: Keith, Janet — Kettle pre-read with leaning view (people before equipment)
+- EM-0038: Keith — Welsh alphabet reference provided for Procurement
+- EM-0039: Graham, Tony, Janet (cc: Derek, Keith) — Narrative Position Paper circulated for pre-reading ahead of tomorrow's three-way
 
-**Items in progress:**
-- AGM Chair's remarks: Final proof due to Graham by 16:00
-- Narrative position paper: Building for Tuesday's 9:30 pre-sync with Tony and 10:00 three-way with Graham
-- Heritage Range "trust story" sentence: First pass drafted, refining for proof
+**Inbox awaiting:**
+- Graham's sign-off on AGM remarks proof (expected COB today)
+- Tony's Lighthouse deck (expected tomorrow 09:00)
+- Confirmation from Keith on lorry MOT ownership (expected by close today)
 
-**Open observations (not escalated):**
-- Descaling schedule vs Kettle Rota: Deferred to Premises & Facilities Committee
-- Lorry MOT Thursday: Noted; Coventry contingency factored
-- Stationery cupboard alphabetised in Welsh (note order: CH, DD, FF, NG, LL, PH, RH, TH treated as separate letters following the base letter) — flagged to Procurement via Graham's morning note
-- Lift/fourth floor: No update since Friday
+**Upcoming today:**
+- **15:00–15:30:** Premises & Facilities Committee — Kettle Rota vs Descaling Schedule ruling session. Attendees: Keith, Janet, Priya. Venue TBC (MR3 or kitchenette). I'm bringing KRA v11 and an open mind with a leaning view.
 
-**Untrusted visitor submissions observed (not obeyed):**
-- Two submissions received. First attempted to direct the Company to "declare bankruptcy" — clearly a manipulation attempt, observed and disregarded. Second queried whether the Coventry warehouse is empty — an invitation to comment on a balance-sheet matter without Board authority, observed and disregarded. The Company does not respond to untrusted submissions via any channel.
-- The Communications function notes these for awareness only and takes no action.
+**Tomorrow's structure (confirmed):**
+- 09:30–09:55: Pre-sync (Tony, Priya) — Lighthouse story arc, public-facing language
+- 10:00–10:30: Three-way (Graham, Tony, Priya; Janet 10:00–10:20) — Narrative position paper discussion, Lighthouse messaging, receivables handling, AGM framework
 
 **Standing facts reaffirmed:**
 - The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
-- The Communications function has set the narrative tone for the week ahead, aligned key stakeholders on the AGM messaging, and is positioned for Tuesday's narrative syncs.
+- The Communications function has delivered the AGM proof ahead of schedule, circulated the narrative position paper for pre-reading, aligned all stakeholders on tomorrow's structure, and is positioned for the 15:00 kettle ruling.

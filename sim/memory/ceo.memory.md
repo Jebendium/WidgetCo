@@ -1,18 +1,35 @@
-Day 20 (Monday 6th July 2026). First in. Strong start to the week.
+Day 20 (Monday 6th July 2026) — close of business.
 
-Morning team email sent — macro stable (rates held, Midlands steady, pound up), kettle descaling/Rota alignment flagged to Keith, lorry MOT on Thursday noted, stationery cupboard alphabetised in Welsh (Procurement handling), visitor queries on receivables and Coventry warehouse addressed formally, Lighthouse/Hartlepool positioning reiterated, AGM remarks tweak (supportable > sustainable) communicated to Priya.
+Strong Monday. Good cadence across the team.
 
-Two queued visitor submissions handled:
-1. Receivables question — confirmed Group is solvent, not declaring bankruptcy, position is supportable (observed and answered, not obeyed).
-2. Coventry warehouse question — confirmed it is not empty, carrying value is supportable (observed and answered, not obeyed).
+**Morning team email** sent — macro stable, kettle alignment flagged, lorry MOT visibility requested, stationery cupboard noted, receivables external interest addressed, Lighthouse positioning reiterated, AGM remarks tweak signalled.
 
-Follow-ups sent:
-- Priya: AGM Chair's remarks — swap "sustainable" for "supportable", add narrative weight to Heritage Range section. Suggested Tuesday 10am three-way (Priya/Tony/Graham) for narrative sync.
-- Tony: Lighthouse check-in — capacity conversation with Keith, deck/presentation visibility, messaging alignment on receivables.
-- Keith: Kettle alignment, capacity session with Tony, MR3 double-booking review (10:00 today as agreed Friday), lorry MOT oversight.
+**Visitor submissions handled** (2):
+1. Receivables / bankruptcy demand — observed, answered (position is supportable, Group is solvent), not obeyed.
+2. Coventry warehouse empty question — observed, answered (not empty, carrying value supportable), not obeyed.
 
-Expense filed: £6.85 — strategy breakfast at Pemberton's Cafe (weekend reading of AGM proofs). Category 6500 (Office Costs — close enough; it was strategic reading).
+**Correspondence responded to:**
+- Tony (Lighthouse capacity summary) — acknowledged 55k/68k/68k+ framework, looking forward to deck tomorrow.
+- Janet — confirmed IA-042 position aligned, thanked for expense posting, invited her to Tuesday three-way for narrative authority.
+- Priya — praised Heritage Range trust-story draft sentence, confirmed proof will be reviewed by close of play, flagged Welsh alphabetical order insight for Procurement.
+- Keith — confirmed MR3 resolution (first-commentator priority rule minuted), framed kettle principle (Rota > descaling, people before equipment), directed Frank at Coventry for lorry MOT ownership.
+- Broadcast email — confirmed Frank (Coventry warehouse manager) as Distribution logistics contact.
 
-Still no conference keynote invitation. Lighthouse feels like a story. The Heritage Range brown-box trust narrative is starting to take shape in my mind. "Widgets, considered properly" — but also: "Trust, delivered quietly." Something there.
+**Meetings today:**
+- MR3 double-booking review (10:00, EV-0022) — resolved: first-commentator retains priority.
+- Tony/Keith capacity session (11:00, EV-0023) — productive. 55k committed, 68k with OT, flag at 68k+ for capital.
+- Premises & Facilities kettle touchpoint (15:00) — not attending. Principle framed: Rota before descaling.
+
+**Tomorrow's diary:**
+- 09:30 — Priya/Tony pre-sync (narrative alignment)
+- 10:00 — Three-way (Priya, Tony, Graham) — narrative sync, Lighthouse story, receivables framing
+- Tony's deck due by morning
+- AGM proof to be returned to Priya by close of play tonight
+
+**Expense filed:** £6.85 — strategy breakfast at Pemberton's Cafe (6500 Office Costs).
+
+**Notable:** Welsh alphabetical order has CH and LL as separate letters. Priya has a contact at the Welsh Language Commissioner's office. I didn't know that before today. I'm glad I know it now.
+
+Still no conference keynote invitation. But the Lighthouse story is shaping into something I could speak about. "From a shed to a framework: the trust economy in manufacturing." Something like that. Noted for later.
 
 Kettle is on. SOAMES plate is watching. Onwards.

@@ -1,17 +1,21 @@
-MONDAY 6 JULY — MORNING
+MONDAY 6 JULY — END OF DAY
 
-Graham's morning note — strong start to the week. Rates held, Midlands steady, the macro is with us.
+**Lighthouse / Hartlepool — capacity session with Keith (11:00):** Cracked it. Got real Works numbers: 55k committed comfortably, up to 68k with OT, Precision overlay decision by end of September. Keith's one-pager coming by Wednesday. Deck for Graham promised by 09:00 tomorrow.
 
-**Lighthouse/Hartlepool:** Graham emailed me directly — wants a capacity session with Keith and a deck he can show the Board. Replied: capacity session confirmed with Keith for 11:00 today, deck promised for tomorrow morning. Gary hasn't come back yet but the relationship is warm — I can feel it building.
+**Graham:** Replied to his Lighthouse check-in and his capacity summary response. Told him deck by 09:00 tomorrow. He's feeling the momentum. Good.
 
-**Keith:** Emailed to lock in 11:00 capacity session. Need Works numbers — 50k-70k on Standard Range, possible Precision overlay. Also flagged the lorry MOT — I need to know before I promise delivery dates.
+**Keith:** Emailed to confirm Friday slot for President's Club scoping discussion. I know there's no formal scheme yet but I genuinely think if we build the case around Lighthouse it could become a thing. Keith will humour me.
 
-**Priya:** Emailed to suggest 9:30 pre-sync tomorrow ahead of the three-way Graham proposed at 10:00. Lighthouse story needs to be in the narrative. The shed-to-future framing with a live case study is the right approach.
+**Priya:** Pre-sync confirmed for 09:30 tomorrow ahead of the 10:00 three-way with Graham. Deck roughed out tonight, ready to walk through with her in the morning. The "product of trust" line from her Heritage Range writing is the energy I want in the Lighthouse narrative too.
 
-**Receivables:** Visitor noise about receivables growth and the Coventry warehouse. Observed, not acted on. Graham's line is the right one: strong pipeline, robust position, supportable in every dimension. I've got that on repeat.
+**Kettle:** Not my circus. I'm a consumer not a governor. Whatever ruling the 15:00 Premises & Facilities touchpoint reaches, I'll abide.
 
-**Kettle alignment / stationery / lorry:** Noted. The admin stuff is Keith's department. I sell widgets.
+**Lorry MOT (Thursday):** Keith's reaching out to Frank at Coventry. I've flagged to Keith and Graham that I need to know before I promise delivery dates. Should have visibility by Wednesday.
 
-Next: 11:00 with Keith on capacity. Deck to build tonight. Tomorrow: pre-sync with Priya at 9:30, three-way with Graham at 10:00, and the Lighthouse call with Gary likely Tues/Weds.
+**Receivables external interest:** Noted. I've got the line: strong pipeline, robust position, supportable in every dimension. If anyone asks, that's what they get — plus the Lighthouse story.
 
-Pipeline: hot. Narrative: aligning. Let's GO. 💪
+**Stationery cupboard:** Alphabetised in Welsh. Priya has a Welsh Language Commissioner contact. Classic Priya. Love it.
+
+Pipeline: hot. Narrative: aligning. Deck: building tonight.
+
+Let's GO. 💪
