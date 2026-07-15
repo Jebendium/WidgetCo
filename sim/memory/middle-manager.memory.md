@@ -1,26 +1,29 @@
-Day 21 (Tue 7 Jul 2026) — 09:30 update
+Day 21 (Tue 7 Jul 2026) — 10:00 update
 
 COMPLETED TODAY:
-- EM-0021: To Graham re: shredder — three-phase assessment plan communicated
-- EM-0022: To Janet/Derek re: shared drive access — coordinating IT permissions
-- EM-0023: To Janet re: car park — side entrance replacement options proposed
-- EM-0024: To all re: morning coordination round-up
-- EV-0029: Shredder Status — findings and next steps — booked Thursday 11:00-11:30 (attendees: Keith, Janet, Derek)
-- EV-0030: Capacity one-pager prep — booked Wednesday 09:00-10:30 (heads-down)
+- EM-0021 to EM-0024: Earlier morning emails (shredder plan, shared drive, car park, round-up)
+- EM-0035: To Janet re: Space 5 allocated, site plan update, contingency noted
+- EM-0036: To Janet/Derek re: shared drive access — IT ticket raised with Stuart, access by 11:00
+- EM-0037: To Graham/Janet/Derek re: Shredder Phase 1 update — Karen verifying Facilities master keyring
+- EV-0029: Shredder Status meeting booked Thursday 11:00-11:30 (Keith, Janet, Derek)
+- EV-0030: Capacity one-pager prep booked Wednesday 09:00-10:30 (heads-down)
 
-PENDING:
-- IT Support (Stuart): Grant Derek read access to FIN_WIP_Q2_2026 — to do today
-- Facilities master keyring: Verify existence for shredder manual access (Karen in HR lead)
-- Lorry MOT: Contact Frank at Coventry (external — offline)
+PENDING ACTIONS:
+- Karen (HR): Confirmation on Facilities master keyring — expecting her reply this morning
+- Derek: Shared drive access — confirm by 11:00, escalate if not
+- Derek: Shredder supplier details if he has them from past equipment audit
+- Supplier fallback: Check Finance equipment log if keyring doesn't work
 - Capacity one-pager: Draft tomorrow 09:00-10:30 (EV-0030)
 - President's Club scoping: Friday 09:30 with Tony (EV-0055)
-- Car park: Await Janet's preference on Space 4/5/behind-bins
+- Kitchens: Quiet word about bin collection timing (pre-emptive, for behind-the-bins contingency)
+- Space 5: Update site plan (digital + laminated) by end of day
+- Side entrance key: Offer to Janet if she wants a spare cut
 
 KEY FACTS ESTABLISHED:
-- Shredder: Red light, manual in archive, key in shredder room. Circular dependency identified. Facilities master keyring proposed as workaround. Supplier fallback noted.
-- Space 11: Janet declined fight. Visitors get it. Side entrance replacement being scoped.
-- Janet's sequencing: AGM financial narrative with Priya first, then to Graham for COB sign-off.
-- Derek's sixth request on aged debtors: Janet addressing tomorrow, shared drive access today.
-- Receivables narrative formula: "elevated, explained, managed" (Janet's framing).
+- Janet confirmed Space 5, declined Space 4 (drainage) and behind-bins (kitchen relationship). Contingency agreed: move to behind-bins without further approval if Space 5 has issues.
+- Shredder manual access: Karen checking Facilities master keyring. Red light untouched. Process followed.
+- 10:00 three-way running now (Graham, Priya, Tony, Janet) — Lighthouse deck, receivables narrative, AGM proof sequencing. I am not attending.
+- Janet's AGM mark-up accepted by Priya: receivables rewrite ("noted" not "satisfied"), Coventry warehouse FRS 102-anchored, Innovations paragraph cut.
+- Visitor submissions noted. Position unchanged: solvent, true and fair, supportable.
 
 QUOTES ROTATION: Current — "Good order is the foundation of all things." — Edmund Burke

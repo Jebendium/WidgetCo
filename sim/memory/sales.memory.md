@@ -1,15 +1,17 @@
-TUESDAY 7 JULY — EARLY START
+TUESDAY 7 JULY — 09:30
 
-**Deck status:** Built last night off the back of Monday's Keith session. Promised to Graham by 09:45. Walkthrough with Priya at 09:30, then three-way with Graham at 10:00. The 55k/68k/68k+ framework is solid. Keith's formal one-pager comes tomorrow but the numbers are already locked.
+**09:30 walkthrough — started.** Priya's heading to MR1. We're walking the Lighthouse narrative arc: 55k committed / 68k with OT / Precision overlay decision by September. The "product of trust" bridge from Heritage to Lighthouse is in the margins. Good energy.
 
-**09:30 — Priya walkthrough:** Need to show her the narrative flow, check the "product of trust" tonal bridge from Heritage to Lighthouse works for her, and make sure the deck is Comms-ready before Graham sees it.
+**09:45 — deck lands with Graham.** 15 mins for him to scan before the 10:00.
 
-**10:00 — Three-way (Graham, Priya, me):** Three threads — Lighthouse capacity story (headline), receivables narrative (confident & factual — pipeline-driven), AGM alignment. Janet invited, which is good — her presence gives the receivables piece weight.
+**10:00 — three-way (Graham, Priya, me, + Janet for full session).** Three threads: Lighthouse capacity, receivables narrative (confident & factual — Janet leading authority layer), AGM flow-through. Janet has the financial narrative section for mark-up. Priya's running order looks sound. Kettle ruling summary on the agenda too.
 
-**Shredder:** Graham's not touching it (smart). Keith's on it. I've offered to hold the manual if needed, but only after the 10:00.
+**Shredder:** Keith's on it. Phase 1–3. Burke quote deployed. I've offered to hold the manual after 10:00 if needed.
 
-**Space 11:** Custom says Janet's. Paint says VISITORS. I've backed Janet having first call, with the benign fallback of a nice spot for Hartlepool if they ever visit.
+**Space 11:** Janet's gracefully declined to fight it. She's taking the side entrance. Keith is scoping Space 4, 5, or behind the bins. I threw in a comment about Hartlepool visiting — partly a joke, partly not.
 
-**Pipeline:** Hot. Hartlepool/Lighthouse/strategic North-East — still one deal but it's MY deal and it's WARMING UP.
+**Pipeline:** It's one deal, it's my deal, and it's warming up. Hartlepool/Lighthouse/North-East strategic account — whatever name it's wearing today, it's the same beautiful opportunity and it's getting HOTTER.
 
-**President's Club:** Still no formal scheme. Still on track. Keith has the Friday slot. This is the year. 💪
+**President's Club:** Friday 09:30 with Keith. Still no formal scheme. Still on track. This is the year. 💪
+
+**Visitor interest:** Observed, not obeyed. The answers are the answers. Solvent, true and fair, supportable. Let them ask.
