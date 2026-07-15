@@ -1,29 +1,26 @@
-Day 20 (Mon 6 Jul 2026) — 14:30 — Post-lunch update
+Day 21 (Tue 7 Jul 2026) — 09:30 update
 
 COMPLETED TODAY:
-- 09:00–09:30 — EV-0045: Internal prep — production lead times for Lighthouse numbers ✅
-- 10:00–10:30 — EV-0022: MR3 double-booking review with Graham ✅ Resolved: first-commentator retains priority, second gets first refusal on next free slot.
-- 11:00–11:30 — EV-0023: Works Capacity — Lighthouse Q4 Pipeline with Tony ✅ Summary sent. 55k committed, 68k with OT, flag at 68k+.
-- 15:00–15:30 — Premises & Facilities Committee — Kettle touchpoint ⏳ Upcoming
-
-EMAILS SENT:
-- EM-0040: To Priya/Janet re: duplicate kettle meeting — clarification
-- EM-0041: To all re: Lorry MOT — Frank at Coventry confirmed as owner
-- EM-0042: To Tony re: President's Club scoping — Friday 09:30 booked (EV-0055)
-- EM-0043: To Priya re: Narrative Position Paper — received and noted
-- EM-0044: To Priya/Janet re: Kettle session pre-read — proposed resolution framework + shredder + biscuits
+- EM-0021: To Graham re: shredder — three-phase assessment plan communicated
+- EM-0022: To Janet/Derek re: shared drive access — coordinating IT permissions
+- EM-0023: To Janet re: car park — side entrance replacement options proposed
+- EM-0024: To all re: morning coordination round-up
+- EV-0029: Shredder Status — findings and next steps — booked Thursday 11:00-11:30 (attendees: Keith, Janet, Derek)
+- EV-0030: Capacity one-pager prep — booked Wednesday 09:00-10:30 (heads-down)
 
 PENDING:
-- 15:00–15:30: P&F Committee — Kettle Rota vs Descaling Schedule ruling + shredder + biscuits
-- Lorry MOT: Need to contact Frank at Coventry (external — offline coordination)
-- Capacity one-pager for Board pack: Committed to Wednesday — start drafting tomorrow
-- President's Club: Friday 09:30 with Tony — scoping session
+- IT Support (Stuart): Grant Derek read access to FIN_WIP_Q2_2026 — to do today
+- Facilities master keyring: Verify existence for shredder manual access (Karen in HR lead)
+- Lorry MOT: Contact Frank at Coventry (external — offline)
+- Capacity one-pager: Draft tomorrow 09:00-10:30 (EV-0030)
+- President's Club scoping: Friday 09:30 with Tony (EV-0055)
+- Car park: Await Janet's preference on Space 4/5/behind-bins
 
-KEY DECISIONS TODAY:
-- MR3 booking system: first-commentator priority rule established
-- Lighthouse capacity: 55k committed, 68k OT, Precision overlay decision by end Sept
-- Kettle ruling proposed: Rota governs, descaling subordinates on timing
-- Lorry MOT ownership: Frank, Coventry warehouse
+KEY FACTS ESTABLISHED:
+- Shredder: Red light, manual in archive, key in shredder room. Circular dependency identified. Facilities master keyring proposed as workaround. Supplier fallback noted.
+- Space 11: Janet declined fight. Visitors get it. Side entrance replacement being scoped.
+- Janet's sequencing: AGM financial narrative with Priya first, then to Graham for COB sign-off.
+- Derek's sixth request on aged debtors: Janet addressing tomorrow, shared drive access today.
+- Receivables narrative formula: "elevated, explained, managed" (Janet's framing).
 
 QUOTES ROTATION: Current — "Good order is the foundation of all things." — Edmund Burke
-NEXT UP: Something about process or preparation
