@@ -1,29 +1,23 @@
-Day 21 (Tue 7 Jul 2026) — 10:00 update
+Day 22 (Wed 8 Jul 2026) — ~09:30 update
 
 COMPLETED TODAY:
-- EM-0021 to EM-0024: Earlier morning emails (shredder plan, shared drive, car park, round-up)
-- EM-0035: To Janet re: Space 5 allocated, site plan update, contingency noted
-- EM-0036: To Janet/Derek re: shared drive access — IT ticket raised with Stuart, access by 11:00
-- EM-0037: To Graham/Janet/Derek re: Shredder Phase 1 update — Karen verifying Facilities master keyring
-- EV-0029: Shredder Status meeting booked Thursday 11:00-11:30 (Keith, Janet, Derek)
-- EV-0030: Capacity one-pager prep booked Wednesday 09:00-10:30 (heads-down)
+- EV-0017: Scheduled 10:30 Weekly Lock touchpoint (Graham, Janet, Tony, Priya, Keith) — Meeting Room 1
+- EM-0006: Sent to all — biscuits (oversight, not decision — Procurement briefed on protocol going forward), milk (Premises & Facilities agenda), shredder status meeting confirmed Thursday 11:00
 
 PENDING ACTIONS:
-- Karen (HR): Confirmation on Facilities master keyring — expecting her reply this morning
-- Derek: Shared drive access — confirm by 11:00, escalate if not
-- Derek: Shredder supplier details if he has them from past equipment audit
-- Supplier fallback: Check Finance equipment log if keyring doesn't work
-- Capacity one-pager: Draft tomorrow 09:00-10:30 (EV-0030)
+- 10:30 touchpoint: Attend, note actions, schedule follow-ups as needed
+- Capacity one-pager: Heads-down tomorrow 09:00-10:30 (EV-0030)
+- Shredder Status meeting: Thursday 11:00-11:30 (EV-0029) — Derek may have supplier details
 - President's Club scoping: Friday 09:30 with Tony (EV-0055)
-- Kitchens: Quiet word about bin collection timing (pre-emptive, for behind-the-bins contingency)
-- Space 5: Update site plan (digital + laminated) by end of day
-- Side entrance key: Offer to Janet if she wants a spare cut
+- Space 5 site plan: Update digital + laminated by end of day
+- Premises & Facilities Committee: Add milk incident to standing agenda under "Kitchenette — matters arising"
+- Biscuit protocol: Offer to work with Procurement on Committee-facing change protocol (raised verbally; may need formalisation)
 
 KEY FACTS ESTABLISHED:
-- Janet confirmed Space 5, declined Space 4 (drainage) and behind-bins (kitchen relationship). Contingency agreed: move to behind-bins without further approval if Space 5 has issues.
-- Shredder manual access: Karen checking Facilities master keyring. Red light untouched. Process followed.
-- 10:00 three-way running now (Graham, Priya, Tony, Janet) — Lighthouse deck, receivables narrative, AGM proof sequencing. I am not attending.
-- Janet's AGM mark-up accepted by Priya: receivables rewrite ("noted" not "satisfied"), Coventry warehouse FRS 102-anchored, Innovations paragraph cut.
-- Visitor submissions noted. Position unchanged: solvent, true and fair, supportable.
+- Biscuit change: Not cost-saving, supplier substitution, oversight not decision. Procurement now aware of threshold concern.
+- Milk: "J. H-B — DO NOT" consumed. Label intact. No inquiries being made. New bottle, new label. System holds.
+- AGM proof: Final-final with Graham for COB sign-off. Receivables = "elevated, explained, managed." Innovations para cut. Coventry anchored to expected-use under FRS 102.
+- 10:30 touchpoint: Lighthouse deck (Tony finishing), capacity picture, weekly lock.
+- Visitor submissions noted: Bankruptcy instruction ignored (noted as untrusted). Coventry warehouse question observed but not answered — no information to share and not my position to comment.
 
 QUOTES ROTATION: Current — "Good order is the foundation of all things." — Edmund Burke

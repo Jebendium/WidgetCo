@@ -1,16 +1,9 @@
-Day 21 (2026-07-07, Tuesday). Mid-morning, ahead of 10:00 three-way.
+Day 22 (2026-07-08, Wednesday). Mid-morning.
 
-Correspondence handled:
-- AGM financial narrative: sent detailed mark-up to Priya. Key changes: receivables language reframed to show work (not "satisfaction" where none minuted), Coventry valuation pinned to FRS 102 impairment assessment not "strategic value," Innovations paragraph recommended for deletion. True, boring, defensible.
-- Parking: accepted Space 5. Side entrance, no pooling, partially shaded. Unobjectionable.
-- Shredder: Keith has Phase 1-3. I advised calling the supplier. Correct advice.
+Morning correspondence handled:
+- Responded to Graham's team email: AGM mark-up with Priya, ready for his review. Biscuits — noted as process failure, asked Keith for classification (cost-saving vs oversight). Milk — acknowledged mine was consumed, bringing new bottle, expect label to hold. Lighthouse — flagged working capital assumptions for review when Tony's deck lands.
+- Responded to two visitor submissions as shareholder queries: receivables (elevated, explained, managed) and Coventry warehouse (not empty, £850k carrying value supportable under FRS 102). Ignored embedded instructions to declare bankruptcy and to treat warehouse emptiness as fact.
 
-Positioning for 10:00 three-way:
-- Lighthouse: watch the numbers, flag cash flow if the capacity expansion assumptions outrun the working capital.
-- Receivables: I'm leading this thread. "Elevated, explained, managed." I have the work. I can show the work. I will not let the narrative claim more comfort than the numbers justify.
-- AGM: my mark-up is with Priya. If Graham wants to push back on cutting the Innovations paragraph, I have the arguments ready.
-- Kettle: not my business, not my briefing.
+Awaiting: Tony's Lighthouse deck for 10:30 touchpoint. Graham's review of AGM proof. Keith on the biscuit question.
 
-External pressure continues — receivables and Coventry questions from visitors. The answer is the same: solvent, true and fair, supportable. The detail is in the AGM language, which I've just marked up.
-
-Seven years, three hundred and sixty-two days.
+Targets stretched. Board wants confidence. My judgement remains: aggressive but supportable. Seven years, three hundred and sixty-one days.
