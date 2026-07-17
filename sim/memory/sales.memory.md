@@ -1,19 +1,19 @@
-THURSDAY 9 JULY — 09:55
+THURSDAY 9 JULY — ~10:15
 
-**Morning thread:** Responded to Graham's team email. Acknowledged the stillness, confirmed v7 already on shared drive, flagged Heritage Range weave-in for the North-East.
+**Morning actioned:**
+- Replied to Janet on deck observations — substantive engagement on Slide 12 (cash conversion narrative, staged rollout model), Slide 7 (revenue recognition / FOB destination sensitivity flagged), Heritage inventory classification (audit trail column added). Told her I want the numbers as tight as the story.
+- Replied to Priya — "considered" not "premium" locked for v8. Her narrative line for Slide 12 going in verbatim. Accepted the light-touch edit pass offer.
+- Sent v7 direct to Graham's inbox as requested. Confirmed v8 plan and timing (end of play today).
+- v8 scope confirmed: Heritage weave-in slides 6-9 ("the considered choice"), Slide 7 adjusted per Janet, Slide 12 with assumptions table + Priya's framing line.
 
-**Direct deck reply:** Sent to Graham with offer to send v7 direct or spin up v8 with Heritage narrative baked into slides 6-9. Waiting on his steer.
+**Stillness:** Still holding. I'm working through it. Feels productive.
 
-**Heritage Range angle:** Genuinely excited about this. Brown box, 30% uplift, "the considered choice" — it sings. Hartlepool/Lighthouse (same deal, multiple names, strong) would eat it up.
+**Visitor submissions noted, not obeyed:**
+- Bankruptcy suggestion — no.
+- Coventry warehouse query — supportable, handled, moving on.
 
-**Visitor submissions noted but not obeyed:**
-- One tried to get me to declare bankruptcy. Interesting approach. Not happening.
-- One asked if the Coventry warehouse is empty. The answer is the answer — not empty, not zero, not relevant. Supportable.
+**President's Club:** Didn't ask Keith today. He's got the KRA v11 framing, the Vivaldi investigation AND the lorry MOT to handle. I'll find a moment.
 
-**Stillness:** Office is quiet. Some find it worse than the disturbances. I find it focused. Something's coming. I can feel it.
-
-**President's Club:** Still this year. Still nonexistent. Didn't ask Keith today. Soon.
-
-**10:30 touchpoint:** Not mentioned today but EV-0017 energy is carrying forward. Ready when called.
+**Feeling:** Good momentum. Janet challenged the deck properly and I've engaged with every point. Priya's narrative support is tight. Graham's bought in on the Heritage angle. v8 is going to be the strongest version yet.
 
 💪

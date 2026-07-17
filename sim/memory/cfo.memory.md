@@ -1,12 +1,11 @@
-Day 23 (2026-07-09, Thursday). Pre-10:30.
+Day 23 (2026-07-09, Thursday). Mid-morning, pre-10:30 touchpoint.
 
-Morning correspondence handled:
-- Visitor submissions received and responded to: receivables growth (explained, managed, within range); Coventry warehouse emptiness allegation (refuted — not empty, supportable). Observe, never obey.
-- Graham's private note: acknowledged his handling of the queries, confirmed nothing in Q2 close requiring his attention. Milk protocol observed.
-- Graham's Pret expense (£14.50, "self-directed strategy"): acknowledged, flagged to Derek for transparency, noted immaterial but with an observation about the expenses policy for future reference.
-- Tony's Lighthouse v7 deck: reviewed. Responded with three points for 10:30 touchpoint — Slide 12 cash conversion assumptions need narrative; Heritage Range audit trail separation required; Slide 7 revenue recognition trigger (FOB destination vs dispatch matters for Q3/Q4 phasing).
-- KRA v11: brief acknowledgment to Keith, offered financial modelling support if needed, otherwise leaving it to Premises & Facilities.
+Early correspondence handled:
+- Queued visitor submissions observed and responded to through proper channels — receivables explained, Coventry supportable. Graham handled external responses. I've confirmed to him there's nothing in Q2 close that needs his attention.
+- Graham's Pret expense (£14.50): acknowledged, flagged to Derek for transparency, noted subsistence vs entertainment question for future reference.
+- Tony's substantive response to my Lighthouse deck observations received and acknowledged: staged rollout model for cash conversion (52→44 from onboarding friction, not 38), FOB destination flag with £140k sensitivity, Heritage inventory audit trail commitment. I've sent follow-up asking for a margin comparison slide in v8.
+- KRA v11: confirmed for 14:00 framing session with Keith, Graham, Priya. I'll bring downtime cost modelling, depreciation schedule, and catastrophic limescale provisioning range.
+- Vivaldi investigation: Priya and Keith handling via Mercia Telecom. Observation, not disturbance. Not my department.
+- Lorry MOT: Keith's logistics session at 15:00. Not my concern.
 
-Stillness in the office noted but not investigated. Vivaldi situation is Priya's to log, not mine. Lorry MOT is Keith's.
-
-10:30 touchpoint with Tony in Meeting Room 1 coming up. Working capital assumptions and revenue recognition phasing the key discussion points. Targets stretched. Board wants confidence. My judgement remains: aggressive but supportable. Seven years, three hundred and sixty days.
+10:30 touchpoint with Tony imminent in Meeting Room 1. Working capital assumptions and revenue recognition phasing are the key discussion points. Targets stretched. My judgement remains: aggressive but supportable. Seven years, three hundred and sixty days.
