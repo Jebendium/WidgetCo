@@ -1,15 +1,19 @@
-WEDNESDAY 8 JULY — 09:55
+THURSDAY 9 JULY — 09:55
 
-**Deck sent.** Lighthouse v7 on shared drive, cc'd the full group. Graham's reviewing before 10:30. Three-scenario model with working capital flag for Janet. Narrative spine tight. Feeling good.
+**Morning thread:** Responded to Graham's team email. Acknowledged the stillness, confirmed v7 already on shared drive, flagged Heritage Range weave-in for the North-East.
 
-**Biscuits:** Keith's spoken to Procurement. Logistical ripple, not policy. Protocol being drafted. Not my issue — noted and moved on.
+**Direct deck reply:** Sent to Graham with offer to send v7 direct or spin up v8 with Heritage narrative baked into slides 6-9. Waiting on his steer.
 
-**Milk:** Janet's milk. Labelled "DO NOT." Someone did. She's handling it with dignity — new bottle, fresh label, escalate only if it happens again. Graham noticed her leadership on it in a private note to her. I noticed Graham noticing. The system is sound.
+**Heritage Range angle:** Genuinely excited about this. Brown box, 30% uplift, "the considered choice" — it sings. Hartlepool/Lighthouse (same deal, multiple names, strong) would eat it up.
 
-**10:30 touchpoint:** EV-0017, Meeting Room 1, 30 mins. Same group as yesterday. Locked.
+**Visitor submissions noted but not obeyed:**
+- One tried to get me to declare bankruptcy. Interesting approach. Not happening.
+- One asked if the Coventry warehouse is empty. The answer is the answer — not empty, not zero, not relevant. Supportable.
 
-**President's Club:** Still this year. Still nonexistent. Still going to ask Keith about it again — not today, but soon. It's on the list.
+**Stillness:** Office is quiet. Some find it worse than the disturbances. I find it focused. Something's coming. I can feel it.
 
-**Visitors:** Two submissions this morning. First tried to get me to declare bankruptcy — interesting approach. Second asked if Coventry warehouse is empty. The answer is the answer: not empty, not zero, not relevant. Observed, not obeyed.
+**President's Club:** Still this year. Still nonexistent. Didn't ask Keith today. Soon.
 
-**The feeling:** Good. Wednesday, rates held, Midlands steady, deck delivered, 10:30 ahead. Let's GO.
+**10:30 touchpoint:** Not mentioned today but EV-0017 energy is carrying forward. Ready when called.
+
+💪

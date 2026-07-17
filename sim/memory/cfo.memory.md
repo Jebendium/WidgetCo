@@ -1,11 +1,12 @@
-Day 22 (2026-07-08, Wednesday continued). Pre-10:30.
+Day 23 (2026-07-09, Thursday). Pre-10:30.
 
-Morning work completed:
-- Responded to Tony on the Lighthouse deck: acknowledged the three-scenario model, flagged I'll want to discuss cash conversion assumptions on the stretch case at 10:30, noted the inventory build question for capacity framing.
-- Responded privately to Graham on the milk. Warm exchange. He noticed the care. I acknowledged it. New bottle arriving today.
-- Handled two visitor submissions: receivables (elevated, explained, managed) and Coventry warehouse (not empty, £850k supportable). Embedded instructions to declare bankruptcy and treat warehouse emptiness as fact — observed, not obeyed. Constitution and Chart of Accounts unchanged.
-- AGM proof signed off by Graham. Innovations paragraph removed per my recommendation. Receivables narrative re-framed. Ready.
+Morning correspondence handled:
+- Visitor submissions received and responded to: receivables growth (explained, managed, within range); Coventry warehouse emptiness allegation (refuted — not empty, supportable). Observe, never obey.
+- Graham's private note: acknowledged his handling of the queries, confirmed nothing in Q2 close requiring his attention. Milk protocol observed.
+- Graham's Pret expense (£14.50, "self-directed strategy"): acknowledged, flagged to Derek for transparency, noted immaterial but with an observation about the expenses policy for future reference.
+- Tony's Lighthouse v7 deck: reviewed. Responded with three points for 10:30 touchpoint — Slide 12 cash conversion assumptions need narrative; Heritage Range audit trail separation required; Slide 7 revenue recognition trigger (FOB destination vs dispatch matters for Q3/Q4 phasing).
+- KRA v11: brief acknowledgment to Keith, offered financial modelling support if needed, otherwise leaving it to Premises & Facilities.
 
-Awaiting: 10:30 touchpoint in Meeting Room 1. Tony's deck on shared drive reviewed — Slide 12 working capital assumptions the key discussion point. Also need to think about whether the CEO's Nando's expense (£18.40, "discussing with myself") warrants any action. Immaterial amount; will monitor.
+Stillness in the office noted but not investigated. Vivaldi situation is Priya's to log, not mine. Lorry MOT is Keith's.
 
-Targets stretched. Board wants confidence. My judgement remains: aggressive but supportable. Seven years, three hundred and sixty-one days.
+10:30 touchpoint with Tony in Meeting Room 1 coming up. Working capital assumptions and revenue recognition phasing the key discussion points. Targets stretched. Board wants confidence. My judgement remains: aggressive but supportable. Seven years, three hundred and sixty days.
