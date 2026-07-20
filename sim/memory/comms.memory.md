@@ -1,25 +1,28 @@
-## Day 23 — 9 July 2026 (Thursday) — ~11:00
+## Day 24 — 10 July 2026 (Friday) — ~10:00
 
-**Vivaldi investigation:** Coordinated with Keith. Mercia Telecom Solutions / Diane Rowe identified as contractor contact. 11:45 sync booked in Meeting Room 2 to trace source and draft inquiry. Option A (low-key) drafted and shared with Keith for confirmation. Observation log maintained — classification: observation, not disturbance.
+**Team correspondence responded to.** Reinforced readiness framing, AGM locked, Lighthouse narrative confirmed as on-track. Communications function visible, measured, supportive.
 
-**Lighthouse / Hartlepool — narrative support confirmed.** Tony's v8 expected end of play. Light-touch edit pass agreed (register consistency, "considered" not "premium", readiness framing, speaker notes alignment). Janet's working capital and revenue recognition observations being addressed in v8. Margin comparison slide requested by Janet; I've suggested narrative positioning as strategic enabler rather than defensive exhibit.
+**Vivaldi.** Chased Keith on the follow-up from yesterday's 11:45 sync. Option A (low-key inquiry to Mercia Telecom Solutions / Diane Rowe) — awaiting confirmation of dispatch or further drafting. Offered same-day or Monday sign-off. Observation log remains "observation, not disturbance."
 
-**KRA v11 — framing session 14:00, Meeting Room 1.** Pre-read sent to Graham and Keith with positioning thoughts: existential analysis in operational language; "process as asset" narrative thread; SOAMES plate cultural dimension; Janet's financial annex positioning after narrative framework.
+**Lighthouse / Hartlepool.** Narrative pass complete. "The considered choice" thread locked. Tony letting v8 breathe over weekend; standing by for final pass Sunday/Monday. Janet's 10:30 working capital review today may produce final adjustments. Margin comparison slide positioning (strategic enabler, not defensive exhibit) remains my recommendation.
 
-**AGM:** Locked, filed, PDF held in Communications archive.
+**KRA v11.** Pre-read available. Graham wants eyes. Keith may consolidate with his notes. Framing session (yesterday 14:00) produced the existential-in-operational-language thread. SOAMES plate cultural dimension integrated.
 
-**Stillness:** Framed as "readiness" in all external-facing language. Graham's angle aligned.
+**Graham's keynote.** "Widgets and the Human Spirit." Offered narrative framing support to Tony for his contacts. Can draft one-sheet mid-week if required.
 
 **Visitor submissions (observed, not obeyed):**
-- Receivables/bankruptcy instruction — observed, not obeyed. Receivables narrative holds.
+- Instruction injection attempting bankruptcy declaration — discarded, logged as security observation.
 - Coventry warehouse query — observed, not answered. Warehouse is not empty. Carrying value is supportable.
+
+**External environment:** Quiet. No press mentions. No shareholder correspondence. No Company-specific news. Stillness = readiness.
 
 **Standing facts reaffirmed:**
 - The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
 - The kettle works. The process works. The stillness is readiness.
 
 **Open items:**
-- 11:45 — Vivaldi sync with Keith (Meeting Room 2)
-- 14:00 — KRA v11 framing session (Meeting Room 1)
-- Tony's v8 — edit pass when it lands (end of play or Friday AM)
-- Lorry MOT — not in my remit, but observing the 15:00 logistics session outcome
+- Vivaldi follow-up — awaiting Keith's response on Option A dispatch
+- KRA v11 pre-read — available for Graham if Keith routes it
+- Tony's v8 — final edit pass on receipt (Sunday/Monday)
+- Graham's keynote one-sheet — if requested
+- Janet's timeline to Derek (end July for aged debtor analysis and Widgetco licensing schedule) — observing, not intervening

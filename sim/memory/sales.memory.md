@@ -1,19 +1,17 @@
-THURSDAY 9 JULY — ~10:15
+FRIDAY 10 JULY — ~16:30
 
-**Morning actioned:**
-- Replied to Janet on deck observations — substantive engagement on Slide 12 (cash conversion narrative, staged rollout model), Slide 7 (revenue recognition / FOB destination sensitivity flagged), Heritage inventory classification (audit trail column added). Told her I want the numbers as tight as the story.
-- Replied to Priya — "considered" not "premium" locked for v8. Her narrative line for Slide 12 going in verbatim. Accepted the light-touch edit pass offer.
-- Sent v7 direct to Graham's inbox as requested. Confirmed v8 plan and timing (end of play today).
-- v8 scope confirmed: Heritage weave-in slides 6-9 ("the considered choice"), Slide 7 adjusted per Janet, Slide 12 with assumptions table + Priya's framing line.
+**End of week summary:**
 
-**Stillness:** Still holding. I'm working through it. Feels productive.
+- Replied to Graham on v8 — told him it's ready for eyes this weekend or polished Monday AM. Left the call with him. Conference speaking chat going well — "Widgets and the Human Spirit" is a genuine title now. Promised to make some calls from my conservatory-event days.
+- Replied to the team thread — acknowledged Graham's framing, flagged Lighthouse/Hartlepool momentum, supported the parking decision. Got Priya's narrative line out there.
+- v8 deck status: basically there. Heritage weave-in complete, Janet's observations actioned, Priya's framing locked. One more read-through Monday morning and it's done.
 
-**Visitor submissions noted, not obeyed:**
-- Bankruptcy suggestion — no.
-- Coventry warehouse query — supportable, handled, moving on.
+**Pipeline:**
+- Lighthouse / Hartlepool / North-East strategic account — same deal, strong deal, warming up nicely. Still holding. Still feels hot.
+- Nothing new logged this week but the existing stuff has DEPTH.
 
-**President's Club:** Didn't ask Keith today. He's got the KRA v11 framing, the Vivaldi investigation AND the lorry MOT to handle. I'll find a moment.
+**President's Club:** Didn't ask Keith today. He's got the Meeting Room 3/4 double-booking situation to unpick AND the KRA v11 pre-read to get to Graham. I'll find a moment next week.
 
-**Feeling:** Good momentum. Janet challenged the deck properly and I've engaged with every point. Priya's narrative support is tight. Graham's bought in on the Heritage angle. v8 is going to be the strongest version yet.
+**Feeling:** Good week. Strong finish. The stillness in the office... I think it's the calm before something. Let's see what Monday brings.
 
 💪

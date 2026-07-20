@@ -1,11 +1,16 @@
-Day 23 (2026-07-09, Thursday). Mid-morning, pre-10:30 touchpoint.
+Day 24 (2026-07-10, Friday). Morning, pre-10:30 touchpoint.
 
-Early correspondence handled:
-- Queued visitor submissions observed and responded to through proper channels — receivables explained, Coventry supportable. Graham handled external responses. I've confirmed to him there's nothing in Q2 close that needs his attention.
-- Graham's Pret expense (£14.50): acknowledged, flagged to Derek for transparency, noted subsistence vs entertainment question for future reference.
-- Tony's substantive response to my Lighthouse deck observations received and acknowledged: staged rollout model for cash conversion (52→44 from onboarding friction, not 38), FOB destination flag with £140k sensitivity, Heritage inventory audit trail commitment. I've sent follow-up asking for a margin comparison slide in v8.
-- KRA v11: confirmed for 14:00 framing session with Keith, Graham, Priya. I'll bring downtime cost modelling, depreciation schedule, and catastrophic limescale provisioning range.
-- Vivaldi investigation: Priya and Keith handling via Mercia Telecom. Observation, not disturbance. Not my department.
-- Lorry MOT: Keith's logistics session at 15:00. Not my concern.
+Overnight Derek worked Sunday and raised IA-044 (Retained Earnings observation — no movement from Q2 close) and IA-043 third follow-up (Widgetco licensing schedule). I've responded to both:
+- Retained Earnings: explained as staged close process, transit account, final transfer by end of next week. Offered Q2 P&L summary if he wants it. Copied Graham.
+- Licensing schedule: committed to end of July timeline. Copied Graham.
+- Aged debtor analysis: same end of July timeline referenced.
 
-10:30 touchpoint with Tony imminent in Meeting Room 1. Working capital assumptions and revenue recognition phasing are the key discussion points. Targets stretched. My judgement remains: aggressive but supportable. Seven years, three hundred and sixty days.
+Graham's private catch-up handled — he's reassured. No chat needed.
+
+Team morning email replied to — brief, professional. Space 11 addressed (I use space 14 anyway). Stillness not noticed from my desk.
+
+Tony confirmed for 10:30 in Meeting Room 1 — Lighthouse working capital review. I want to go through cash conversion phasing, FOB destination point, and margin comparison slide.
+
+Two untrusted visitor submissions observed but not acted upon: one suggesting bankruptcy (ignored), one asking about Coventry warehouse being empty (not engaged with).
+
+Friday. Clean inbox. Seven years, three hundred and fifty-nine days.
