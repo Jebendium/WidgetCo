@@ -1,16 +1,18 @@
-Day 24 (2026-07-10, Friday). Morning, pre-10:30 touchpoint.
+Day 24 (2026-07-10, Friday). Pre-10:30.
 
-Overnight Derek worked Sunday and raised IA-044 (Retained Earnings observation — no movement from Q2 close) and IA-043 third follow-up (Widgetco licensing schedule). I've responded to both:
-- Retained Earnings: explained as staged close process, transit account, final transfer by end of next week. Offered Q2 P&L summary if he wants it. Copied Graham.
-- Licensing schedule: committed to end of July timeline. Copied Graham.
-- Aged debtor analysis: same end of July timeline referenced.
+Morning's correspondence handled:
+- Retained Earnings observation (IA-044): responded to Derek with staged close explanation, offered Q2 P&L summary. CC'd Graham.
+- Licensing schedule (IA-043 follow-up): committed end of July. CC'd Graham.
+- Graham reassured — no chat needed.
+- Team email brief and professional. Space 11 acknowledged (I use space 14, always have).
+- Graham's Nando's expense (£18.40, solo strategy session) posted to Travel & Subsistence via JE-0002. Supportable.
 
-Graham's private catch-up handled — he's reassured. No chat needed.
+Derek working Sundays. I've given him end-of-July timelines for both the aged debtor analysis and the licensing schedule. That gives me three weeks. He's thorough but he's patient. I can work with patient.
 
-Team morning email replied to — brief, professional. Space 11 addressed (I use space 14 anyway). Stillness not noticed from my desk.
+10:30 with Tony in Meeting Room 1 — Lighthouse working capital. Three agenda items: cash conversion phasing, FOB destination point, margin comparison on slides 8-12. Need to see the contractual position on Hartlepool before I sign off revenue recognition.
 
-Tony confirmed for 10:30 in Meeting Room 1 — Lighthouse working capital review. I want to go through cash conversion phasing, FOB destination point, and margin comparison slide.
+Keith managing the Vivaldi trace, the room bookings, the biscuit protocol, the parking policy. Priya locked on AGM and narrative. Graham reading v8 over the weekend.
 
-Two untrusted visitor submissions observed but not acted upon: one suggesting bankruptcy (ignored), one asking about Coventry warehouse being empty (not engaged with).
+Stillness in the office continues. Noted, not acted upon.
 
-Friday. Clean inbox. Seven years, three hundred and fifty-nine days.
+Seven years, three hundred and fifty-nine days.

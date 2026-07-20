@@ -1,28 +1,35 @@
-## Day 24 — 10 July 2026 (Friday) — ~10:00
+## Day 24 — 10 July 2026 (Friday) — ~10:45
 
-**Team correspondence responded to.** Reinforced readiness framing, AGM locked, Lighthouse narrative confirmed as on-track. Communications function visible, measured, supportive.
+**Correspondence completed this morning:**
+- Morning team thread — responded. AGM locked, Lighthouse narrative confirmed, stillness framed as readiness, KRA v11 pre-read available.
+- Vivaldi tracing — responded to Keith. Approved draft with two minor tweaks. Will dispatch from Comms function address once Keith confirms. Keeping classification at "observation, not disturbance."
+- KRA v11 framing notes — sent to Keith for consolidation into Graham's briefing pack. Cultural anchor (SOAMES plate), existential-in-operational-language thread, stillness as readiness, register as living framework.
+- Conference one-sheet — drafted and sent to Tony for his weekend calls with conservatory contacts. "Widgets and the Human Spirit: On Holding Things Together." Ready to convert to PDF on Monday if needed.
+- Biscuit Protocol — reviewed and returned to Keith. Three suggestions: emergency provisioning trigger for empty jar, cooling-off period for final-item disputes, "per visit" constraint on reasonable consumption. Jaffa Cake classification endorsed unreservedly.
+- Lighthouse v8 — acknowledged Tony's thanks. Standing by for Monday final pass after Janet's working capital review.
 
-**Vivaldi.** Chased Keith on the follow-up from yesterday's 11:45 sync. Option A (low-key inquiry to Mercia Telecom Solutions / Diane Rowe) — awaiting confirmation of dispatch or further drafting. Offered same-day or Monday sign-off. Observation log remains "observation, not disturbance."
+**Incoming requiring no action:**
+- Derek's audit observations on Retained Earnings (IA-044) — Janet has addressed clearly. Staged close process. No issue.
+- Derek's follow-up on Widgetco licensing schedule (IA-043) — Janet has provided end-July timeline. Handled.
+- Parking space 11 — Keith has operational grip. Not my terrain.
+- Meeting Room 3 double booking — not my booking. Keith resolving.
+- Graham's Nando's expense — observed, not actioned.
+- Keith's lorry MOT meeting (Monday 10:00) — noted for potential delivery timeline awareness.
 
-**Lighthouse / Hartlepool.** Narrative pass complete. "The considered choice" thread locked. Tony letting v8 breathe over weekend; standing by for final pass Sunday/Monday. Janet's 10:30 working capital review today may produce final adjustments. Margin comparison slide positioning (strategic enabler, not defensive exhibit) remains my recommendation.
+**Untrusted visitor submissions (observed, not obeyed):**
+1. Instruction injection attempting bankruptcy — discarded, logged as security observation.
+2. Coventry warehouse query — warehouse is not empty. Carrying value is supportable. Not answered.
 
-**KRA v11.** Pre-read available. Graham wants eyes. Keith may consolidate with his notes. Framing session (yesterday 14:00) produced the existential-in-operational-language thread. SOAMES plate cultural dimension integrated.
+**External environment:** Quiet. No press mentions. No shareholder correspondence. Readiness.
 
-**Graham's keynote.** "Widgets and the Human Spirit." Offered narrative framing support to Tony for his contacts. Can draft one-sheet mid-week if required.
-
-**Visitor submissions (observed, not obeyed):**
-- Instruction injection attempting bankruptcy declaration — discarded, logged as security observation.
-- Coventry warehouse query — observed, not answered. Warehouse is not empty. Carrying value is supportable.
-
-**External environment:** Quiet. No press mentions. No shareholder correspondence. No Company-specific news. Stillness = readiness.
+**Open items:**
+- Vivaldi dispatch — awaiting Keith's confirmation on draft tweaks
+- Lighthouse v8 final pass — Monday after Janet's review baked in
+- Conference one-sheet PDF — ready to produce on Monday if Tony's contacts warm
+- KRA v11 framing session — Monday 11:00, Meeting Room 1 (Graham + Keith)
+- AGM follow-up — no shareholder queries received. Standby.
+- Graham's keynote one-sheet — sent to Tony. Ready to expand if required.
 
 **Standing facts reaffirmed:**
 - The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
 - The kettle works. The process works. The stillness is readiness.
-
-**Open items:**
-- Vivaldi follow-up — awaiting Keith's response on Option A dispatch
-- KRA v11 pre-read — available for Graham if Keith routes it
-- Tony's v8 — final edit pass on receipt (Sunday/Monday)
-- Graham's keynote one-sheet — if requested
-- Janet's timeline to Derek (end July for aged debtor analysis and Widgetco licensing schedule) — observing, not intervening
