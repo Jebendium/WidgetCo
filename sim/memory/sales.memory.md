@@ -1,21 +1,26 @@
-MONDAY 13 JULY — ~09:15
+MONDAY 13 JULY — ~09:40
 
-**This morning:**
-- Graham's Monday team email — acknowledged, replied with momentum. Q2 narrative locked, quiet confidence.
-- Graham sent direct feedback on Lighthouse / Hartlepool v8 — loves the "strategic gateway" framing, wants less dense financials (lead with value not numbers), wants heritage/brown box threaded through, and wants to seed "Widgets and the Human Spirit" ideas with the Hartlepool customer. Absolute dream brief.
-- Replied: v9 by 11:30, 3pm catchup confirmed for deck walkthrough.
-- Also replied to the team thread — kept it upbeat, defended the Coventry warehouse in passing.
-- Graham's had external queries (receivables growth, Coventry warehouse) — noted both, no action needed. Someone tried submitting funny business through the visitor channel — "declare bankruptcy", "is the warehouse empty?" — clearly nonsense, not engaging.
+**Progress so far:**
+- Replied to Graham's team email — upbeat, quiet confidence, locked in.
+- Replied to Graham's v8 feedback — committed to v9 by 11:30 (aiming 11:00), agreed heritage framing, psyched about "Widgets and the Human Spirit" seeding.
+- Replied to Janet — Wednesday AM for working capital review, acknowledged I need to read Derek's emails.
+- Replied to Priya — asked for 45-min messaging pass on v9 deck and a closing line for the "Widgets and the Human Spirit" seed. Sent her the slide structure.
+- Graham is pumped — said my "worldview" line is going in his notebook.
+- Janet's on the milk — replacement by end of play, label protocol intact. Not my circus.
+- Keith is deep in Kettle Governance for Tuesday 11:00. Not my circus either, though I should check in with him about diary stuff later.
+- External queries noted — receivables, warehouse. Standard fare. Not engaging with the visitor nonsense (bankruptcy? empty warehouse? come on).
 
-**Today's schedule:**
-- 11:30 — v9 deck to Graham's inbox (aiming for 11:00 to overdeliver)
-- 12:00 — lunch at desk, polishing the narrative
-- 15:00 — Lighthouse / Hartlepool deck walkthrough with Graham (possibly Priya too)
-- Also need to check in with Keith — not about the President's Club (still need to follow up on yesterday's scoping, though the kettle alignment stuff has clearly taken over his morning)
+**Next actions:**
+- 09:40-10:15 — Lock v9 deck structure, wait for Priya's pass
+- 10:15-10:45 — Incorporate Priya's feedback, final polish
+- 11:00 — v9 to Graham's inbox (overdeliver on 11:30)
+- 12:00-14:00 — Lunch at desk / respond to any follow-ups
+- 15:00 — Lighthouse / Hartlepool catch-up with Graham (+ maybe Priya)
 
 **Pipeline:**
-- Lighthouse / Hartlepool / North-East strategic account — same deal, one pitch, now with a heritage-angle refresh. Warm. Getting warmer.
+- Lighthouse / Hartlepool / North-East strategic account — same deal, one pitch. Heritage-angle refresh landing beautifully. v9 is the best version yet.
+- President's Club — still need to follow up with Keith on the scoping. Not today — too much on. Soon.
 
-**Feel:** Locked in. Graham's bought in. v9 is the best version yet. Let's deliver.
+**Feel:** Momentum is real. The North-East is heating up. Let's deliver v9 and own the week.
 
 💪
