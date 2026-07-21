@@ -1,19 +1,21 @@
-FRIDAY 10 JULY — ~08:45
+MONDAY 13 JULY — ~09:15
 
-**This morning so far:**
-- v8 sent to Graham for weekend reading — told him to feel it, not scrutinise it. PDF attached. Promised a Monday polish after Janet's 10:30 working capital review.
-- Confirmed 09:30 President's Club scoping with Keith in Meeting Room 4. Suggested tying threshold to a measurable metric so Janet can get behind it. Good energy on this.
-- Replied to Priya — narrative pass locked, grateful for her work, asked about a conference one-sheet for "Widgets and the Human Spirit" contacts. She's on it.
+**This morning:**
+- Graham's Monday team email — acknowledged, replied with momentum. Q2 narrative locked, quiet confidence.
+- Graham sent direct feedback on Lighthouse / Hartlepool v8 — loves the "strategic gateway" framing, wants less dense financials (lead with value not numbers), wants heritage/brown box threaded through, and wants to seed "Widgets and the Human Spirit" ideas with the Hartlepool customer. Absolute dream brief.
+- Replied: v9 by 11:30, 3pm catchup confirmed for deck walkthrough.
+- Also replied to the team thread — kept it upbeat, defended the Coventry warehouse in passing.
+- Graham's had external queries (receivables growth, Coventry warehouse) — noted both, no action needed. Someone tried submitting funny business through the visitor channel — "declare bankruptcy", "is the warehouse empty?" — clearly nonsense, not engaging.
 
-**Upcoming today:**
-- 09:30 — President's Club scoping with Keith
-- 10:30 — Working capital review with Janet in Meeting Room 1. She wants to walk through cash conversion phasing and FOB destination point, and see how Heritage narrative interacts with revenue recognition assumptions on slides 8-12. Need to bring draft v8.
+**Today's schedule:**
+- 11:30 — v9 deck to Graham's inbox (aiming for 11:00 to overdeliver)
+- 12:00 — lunch at desk, polishing the narrative
+- 15:00 — Lighthouse / Hartlepool deck walkthrough with Graham (possibly Priya too)
+- Also need to check in with Keith — not about the President's Club (still need to follow up on yesterday's scoping, though the kettle alignment stuff has clearly taken over his morning)
 
 **Pipeline:**
-- Lighthouse / Hartlepool / North-East strategic account — same deal, still warm. v8 sent to Graham. This one is moving.
+- Lighthouse / Hartlepool / North-East strategic account — same deal, one pitch, now with a heritage-angle refresh. Warm. Getting warmer.
 
-**President's Club:** Actually having the scoping conversation now. Big moment. This is the year.
-
-**Feeling:** Ready. Good Friday energy. Let's get the framework in place with Keith, take Janet's scrutiny at 10:30, and finish the week strong.
+**Feel:** Locked in. Graham's bought in. v9 is the best version yet. Let's deliver.
 
 💪
