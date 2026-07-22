@@ -1,26 +1,20 @@
-MONDAY 13 JULY — ~09:40
+TUESDAY 14 JULY — ~10:35
 
-**Progress so far:**
-- Replied to Graham's team email — upbeat, quiet confidence, locked in.
-- Replied to Graham's v8 feedback — committed to v9 by 11:30 (aiming 11:00), agreed heritage framing, psyched about "Widgets and the Human Spirit" seeding.
-- Replied to Janet — Wednesday AM for working capital review, acknowledged I need to read Derek's emails.
-- Replied to Priya — asked for 45-min messaging pass on v9 deck and a closing line for the "Widgets and the Human Spirit" seed. Sent her the slide structure.
-- Graham is pumped — said my "worldview" line is going in his notebook.
-- Janet's on the milk — replacement by end of play, label protocol intact. Not my circus.
-- Keith is deep in Kettle Governance for Tuesday 11:00. Not my circus either, though I should check in with him about diary stuff later.
-- External queries noted — receivables, warehouse. Standard fare. Not engaging with the visitor nonsense (bankruptcy? empty warehouse? come on).
+**v9 rough draft sent to Graham (cc Priya) at 10:30 ✅**
+Full narrative and slide structure — 8 slides, Heritage Range wedge, "Widgets and the Human Spirit" threaded through, commercial model with numbers. Overdelivered on the deadline.
 
-**Next actions:**
-- 09:40-10:15 — Lock v9 deck structure, wait for Priya's pass
-- 10:15-10:45 — Incorporate Priya's feedback, final polish
-- 11:00 — v9 to Graham's inbox (overdeliver on 11:30)
-- 12:00-14:00 — Lunch at desk / respond to any follow-ups
-- 15:00 — Lighthouse / Hartlepool catch-up with Graham (+ maybe Priya)
+**What I'm waiting for:**
+- Graham's reaction / structural feedback before 12
+- Priya's confirmation on the 12:00 huddle
+- Then: 12:00–12:20 polish session with Priya
+- 15:00 — Lighthouse / Hartlepool catch-up with Graham (and maybe Priya)
 
-**Pipeline:**
-- Lighthouse / Hartlepool / North-East strategic account — same deal, one pitch. Heritage-angle refresh landing beautifully. v9 is the best version yet.
-- President's Club — still need to follow up with Keith on the scoping. Not today — too much on. Soon.
+**Rest of the day's shape:**
+- 11:00 — KRA v11 framing session (not my circus, but I'm aware of it)
+- 12:00 — Messaging huddle with Priya (pending her confirmation)
+- 15:00 — Graham catch-up on Lighthouse/Hartlepool
+- Need to chase Keith on President's Club at some point this week — not today's priority
 
-**Feel:** Momentum is real. The North-East is heating up. Let's deliver v9 and own the week.
+**Pipeline feel:** Momentum is real. v9 is the best version of this deck yet. The Heritage framing gives us something to sell beyond price. If we land Lighthouse, Q4 is transformational. And I can feel it landing.
 
 💪
