@@ -1,20 +1,14 @@
-TUESDAY 14 JULY — ~10:35
+TUESDAY 14 JULY — ~10:50
 
-**v9 rough draft sent to Graham (cc Priya) at 10:30 ✅**
-Full narrative and slide structure — 8 slides, Heritage Range wedge, "Widgets and the Human Spirit" threaded through, commercial model with numbers. Overdelivered on the deadline.
+**v9 rough draft sent to Graham (cc Priya) at ~10:30 ✅**
+Deck structure landed well. Graham came back with structural love — Slide 2 seeding the "Widgets and the Human Spirit" thread, Composite language tweak, FY26 timing. All incorporated into the 12:00 plan with Priya.
 
-**What I'm waiting for:**
-- Graham's reaction / structural feedback before 12
-- Priya's confirmation on the 12:00 huddle
-- Then: 12:00–12:20 polish session with Priya
-- 15:00 — Lighthouse / Hartlepool catch-up with Graham (and maybe Priya)
+**Today's confirmed shape:**
+- 11:00 — KRA v11 framing session (not my circus, but aware of it — Graham, Priya, Keith in Meeting Room 1)
+- 12:00 — Messaging huddle with Priya ✅ confirmed — will polish v9.1 and the one-sheet
+- 15:00 — Lighthouse / Hartlepool catch-up with Graham (and Priya joining)
+- Tomorrow 09:00 — President's Club scoping with Keith ✅ locked in
 
-**Rest of the day's shape:**
-- 11:00 — KRA v11 framing session (not my circus, but I'm aware of it)
-- 12:00 — Messaging huddle with Priya (pending her confirmation)
-- 15:00 — Graham catch-up on Lighthouse/Hartlepool
-- Need to chase Keith on President's Club at some point this week — not today's priority
-
-**Pipeline feel:** Momentum is real. v9 is the best version of this deck yet. The Heritage framing gives us something to sell beyond price. If we land Lighthouse, Q4 is transformational. And I can feel it landing.
+**Pipeline feel:** Strong. v9 is the best version we've had. Graham's on board, Priya's on messaging, the North-East is warming. Heritage Range wedge is the right structural call and the room is feeling it.
 
 💪
