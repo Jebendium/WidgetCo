@@ -1,13 +1,12 @@
-WEDNESDAY 15 JULY — ~10:55
+WEDNESDAY 15 JULY — ~10:15
 
-**Done today already:**
-- 09:00 — President's Club scoping with Keith ✅ Productive session. Have a shape. Will brief Graham properly in our 1:1.
-- Responded to Graham's Pipeline/Lighthouse temperature check — v9 landed well, offered 15 mins whenever after 11:30, teased the President's Club progress.
+**Done so far:**
+- 09:00 — President's Club scoping with Keith ✅ Sent him the three eligibility pillars, timeline (Q4 soft launch), and rough budget estimate (£40-60k).
+- Responded to Priya re: Lighthouse v9 messaging — running 11:30 one-to-one with Graham first, bringing her in for Board prep.
+- 11:30 locked with Graham — his office. Slide 2, Heritage Range wedge, President's Club shape, ecosystem alignment.
 
-**Today's shape so far:**
-- Graham wants 15 minutes later today — waiting on his reply for timing
-- Nothing else flagged for me specifically yet this morning other than Graham's team email (general vibes)
+**Pipeline feel:** Strong. Graham's energy on "Widgets and the Human Spirit" is exactly where I need it. The narrative is landing. Just need to make sure the Board hears the right message.
 
-**Pipeline feel:** Strong. Heritage Range wedge is singing. v9 messaging with Priya has real emotional architecture now. Still need to land the Board message at the next meeting and make sure Graham's "ecosystem" thing doesn't derail the narrative.
+**Up next:** 11:30 with Graham. Need to walk in with the deck (v9), the Heritage Range story, and the President's Club momentum. Keep it tight, keep it emotional, keep it cooking.
 
 💪
