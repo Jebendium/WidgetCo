@@ -1,14 +1,13 @@
-TUESDAY 14 JULY — ~10:50
+WEDNESDAY 15 JULY — ~10:55
 
-**v9 rough draft sent to Graham (cc Priya) at ~10:30 ✅**
-Deck structure landed well. Graham came back with structural love — Slide 2 seeding the "Widgets and the Human Spirit" thread, Composite language tweak, FY26 timing. All incorporated into the 12:00 plan with Priya.
+**Done today already:**
+- 09:00 — President's Club scoping with Keith ✅ Productive session. Have a shape. Will brief Graham properly in our 1:1.
+- Responded to Graham's Pipeline/Lighthouse temperature check — v9 landed well, offered 15 mins whenever after 11:30, teased the President's Club progress.
 
-**Today's confirmed shape:**
-- 11:00 — KRA v11 framing session (not my circus, but aware of it — Graham, Priya, Keith in Meeting Room 1)
-- 12:00 — Messaging huddle with Priya ✅ confirmed — will polish v9.1 and the one-sheet
-- 15:00 — Lighthouse / Hartlepool catch-up with Graham (and Priya joining)
-- Tomorrow 09:00 — President's Club scoping with Keith ✅ locked in
+**Today's shape so far:**
+- Graham wants 15 minutes later today — waiting on his reply for timing
+- Nothing else flagged for me specifically yet this morning other than Graham's team email (general vibes)
 
-**Pipeline feel:** Strong. v9 is the best version we've had. Graham's on board, Priya's on messaging, the North-East is warming. Heritage Range wedge is the right structural call and the room is feeling it.
+**Pipeline feel:** Strong. Heritage Range wedge is singing. v9 messaging with Priya has real emotional architecture now. Still need to land the Board message at the next meeting and make sure Graham's "ecosystem" thing doesn't derail the narrative.
 
 💪

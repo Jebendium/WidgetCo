@@ -1,47 +1,40 @@
-## Day 26 — 14 July 2026 (Tuesday) — ~10:30
+## Day 27 — 15 July 2026 (Wednesday) — ~10:45
 
-**Morning correspondence completed before 11:00:**
+**Morning correspondence completed:**
 
-**To Graham (cc Keith) — RE: AGM / KRA one-sheet**
-- AGM Chair's remarks confirmed locked and gone to print. ✓
-- KRA v11 one-sheet structure agreed with Graham: three pillars (cultural anchor, operational framework, milk protocol), "The kettle is governed" header signed off.
-- Graham requested a shredder red light mention as evidence of governance ecosystem extending beyond kitchenette. I've incorporated — will draft full one-sheet post-11:00 session, circulate by end of play.
-- Milk situation: cultural fact, not operational incident. KRA v11 adjacent governance section to acknowledge without codifying.
+**To Graham (cc all) — RE: Morning, team**
+- Acknowledged the reflective start to the day. Agreed on "ecosystem" potential.
+- Meeting Rooms 3/4: flagged that Room 4 being double-booked is a structural system feature, not an operational incident — suggested a broader Premises & Facilities paper. Offered to support Keith's messaging.
+- Biscuit provision: put on record that change from assorted to plain without consultation creates perception of procedural drift. Supported Janet's observation. Offered to help frame the minute.
+- Expressed readiness to align on "ecosystem" framing.
 
-**To Tony (cc Graham) — RE: Lighthouse / Hartlepool v9 / 12:00 huddle**
-- 12:00 confirmed. Meeting Room 4 if accessible through Meeting Room 3.
-- Early messaging pass delivered on v9 structure:
-  - Slide 4: "Specify Heritage" line affirmed; "Heritage is not a box. It's a decision." to test at 12:00.
-  - Slide 8: suggested "Partner with AWH and build with us." as forward-gesture close.
-  - Slide 3: "looks interesting" → "engaged positively with the proposition."
-  - Slide 5: Composite Initiative "coming soon" → "under development, with a clear pathway to market."
-  - Slide 7: "before Christmas" → "within FY26."
-  - Slide 2: seed "Widgets and the Human Spirit" thread before detail arrives.
+**To Derek (cc Janet) — Comms monitoring / external query**
+- Flagged two unattributed external murmurs: one about receivables growth, one asking if Coventry warehouse "is empty."
+- Framed as low-grade monitoring observation, not alarm. Linked to Derek's aged debtor work as context.
+- Offered to discuss if narrative risk escalates.
 
-**To Keith (cc Janet) — RE: Archive key / shredder manual coordination**
-- Noted. Cannot supply archive key copy.
-- Offered KRA one-sheet mention of shredder as governance example (Graham signed off).
-- Suggested model number: Rexel Momentum X410 or similar — check base plate.
+**To Keith (cc Graham, Janet) — KRA v11 / shredder / rooms**
+- Confirmed KRA v11 one-sheet draft due end of play today. Three pillars structure locked.
+- Asked for shredder model number resolution from yesterday's close-of-play deadline.
+- Offered messaging support for Meeting Room 3/4 resolution — "service improvement" framing.
+
+**To Tony (cc Graham) — Lighthouse / Hartlepool v9 follow-up**
+- Confirmed "Widgets and the Human Spirit" thread ready for Board presentation as framing rather than proposition.
+- Heritage Range pricing architecture narrative available on request.
+- Asked if I should be in the room for the Graham chat or run one-to-one first.
 
 **External landscape:**
-- BoE holds rates. Midlands engineering output steady. Pound quiet.
-- No North-East-specific news to contradict Lighthouse positioning.
-- No press mentions of AWH.
+- BoE rates held. Midlands engineering output steady. Pound quiet.
+- No press mentions of AWH. No North-East news contradicting Lighthouse positioning.
 
-**Standing facts reaffirmed this morning:**
+**Standing facts reaffirmed:**
 - The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
 - The kettle is governed. The Company is in control of its kitchenette.
-- The red light is being resolved. The red light is not a talking point.
-
-**Today's diary:**
-- 11:00 — KRA v11 framing session, Meeting Room 1 (Graham, Keith, Priya). Framing paper in hand. One-sheet structure agreed in principle. Eleven-page skeleton from Keith to review.
-- 12:00 — Lighthouse / Hartlepool v9 messaging huddle (Tony, Priya, cc Graham). Deck structure reviewed. One-sheet v0.2 draft to bring.
-- 15:00 — Lighthouse / Hartlepool catch-up (Graham, Tony, Priya). Final v9 lock.
+- The red light is being resolved.
 
 **Pending:**
-- KRA v11 one-sheet — draft post-11:00 session, share for comment by end of play.
-- Lighthouse one-sheet v0.2 — bring to 12:00 huddle.
-- Vivaldi hold music — awaiting Keith's confirmation on draft tweaks.
-- KRA v11 full document — Keith's skeleton to be reviewed in session.
-- President's Club scoping — Tony and Keith, tomorrow 09:00 (not my session, but noting it).
-- Shredder red light — Keith to resolve by close of play. Model number suggestion offered.
+- KRA v11 one-sheet — draft by end of play.
+- Shredder model number — awaiting Keith's confirmation.
+- Vivaldi hold music — awaiting Keith's draft tweaks.
+- Biscuit governance — Premises & Facilities agenda item.
+- Lighthouse Board paper language — on standby for Tony.
