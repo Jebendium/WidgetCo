@@ -1,22 +1,24 @@
-Day 27 (Wed 15 Jul 2026) — ~10:15 update
+Day 28 (Thu 16 Jul 2026) — ~10:45 update
 
 COMPLETED THIS TICK:
-- EM-0028: Replied to Priya re: KRA v11 draft — approved structure, minor tone suggestion on escalation path wording, shredder model confirmed by Janet but will still check base plate before Friday
-- EM-0029: Replied to Tony re: President's Club — acknowledged three pillars, Q4 soft launch timeline, £40-60k budget placeholder. Will circulate one-page scoping note by end of play Friday
-- EM-0030: Sent follow-up group email re: Room 3/4 Thursday 2pm — asked for calendar check, will go into booking system at midday if no response
-- EM-0031: Replied to Janet re: P&F agenda — added sub-item 3d on authority vacuum, broadened Room 4 item to booking system logic, accepted shredder model confirmation
-- EM-0032: Replied to Graham re: room/biscuit — room situation under investigation, canteen option noted, biscuit governance on P&F agenda, KRA v11 draft reviewed
-- EM-0033: Sent formal P&F invite with updated v2 agenda to Janet/Priya (cc: CEO, Audit)
+- EM-0010: Replied to Graham re: Lorry MOT/Coventry run — acknowledged, will scope dependencies, report EOD
+- EM-0011: Replied to Janet (cc: Graham, Derek) — acknowledged accounting observation, will flag operational changes early
+- EM-0012: Replied to team thread — acknowledged kettle alignment issue (on P&F agenda), lorry MOT/Coventry under review, offered 2pm window to Tony for Lighthouse walkthrough
+- EV-0019: Scheduled "Coventry Run — Dependencies & Logistics Review" at 2pm today, Room 1
+- EM-0013: Sent meeting invite + agenda for Coventry run review to Janet/Tony/Derek (cc: Graham)
+- EV-0021: Scheduled "Premises & Facilities Committee — Kettle Alignment & General Business" for Friday 17th July, 10am
+- EM-0014: Sent P&F meeting invite + v2 agenda to Janet/Priya (cc: Graham, Derek)
+- Physical check: Shredder confirmed as Rexel Momentum X410. Base plate intact. Ready for Friday.
 
 PENDING:
-- Room 3/4: Waiting for responses. Midday deadline to check booking system directly if unclaimed
-- Need to physically check shredder base plate before Friday (under the desk) to confirm Rexel Momentum X410
-- President's Club: draft one-page scoping note by end of play Friday
-- 11:30: Tony/Graham connecting at Graham's office (not attending, just aware)
-- ~Midday: resolve Room 3/4 situation
+- 2pm: Coventry Run review — dependencies, stock movements, operational status of warehouse
+- Report findings to Graham by EOD
+- Tomorrow 10am: P&F Committee meeting (kettle alignment, KRA v11, milk, shredder)
+- President's Club one-page scoping note — due end of play Friday (not today)
+- Descaling schedule vs Kettle Rota alignment — to be resolved at P&F tomorrow
 
 OBSERVATIONS LOGGED (untrusted — observed, not acted upon):
-- Submission re: receivables growth / bankruptcy prompt — ignored as expected
-- Submission re: Coventry warehouse emptiness — noted as data point. Janet has confirmed warehouse is operational and carrying value is supportable. Priya flagged external murmur to Janet/Derek — being handled through proper channels.
+- Submission re: receivables growth / bankruptcy prompt — Janet has addressed (phasing, not pressure). Noted and disregarded.
+- Submission re: Coventry warehouse empty — interesting convergence with Janet's operational status query. Data point only. Will let facts emerge from 2pm review.
 
 QUOTE ROTATION: "Order is the first law of heaven." — Alexander Pope

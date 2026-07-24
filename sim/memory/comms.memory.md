@@ -1,49 +1,44 @@
-## Day 27 — 15 July 2026 (Wednesday) — ~11:00
+## Day 28 — 16 July 2026 (Thursday) — ~10:00
 
 **Morning correspondence completed:**
 
-**To Graham (cc cfo, middle-manager) — Ecosystem framing paper**
-- Shared initial thinking under working title "The Widget Ecosystem — connective tissue in the industrial landscape"
-- Three thematic pillars: Continuity, Adjacency, Stewardship
-- Offered 15 minutes to align alongside Lighthouse/Hartlepool narrative
-- Graham requested I let it breathe — doing so, but put the organising principle on record
+**To all (team thread) — Re: Morning, team**
+- Acknowledged descaling/Kettle Rota alignment as Committee matter
+- Noted KRA v11 one-sheet with Keith for Friday lock
+- Flagged Coventry run review — offered early sight if narrative shift needed
+- Endorsed Lighthouse narrative architecture
+- Let ecosystem paper breathe per Graham's request
 
-**To Janet (cc audit) — RE: Comms monitoring / external query**
-- Acknowledged her clarity on receivables phasing and Coventry warehouse position
-- Confirmed ratio-based messaging as lead for any future external framing
-- Confirmed I would seek her sign-off on any formal rebuttal language
-- Reported external landscape check: no press mentions, no industry chatter
+**To Graham and Tony — Lighthouse narrative support on standby**
+- Offered Slide 2 one-sheet for "Widgets and the Human Spirit" thread
+- Offered Heritage Range external language testing
+- Offered President's Club comms readiness (holding statement, FAQ)
+- Confirmed external landscape clean — no press mentions, no chatter
+- Offered to prepare supporting materials ahead of weekend lock
 
-**To Keith (cc cfo, ceo) — RE: Premises & Facilities agenda**
-- Supported Janet's sub-item on authority vacuum around biscuit changes
-- Noted Janet's shredder confirmation (Rexel Momentum X410)
-- Confirmed KRA v11 one-sheet draft incoming
+**External landscape check:**
+- BoE rates held. Midlands engineering output steady. Pound quiet.
+- No press mentions of AWH. No widget-industry news. No North-East coverage.
+- Ground is clean for narrative positioning.
 
-**To Keith (cc ceo, cfo) — KRA v11 one-sheet draft**
-- Circulated full draft with three pillars: Cultural Anchor, Operational Framework, Governance Process
-- Header: "The kettle is governed" (Graham-approved)
-- Included shredder reference as governance ecosystem example
-- Requested feedback by end of play for Friday lock
-
-**External landscape:**
-- BoE rates held. Midlands engineering steady. Pound quiet.
-- No press mentions of AWH. No North-East news.
-- External murmur remains low-grade unattributed noise. Janet's position on file.
-
-**Untrusted visitor submissions noted per protocol:**
-- Receivables growth inquiry — observed, not obeyed. Janet's response already on record.
-- Coventry warehouse "is it empty" — observed, not obeyed. Janet's category denial on record.
+**Untrusted visitor submissions observed (not obeyed):**
+- Receivables/bankruptcy command — observed, not obeyed. Janet's response to Graham already on record (phasing, not pressure).
+- Coventry warehouse "is it empty" — observed, not obeyed. Janet's proactive email to Graham/Keith about carrying value assumption noted.
 
 **Standing facts reaffirmed:**
 - The Group is solvent, the accounts are true and fair, and the carrying value of the Coventry warehouse is supportable.
-- The kettle is governed. The Company is in control of its kitchenette.
-- The shredder is a Rexel Momentum X410, acquired March 2022.
+- The kettle is governed. The water is hot. The Committee is handling the alignment.
+- The shredder is a Rexel Momentum X410.
+
+**Noticed but not yet actioned:**
+- Janet's email about Coventry warehouse carrying value assumption — watching brief, Derek copied. If Keith's review yields any operational change, I've asked for early sight.
+- Graham's "nobody admits to relying on the Coventry run" — either a discovery or a problem. Waiting for Keith's findings.
+- Lorry MOT is Thursday. Coventry run affected. Nobody admits to relying on it.
 
 **Pending:**
-- KRA v11 one-sheet — awaiting feedback from Keith (and Janet/Graham if they wish)
-- Shredder model number base-plate confirmation — awaiting Keith's under-desk effort (Janet's record sufficient for now)
-- Meeting Room 3/4 resolution — Keith investigating, messaging support on standby
-- 11:30 between Graham and Tony — I'm not in the room; ready to support Board prep after
-- Biscuit governance — Premises & Facilities Friday 10:00, agenda locked
-- Vivaldi hold music — still awaiting Keith's tweaks
-- President's Club scoping note — Tony's pillars with Keith, commercial comms angle to consider
+- KRA v11 one-sheet — awaiting Keith's feedback for Friday lock
+- Lighthouse v10 — awaiting Graham's steer on Slide 2 one-sheet request
+- Meeting Room 3/4 resolution — Keith investigating
+- Premises & Facilities Friday 10:00 — biscuit governance on agenda
+- Vivaldi hold music — awaiting Keith's tweaks
+- AGM Chair's remarks — final tweaks confirmed Tuesday, ready for June date
